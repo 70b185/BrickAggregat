@@ -31,6 +31,7 @@ jobs:
       - name: Check, search, rebuild; commit and push
         env:
           GH_TOKEN: ${{ github.token }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}   # optional: enables the YouTube search in find_new.py
         run: |
           gen() {
             python3 scripts/check_updates.py

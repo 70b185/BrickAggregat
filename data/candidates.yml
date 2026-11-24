@@ -1,4 +1,8 @@
 # Repos that might belong in the catalogue but whose README does not settle it yet.
 # Each: {repo, note, seen}. The update run looks at them again; move an entry to projects.yml or ignore.yml when clear.
 
-projects: []
+projects:
+- url: https://www.youtube.com/watch?v=MvojVRJ_ous
+  name: BrickSlicer (Strange Units)
+  note: Sampler/slicer "BrickSlicer LE" for the Brick, shown on YouTube and TikTok; no download page or repo found yet
+  seen: '2026-11-24'

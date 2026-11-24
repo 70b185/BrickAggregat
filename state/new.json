@@ -1,12 +1,978 @@
 [
  {
-  "slug": "fnune/pocket-tunnel",
-  "description": "A VPN tunnel pak for NextUI handhelds, using the wireguard-go library",
-  "pushed": "2026-11-24",
-  "stars": 0,
+  "url": "https://github.com/fnune/pocket-tunnel",
+  "title": "fnune/pocket-tunnel",
+  "desc": "A VPN tunnel pak for NextUI handhelds, using the wireguard-go library",
+  "date": "2026-11-24",
   "fork": false,
+  "links": [],
   "found_by": [
-   "nextui"
+   "nextui",
+   "trimui brick (README)",
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/spruceUI/spruceOSNightlies",
+  "title": "spruceUI/spruceOSNightlies",
+  "desc": "",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tarikbc/ZyperOS",
+  "title": "tarikbc/ZyperOS",
+  "desc": "A fast, light firmware for the GKD Pixel 2 that plays your whole retro library: forty systems, PortMaster ports, and your music, audiobooks and videos.",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/lidor30/pokedaisy",
+  "title": "lidor30/pokedaisy",
+  "desc": "A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hacks.",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/CreatonDevelopment/TubeHero",
+  "title": "CreatonDevelopment/TubeHero",
+  "desc": "A fast, optimized YouTube client for retro gaming handhelds",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/osbm/flake",
+  "title": "osbm/flake",
+  "desc": "My nix configuration ",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/spruceUI/Cores-spruce",
+  "title": "spruceUI/Cores-spruce",
+  "desc": "",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/kawaczek/brik",
+  "title": "kawaczek/brik",
+  "desc": "",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/shawil71-ux/sub-lab-updates",
+  "title": "shawil71-ux/sub-lab-updates",
+  "desc": "",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/spruceUI/cores-experimental",
+  "title": "spruceUI/cores-experimental",
+  "desc": "",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-rez-recompiled",
+  "title": "tyrannotorus/emulator-dreamcast-deadcast-recomp-rez-recompiled",
+  "desc": "Rez Recompiled Recomp Module for Deadcast",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/saivishnu2299/pocketlab",
+  "title": "saivishnu2299/pocketlab",
+  "desc": "Create mini apps for your Brick Pro with your coding agent.",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tomtombombadil/PM-GoldBoxGameEngine",
+  "title": "tomtombombadil/PM-GoldBoxGameEngine",
+  "desc": "This is a game engine for Port Master that will run the old DOS Gold Box games from SSI, including Pool of Radiance, Curse of the Azure Bonds, Secret of the Silver Blades, and more. It is designed with retro gaming handhelds in mind. Some additional quality of life enhancements have been added as well.",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-sdk",
+  "title": "tyrannotorus/emulator-dreamcast-deadcast-recomp-sdk",
+  "desc": "Deadcast Recomp SDK",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/DanimanX/ProjectKagemaru",
+  "title": "DanimanX/ProjectKagemaru",
+  "desc": "Virtua Fighter (Sega Model 1, vf1-recomp) ARM64 / OpenGL ES 2.0 / SLJIT PortMaster port for Anbernic RG34XX (Allwinner H700)",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Zetarancio/zlyme",
+  "title": "Zetarancio/zlyme",
+  "desc": "Custom OS for the Miyoo Flip with mainline kernel.",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/itchio/zitch",
+  "title": "itchio/zitch",
+  "desc": "Experimental new front-end for the itch app in Rust and egui",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/PatchDev-AM2ARM/AM2ARM",
+  "title": "PatchDev-AM2ARM/AM2ARM",
+  "desc": "AM2R ARM64 port for Android and Linux devices",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/CreatonDevelopment/RetroHero-App",
+  "title": "CreatonDevelopment/RetroHero-App",
+  "desc": "",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/fnune/pocket-controller",
+  "title": "fnune/pocket-controller",
+  "desc": "Turn your handheld into a plug-and-play USB controller",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)",
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/bravenewaiworld/specular",
+  "title": "bravenewaiworld/specular",
+  "desc": "",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/truongliu75-sketch/YugiLan",
+  "title": "truongliu75-sketch/YugiLan",
+  "desc": "Yugi ",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/bravenewaiworld/crystaline-os",
+  "title": "bravenewaiworld/crystaline-os",
+  "desc": "",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/TrungTruong25/SenOS",
+  "title": "TrungTruong25/SenOS",
+  "desc": "",
+  "date": "2026-11-22",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/infosecanalyst-creator/ja2-3ds",
+  "title": "infosecanalyst-creator/ja2-3ds",
+  "desc": "Jagged Alliance 2 for the New 3DS: dual-screen JA2 Stracciatella port with stylus play, info dashboard and built-in manual. Requires your own JA2 Gold data.",
+  "date": "2026-11-22",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/jakesearle/android-play-retro-games-club",
+  "title": "jakesearle/android-play-retro-games-club",
+  "desc": "Android launcher for the Play Retro Games Club's current picks, matched to your ROMs by RetroAchievements hash",
+  "date": "2026-11-21",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/bun2it/RomcloudV2",
+  "title": "bun2it/RomcloudV2",
+  "desc": "",
+  "date": "2026-11-20",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/SkyWalker541/PT-SkyWalker541",
+  "title": "SkyWalker541/PT-SkyWalker541",
+  "desc": "A rebuild of my pixel transparency shader, focused on low-power devices.",
+  "date": "2026-11-20",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/SkyWalker541/ChaOS-diatom",
+  "title": "SkyWalker541/ChaOS-diatom",
+  "desc": "",
+  "date": "2026-11-20",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/paiheulevrai/ChooChooHacker",
+  "title": "paiheulevrai/ChooChooHacker",
+  "desc": "Patcher to activate the on-board mic on your console. ",
+  "date": "2026-11-20",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/retrotiv/AnberNext",
+  "title": "retrotiv/AnberNext",
+  "desc": "My adaptation for the formerly NextUI from loveretro, including compatibility tests and fixes for the Anbernic RG353V.",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/patois/knulli-vm",
+  "title": "patois/knulli-vm",
+  "desc": "",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/jimmyhat999/godot-portmaster-export",
+  "title": "jimmyhat999/godot-portmaster-export",
+  "desc": "Godot 4 editor plugin that packages your game as a PortMaster port for Linux handhelds.",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/4fuu/nextui-app-sdk",
+  "title": "4fuu/nextui-app-sdk",
+  "desc": "Framework-agnostic app integration SDK for NextUI: app<->system cooperation contract (HOME overlay hosting, volume/brightness HUD, sleep/wake handshake, battery/status) over the devserv protocol. Independent of Apostrophe/borealis.",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/jukaLang/Packages",
+  "title": "jukaLang/Packages",
+  "desc": "📦 List of all Juka Packages that will be visible inside Juka application! Update this if you want to add your package to the list",
+  "date": "2026-11-18",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/retrotiv/BrickNEXT",
+  "title": "retrotiv/BrickNEXT",
+  "desc": "",
+  "date": "2026-11-18",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/SkyWalker541/ChaOS-Installer",
+  "title": "SkyWalker541/ChaOS-Installer",
+  "desc": "",
+  "date": "2026-11-18",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/saivishnu2299/saivishnu2299",
+  "title": "saivishnu2299/saivishnu2299",
+  "desc": "",
+  "date": "2026-11-18",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/LoadState/portpicker",
+  "title": "LoadState/portpicker",
+  "desc": "Pick your handheld + CFW, get PortMaster ports that run well on it, install them to your SD card. Windows app.",
+  "date": "2026-11-18",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/SilverPsychoo/Ruffle-Handheld",
+  "title": "SilverPsychoo/Ruffle-Handheld",
+  "desc": "Community Flash runtime integration for ARM64 Linux handhelds, with per-game controller profiles and compatibility tracking.",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/xzys/rex",
+  "title": "xzys/rex",
+  "desc": "",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/alejandroid80/brixeq-manual",
+  "title": "alejandroid80/brixeq-manual",
+  "desc": "",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/dalexanco/nextui-samba-sync",
+  "title": "dalexanco/nextui-samba-sync",
+  "desc": "",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)",
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/juanchuj/Spruce-Collections",
+  "title": "juanchuj/Spruce-Collections",
+  "desc": "",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Utility-Muffin-Research-Kitchen/Catastrophe",
+  "title": "Utility-Muffin-Research-Kitchen/Catastrophe",
+  "desc": "",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Megus/chipnomad-tracker",
+  "title": "Megus/chipnomad-tracker",
+  "desc": "Chiptune tracker for handheld consoles like Anbernic RG35xx",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/SpringThong/NXT-Retro-Tube",
+  "title": "SpringThong/NXT-Retro-Tube",
+  "desc": "",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)",
+   "brick pro knulli (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/JAKARTA2006/orbe",
+  "title": "JAKARTA2006/orbe",
+  "desc": "",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/spruceUI/RA",
+  "title": "spruceUI/RA",
+  "desc": "a pipedream",
+  "date": "2026-11-15",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/alejandroid80/dronage-terminal-manual",
+  "title": "alejandroid80/dronage-terminal-manual",
+  "desc": "",
+  "date": "2026-11-15",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/alejandrodiazovh/brixeq-manual",
+  "title": "alejandrodiazovh/brixeq-manual",
+  "desc": "Manual de usuario de BRIXEQ en espanol (HTML)",
+  "date": "2026-11-15",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/spruceUI/PPSSPP-spruce",
+  "title": "spruceUI/PPSSPP-spruce",
+  "desc": "PPSSPP standalone builds for SpruceOS",
+  "date": "2026-11-14",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/spruceUI/oakMOSS",
+  "title": "spruceUI/oakMOSS",
+  "desc": "",
+  "date": "2026-11-14",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/mcereal/inkstand",
+  "title": "mcereal/inkstand",
+  "desc": "",
+  "date": "2026-11-14",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/ujjwal313/ujjwal313",
+  "title": "ujjwal313/ujjwal313",
+  "desc": "",
+  "date": "2026-11-13",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/robbyczgw-cla/robbyczgw-cla",
+  "title": "robbyczgw-cla/robbyczgw-cla",
+  "desc": "Profile README",
+  "date": "2026-11-13",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/miguelwrks/portifolio",
+  "title": "miguelwrks/portifolio",
+  "desc": "",
+  "date": "2026-11-13",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/spruceUI/Ports-and-Free-Games",
+  "title": "spruceUI/Ports-and-Free-Games",
+  "desc": "Free Games and Apps for spruceOS",
+  "date": "2026-11-12",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/boblefrag/avenir-en-commun-rpg",
+  "title": "boblefrag/avenir-en-commun-rpg",
+  "desc": "L'Union Populaire : Le RPG (PICO-8) — Pour la 6e République",
+  "date": "2026-11-12",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-soulcalibur-broken-destiny",
+  "title": "tyrannotorus/emulator-deadstation-portable-recomp-soulcalibur-broken-destiny",
+  "desc": "Deadstation Portable - Soul Calibur Recomp",
+  "date": "2026-11-11",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-sdk",
+  "title": "tyrannotorus/emulator-deadstation-portable-recomp-sdk",
+  "desc": "Deadstation Portable Recomp SDK",
+  "date": "2026-11-11",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Pobega/NextUI-v90s",
+  "title": "Pobega/NextUI-v90s",
+  "desc": "NextUI port for the Powkiddy V90S (Allwinner A133P)",
+  "date": "2026-11-09",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Knifethrower/pmhwdec",
+  "title": "Knifethrower/pmhwdec",
+  "desc": "Hardware H.264 / HEVC decoding for PortMaster handhelds: Allwinner video engine (no blobs), Rockchip MPP, V4L2 stateless and stateful, with a self-test and software fallback",
+  "date": "2026-11-09",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Ca-h9j9n/Tsugaru-ARM64-Handheld",
+  "title": "Ca-h9j9n/Tsugaru-ARM64-Handheld",
+  "desc": "Unofficial ARM64 handheld build of the Tsugaru FM TOWNS emulator with controller support and KNULLI integration.",
+  "date": "2026-11-08",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tyrannotorus/emulator-deadstation-1-recomp-tekken-3",
+  "title": "tyrannotorus/emulator-deadstation-1-recomp-tekken-3",
+  "desc": "Deadstation 1 - Tekken 3 Recomp",
+  "date": "2026-11-07",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tyrannotorus/emulator-deadstation-1-recomp-rally-cross",
+  "title": "tyrannotorus/emulator-deadstation-1-recomp-rally-cross",
+  "desc": "Deadstation 1 - Tekken 3 Recomp",
+  "date": "2026-11-07",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/tyrannotorus/recomp-dreamcast-rez",
+  "title": "tyrannotorus/recomp-dreamcast-rez",
+  "desc": "A modern recomp of Rez for the Dreamcast",
+  "date": "2026-11-05",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)",
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/CharlexH/CharlexH",
+  "title": "CharlexH/CharlexH",
+  "desc": "Product designer and independent maker — PixOnDeck, Moonlit Tales, and selected projects.",
+  "date": "2026-11-04",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/thwonp/dsperate-lr",
+  "title": "thwonp/dsperate-lr",
+  "desc": "libretro core around DSperate, the Nintendo DS emulator (plorpOS)",
+  "date": "2026-11-04",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/retroshelf-org/linux",
+  "title": "retroshelf-org/linux",
+  "desc": "",
+  "date": "2026-11-04",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Marice/Fireplace5",
+  "title": "Marice/Fireplace5",
+  "desc": "A pixelated fireplace with demoscene extras, running natively on the PlayStation 5 as homebrew (SDL2 payload).",
+  "date": "2026-11-03",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/ZiMMediaLab/ZiMMediaLab",
+  "title": "ZiMMediaLab/ZiMMediaLab",
+  "desc": "",
+  "date": "2026-11-03",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/SpringThong/NXT-Retro-BookNest",
+  "title": "SpringThong/NXT-Retro-BookNest",
+  "desc": "",
+  "date": "2026-11-02",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)",
+   "brick pro knulli (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/bobbyjball3/sbc-android-card-imager",
+  "title": "bobbyjball3/sbc-android-card-imager",
+  "desc": "Personal project to create sparse SD card image for my opinionated Android SBC device setup. Use or fork as you will - just keep it open source.",
+  "date": "2026-11-02",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)",
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/mrkhdly/weather.pak",
+  "title": "mrkhdly/weather.pak",
+  "desc": "",
+  "date": "2026-11-02",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/unitreign/playtime",
+  "title": "unitreign/playtime",
+  "desc": "Game time tracking for Knulli",
+  "date": "2026-11-02",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "knulli tracker (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/trngaje/advanced_drastic",
+  "title": "trngaje/advanced_drastic",
+  "desc": "",
+  "date": "2026-11-01",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Utility-Muffin-Research-Kitchen/Fun-Drastic-src",
+  "title": "Utility-Muffin-Research-Kitchen/Fun-Drastic-src",
+  "desc": "Mirror of tenlevels' Fun Drastic source, donated for Leaf. Fun Drastic is tenlevels' work; PolyForm Noncommercial 1.0.0.",
+  "date": "2026-11-01",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/serdarbayram/Hill-Climb-Racing-Portmaster-Version",
+  "title": "serdarbayram/Hill-Climb-Racing-Portmaster-Version",
+  "desc": "This is the Portmaster version of the Hill Climb Racing Android game.",
+  "date": "2026-11-01",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/bmpriest/ds-emu-dac",
+  "title": "bmpriest/ds-emu-dac",
+  "desc": "Python tool to convert 3DS analog cheats for DS games into a format suitable for general emulation to take advantage of analog controls (tongue in cheek: a DS Emulation Digital (the Nintendo DS) to Analog (joysticks!) Converter)",
+  "date": "2026-11-01",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/chrisj951/MainPyUI",
+  "title": "chrisj951/MainPyUI",
+  "desc": "",
+  "date": "2026-10-31",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/SkyWalker541/Gone-Fishing",
+  "title": "SkyWalker541/Gone-Fishing",
+  "desc": "A free, relaxing pixel-art fishing game for PortMaster handhelds, made with LÖVE. Cast with real physics across five places, from an autumn lake to the Columbia River under Mt. Hood, and catch 42 fish that each fight their own way. Lures, bobbers, boats, trolling motors, weather, three save slots and a dog or cat for company.",
+  "date": "2026-10-31",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/chopfitzroy/chopfitzroy",
+  "title": "chopfitzroy/chopfitzroy",
+  "desc": "It's Me",
+  "date": "2026-10-31",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/fanfanStudio/dragon-radar",
+  "title": "fanfanStudio/dragon-radar",
+  "desc": "",
+  "date": "2026-10-30",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/almighty-atlas/nextui-mkxp",
+  "title": "almighty-atlas/nextui-mkxp",
+  "desc": "",
+  "date": "2026-10-30",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/sleepdebt/pocketplex",
+  "title": "sleepdebt/pocketplex",
+  "desc": "Lightweight text-first Plex client for Linux retro handhelds",
+  "date": "2026-10-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/christopher-roelofs/ytc",
+  "title": "christopher-roelofs/ytc",
+  "desc": "An anonymous/unauthenticated YouTube client ",
+  "date": "2026-10-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/nlkcodenew/lottoforecast-release",
+  "title": "nlkcodenew/lottoforecast-release",
+  "desc": "",
+  "date": "2026-10-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
   ]
  }
 ]

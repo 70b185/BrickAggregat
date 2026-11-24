@@ -112,6 +112,8 @@ ignore:
   reason: no readme or description to tell what it is
 - repo: https://github.com/fnune/kyaraben
   reason: not about TrimUI (name match only)
+- repo: https://github.com/Funamboloide/Sagga-seq
+  reason: sequencer for the M-VAVE FM-1, not the Brick
 - repo: https://github.com/game-de-it/plumOS-TRIMUI-S
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/geniot/tsp-rubik
@@ -274,6 +276,8 @@ ignore:
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/syach1/karipap
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/sydilaxe/SP-1FX-dev
+  reason: firmware for the Teenage Engineering SP-1, not the Brick
 - repo: https://github.com/taptin13/trimui-brick-emu
   reason: fork or copy without changes of its own that matter here
 - repo: https://github.com/ThatFatUglyCat/spacecadetpinball-miyoomini-minui

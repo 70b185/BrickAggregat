@@ -2,7 +2,7 @@
 
 Music, radio, podcast and audiobook players.
 
-26 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+28 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,9 @@ Music, radio, podcast and audiobook players.
 | [Boombrick](https://github.com/ujjwal313/boombrick) | ujjwal313 | Music player for NextUI and CrossMix: local files, Spotify streaming, YouTube Music downloads, synced lyrics. | NextUI, KNULLI, CrossMix | v0.6.0 | 2026-11-23 | GPL-3.0 |
 | [ClassicPod](https://github.com/thanhhaiwork1998/ClassicPod) | thanhhaiwork1998 | iPod-Classic-inspired music player for NextUI (TrimUI Brick Pro) | NextUI | v1.0.1 | 2026-08-27 | no licence (scripts) |
 | [iPod Music](https://github.com/brian-the-guy92/iPodMusic-TG5040-New) | brian-the-guy92 | A lightweight iPod-style music player for TrimUI Brick (TG5040) Stock OS | NextUI, MinUI, Stock OS | 1.0.0 | 2026-08-30 | MIT |
+| [Kasseta](https://github.com/Vikmat01/Kasseta) | Vikmat01 | Cassette/CD-style music player for NextUI: scans the whole card, tag library, covers. | NextUI | 1.0 | 2026-11-01 | MIT |
 | [Music Player](https://github.com/nborodikhin/nextui-music-player) | nborodikhin | Local music, internet radio and podcasts for NextUI (the Pak Store version). | NextUI | v1.19.0 | 2026-11-23 | MIT |
+| [Music Player (nlkcodenew)](https://github.com/nlkcodenew/Music-Player) | nlkcodenew | Self-contained music player for the Brick Pro stock OS: WAV/MP3/OGG/FLAC/OPUS, Google Drive streaming. | Stock OS, spruce | v1.21.9 | 2026-10-26 | MIT |
 | [Musicdisk – Module Player](https://github.com/evolver79/nextui-musicdisk-pak) | evolver79 | MOD/S3M/XM/IT module player with pattern view and per-channel scopes. NextUI. | NextUI | v0.2.0 | 2026-11-24 | MIT |
 | [Navidrome](https://github.com/AntonyKor/navidrome-client-pak) | AntonyKor | Navidrome/Subsonic client for NextUI. | NextUI | v0.1.0 | 2026-10-24 | no licence |
 | [Rockbox (hi-res fork)](https://github.com/fanium/rockbox) | fanium | high resolution for GKD Pixel 2, trimui brick | NextUI | 4.0.92 | 2026-09-19 | no licence |

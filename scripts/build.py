@@ -32,17 +32,21 @@ def merge():
     for p in data["projects"]:
         if p.get("hidden"):
             continue
-        m = meta.get(p["repo"], {})
-        e = {k: p[k] for k in ("id", "name", "author", "category", "repo") }
-        for k in ("note", "links", "pak_store", "added"):
+        m = meta.get(p.get("repo") or "", {})
+        e = {k: p[k] for k in ("id", "name", "author", "category")}
+        e["repo"] = p.get("repo") or ""
+        e["url"] = p.get("url") or p.get("repo")
+        for k in ("note", "links", "pak_store", "added", "aliases", "description"):
             if p.get(k):
                 e[k] = p[k]
         e["runs_on"] = p.get("runs_on") or []
         e["devices"] = p.get("devices") or []
-        e["description"] = (m.get("description") or (m.get("pak") or {}).get("description") or "").strip()
+        e["description"] = (m.get("description") or (m.get("pak") or {}).get("description") or p.get("description") or "").strip()
         lic = m.get("license")
         e["license"] = lic or None
         src = "code" if m.get("code_files") else "scripts" if m.get("script_files") else "none"
+        if not p.get("repo"):
+            src, lic = "none", p.get("license")   # no public repo: store page or website only
         e["source"] = src
         e["open"] = bool(lic) and (src != "none" or p["category"] in CONTENT_CATS)
         e["last_commit"] = m.get("last_commit")
@@ -85,7 +89,7 @@ def feed(rows, entries):
         title = f"{e['name']}: {'new in the index' if r['what'] == 'added' else r['what']} {r.get('detail') or ''}".strip()
         items.append(f"""  <entry>
     <title>{html.escape(title)}</title>
-    <link href="{html.escape(e['repo'])}"/>
+    <link href="{html.escape(e['url'])}"/>
     <id>{html.escape(SITE_URL)}#{r['date']}-{r['id']}-{html.escape(r['what'])}-{html.escape(r.get('detail') or '')}</id>
     <updated>{r['date']}T00:00:00Z</updated>
     <summary>{html.escape(e.get('note') or e.get('description') or '')}</summary>
@@ -108,7 +112,7 @@ def md_row(e):
     src = {"code": "", "scripts": " (scripts)", "none": " (no source)"}[e["source"]]
     fw = ", ".join(FIRMWARES.get(x, x) for x in e["runs_on"]) or "-"
     what = (e.get("note") or e.get("description") or "").replace("|", "/").replace("\n", " ")
-    return (f"| [{e['name']}]({e['repo']}) | {e['author']} | {what} | {fw} | {e.get('version') or '-'} |"
+    return (f"| [{e['name']}]({e['url']}) | {e['author']} | {what} | {fw} | {e.get('version') or '-'} |"
             f" {e.get('last_commit') or '-'} | {lic}{src} |")
 
 

@@ -9,9 +9,9 @@ notes only; every entry points to the original project.
 **[Open the website](https://70b185.github.io/trimui-music-apps/)**
 
 <!-- counts -->
-**398 projects** (283 with a licence and source, 296 with commits in the last 90 days), checked 2026-11-24:
+**406 projects** (287 with a licence and source, 301 with commits in the last 90 days), checked 2026-11-24:
 
-[Make music](https://70b185.github.io/trimui-music-apps/?c=music-make) 39 · [Listen](https://70b185.github.io/trimui-music-apps/?c=music-play) 26 · [Firmware](https://70b185.github.io/trimui-music-apps/?c=os) 39 · [Apps & tools](https://70b185.github.io/trimui-music-apps/?c=app) 119 · [Emulators](https://70b185.github.io/trimui-music-apps/?c=emulator) 49 · [Games & ports](https://70b185.github.io/trimui-music-apps/?c=port) 26 · [Video & reading](https://70b185.github.io/trimui-music-apps/?c=media) 17 · [Look](https://70b185.github.io/trimui-music-apps/?c=theme) 19 · [Developer](https://70b185.github.io/trimui-music-apps/?c=dev) 44 · [Guides & companions](https://70b185.github.io/trimui-music-apps/?c=guide) 20
+[Make music](https://70b185.github.io/trimui-music-apps/?c=music-make) 45 · [Listen](https://70b185.github.io/trimui-music-apps/?c=music-play) 28 · [Firmware](https://70b185.github.io/trimui-music-apps/?c=os) 39 · [Apps & tools](https://70b185.github.io/trimui-music-apps/?c=app) 119 · [Emulators](https://70b185.github.io/trimui-music-apps/?c=emulator) 49 · [Games & ports](https://70b185.github.io/trimui-music-apps/?c=port) 26 · [Video & reading](https://70b185.github.io/trimui-music-apps/?c=media) 17 · [Look](https://70b185.github.io/trimui-music-apps/?c=theme) 19 · [Developer](https://70b185.github.io/trimui-music-apps/?c=dev) 44 · [Guides & companions](https://70b185.github.io/trimui-music-apps/?c=guide) 20
 <!-- /counts -->
 
 ## Looking for software
@@ -22,8 +22,8 @@ samplers, M8 clients) · [listen](https://70b185.github.io/trimui-music-apps/?c=
 [games & ports](https://70b185.github.io/trimui-music-apps/?c=port) · [apps & tools](https://70b185.github.io/trimui-music-apps/?c=app).
 Filter by firmware (NextUI, KNULLI, muOS, …) and device. The same lists as Markdown are in [`catalog/`](catalog/README.md).
 
-By default the site shows projects with a licence file and source code in the repo that had a commit in the last
-year. Tick "no licence / no source too" for the rest: several popular music apps publish releases only.
+Each entry says whether it is open source: "no licence", "no source" (releases only) or "no repo" (itch.io,
+Gumroad or a website only) mark the rest. Tick "open source only" to hide them; dormant projects show on request.
 
 ## Building for the Brick
 

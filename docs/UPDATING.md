@@ -6,9 +6,9 @@ Goal: find out what changed without reading every repo again. Most runs end with
 
 - **In:** software with public source for the TrimUI Brick, Brick Hammer and Brick Pro (TG3040/TG4040), and NextUI
   `tg5040` paks (that platform covers the Brick). Smart Pro projects only when they are music apps on the same platform.
-- **Shown by default:** entries with a licence file and source in the repo (`open` in `export/projects.json`) and a
-  commit in the last 12 months. Entries without a licence or without source stay in the data and show when the
-  visitor ticks "no licence / no source too".
+- **Also listed, marked:** apps without a licence, without source, or without any repo (itch.io, Gumroad, a website):
+  many Brick music apps are published that way. They carry a mark; "open source only" on the website hides them.
+  Dormant entries (no commit for a year) show on request.
 - **Out:** other devices, the Smart Pro S (TG5050) on its own, ROM downloaders for third-party sites, firmware images
   or binaries in this repo (links only).
 
@@ -19,7 +19,9 @@ Goal: find out what changed without reading every repo again. Most runs end with
    releases, licence changes and repos that went offline or came back to `state/changes.json`, and lists everything
    since the last review in `state/CHANGES.md`.
 2. `scripts/repo_meta.py`: description, stars, archived flag, creation date (batched GitHub search).
-3. `scripts/find_new.py`: searches from `data/sources.yml` plus the NextUI Pak Store storefront; repos in none of
+3. `scripts/find_new.py`: GitHub (names, descriptions, README text, forks, topics), the NextUI Pak Store, itch.io tag
+   feeds and, with a `YOUTUBE_API_KEY` secret, YouTube (video titles and the links in their descriptions), all
+   configured in `data/sources.yml`; finds in none of
    `data/projects.yml`, `data/candidates.yml`, `data/ignore.yml` go to `state/NEW.md`.
 4. `scripts/discussions.py`: the latest Discussions for the Ask tab.
 5. `scripts/rebuild.py`: `validate.py`, then `build.py` (website data, catalogue pages, knowledge pages, feed).
@@ -38,6 +40,9 @@ The workflow only touches generated files. It never edits `data/`.
    - `back online`: nothing to do.
 4. `state/NEW.md`: read the README start of each repo (`git clone --depth 1 --filter=blob:none --no-checkout URL d &&
    git -C d show HEAD:README.md | head -60`), then
+   - itch.io and YouTube finds: open the page; a video usually links the download (itch.io, Gumroad, GitHub). Entries
+     without a GitHub repo get `url:` (download page) instead of `repo:`; a video that links nothing goes to
+     `data/candidates.yml` with its URL until a download page shows up.
    - add an entry to `data/projects.yml` (id, name, author, category, repo, runs_on, devices, `added: <today>`;
      a `note` in your own words for music apps, firmwares and developer resources), or
    - add it to `data/ignore.yml` with a one-line reason (other device, no description, copy of a listed repo, out of

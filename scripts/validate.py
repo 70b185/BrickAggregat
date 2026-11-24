@@ -9,7 +9,7 @@ from collections import Counter
 
 from common import CATEGORIES, DEVICES, FIRMWARES, ROOT, load_yaml, repo_slug
 
-REQ = ("id", "name", "author", "category", "repo", "added")
+REQ = ("id", "name", "author", "category", "added")
 
 
 def main():
@@ -29,6 +29,10 @@ def main():
                 err.append(f"{where}: missing {k}")
         if p.get("category") not in CATEGORIES:
             err.append(f"{where}: unknown category {p.get('category')}")
+        if not p.get("repo") and not p.get("url"):
+            err.append(f"{where}: needs repo (GitHub) or url (itch.io, Gumroad, website)")
+        if p.get("url") and not str(p["url"]).startswith("https://"):
+            err.append(f"{where}: url must start with https://")
         if p.get("repo") and not repo_slug(p["repo"]):
             err.append(f"{where}: repo must be a https://github.com/owner/name URL")
         for f in p.get("runs_on") or []:
@@ -43,6 +47,8 @@ def main():
             err.append(f"{where}: note longer than 300 characters")
     ign = load_yaml("ignore.yml").get("ignore") or []
     for e in ign:
+        if not e.get("repo") and not e.get("url"):
+            err.append(f"ignore.yml: entry without repo or url")
         s = (repo_slug(e.get("repo")) or "").lower()
         if not e.get("reason"):
             err.append(f"ignore.yml: {e.get('repo')} has no reason")

@@ -84,7 +84,7 @@ def render_changes(events, reviewed):
     for e in sorted(rows, key=lambda e: (e["date"], e["id"])):
         p = byid.get(e["id"], {})
         lines.append(f"- {e['date']} **{e['id']}** ({p.get('category', '?')}): {e['what']}"
-                     + (f" - {e['detail']}" if e.get("detail") else "") + f" <{p.get('repo', '')}>")
+                     + (f" - {e['detail']}" if e.get("detail") else "") + f" <{p.get('repo') or p.get('url', '')}>")
     write_text(STATE / "CHANGES.md", "\n".join(lines) + "\n")
     return len(rows)
 
@@ -117,7 +117,7 @@ def main():
     cutoff = (TODAY - dt.timedelta(days=120)).isoformat()
     events = [e for e in events if e["date"] >= cutoff]
     # drop metadata of repos no longer catalogued
-    live = {p["repo"] for p in projects()}
+    live = {p["repo"] for p in projects() if p.get("repo")}
     meta = {k: v for k, v in meta.items() if k in live}
     write_json(META, dict(sorted(meta.items())))
     write_json(EVENTS, events)

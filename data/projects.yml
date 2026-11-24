@@ -12,7 +12,10 @@
 #              music-play: music, radio, podcast and audiobook players
 #              os: firmwares, launchers and frontends; dev: toolchains, SDKs, libraries, kernels, research
 #              guide: guides, docs, installers and companion apps on a computer or phone
-#   repo       primary source repository
+#   repo       primary source repository on GitHub (optional when `url` is given)
+#   url        download page or website when there is no GitHub repo (itch.io, Gumroad, own site, a video)
+#   aliases    optional: other names the project or its apps go by (searchable on the website)
+#   description optional: one line, only for entries without a repo (repos supply their own)
 #   runs_on    firmwares the project names: nextui | minui | knulli | muos | crossmix | spruce | nx-redux | stock |
 #              portmaster | tortos (empty for firmwares themselves and for dev/guide entries)
 #   devices    devices the project names: brick | brick-hammer | brick-pro | smart-pro (a NextUI tg5040 pak runs on
@@ -3068,6 +3071,8 @@ projects:
   - brick
   - smart-pro
   note: Drone instrument, NextUI port of Dronage Terminal.
+  links:
+    itch.io: https://boorch.itch.io/dronage-terminal
   pak_store:
     name: Dronage Terminal
     categories:
@@ -3085,6 +3090,8 @@ projects:
   - brick
   - smart-pro
   note: Four-track euclidean sequencer, each track with its own synth voice and effects. NextUI pak.
+  links:
+    itch.io: https://boorch.itch.io/euclidtrack
   pak_store:
     name: EUCLIDTRACK
     categories:
@@ -3222,6 +3229,8 @@ projects:
   - brick
   - smart-pro
   note: 'Piano-roll groovebox: eight tracks written note by note with the d-pad. NextUI pak.'
+  links:
+    itch.io: https://liminalkid.itch.io/twill-studio
   pak_store:
     name: Twill Studio
     categories:
@@ -3245,19 +3254,25 @@ projects:
   - brick
   note: 'Groovebox and tracker: clips, sampler, effects, live tools, MIDI in/out and clock; uses both USB ports. Packages for Brick
     firmwares and other handhelds.'
+  links:
+    itch.io: https://orumet.itch.io/ozma
   added: '2026-11-24'
 - id: brickchord
   name: brickchord
   author: michaeltietjen
   category: music-make
   repo: https://github.com/michaeltietjen/brickchord
+  aliases:
+  - Bricklab
   runs_on:
   - knulli
   devices:
   - brick-pro
   - brick
-  note: 'Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. KNULLI on Brick and Brick
-    Pro.'
+  note: 'Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox
+    edition with drum pads and song mode. KNULLI on Brick and Brick Pro.'
+  links:
+    website: https://michaeltietjen.github.io/brickchord/
   added: '2026-11-24'
 - id: m8c-trimui-brick-knulli
   name: m8c builds for Brick (KNULLI)
@@ -4923,4 +4938,106 @@ projects:
   devices:
   - brick-pro
   note: Japanese fork of trimui-brick-chrome with Japanese input and SMB mounts.
+  added: '2026-11-24'
+- id: mimmlmomml
+  name: MimmlMomml
+  author: grosserd5
+  category: music-make
+  url: https://grosserd5.gumroad.com/l/mimmlmomml
+  runs_on:
+  - knulli
+  devices:
+  - brick-pro
+  note: 'Groovebox for the Brick Pro on KNULLI: four tracks with three module slots and a sequencer each, mixer, master effects, pattern
+    and song mode. Gumroad download, no public source.'
+  added: '2026-11-24'
+- id: spur
+  name: SPUR
+  author: grosserd5
+  category: music-make
+  url: https://www.youtube.com/watch?v=UqWTp2QPHB8
+  runs_on: []
+  devices:
+  - brick-pro
+  - brick
+  note: 'Step sequencer and groovebox for the Brick Pro: built-in sound engine or MIDI out to synths, drum machines and a DAW. Only
+    a YouTube demo found so far; download page to be added.'
+  added: '2026-11-24'
+- id: 4trkmini
+  name: 4TRKmini
+  author: JasonB
+  category: music-make
+  url: https://jasonbmusic.itch.io/4trk-mini
+  runs_on:
+  - nextui
+  - knulli
+  - portmaster
+  devices:
+  - brick
+  note: Four-track recorder and tracker with MIDI in, Launchpad workflow and audio/mic recording. itch.io download, no public source.
+  added: '2026-11-24'
+- id: brickworld
+  name: BrickWorld
+  author: brickworldhub
+  category: music-make
+  repo: https://github.com/brickworldhub/brickworldhub.github.io
+  url: https://brickworldhub.com/
+  aliases:
+  - BrickSampler
+  - BrickLooper
+  - BrickTape (BrickWorld)
+  - BrickFX
+  - BrickAmbientFX
+  runs_on:
+  - knulli
+  devices:
+  - brick
+  note: 'Set of music apps for the Brick on KNULLI: BrickSampler, BrickLooper (five-track loop station), BrickTape (four-track recorder),
+    BrickFX and BrickAmbientFX. The repo holds the website.'
+  added: '2026-11-24'
+- id: swine-tracker
+  name: Swine Tracker
+  author: famiclone
+  category: music-make
+  repo: https://github.com/famiclone/Swine-Tracker
+  runs_on: []
+  devices:
+  - brick
+  note: LSDj-style tracker for handhelds, formerly Little Piggy Tracker / LittleGPTracker.
+  added: '2026-11-24'
+- id: linux-portable-groovebox
+  name: Portable Linux Groovebox
+  author: OlexiMakee
+  category: music-make
+  repo: https://github.com/OlexiMakee/linux-portable-groovebox
+  runs_on: []
+  devices:
+  - brick
+  - brick-pro
+  note: Modular C++20 groovebox, synth and sequencer framework for cheap Linux handhelds incl. the Brick and Brick Pro. Work in progress.
+  added: '2026-11-24'
+- id: kasseta
+  name: Kasseta
+  author: Vikmat01
+  category: music-play
+  repo: https://github.com/Vikmat01/Kasseta
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  - brick-pro
+  - smart-pro
+  note: 'Cassette/CD-style music player for NextUI: scans the whole card, tag library, covers.'
+  added: '2026-11-24'
+- id: music-player-nlk
+  name: Music Player (nlkcodenew)
+  author: nlkcodenew
+  category: music-play
+  repo: https://github.com/nlkcodenew/Music-Player
+  runs_on:
+  - stock
+  - spruce
+  devices:
+  - brick-pro
+  note: 'Self-contained music player for the Brick Pro stock OS: WAV/MP3/OGG/FLAC/OPUS, Google Drive streaming.'
   added: '2026-11-24'

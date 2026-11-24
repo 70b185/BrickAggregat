@@ -10,7 +10,7 @@
   const state = {
     t: params.get("t") || "projects", c: params.get("c") || "all", q: params.get("q") || "",
     fw: params.get("fw") || "", d: params.get("d") || "", sort: params.get("sort") || "activity",
-    all: params.get("all") === "1", old: params.get("old") === "1",
+    foss: params.get("foss") === "1", old: params.get("old") === "1",
   };
 
   function saveUrl() {
@@ -22,7 +22,7 @@
       if (state.fw) p.set("fw", state.fw);
       if (state.d) p.set("d", state.d);
       if (state.sort !== "activity") p.set("sort", state.sort);
-      if (state.all) p.set("all", "1");
+      if (state.foss) p.set("foss", "1");
       if (state.old) p.set("old", "1");
     }
     const s = p.toString();
@@ -42,8 +42,9 @@
     const flags = [];
     if (p.new) flags.push('<span class="flag new">new</span>');
     if (p.pak_store) flags.push(`<span class="flag" title="Listed in the NextUI Pak Store${p.pak_store.experimental ? " (experimental)" : ""}">Pak Store</span>`);
-    if (!p.license) flags.push('<span class="flag warn" title="No licence file found in the repo: not free software in the legal sense until the author adds one">no licence</span>');
-    if (p.source === "none" && !["guide", "theme"].includes(p.category)) flags.push('<span class="flag warn" title="The repo holds releases or docs only, no source code">no source</span>');
+    if (!p.license && p.repo) flags.push('<span class="flag warn" title="No licence file found in the repo: not free software in the legal sense until the author adds one">no licence</span>');
+    if (!p.repo) flags.push('<span class="flag warn" title="No public source repository: download page or website only">no repo</span>');
+    else if (p.source === "none" && !["guide", "theme"].includes(p.category)) flags.push('<span class="flag warn" title="The repo holds releases or docs only, no source code">no source</span>');
     if (p.archived) flags.push('<span class="flag warn">archived</span>');
     if (p.unreachable) flags.push(`<span class="flag warn" title="Repo did not answer on ${esc(p.unreachable)}">unreachable</span>`);
     const meta = [];
@@ -52,11 +53,11 @@
     if (p.stars != null) meta.push("★ " + p.stars);
     const tags = p.runs_on.map(f => `<span class="tag" title="runs on">${esc(fwLabel(f))}</span>`)
       .concat(p.devices.map(d => `<span class="tag" title="device">${esc(devLabel(d))}</span>`));
-    const text = p.note || p.description || "";
+    const text = (p.note || p.description || "") + (p.aliases && p.aliases.length ? ` (also: ${p.aliases.join(", ")})` : "");
     return `<article class="card" style="--cat:var(--c-${esc(p.category)})">
       <div class="top"><span class="dot ${esc(p.activity)}" title="${esc(ACT[p.activity] || "")}"></span>${esc(catLabel(p.category))}
         ${flags.join(" ")}<span class="date" title="last commit">${esc(p.last_commit || "")}</span></div>
-      <h3><a href="${esc(p.repo)}" target="_blank" rel="noopener">${esc(p.name)}</a></h3>
+      <h3><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a></h3>
       <div class="by">by ${esc(p.author)}${meta.length ? " · " + meta.join(" · ") : ""}</div>
       ${text ? `<p title="${p.note ? "our note" : "the repo's own description"}">${esc(text)}</p>` : ""}
       ${(p.links ? Object.entries(p.links).map(([k, v]) => `<a class="meta" href="${esc(v)}" target="_blank" rel="noopener">${esc(k)}</a>`).join(" · ") : "")}
@@ -68,11 +69,11 @@
     const q = state.q.trim().toLowerCase();
     let ps = DATA.projects.filter(p =>
       (state.c === "all" || p.category === state.c) &&
-      (state.all || p.open) &&
+      (!state.foss || p.open) &&
       (state.old || p.activity === "active" || p.activity === "quiet") &&
       (!state.fw || p.runs_on.includes(state.fw)) &&
       (!state.d || p.devices.includes(state.d)) &&
-      (!q || [p.name, p.author, p.note, p.description, p.repo, p.runs_on.join(" ")].join(" ").toLowerCase().includes(q)));
+      (!q || [p.name, p.author, p.note, p.description, p.url, (p.aliases || []).join(" "), p.runs_on.join(" ")].join(" ").toLowerCase().includes(q)));
     const by = {
       activity: (a, b) => (b.last_commit || "").localeCompare(a.last_commit || ""),
       name: (a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }),
@@ -83,7 +84,7 @@
   }
 
   function countFor(cat) {
-    return DATA.projects.filter(p => (cat === "all" || p.category === cat) && (state.all || p.open) &&
+    return DATA.projects.filter(p => (cat === "all" || p.category === cat) && (!state.foss || p.open) &&
       (state.old || p.activity === "active" || p.activity === "quiet")).length;
   }
 
@@ -104,7 +105,7 @@
           <option value="stars"${state.sort === "stars" ? " selected" : ""}>Stars</option>
           <option value="added"${state.sort === "added" ? " selected" : ""}>Newest in the index</option>
         </select>
-        <label title="Also list projects without a licence file or without source code in the repo"><input type="checkbox" id="all"${state.all ? " checked" : ""}> no licence / no source too</label>
+        <label title="Only projects with a licence file and source code in a public repo"><input type="checkbox" id="foss"${state.foss ? " checked" : ""}> open source only</label>
         <label title="Also list projects with no commit for over a year, and archived ones"><input type="checkbox" id="old"${state.old ? " checked" : ""}> dormant too</label>
         <span class="count" id="count"></span>
       </div>
@@ -115,13 +116,13 @@
     $("#fw").onchange = e => { state.fw = e.target.value; saveUrl(); drawGrid(); };
     $("#d").onchange = e => { state.d = e.target.value; saveUrl(); drawGrid(); };
     $("#sort").onchange = e => { state.sort = e.target.value; saveUrl(); drawGrid(); };
-    $("#all").onchange = e => { state.all = e.target.checked; saveUrl(); renderProjects(); };
+    $("#foss").onchange = e => { state.foss = e.target.checked; saveUrl(); renderProjects(); };
     $("#old").onchange = e => { state.old = e.target.checked; saveUrl(); renderProjects(); };
   }
 
   function drawGrid() {
     const ps = filtered();
-    $("#grid").innerHTML = ps.length ? ps.map(card).join("") : '<div class="empty">Nothing matches. Try “no licence / no source too” or “dormant too”.</div>';
+    $("#grid").innerHTML = ps.length ? ps.map(card).join("") : '<div class="empty">Nothing matches. Try unticking “open source only” or ticking “dormant too”.</div>';
     $("#count").textContent = `${ps.length} shown`;
   }
 
@@ -130,7 +131,7 @@
     const what = { added: "new in the index", release: "release", "back online": "back online", licence: "licence changed" };
     const ev = NEWS.filter(r => byId[r.id]).slice(0, 80).map(r => {
       const p = byId[r.id];
-      return `<div class="row"><span class="d">${esc(r.date)}</span><a href="${esc(p.repo)}" target="_blank" rel="noopener">${esc(p.name)}</a>
+      return `<div class="row"><span class="d">${esc(r.date)}</span><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>
         <span class="w">${esc(what[r.what] || r.what)} ${esc(r.detail || "")}</span><span class="tag">${esc(catLabel(p.category))}</span></div>`;
     }).join("");
     const recent = DATA.projects.filter(p => p.open).sort((a, b) => (b.last_commit || "").localeCompare(a.last_commit || "")).slice(0, 40);
@@ -140,7 +141,7 @@
       <h2>Added and released</h2>
       <div class="list">${ev || '<div class="empty">Nothing yet: the first three-day check after the launch fills this list.</div>'}</div>
       <h2>Most recent commits (open-source entries)</h2>
-      <div class="list">${recent.map(p => `<div class="row"><span class="d">${esc(p.last_commit)}</span><a href="${esc(p.repo)}" target="_blank" rel="noopener">${esc(p.name)}</a>
+      <div class="list">${recent.map(p => `<div class="row"><span class="d">${esc(p.last_commit)}</span><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>
         <span class="w">${esc(p.version || "")}</span><span class="tag">${esc(catLabel(p.category))}</span></div>`).join("")}</div>
     </main>`;
   }
@@ -193,8 +194,8 @@
         form or edit <code>data/projects.yml</code>. Version, licence, last commit and stars are read from the repo
         automatically; to change those, change the repo.</p>
       <h2>Make your project count as open source here</h2>
-      <p>Add a <code>LICENSE</code> file and keep the source in the repo. Entries without one are hidden by default
-        (tick “no licence / no source too” to see them).</p>
+      <p>Add a <code>LICENSE</code> file and keep the source in the repo. Entries without them carry a “no licence”,
+        “no source” or “no repo” mark and disappear when visitors tick “open source only”.</p>
       <h2>Share what you found out</h2>
       <p>Hardware facts, latency numbers, firmware quirks: open a pull request against <code>knowledge/</code> with a source
         for each fact, or ask in <a href="${REPO}/discussions/categories/q-a">Q&amp;A</a>.</p>
@@ -233,7 +234,7 @@
   Promise.all([load("export/projects.json", null), load("export/news.json", []), load("export/discussions.json", [])]).then(([d, n, x]) => {
     if (!d) { view.innerHTML = '<main class="empty">Could not load export/projects.json.</main>'; return; }
     DATA = d; NEWS = n || []; DISC = x || [];
-    $("#n-projects").textContent = d.projects.filter(p => p.open && (p.activity === "active" || p.activity === "quiet")).length;
+    $("#n-projects").textContent = d.projects.filter(p => p.activity === "active" || p.activity === "quiet").length;
     $("#checked").textContent = `Checked every three days (last ${d.checked}).`;
     show();
   });

@@ -2,7 +2,28 @@
 #
 # searches:   GitHub repository searches (names, descriptions, topics). Repos pushed within `days` are reported.
 # topics:     GitHub topics, searched the same way.
-# storefront: the NextUI Pak Store's storefront file; every pak listed there and not catalogued is reported.
+# # itch.io tag feeds (https://itch.io/<kind>/newest/tag-<tag>.xml). Music apps for the Brick are often only here.
+itch:
+  kinds: [tools, games, soundtracks]
+  tags: [trimui-brick, trimui, trimui-brick-pro, nextui, knulli, portmaster]
+
+# YouTube search: runs only when the YOUTUBE_API_KEY secret is set (free key from Google Cloud, YouTube Data API v3).
+# Each query costs 100 of the 10,000 daily units; every three days that is far below the limit.
+youtube:
+  must_match: "trimui|\\bbrick\\b"
+  queries:
+    - trimui brick groovebox
+    - trimui brick sequencer
+    - trimui brick synth
+    - trimui brick sampler
+    - trimui brick looper
+    - trimui brick tracker
+    - trimui brick music app
+    - trimui brick pro music
+    - trimui brick midi
+    - trimui brick knulli app
+
+storefront: the NextUI Pak Store's storefront file; every pak listed there and not catalogued is reported.
 
 days: 30
 
@@ -30,6 +51,17 @@ searches:
   - handheld groovebox
   - m8c handheld
 
+readme_searches:       # README text: finds repos whose name and description do not mention the Brick
+  - trimui brick
+  - brick pro knulli
+  - nextui pak
+  - knulli synth
+  - knulli sequencer
+  - knulli sampler
+  - knulli tracker
+  - knulli looper
+  - knulli groovebox
+
 forks_too:            # these searches also list forks (NextUI and most CFWs are forks)
   - trimui brick
   - nextui
@@ -47,6 +79,27 @@ topics:
 # "NextUI" React library and the French word "minuit"
 must_match: "trimui|\\bbrick\\b|brick ?pro|tg[345]0[45]0|nextui.*(pak|trimui|handheld|cfw)|\\bpak\\b|minui.*pak|knulli"
 must_not_match: "minuit|heroui|nextui-org|react|tailwind|next\\.?js|vite|laravel|angular|lego"
+
+# itch.io tag feeds (https://itch.io/<kind>/newest/tag-<tag>.xml). Music apps for the Brick are often only here.
+itch:
+  kinds: [tools, games, soundtracks]
+  tags: [trimui-brick, trimui, trimui-brick-pro, nextui, knulli, portmaster]
+
+# YouTube search: runs only when the YOUTUBE_API_KEY secret is set (free key from Google Cloud, YouTube Data API v3).
+# Each query costs 100 of the 10,000 daily units; every three days that is far below the limit.
+youtube:
+  must_match: "trimui|\\bbrick\\b"
+  queries:
+    - trimui brick groovebox
+    - trimui brick sequencer
+    - trimui brick synth
+    - trimui brick sampler
+    - trimui brick looper
+    - trimui brick tracker
+    - trimui brick music app
+    - trimui brick pro music
+    - trimui brick midi
+    - trimui brick knulli app
 
 storefront:
   repo: https://github.com/LoveRetro/nextui-pak-store

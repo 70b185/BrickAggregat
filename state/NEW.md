@@ -1,6 +1,96 @@
 # Not catalogued yet
 
-Repos pushed since 2026-10-25 that match the searches in data/sources.yml, plus Pak Store paks we do not list.
-Triage each (docs/UPDATING.md): add to data/projects.yml, or to data/ignore.yml with a reason, or to data/candidates.yml when unclear.
+Found since 2026-10-25 by the sources in data/sources.yml and in none of projects, candidates, ignore.
+Triage each (docs/UPDATING.md): add to data/projects.yml, or to data/ignore.yml with a reason (`repo:` or `url:`), or to data/candidates.yml when unclear.
 
-- [fnune/pocket-tunnel](https://github.com/fnune/pocket-tunnel) - A VPN tunnel pak for NextUI handhelds, using the wireguard-go library _(2026-11-24; nextui)_
+## GitHub (88)
+
+- [fnune/pocket-tunnel](https://github.com/fnune/pocket-tunnel) - A VPN tunnel pak for NextUI handhelds, using the wireguard-go library _(2026-11-24; nextui; nextui pak (README); trimui brick (README))_
+- [spruceUI/spruceOSNightlies](https://github.com/spruceUI/spruceOSNightlies) _(2026-11-24; trimui brick (README))_
+- [tarikbc/ZyperOS](https://github.com/tarikbc/ZyperOS) - A fast, light firmware for the GKD Pixel 2 that plays your whole retro library: forty systems, PortMaster ports, and your music, audiobooks  _(2026-11-24; trimui brick (README))_
+- [lidor30/pokedaisy](https://github.com/lidor30/pokedaisy) - A Game Boy, Game Boy Color and GBA player for Android handhelds with two screens or one, with a live companion for Pokémon games and ROM hac _(2026-11-24; trimui brick (README))_
+- [CreatonDevelopment/TubeHero](https://github.com/CreatonDevelopment/TubeHero) - A fast, optimized YouTube client for retro gaming handhelds _(2026-11-24; trimui brick (README))_
+- [osbm/flake](https://github.com/osbm/flake) - My nix configuration  _(2026-11-24; trimui brick (README))_
+- [spruceUI/Cores-spruce](https://github.com/spruceUI/Cores-spruce) _(2026-11-24; trimui brick (README))_
+- [kawaczek/brik](https://github.com/kawaczek/brik) _(2026-11-24; trimui brick (README))_
+- [shawil71-ux/sub-lab-updates](https://github.com/shawil71-ux/sub-lab-updates) _(2026-11-24; trimui brick (README))_
+- [spruceUI/cores-experimental](https://github.com/spruceUI/cores-experimental) _(2026-11-24; trimui brick (README))_
+- [tyrannotorus/emulator-dreamcast-deadcast-recomp-rez-recompiled](https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-rez-recompiled) - Rez Recompiled Recomp Module for Deadcast _(2026-11-24; trimui brick (README))_
+- [saivishnu2299/pocketlab](https://github.com/saivishnu2299/pocketlab) - Create mini apps for your Brick Pro with your coding agent. _(2026-11-24; trimui brick (README))_
+- [tomtombombadil/PM-GoldBoxGameEngine](https://github.com/tomtombombadil/PM-GoldBoxGameEngine) - This is a game engine for Port Master that will run the old DOS Gold Box games from SSI, including Pool of Radiance, Curse of the Azure Bond _(2026-11-24; trimui brick (README))_
+- [tyrannotorus/emulator-dreamcast-deadcast-recomp-sdk](https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-sdk) - Deadcast Recomp SDK _(2026-11-24; trimui brick (README))_
+- [DanimanX/ProjectKagemaru](https://github.com/DanimanX/ProjectKagemaru) - Virtua Fighter (Sega Model 1, vf1-recomp) ARM64 / OpenGL ES 2.0 / SLJIT PortMaster port for Anbernic RG34XX (Allwinner H700) _(2026-11-24; trimui brick (README))_
+- [Zetarancio/zlyme](https://github.com/Zetarancio/zlyme) - Custom OS for the Miyoo Flip with mainline kernel. _(2026-11-24; nextui pak (README))_
+- [itchio/zitch](https://github.com/itchio/zitch) - Experimental new front-end for the itch app in Rust and egui _(2026-11-23; trimui brick (README))_
+- [PatchDev-AM2ARM/AM2ARM](https://github.com/PatchDev-AM2ARM/AM2ARM) - AM2R ARM64 port for Android and Linux devices _(2026-11-23; trimui brick (README))_
+- [CreatonDevelopment/RetroHero-App](https://github.com/CreatonDevelopment/RetroHero-App) _(2026-11-23; trimui brick (README))_
+- [fnune/pocket-controller](https://github.com/fnune/pocket-controller) - Turn your handheld into a plug-and-play USB controller _(2026-11-23; nextui pak (README); trimui brick (README))_
+- [bravenewaiworld/specular](https://github.com/bravenewaiworld/specular) _(2026-11-23; trimui brick (README))_
+- [truongliu75-sketch/YugiLan](https://github.com/truongliu75-sketch/YugiLan) - Yugi  _(2026-11-23; trimui brick (README))_
+- [bravenewaiworld/crystaline-os](https://github.com/bravenewaiworld/crystaline-os) _(2026-11-23; trimui brick (README))_
+- [TrungTruong25/SenOS](https://github.com/TrungTruong25/SenOS) _(2026-11-22; trimui brick (README))_
+- [infosecanalyst-creator/ja2-3ds](https://github.com/infosecanalyst-creator/ja2-3ds) - Jagged Alliance 2 for the New 3DS: dual-screen JA2 Stracciatella port with stylus play, info dashboard and built-in manual. Requires your ow _(2026-11-22; trimui brick (README))_
+- [jakesearle/android-play-retro-games-club](https://github.com/jakesearle/android-play-retro-games-club) - Android launcher for the Play Retro Games Club's current picks, matched to your ROMs by RetroAchievements hash _(2026-11-21; nextui pak (README))_
+- [bun2it/RomcloudV2](https://github.com/bun2it/RomcloudV2) _(2026-11-20; trimui brick (README))_
+- [SkyWalker541/PT-SkyWalker541](https://github.com/SkyWalker541/PT-SkyWalker541) - A rebuild of my pixel transparency shader, focused on low-power devices. _(2026-11-20; trimui brick (README))_
+- [SkyWalker541/ChaOS-diatom](https://github.com/SkyWalker541/ChaOS-diatom) _(2026-11-20; trimui brick (README))_
+- [paiheulevrai/ChooChooHacker](https://github.com/paiheulevrai/ChooChooHacker) - Patcher to activate the on-board mic on your console.  _(2026-11-20; nextui pak (README))_
+- [retrotiv/AnberNext](https://github.com/retrotiv/AnberNext) - My adaptation for the formerly NextUI from loveretro, including compatibility tests and fixes for the Anbernic RG353V. _(2026-11-19; trimui brick (README))_
+- [patois/knulli-vm](https://github.com/patois/knulli-vm) _(2026-11-19; trimui brick (README))_
+- [jimmyhat999/godot-portmaster-export](https://github.com/jimmyhat999/godot-portmaster-export) - Godot 4 editor plugin that packages your game as a PortMaster port for Linux handhelds. _(2026-11-19; trimui brick (README))_
+- [4fuu/nextui-app-sdk](https://github.com/4fuu/nextui-app-sdk) - Framework-agnostic app integration SDK for NextUI: app<->system cooperation contract (HOME overlay hosting, volume/brightness HUD, sleep/wak _(2026-11-19; nextui pak (README))_
+- [jukaLang/Packages](https://github.com/jukaLang/Packages) - 📦 List of all Juka Packages that will be visible inside Juka application! Update this if you want to add your package to the list _(2026-11-18; trimui brick (README))_
+- [retrotiv/BrickNEXT](https://github.com/retrotiv/BrickNEXT) _(2026-11-18; trimui brick (README))_
+- [SkyWalker541/ChaOS-Installer](https://github.com/SkyWalker541/ChaOS-Installer) _(2026-11-18; trimui brick (README))_
+- [saivishnu2299/saivishnu2299](https://github.com/saivishnu2299/saivishnu2299) _(2026-11-18; trimui brick (README))_
+- [LoadState/portpicker](https://github.com/LoadState/portpicker) - Pick your handheld + CFW, get PortMaster ports that run well on it, install them to your SD card. Windows app. _(2026-11-18; trimui brick (README))_
+- [SilverPsychoo/Ruffle-Handheld](https://github.com/SilverPsychoo/Ruffle-Handheld) - Community Flash runtime integration for ARM64 Linux handhelds, with per-game controller profiles and compatibility tracking. _(2026-11-17; trimui brick (README))_
+- [xzys/rex](https://github.com/xzys/rex) _(2026-11-17; trimui brick (README))_
+- [alejandroid80/brixeq-manual](https://github.com/alejandroid80/brixeq-manual) _(2026-11-17; trimui brick (README))_
+- [dalexanco/nextui-samba-sync](https://github.com/dalexanco/nextui-samba-sync) _(2026-11-17; nextui pak (README); trimui brick (README))_
+- [juanchuj/Spruce-Collections](https://github.com/juanchuj/Spruce-Collections) _(2026-11-17; trimui brick (README))_
+- [Utility-Muffin-Research-Kitchen/Catastrophe](https://github.com/Utility-Muffin-Research-Kitchen/Catastrophe) _(2026-11-17; trimui brick (README))_
+- [Megus/chipnomad-tracker](https://github.com/Megus/chipnomad-tracker) - Chiptune tracker for handheld consoles like Anbernic RG35xx _(2026-11-16; trimui brick (README))_
+- [SpringThong/NXT-Retro-Tube](https://github.com/SpringThong/NXT-Retro-Tube) _(2026-11-16; brick pro knulli (README); trimui brick (README))_
+- [JAKARTA2006/orbe](https://github.com/JAKARTA2006/orbe) _(2026-11-16; trimui brick (README))_
+- [spruceUI/RA](https://github.com/spruceUI/RA) - a pipedream _(2026-11-15; trimui brick (README))_
+- [alejandroid80/dronage-terminal-manual](https://github.com/alejandroid80/dronage-terminal-manual) _(2026-11-15; trimui brick (README))_
+- [alejandrodiazovh/brixeq-manual](https://github.com/alejandrodiazovh/brixeq-manual) - Manual de usuario de BRIXEQ en espanol (HTML) _(2026-11-15; trimui brick (README))_
+- [spruceUI/PPSSPP-spruce](https://github.com/spruceUI/PPSSPP-spruce) - PPSSPP standalone builds for SpruceOS _(2026-11-14; trimui brick (README))_
+- [spruceUI/oakMOSS](https://github.com/spruceUI/oakMOSS) _(2026-11-14; trimui brick (README))_
+- [mcereal/inkstand](https://github.com/mcereal/inkstand) _(2026-11-14; trimui brick (README))_
+- [ujjwal313/ujjwal313](https://github.com/ujjwal313/ujjwal313) _(2026-11-13; trimui brick (README))_
+- [robbyczgw-cla/robbyczgw-cla](https://github.com/robbyczgw-cla/robbyczgw-cla) - Profile README _(2026-11-13; trimui brick (README))_
+- [miguelwrks/portifolio](https://github.com/miguelwrks/portifolio) _(2026-11-13; trimui brick (README))_
+- [spruceUI/Ports-and-Free-Games](https://github.com/spruceUI/Ports-and-Free-Games) - Free Games and Apps for spruceOS _(2026-11-12; trimui brick (README))_
+- [boblefrag/avenir-en-commun-rpg](https://github.com/boblefrag/avenir-en-commun-rpg) - L'Union Populaire : Le RPG (PICO-8) — Pour la 6e République _(2026-11-12; trimui brick (README))_
+- [tyrannotorus/emulator-deadstation-portable-recomp-soulcalibur-broken-destiny](https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-soulcalibur-broken-destiny) - Deadstation Portable - Soul Calibur Recomp _(2026-11-11; trimui brick (README))_
+- [tyrannotorus/emulator-deadstation-portable-recomp-sdk](https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-sdk) - Deadstation Portable Recomp SDK _(2026-11-11; trimui brick (README))_
+- [Pobega/NextUI-v90s](https://github.com/Pobega/NextUI-v90s) - NextUI port for the Powkiddy V90S (Allwinner A133P) _(2026-11-09; trimui brick (README))_
+- [Knifethrower/pmhwdec](https://github.com/Knifethrower/pmhwdec) - Hardware H.264 / HEVC decoding for PortMaster handhelds: Allwinner video engine (no blobs), Rockchip MPP, V4L2 stateless and stateful, with  _(2026-11-09; trimui brick (README))_
+- [Ca-h9j9n/Tsugaru-ARM64-Handheld](https://github.com/Ca-h9j9n/Tsugaru-ARM64-Handheld) - Unofficial ARM64 handheld build of the Tsugaru FM TOWNS emulator with controller support and KNULLI integration. _(2026-11-08; trimui brick (README))_
+- [tyrannotorus/emulator-deadstation-1-recomp-tekken-3](https://github.com/tyrannotorus/emulator-deadstation-1-recomp-tekken-3) - Deadstation 1 - Tekken 3 Recomp _(2026-11-07; trimui brick (README))_
+- [tyrannotorus/emulator-deadstation-1-recomp-rally-cross](https://github.com/tyrannotorus/emulator-deadstation-1-recomp-rally-cross) - Deadstation 1 - Tekken 3 Recomp _(2026-11-07; trimui brick (README))_
+- [tyrannotorus/recomp-dreamcast-rez](https://github.com/tyrannotorus/recomp-dreamcast-rez) - A modern recomp of Rez for the Dreamcast _(2026-11-05; nextui pak (README); trimui brick (README))_
+- [CharlexH/CharlexH](https://github.com/CharlexH/CharlexH) - Product designer and independent maker — PixOnDeck, Moonlit Tales, and selected projects. _(2026-11-04; trimui brick (README))_
+- [thwonp/dsperate-lr](https://github.com/thwonp/dsperate-lr) - libretro core around DSperate, the Nintendo DS emulator (plorpOS) _(2026-11-04; trimui brick (README))_
+- [retroshelf-org/linux](https://github.com/retroshelf-org/linux) _(2026-11-04; nextui pak (README))_
+- [Marice/Fireplace5](https://github.com/Marice/Fireplace5) - A pixelated fireplace with demoscene extras, running natively on the PlayStation 5 as homebrew (SDL2 payload). _(2026-11-03; trimui brick (README))_
+- [ZiMMediaLab/ZiMMediaLab](https://github.com/ZiMMediaLab/ZiMMediaLab) _(2026-11-03; trimui brick (README))_
+- [SpringThong/NXT-Retro-BookNest](https://github.com/SpringThong/NXT-Retro-BookNest) _(2026-11-02; brick pro knulli (README); trimui brick (README))_
+- [bobbyjball3/sbc-android-card-imager](https://github.com/bobbyjball3/sbc-android-card-imager) - Personal project to create sparse SD card image for my opinionated Android SBC device setup. Use or fork as you will - just keep it open sou _(2026-11-02; nextui pak (README); trimui brick (README))_
+- [mrkhdly/weather.pak](https://github.com/mrkhdly/weather.pak) _(2026-11-02; trimui brick (README))_
+- [unitreign/playtime](https://github.com/unitreign/playtime) - Game time tracking for Knulli _(2026-11-02; knulli tracker (README))_
+- [trngaje/advanced_drastic](https://github.com/trngaje/advanced_drastic) _(2026-11-01; trimui brick (README))_
+- [Utility-Muffin-Research-Kitchen/Fun-Drastic-src](https://github.com/Utility-Muffin-Research-Kitchen/Fun-Drastic-src) - Mirror of tenlevels' Fun Drastic source, donated for Leaf. Fun Drastic is tenlevels' work; PolyForm Noncommercial 1.0.0. _(2026-11-01; trimui brick (README))_
+- [serdarbayram/Hill-Climb-Racing-Portmaster-Version](https://github.com/serdarbayram/Hill-Climb-Racing-Portmaster-Version) - This is the Portmaster version of the Hill Climb Racing Android game. _(2026-11-01; trimui brick (README))_
+- [bmpriest/ds-emu-dac](https://github.com/bmpriest/ds-emu-dac) - Python tool to convert 3DS analog cheats for DS games into a format suitable for general emulation to take advantage of analog controls (ton _(2026-11-01; nextui pak (README))_
+- [chrisj951/MainPyUI](https://github.com/chrisj951/MainPyUI) _(2026-10-31; trimui brick (README))_
+- [SkyWalker541/Gone-Fishing](https://github.com/SkyWalker541/Gone-Fishing) - A free, relaxing pixel-art fishing game for PortMaster handhelds, made with LÖVE. Cast with real physics across five places, from an autumn  _(2026-10-31; trimui brick (README))_
+- [chopfitzroy/chopfitzroy](https://github.com/chopfitzroy/chopfitzroy) - It's Me _(2026-10-31; trimui brick (README))_
+- [fanfanStudio/dragon-radar](https://github.com/fanfanStudio/dragon-radar) _(2026-10-30; trimui brick (README))_
+- [almighty-atlas/nextui-mkxp](https://github.com/almighty-atlas/nextui-mkxp) _(2026-10-30; nextui pak (README))_
+- [sleepdebt/pocketplex](https://github.com/sleepdebt/pocketplex) - Lightweight text-first Plex client for Linux retro handhelds _(2026-10-28; trimui brick (README))_
+- [christopher-roelofs/ytc](https://github.com/christopher-roelofs/ytc) - An anonymous/unauthenticated YouTube client  _(2026-10-27; trimui brick (README))_
+- [nlkcodenew/lottoforecast-release](https://github.com/nlkcodenew/lottoforecast-release) _(2026-10-26; trimui brick (README))_
+

@@ -12,7 +12,10 @@
 #              music-play: music, radio, podcast and audiobook players
 #              os: firmwares, launchers and frontends; dev: toolchains, SDKs, libraries, kernels, research
 #              guide: guides, docs, installers and companion apps on a computer or phone
-#   repo       primary source repository
+#   repo       primary source repository on GitHub (optional when `url` is given)
+#   url        download page or website when there is no GitHub repo (itch.io, Gumroad, own site, a video)
+#   aliases    optional: other names the project or its apps go by (searchable on the website)
+#   description optional: one line, only for entries without a repo (repos supply their own)
 #   runs_on    firmwares the project names: nextui | minui | knulli | muos | crossmix | spruce | nx-redux | stock |
 #              portmaster | tortos (empty for firmwares themselves and for dev/guide entries)
 #   devices    devices the project names: brick | brick-hammer | brick-pro | smart-pro (a NextUI tg5040 pak runs on
