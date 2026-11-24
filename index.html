@@ -10,20 +10,19 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Brick Aggregat - open-source software for the TrimUI Brick">
 <meta property="og:description" content="Music apps, firmwares, emulators and tools for the TrimUI Brick family, with licence and activity for each, and a developer knowledge base.">
-<script>try{var t=localStorage.getItem("ba-theme");if(t&&t!=="auto")document.documentElement.dataset.theme=t;}catch(e){}</script>
+<script>try{var t=localStorage.getItem("ba-theme");if(t==="pink"||t==="brick")t="light";if(t&&t!=="auto")document.documentElement.dataset.theme=t;}catch(e){}</script>
 <style>
   :root { color-scheme:light dark;
-    --bg:#fafafa; --g1:#ffffff; --fg:#141414; --mute:#6a6a6a; --line:#e3e3e3; --chip:#f0f0f0; --accent:#ff5a1f; --ok:#1a8a4a; --warn:#b4530c;
+    --bg:#fbe4ee; --g1:#fff5f9; --fg:#3a1027; --mute:#8a5a72; --line:#f1bcd3; --chip:#fad3e3; --accent:#e8308a; --ok:#1a8a4a; --warn:#b4237a; --shell:#f6a9c9; --screen:#2a0a1c; --navfg:#3a1027; --navbg:#ffffff66; --subfg:#f5bcd6;
     --font:ui-monospace,"SF Mono","Cascadia Mono","JetBrains Mono",Menlo,Consolas,monospace;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
-    --fs:13px; --shell:#2b2b2e; --screen:#0d0f12; --r:10px; --fs-s:12px; --fs-l:16px;
-    --c-music-make:#ff5a1f; --c-music-play:#e0457b; --c-os:#2563eb; --c-app:#6b7280; --c-emulator:#7c3aed; --c-port:#0d9488;
+    --fs:13px; --r:10px; --fs-s:12px; --fs-l:16px;
+    --c-music-make:var(--accent); --c-music-play:#e0457b; --c-os:#2563eb; --c-app:#6b7280; --c-emulator:#7c3aed; --c-port:#0d9488;
     --c-media:#ca8a04; --c-theme:#db2777; --c-dev:#16a34a; --c-guide:#0891b2; }
   @media (prefers-color-scheme: dark) { :root:not([data-theme]) {
-    --bg:#0b0b0c; --g1:#151517; --fg:#ececee; --mute:#9b9ba3; --line:#26262a; --chip:#222226; --accent:#ff6a33; --ok:#4fd08a; --warn:#ff9a5c; --shell:#1c1c1f; --screen:#050506; } }
-  :root[data-theme="brick"] { color-scheme:light; --bg:#d9d9d6; --g1:#f2f2ef; --fg:#1d1d1f; --mute:#5f5f63; --line:#b9b9b5; --chip:#e4e4e0; --accent:#ff5a1f; --shell:#2b2b2e; --screen:#0d0f12; }
-  :root[data-theme="dark"] { color-scheme:dark; --bg:#0b0b0c; --g1:#151517; --fg:#ececee; --mute:#9b9ba3; --line:#26262a; --chip:#222226; --accent:#ff6a33; --ok:#4fd08a; --warn:#ff9a5c; --shell:#1c1c1f; --screen:#050506; }
-  :root[data-theme="pink"] { color-scheme:light; --bg:#fbe4ee; --g1:#fff5f9; --fg:#3a1027; --mute:#8a5a72; --line:#f1bcd3; --chip:#fad3e3; --accent:#e8308a; --ok:#1a8a4a; --warn:#b4237a; --shell:#f6a9c9; --screen:#2a0a1c; }
+    color-scheme:dark; --bg:#0a0a0b; --g1:#141416; --fg:#f2eef0; --mute:#a2949b; --line:#2a2328; --chip:#24191f; --accent:#ff5fa8; --ok:#4fd08a; --warn:#ff8cc4; --shell:#141416; --screen:#000000; --navfg:#f2eef0; --navbg:#ffffff14; --subfg:#f5a3c9; } }
+  :root[data-theme="light"] { color-scheme:light; }
+  :root[data-theme="dark"] { color-scheme:dark; --bg:#0a0a0b; --g1:#141416; --fg:#f2eef0; --mute:#a2949b; --line:#2a2328; --chip:#24191f; --accent:#ff5fa8; --ok:#4fd08a; --warn:#ff8cc4; --shell:#141416; --screen:#000000; --navfg:#f2eef0; --navbg:#ffffff14; --subfg:#f5a3c9; }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--fg); font:var(--fs)/1.55 var(--font); }
   header { padding:20px 24px 0; border-bottom:1px solid var(--line); }
@@ -75,12 +74,11 @@
   header::before { content:""; position:absolute; left:24px; right:24px; top:6px; height:3px; border-radius:3px;
     background:linear-gradient(90deg,#ff3b3b,#ffb03b,#f7f73b,#3bff7a,#3bc8ff,#7a5bff,#ff3bd2); opacity:.85; }
   .screen { background:var(--screen); color:#ececee; border-radius:var(--r); padding:14px 16px; margin-top:6px; box-shadow:inset 0 0 0 3px #00000055; }
-  .screen .sub { color:#a8a8b0; }
-  :root[data-theme="pink"] .screen .sub { color:#f5bcd6; }
+  .screen .sub { color:var(--subfg); }
   nav { margin-top:10px; gap:6px; }
-  nav button { border:0; border-radius:var(--r) var(--r) 0 0; background:#ffffff1a; color:#ececee; margin:0; }
-  :root[data-theme="pink"] nav button { color:#3a1027; background:#ffffff66; }
-  nav button:hover { background:#ffffff33; }
+  nav button { border:0; border-radius:var(--r) var(--r) 0 0; margin:0; }
+  nav button { color:var(--navfg); background:var(--navbg); }
+  nav button:hover { filter:brightness(1.15); }
   nav button.on { background:var(--bg); color:var(--fg); }
   nav button.on .n { color:var(--mute); opacity:1; }
   .cats button { border-radius:999px; margin:0 6px 6px 0; border-color:var(--line); }
@@ -97,10 +95,9 @@
 <body>
 <header>
   <div class="themes" id="themes" aria-label="Colour theme">
-    <button data-theme="auto" title="Follow the system" style="background:linear-gradient(135deg,#f2f2ef 50%,#151517 50%)"></button>
-    <button data-theme="brick" title="Brick grey" style="background:#9a9a96"></button>
-    <button data-theme="dark" title="Dark" style="background:#151517"></button>
-    <button data-theme="pink" title="Pink" style="background:#f6a9c9"></button>
+    <button data-theme="auto" title="Follow the system (pink light or dark)" style="background:linear-gradient(135deg,#f6a9c9 50%,#0a0a0b 50%)"></button>
+    <button data-theme="dark" title="Dark with pink" style="background:radial-gradient(circle,#ff5fa8 30%,#0a0a0b 32%)"></button>
+    <button data-theme="light" title="Pink (light)" style="background:#f6a9c9"></button>
   </div>
   <div class="screen">
   <h1><span class="abxy"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><b>Brick</b> Aggregat</h1>
@@ -123,6 +120,6 @@
   checked every three days. Licences and activity are read from each repo automatically; check the project itself before
   you install anything.
 </footer>
-<script src="assets/app.js?v=2"></script>
+<script src="assets/app.js?v=3"></script>
 </body>
 </html>

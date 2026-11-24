@@ -209,6 +209,7 @@
   function themeButtons() {
     let cur = "auto";
     try { cur = localStorage.getItem("ba-theme") || "auto"; } catch (e) {}
+    if (cur === "pink" || cur === "brick") cur = "light";
     document.querySelectorAll("#themes button").forEach(b => {
       b.classList.toggle("on", b.dataset.theme === cur);
       b.onclick = () => {
