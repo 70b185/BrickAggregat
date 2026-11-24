@@ -3164,8 +3164,12 @@ projects:
   devices:
   - brick
   note: Granular ambient instrument with a physical-modelling resonator (ORBIX), live input mode and MIDI learn/clock. Developed on
-    the original Brick with KNULLI.
+    the original Brick with KNULLI. Earlier shown as GrainForge.
   added: '2026-11-24'
+  aliases:
+  - GrainForge
+  links:
+    telegram: https://t.me/s/GrainBrick
 - id: picotracker-advance-trimui
   name: picoTracker Advance (TrimUI)
   author: Jarodwr
