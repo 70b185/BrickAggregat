@@ -22,3 +22,8 @@ projects:
   name: SUB-LAB
   note: release-only builds for the Brick; what SUB-LAB does is not said in the repo
   seen: '2026-11-24'
+- url: https://www.youtube.com/watch?v=PvyIAN2mgbg
+  name: GrainForge (El Magico)
+  note: granular sampler El Magico built for the Brick on KNULLI; a different project from GrainBrick (ETRNLIAM); no download page found
+    yet
+  seen: '2026-11-24'

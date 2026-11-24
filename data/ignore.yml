@@ -407,10 +407,8 @@ ignore:
 - url: https://www.youtube.com/watch?v=f9kGTYvTVuY
   reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
 - url: https://www.youtube.com/watch?v=LEdoDdc9-9w
-  reason: video of a listed app (GrainBrick, shown as GrainForge)
+  reason: another video of GrainForge (candidate)
 - url: https://www.youtube.com/watch?v=NDLocfoS_OQ
-  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
-- url: https://www.youtube.com/watch?v=PvyIAN2mgbg
   reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
 - url: https://www.youtube.com/watch?v=qNpZSY1kRmo
   reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
