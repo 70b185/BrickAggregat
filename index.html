@@ -10,16 +10,20 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Brick Aggregat - open-source software for the TrimUI Brick">
 <meta property="og:description" content="Music apps, firmwares, emulators and tools for the TrimUI Brick family, with licence and activity for each, and a developer knowledge base.">
+<script>try{var t=localStorage.getItem("ba-theme");if(t&&t!=="auto")document.documentElement.dataset.theme=t;}catch(e){}</script>
 <style>
   :root { color-scheme:light dark;
     --bg:#fafafa; --g1:#ffffff; --fg:#141414; --mute:#6a6a6a; --line:#e3e3e3; --chip:#f0f0f0; --accent:#ff5a1f; --ok:#1a8a4a; --warn:#b4530c;
     --font:ui-monospace,"SF Mono","Cascadia Mono","JetBrains Mono",Menlo,Consolas,monospace;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
-    --fs:13px; --fs-s:12px; --fs-l:16px;
+    --fs:13px; --shell:#2b2b2e; --screen:#0d0f12; --r:10px; --fs-s:12px; --fs-l:16px;
     --c-music-make:#ff5a1f; --c-music-play:#e0457b; --c-os:#2563eb; --c-app:#6b7280; --c-emulator:#7c3aed; --c-port:#0d9488;
     --c-media:#ca8a04; --c-theme:#db2777; --c-dev:#16a34a; --c-guide:#0891b2; }
-  @media (prefers-color-scheme: dark) { :root {
-    --bg:#0b0b0c; --g1:#151517; --fg:#ececee; --mute:#9b9ba3; --line:#26262a; --chip:#222226; --accent:#ff6a33; --ok:#4fd08a; --warn:#ff9a5c; } }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme]) {
+    --bg:#0b0b0c; --g1:#151517; --fg:#ececee; --mute:#9b9ba3; --line:#26262a; --chip:#222226; --accent:#ff6a33; --ok:#4fd08a; --warn:#ff9a5c; --shell:#1c1c1f; --screen:#050506; } }
+  :root[data-theme="brick"] { color-scheme:light; --bg:#d9d9d6; --g1:#f2f2ef; --fg:#1d1d1f; --mute:#5f5f63; --line:#b9b9b5; --chip:#e4e4e0; --accent:#ff5a1f; --shell:#2b2b2e; --screen:#0d0f12; }
+  :root[data-theme="dark"] { color-scheme:dark; --bg:#0b0b0c; --g1:#151517; --fg:#ececee; --mute:#9b9ba3; --line:#26262a; --chip:#222226; --accent:#ff6a33; --ok:#4fd08a; --warn:#ff9a5c; --shell:#1c1c1f; --screen:#050506; }
+  :root[data-theme="pink"] { color-scheme:light; --bg:#fbe4ee; --g1:#fff5f9; --fg:#3a1027; --mute:#8a5a72; --line:#f1bcd3; --chip:#fad3e3; --accent:#e8308a; --ok:#1a8a4a; --warn:#b4237a; --shell:#f6a9c9; --screen:#2a0a1c; }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--fg); font:var(--fs)/1.55 var(--font); }
   header { padding:20px 24px 0; border-bottom:1px solid var(--line); }
@@ -65,14 +69,45 @@
   .prose { font-family:var(--sans); font-size:14px; max-width:820px; } .prose code { font:var(--fs) var(--font); background:var(--chip); padding:0 3px; }
   footer { color:var(--mute); font-size:var(--fs-s); padding:0 24px 24px; }
   @media (max-width:700px) { header, .cats, .bar, main, footer { padding-left:12px; padding-right:12px; } }
+
+  /* Brick look: device shell with screen, RGB LED strip, shoulder-button tabs */
+  header { background:var(--shell); border-bottom:0; padding:14px 24px 0; position:relative; }
+  header::before { content:""; position:absolute; left:24px; right:24px; top:6px; height:3px; border-radius:3px;
+    background:linear-gradient(90deg,#ff3b3b,#ffb03b,#f7f73b,#3bff7a,#3bc8ff,#7a5bff,#ff3bd2); opacity:.85; }
+  .screen { background:var(--screen); color:#ececee; border-radius:var(--r); padding:14px 16px; margin-top:6px; box-shadow:inset 0 0 0 3px #00000055; }
+  .screen .sub { color:#a8a8b0; }
+  :root[data-theme="pink"] .screen .sub { color:#f5bcd6; }
+  nav { margin-top:10px; gap:6px; }
+  nav button { border:0; border-radius:var(--r) var(--r) 0 0; background:#ffffff1a; color:#ececee; margin:0; }
+  :root[data-theme="pink"] nav button { color:#3a1027; background:#ffffff66; }
+  nav button:hover { background:#ffffff33; }
+  nav button.on { background:var(--bg); color:var(--fg); }
+  nav button.on .n { color:var(--mute); opacity:1; }
+  .cats button { border-radius:999px; margin:0 6px 6px 0; border-color:var(--line); }
+  .card { border-radius:var(--r); border-left-width:4px; }
+  .btn, .bar input[type=search], .bar select { border-radius:var(--r); }
+  .themes { position:absolute; right:24px; top:22px; display:flex; gap:6px; align-items:center; }
+  .themes button { width:22px; height:22px; border-radius:50%; border:2px solid #ffffff55; cursor:pointer; padding:0; }
+  .themes button.on { border-color:#fff; box-shadow:0 0 0 2px var(--accent); }
+  .abxy { display:inline-grid; grid-template-columns:repeat(3,7px); gap:1px; vertical-align:middle; margin-right:8px; }
+  .abxy i { width:7px; height:7px; border-radius:50%; background:var(--accent); } .abxy i:nth-child(odd) { visibility:hidden; }
+  @media (max-width:700px) { .themes { position:static; margin-top:8px; } }
 </style>
 </head>
 <body>
 <header>
-  <h1><b>Brick</b> Aggregat</h1>
+  <div class="themes" id="themes" aria-label="Colour theme">
+    <button data-theme="auto" title="Follow the system" style="background:linear-gradient(135deg,#f2f2ef 50%,#151517 50%)"></button>
+    <button data-theme="brick" title="Brick grey" style="background:#9a9a96"></button>
+    <button data-theme="dark" title="Dark" style="background:#151517"></button>
+    <button data-theme="pink" title="Pink" style="background:#f6a9c9"></button>
+  </div>
+  <div class="screen">
+  <h1><span class="abxy"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><b>Brick</b> Aggregat</h1>
   <div class="sub">Open-source software for the TrimUI Brick, Brick Hammer and Brick Pro: music apps, firmwares, emulators,
     tools, and what developers have found out. Links and short notes only; every entry points to the original project.
     <span id="checked"></span></div>
+  </div>
   <nav id="tabs">
     <button data-t="projects">Projects <span class="n" id="n-projects"></span></button>
     <button data-t="new">What's new</button>

@@ -206,6 +206,21 @@
     </main>`;
   }
 
+  function themeButtons() {
+    let cur = "auto";
+    try { cur = localStorage.getItem("ba-theme") || "auto"; } catch (e) {}
+    document.querySelectorAll("#themes button").forEach(b => {
+      b.classList.toggle("on", b.dataset.theme === cur);
+      b.onclick = () => {
+        const t = b.dataset.theme;
+        if (t === "auto") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
+        try { localStorage.setItem("ba-theme", t); } catch (e) {}
+        themeButtons();
+      };
+    });
+  }
+  themeButtons();
+
   const R = { projects: renderProjects, new: renderNew, dev: renderDev, ask: renderAsk, help: renderHelp };
   function show() {
     document.querySelectorAll("#tabs button").forEach(b => b.classList.toggle("on", b.dataset.t === state.t));
