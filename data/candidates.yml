@@ -1,0 +1,4 @@
+# Repos that might belong in the catalogue but whose README does not settle it yet.
+# Each: {repo, note, seen}. The update run looks at them again; move an entry to projects.yml or ignore.yml when clear.
+
+projects: []

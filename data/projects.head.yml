@@ -1,0 +1,30 @@
+# Brick Aggregat - project metadata (links, categories and short notes only; no binaries, no copied code)
+#
+# This file is the source. Everything in catalog/, export/ and the website is generated from it plus
+# state/meta.json (refreshed automatically every three days by .github/workflows/update.yml).
+#
+# Fields (edit by hand)
+#   id         unique slug
+#   name       display name (the Pak Store name when the project is listed there)
+#   author     GitHub owner as published
+#   category   music-make | music-play | os | dev | guide | emulator | port | media | theme | app
+#              music-make: instruments, trackers, sequencers, samplers, effects, M8 clients
+#              music-play: music, radio, podcast and audiobook players
+#              os: firmwares, launchers and frontends; dev: toolchains, SDKs, libraries, kernels, research
+#              guide: guides, docs, installers and companion apps on a computer or phone
+#   repo       primary source repository
+#   runs_on    firmwares the project names: nextui | minui | knulli | muos | crossmix | spruce | nx-redux | stock |
+#              portmaster | tortos (empty for firmwares themselves and for dev/guide entries)
+#   devices    devices the project names: brick | brick-hammer | brick-pro | smart-pro (a NextUI tg5040 pak runs on
+#              the Brick and the Smart Pro). Empty: TrimUI in general, not stated
+#   note       optional: what it is, in our own words (the website shows it instead of the repo's description)
+#   links      optional: other URLs (itch.io, docs, forum thread)
+#   pak_store  optional: name and categories in the NextUI Pak Store storefront (LoveRetro/nextui-pak-store)
+#   added      date the entry was added (drives the "new" marker and the feed)
+#   hidden     optional: true keeps an entry in the data but off the website (e.g. while unclear)
+#
+# Filled automatically (do not add here; see state/meta.json): description, licence, last commit, latest tag,
+# pak.json version, stars, whether the repo holds source code, archived flag.
+#
+# `checked` is the date of the last update run (docs/UPDATING.md).
+

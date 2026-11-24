@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>Open questions - Brick Aggregat</title>
+<style>body{margin:0;background:#fafafa;color:#141414;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){body{background:#0b0b0c;color:#ececee}a{color:#ececee}code,pre{background:#1e1e21!important}th,td{border-color:#26262a!important}}
+main{max-width:880px;margin:0 auto;padding:24px}a{color:#141414}code,pre{font:13px ui-monospace,Menlo,Consolas,monospace;background:#f0f0f0;padding:1px 4px}
+pre{padding:10px;overflow:auto}table{border-collapse:collapse;font-size:14px;display:block;overflow:auto}th,td{border:1px solid #e3e3e3;padding:4px 8px;text-align:left;vertical-align:top}
+.top{font:12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}.src{font-size:12px;vertical-align:super;text-decoration:none}</style></head><body><main><div class="top"><a href="../">Brick Aggregat</a> / <a href="index.html">Developing</a>
+ / <a href="https://github.com/70b185/trimui-music-apps/blob/main/knowledge/open-questions.md">edit this page</a></div>
+<h1>Open questions</h1>
+<p>Things sources disagree on or nobody has tested. Discuss them in
+<a href="https://github.com/70b185/trimui-music-apps/discussions/categories/q-a">Discussions → Q&amp;A</a>; when one is settled on
+a device, write the answer into the right page with device, firmware version and date, and remove it here.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Question</th>
+<th>Why it matters</th>
+<th>Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q1</td>
+<td><strong>Can the Brick's bottom USB-C port be a sound card and MIDI device for a computer or iPad?</strong> A FunctionFS probe found no USB audio/MIDI gadget in the kernel and could not bind isochronous endpoints both ways; OZMA's README says its Brick plays into an iPad over USB as sound card and MIDI port. Is OZMA using bulk endpoints with its own protocol, a one-way isochronous stream, or something else?</td>
+<td>Recording a Brick straight into a DAW</td>
+<td><a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a> <a class="src" href="SOURCES.html#ozma">[ozma]</a></td>
+</tr>
+<tr>
+<td>Q2</td>
+<td><strong>Which USB-C port is the host on the Brick Pro?</strong></td>
+<td>MIDI controllers and audio interfaces</td>
+<td><a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Q3</td>
+<td><strong>Does the Brick Hammer have the Brick's 14-LED layout?</strong></td>
+<td>LED meters and feedback</td>
+<td><a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a> <a class="src" href="SOURCES.html#ledoh">[ledoh]</a></td>
+</tr>
+<tr>
+<td>Q4</td>
+<td><strong>Brick Pro L2/R2: analog or digital?</strong> Spec sheets disagree</td>
+<td>expressive control in instruments</td>
+<td><a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Q5</td>
+<td><strong>Audio input on the Brick</strong>: PolyBrik's sample recorder records silence on NextUI; BrickTape (KNULLI) records from the mic and USB, GrainBrick (KNULLI) processes live input, Conduit (muOS) records from the mic or a USB interface. Is input a firmware question (mixer setup) rather than hardware?</td>
+<td>sampling on the device</td>
+<td><a class="src" href="SOURCES.html#polybrik">[polybrik]</a> <a class="src" href="SOURCES.html#bricktape">[bricktape]</a> <a class="src" href="SOURCES.html#conduit">[conduit]</a></td>
+</tr>
+<tr>
+<td>Q6</td>
+<td><strong>Lowest usable latency on NextUI</strong> with the internal codec (no USB interface): has anyone measured it?</td>
+<td>live playing</td>
+<td></td>
+</tr>
+<tr>
+<td>Q7</td>
+<td><strong>USB MIDI on NextUI</strong>: which projects get class-compliant MIDI working there, and is anything missing in NextUI's kernel/modules compared with KNULLI?</td>
+<td>controllers for NextUI paks</td>
+<td><a class="src" href="SOURCES.html#lgpt">[lgpt]</a> <a class="src" href="SOURCES.html#polybrik">[polybrik]</a> <a class="src" href="SOURCES.html#polytracker">[polytracker]</a></td>
+</tr>
+</tbody>
+</table></main></body></html>

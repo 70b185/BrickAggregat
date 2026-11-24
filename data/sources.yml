@@ -1,0 +1,53 @@
+# Where scripts/find_new.py looks for projects that are not catalogued yet (results go to state/NEW.md).
+#
+# searches:   GitHub repository searches (names, descriptions, topics). Repos pushed within `days` are reported.
+# topics:     GitHub topics, searched the same way.
+# storefront: the NextUI Pak Store's storefront file; every pak listed there and not catalogued is reported.
+
+days: 30
+
+searches:
+  - trimui brick
+  - trimui
+  - tg3040
+  - tg5040
+  - brick pro trimui
+  - nextui pak
+  - nextui
+  - minui pak
+  - knulli brick
+  - knulli synth
+  - knulli tracker
+  - nextui synth
+  - nextui tracker
+  - nextui music
+  - brick synth
+  - brick sampler
+  - brick sequencer
+  - brick tracker
+  - handheld tracker
+  - handheld synth
+  - handheld groovebox
+  - m8c handheld
+
+forks_too:            # these searches also list forks (NextUI and most CFWs are forks)
+  - trimui brick
+  - nextui
+  - knulli
+
+topics:
+  - trimui
+  - trimui-brick
+  - trimui-brick-pro
+  - nextui
+  - tg5040
+  - minui
+
+# which hits count: the name, description or topic must match this (case-insensitive); keeps out the unrelated
+# "NextUI" React library and the French word "minuit"
+must_match: "trimui|\\bbrick\\b|brick ?pro|tg[345]0[45]0|nextui.*(pak|trimui|handheld|cfw)|\\bpak\\b|minui.*pak|knulli"
+must_not_match: "minuit|heroui|nextui-org|react|tailwind|next\\.?js|vite|laravel|angular|lego"
+
+storefront:
+  repo: https://github.com/LoveRetro/nextui-pak-store
+  file: storefront_base.json

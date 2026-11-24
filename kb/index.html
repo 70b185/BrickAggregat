@@ -1,0 +1,65 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>Developing for the TrimUI Brick - Brick Aggregat</title>
+<style>body{margin:0;background:#fafafa;color:#141414;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){body{background:#0b0b0c;color:#ececee}a{color:#ececee}code,pre{background:#1e1e21!important}th,td{border-color:#26262a!important}}
+main{max-width:880px;margin:0 auto;padding:24px}a{color:#141414}code,pre{font:13px ui-monospace,Menlo,Consolas,monospace;background:#f0f0f0;padding:1px 4px}
+pre{padding:10px;overflow:auto}table{border-collapse:collapse;font-size:14px;display:block;overflow:auto}th,td{border:1px solid #e3e3e3;padding:4px 8px;text-align:left;vertical-align:top}
+.top{font:12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}.src{font-size:12px;vertical-align:super;text-decoration:none}</style></head><body><main><div class="top"><a href="../">Brick Aggregat</a> / <a href="index.html">Developing</a>
+ / <a href="https://github.com/70b185/trimui-music-apps/blob/main/knowledge/README.md">edit this page</a></div>
+<h1>Developing for the TrimUI Brick</h1>
+<p>What people building apps, instruments and firmwares for the Brick family have found out, collected from
+their public repositories. Everything here is second-hand: each fact names where it comes from (a key in braces, resolved
+in <a href="SOURCES.html">SOURCES.md</a>) and how sure it is. Read the original before you rely on a detail.</p>
+<p><strong>Ask a question</strong> in <a href="https://github.com/70b185/trimui-music-apps/discussions/categories/q-a">Discussions → Q&amp;A</a>.
+When the answer is settled, it moves into these pages with its source.</p>
+<h2>Pages</h2>
+<table>
+<thead>
+<tr>
+<th>You need</th>
+<th>Read</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The devices: SoC, screen, RAM, USB ports, buttons, LEDs, sysfs paths</td>
+<td><a href="devices.html">devices.md</a></td>
+</tr>
+<tr>
+<td>Which firmware does what: platform names, SDL, audio server, glibc, packaging</td>
+<td><a href="firmwares.html">firmwares.md</a></td>
+</tr>
+<tr>
+<td>Toolchains, SDKs, cross-compiling, deploying, testing without a device</td>
+<td><a href="building.html">building.md</a></td>
+</tr>
+<tr>
+<td>NextUI / MinUI paks: folder layout, <code>launch.sh</code>, environment, Pak Store</td>
+<td><a href="paks.html">paks.md</a></td>
+</tr>
+<tr>
+<td>Sound and MIDI: audio path, latency, USB audio, USB MIDI, real-time threads</td>
+<td><a href="audio-midi.html">audio-midi.md</a></td>
+</tr>
+<tr>
+<td>What nobody has settled yet</td>
+<td><a href="open-questions.html">open-questions.md</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Evidence tags</h2>
+<ul>
+<li><code>[hw]</code> reported working (or failing) on a real device by the project cited</li>
+<li><code>[src]</code> read from a firmware's or project's source code or config, not tested by us</li>
+<li><code>[doc]</code> stated in documentation or a spec sheet, without a test result</li>
+<li><code>[?]</code> sources disagree, or inferred; see <a href="open-questions.html">open-questions.md</a></li>
+</ul>
+<h2>The Brick family in one paragraph</h2>
+<p>The Brick (TG3040), Brick Hammer and Brick Pro (TG4040) share TrimUI's Allwinner A133P platform with the Smart
+Pro (TG5040): four Cortex-A53 cores, a PowerVR GE8300 GPU, 1 GB of RAM, an aarch64 glibc userland on a 4.9 vendor
+kernel, and a 1024×768 screen <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a>. NextUI calls this platform <code>tg5040</code> and ships one
+build for all of them <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>. The Smart Pro S (TG5050) is a different chip and needs its own builds.</p>
+<h2>Contributing knowledge</h2>
+<p>Open a pull request against the page, with a source for each fact (a repo file, a release note, an issue, or
+your own test with device, firmware version and date). Tag it. A failure on a real device is as useful as a
+success.</p></main></body></html>

@@ -1,0 +1,14 @@
+title: ""
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: An app you want, a shared library, a test someone should run, a collaboration.
+    validations:
+      required: true
+  - type: textarea
+    id: exists
+    attributes:
+      label: What exists already
+      description: Related entries in the index or the knowledge base, if you know any.

@@ -1,0 +1,57 @@
+name: Add a project
+description: Suggest a project for the TrimUI Brick, Brick Hammer or Brick Pro that the index does not list yet
+title: "Add: "
+labels: ["add project"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Repository
+      description: The GitHub URL of the source
+      placeholder: https://github.com/owner/name
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Make music (instrument, tracker, sequencer, sampler, effect)
+        - Listen (music, radio, podcast, audiobook player)
+        - Firmware or launcher
+        - Apps & tools
+        - Emulator
+        - Game or port
+        - Video & reading
+        - Look (theme, overlay, shader, LEDs)
+        - Developer (toolchain, library, research)
+        - Guide or companion app
+    validations:
+      required: true
+  - type: checkboxes
+    id: firmware
+    attributes:
+      label: Runs on
+      options:
+        - label: NextUI
+        - label: MinUI
+        - label: KNULLI
+        - label: muOS
+        - label: CrossMix
+        - label: spruce
+        - label: NX Redux
+        - label: Stock OS
+        - label: PortMaster
+  - type: textarea
+    id: what
+    attributes:
+      label: What it does
+      description: One or two sentences. Tested on which device?
+    validations:
+      required: true
+  - type: checkboxes
+    id: own
+    attributes:
+      label: Is it yours?
+      options:
+        - label: I am the author (we will use your wording for the note if you like)

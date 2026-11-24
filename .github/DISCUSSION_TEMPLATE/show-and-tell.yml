@@ -1,0 +1,21 @@
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: Show what you are building for the Brick: betas, demos, test builds, calls for testers.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository or download
+  - type: textarea
+    id: what
+    attributes:
+      label: What it is and what feedback you want
+    validations:
+      required: true
+  - type: checkboxes
+    id: index
+    attributes:
+      label: Index
+      options:
+        - label: Please add it to the Brick Aggregat index (needs a public repo; a licence file makes it show by default)

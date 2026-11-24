@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>NextUI and MinUI paks - Brick Aggregat</title>
+<style>body{margin:0;background:#fafafa;color:#141414;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){body{background:#0b0b0c;color:#ececee}a{color:#ececee}code,pre{background:#1e1e21!important}th,td{border-color:#26262a!important}}
+main{max-width:880px;margin:0 auto;padding:24px}a{color:#141414}code,pre{font:13px ui-monospace,Menlo,Consolas,monospace;background:#f0f0f0;padding:1px 4px}
+pre{padding:10px;overflow:auto}table{border-collapse:collapse;font-size:14px;display:block;overflow:auto}th,td{border:1px solid #e3e3e3;padding:4px 8px;text-align:left;vertical-align:top}
+.top{font:12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}.src{font-size:12px;vertical-align:super;text-decoration:none}</style></head><body><main><div class="top"><a href="../">Brick Aggregat</a> / <a href="index.html">Developing</a>
+ / <a href="https://github.com/70b185/trimui-music-apps/blob/main/knowledge/paks.md">edit this page</a></div>
+<h1>NextUI and MinUI paks</h1>
+<p>A pak is a folder ending in <code>.pak</code> with a <code>launch.sh</code> in it <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Kind</th>
+<th>Where</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tool</td>
+<td><code>Tools/tg5040/&lt;Name&gt;.pak/launch.sh</code></td>
+<td><code>Tools/tg5040/Grampus.pak/</code></td>
+</tr>
+<tr>
+<td>Emulator</td>
+<td><code>Emus/tg5040/&lt;TAG&gt;.pak/launch.sh</code></td>
+<td>ROMs in <code>Roms/Game Boy (GB)/</code> start <code>GB.pak</code></td>
+</tr>
+</tbody>
+</table>
+<p><code>tg5040</code> covers the Brick, Brick Hammer, Brick Pro and Smart Pro; <code>tg5050</code> is the Smart Pro S; <code>h700</code> the Anbernic
+RG XX devices <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>. Never put community paks in <code>.system/</code>: updates replace it.</p>
+<h2>What <code>launch.sh</code> gets</h2>
+<p>NextUI passes <code>$PLATFORM</code>, <code>$DEVICE</code>, <code>$SDCARD_PATH</code>, <code>$SYSTEM_PATH</code>, <code>$LOGS_PATH</code>, <code>$USERDATA_PATH</code>, and for
+emulators <code>$EMU_TAG</code>, <code>$ROM</code>, <code>$BIOS_PATH</code>, <code>$SAVES_PATH</code>, <code>$CHEATS_PATH</code>, <code>$CORES_PATH</code> <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>.
+Write logs to <code>$LOGS_PATH/&lt;TAG&gt;.txt</code> (users find them under <code>.userdata/&lt;platform&gt;/logs/</code>).</p>
+<h2>Behaviour worth knowing</h2>
+<ul>
+<li><strong>CPU governor</strong>: NextUI sets <code>performance</code> before a pak and resets it after. A music player or menu should
+  switch to <code>auto</code> or <code>powersave</code> through <code>$SYSTEM_PATH/bin/governor.sh</code>; an instrument that needs steady
+  timing may want to stay on <code>performance</code> <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>.</li>
+<li><strong>Brightness and volume</strong>: some standalone programs reset them; <code>syncsettings.elf</code> restores the global
+  settings around a launched binary <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>.</li>
+<li><strong>Standalone programs</strong> do not get resume, quicksave or NextUI's in-game menu; say so in your README <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>.</li>
+</ul>
+<h2>Getting into the Pak Store</h2>
+<p>The Pak Store (bundled with NextUI) lists paks from its storefront file. To be listed <a class="src" href="SOURCES.html#pak-store">[pak-store]</a>:</p>
+<ol>
+<li>Put a <code>pak.json</code> in the repo root with <code>name</code>, <code>version</code>, <code>type</code>, <code>description</code>, <code>author</code>, <code>repo_url</code>,
+   <code>release_filename</code> and <code>platforms</code> (e.g. <code>["tg5040"]</code>).</li>
+<li>Zip the pak's contents (not the folder) and attach it to a GitHub release.</li>
+<li>Tag the release <code>vX.Y.Z</code> matching <code>version</code> in <code>pak.json</code>; the asset name must match <code>release_filename</code>.</li>
+<li>Ask for the pak to be added to the storefront (see the Pak Store README).</li>
+</ol>
+<p>This index reads the storefront too: a pak listed there shows a "Pak Store" chip here.</p>
+<h2>Further reading</h2>
+<ul>
+<li>Jose Diaz-Gonzalez's guide to writing a pak, linked from the NextUI docs <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a></li>
+<li>Handkit's <code>hk_add_pak()</code> builds a pak folder from CMake <a class="src" href="SOURCES.html#handkit">[handkit]</a></li>
+</ul></main></body></html>

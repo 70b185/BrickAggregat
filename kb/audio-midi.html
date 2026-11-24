@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>Sound and MIDI - Brick Aggregat</title>
+<style>body{margin:0;background:#fafafa;color:#141414;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){body{background:#0b0b0c;color:#ececee}a{color:#ececee}code,pre{background:#1e1e21!important}th,td{border-color:#26262a!important}}
+main{max-width:880px;margin:0 auto;padding:24px}a{color:#141414}code,pre{font:13px ui-monospace,Menlo,Consolas,monospace;background:#f0f0f0;padding:1px 4px}
+pre{padding:10px;overflow:auto}table{border-collapse:collapse;font-size:14px;display:block;overflow:auto}th,td{border:1px solid #e3e3e3;padding:4px 8px;text-align:left;vertical-align:top}
+.top{font:12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}.src{font-size:12px;vertical-align:super;text-decoration:none}</style></head><body><main><div class="top"><a href="../">Brick Aggregat</a> / <a href="index.html">Developing</a>
+ / <a href="https://github.com/70b185/trimui-music-apps/blob/main/knowledge/audio-midi.md">edit this page</a></div>
+<h1>Sound and MIDI</h1>
+<p>For instruments, trackers, samplers and players. The most detailed public source is <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>
+(sydilaxe's notes from their muOS apps, with a shared C library, <a class="src" href="SOURCES.html#brickio">[brickio]</a>); this page summarises it and adds what
+other projects report. Read the sources for code.</p>
+<h2>The audio path per firmware</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Stock, NextUI, MinUI, CrossMix</th>
+<th>muOS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Server</td>
+<td>ALSA directly <code>[src]</code></td>
+<td>PipeWire + WirePlumber <code>[src]</code></td>
+</tr>
+<tr>
+<td>Built-in card</td>
+<td><code>audiocodec</code> (card 0)</td>
+<td>same card, as a PipeWire sink</td>
+</tr>
+<tr>
+<td>Speaker</td>
+<td>mono</td>
+<td>mono</td>
+</tr>
+<tr>
+<td>Headphones</td>
+<td>3.5 mm stereo</td>
+<td>3.5 mm stereo</td>
+</tr>
+<tr>
+<td>USB audio</td>
+<td>an ALSA card</td>
+<td>a PipeWire sink</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>. On muOS, log <code>SDL_GetCurrentAudioDriver()</code> at start to know whether SDL went through PipeWire
+or ALSA's PipeWire plugin.</p>
+<p><strong>USB audio on NextUI</strong>: one project found that the stock audio library pins ALSA's <code>default</code> device to the internal
+codec (and rewrites <code>hw:0,0</code> to <code>hw:1,0</code>), so SDL never reaches a USB card. Their fix: find the USB card in
+<code>/proc/asound/cards</code> in <code>launch.sh</code>, then point SDL straight at it with <code>SDL_AUDIODRIVER=alsa</code> <code>[hw]</code> <a class="src" href="SOURCES.html#trimui-fixes">[trimui-fixes]</a>.
+SideB prefers a USB DAC whenever the system exposes it as an ALSA card <code>[hw]</code> <a class="src" href="SOURCES.html#sideb">[sideb]</a>.</p>
+<h2>Latency and buffers</h2>
+<ul>
+<li>Opening a USB interface <strong>directly through <code>plughw:CARD=&lt;id&gt;</code></strong> (skipping <code>dmix</code>/<code>dsnoop</code> and PipeWire) took
+  latency from about 90 ms to about 25 ms in the sydilaxe apps <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>; full duplex at 64 frames gave
+  about 4 ms round trip <code>[hw]</code> <a class="src" href="SOURCES.html#brickio">[brickio]</a>.</li>
+<li>Buffers that worked: 512 frames at 48 kHz (~10.7 ms) for synths, 1024 for stream decoding; brickio starts at
+  256 and grows only after dropouts <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>.</li>
+<li>Engines pick one rate and resample on load: brickrack and TimeATronics' player run at <strong>48 kHz</strong> <a class="src" href="SOURCES.html#brickrack">[brickrack]</a>
+  <a class="src" href="SOURCES.html#tm-player">[tm-player]</a>; Ambience converts everything to 44.1 kHz stereo <a class="src" href="SOURCES.html#ambience">[ambience]</a>.</li>
+</ul>
+<h2>Real-time habits that paid off</h2>
+<p>All <code>[hw]</code> in <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>:</p>
+<ul>
+<li>Render on your own thread into a ring buffer; let the SDL callback only copy (its timing is uneven on PipeWire).</li>
+<li><code>SCHED_FIFO</code> for the render thread (they use 45; MIDI 40), switchable by an environment variable.</li>
+<li>Pin threads with <code>pthread_setaffinity_np</code> (voices on core 2, effects on core 3, leave 0–1 to UI and system).</li>
+<li><code>mlockall(MCL_CURRENT | MCL_FUTURE)</code> so audio never waits on a page fault.</li>
+<li>Flush denormals to zero on every audio thread (set FZ in AArch64's FPCR); reverb tails otherwise cost many times
+  the CPU.</li>
+<li>Set the governor to <code>performance</code> with all four cores online while the instrument runs; restore it on exit.</li>
+<li>Watch the callback rate; if a driver gets stuck feeding at half speed, reopen the device.</li>
+</ul>
+<h2>USB ports</h2>
+<ul>
+<li>On the Brick the <strong>top USB-C port is the host</strong> (MIDI controllers, audio interfaces, hubs); it supplies about
+  500 mA, so use a powered hub for hungry devices <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>.</li>
+<li>The <strong>bottom port</strong> charges and can be a USB device (gadget). The kernel has no USB audio or USB MIDI gadget
+  function; a FunctionFS probe bound one isochronous endpoint in one direction but not one each way <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>.
+  OZMA's README nevertheless describes the bottom port as "sound card + MIDI port" for an iPad <code>[doc]</code> <a class="src" href="SOURCES.html#ozma">[ozma]</a>.
+  How is listed in <a href="open-questions.html">open-questions.md</a>.</li>
+</ul>
+<h2>USB MIDI</h2>
+<ul>
+<li>ALSA raw MIDI: scan <code>/dev/snd/midiC*D*</code>, open <code>O_RDWR | O_NONBLOCK</code>, rescan every second or two for hot-plug,
+  read on a thread of its own <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>.</li>
+<li>The ALSA sequencer works too (pocketpads uses it through ctypes, untested with real hardware at the time) <a class="src" href="SOURCES.html#pocketpads">[pocketpads]</a>.</li>
+<li>Clock out: 24 pulses per quarter note plus START/STOP, timed to when the sound is heard (add about one buffer of
+  output latency) <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>.</li>
+<li>mgba-midisync turns the Game Boy link port into USB MIDI clock for LSDj and FMS <code>[hw]</code> <a class="src" href="SOURCES.html#mgba-midisync">[mgba-midisync]</a>.</li>
+<li>PolyTracker (KNULLI) supports class-compliant USB MIDI and USB audio out on the host port; PolyBrik (NextUI) does
+  not yet <code>[doc]</code> <a class="src" href="SOURCES.html#polytracker">[polytracker]</a> <a class="src" href="SOURCES.html#polybrik">[polybrik]</a>.</li>
+<li>Little Piggy Tracker's MIDI depends on kernel support per firmware <code>[doc]</code> <a class="src" href="SOURCES.html#lgpt">[lgpt]</a>.</li>
+</ul>
+<h2>Syncing without USB</h2>
+<p>HI5 and Columbia Street put the mix in mono on one side of the headphone jack and clock pulses on the other, to
+drive a Pocket Operator or Volca <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a>.</p>
+<h2>Recording</h2>
+<ul>
+<li>M8Tape captures the Dirtywave M8's 24-channel USB audio with <code>arecord</code> (24-bit, 44.1 kHz) and splits each take
+  into 12 stereo files <code>[hw]</code> <a class="src" href="SOURCES.html#m8tape">[m8tape]</a>.</li>
+<li>On the Smart Pro, the built-in microphone records mono 16-bit 44.1 kHz; the default "Line In" source is noisy
+  on the right channel <code>[hw]</code> <a class="src" href="SOURCES.html#picotracker-trimui">[picotracker-trimui]</a>. Whether the same holds on the Brick: not reported.</li>
+</ul></main></body></html>

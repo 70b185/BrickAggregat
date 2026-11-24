@@ -1,0 +1,320 @@
+# Repos the search found that are NOT in the catalogue, each with a one-line reason.
+# scripts/find_new.py leaves these out of state/NEW.md. Remove a line to have a repo reported again.
+
+ignore:
+- repo: https://github.com/4fuu/Apostrophe
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/4fuu/NextUI
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/70b185/trimui-music-apps
+  reason: this repository
+- repo: https://github.com/abhishek-rawal/MustardOS-Flat
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/AeolusUX/actionpi-knulli
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/ahmadteeb/EmuDrop
+  reason: downloads ROMs from third-party sites (out of scope)
+- repo: https://github.com/AlekseyMalykh/GrainBernik
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/AleWiccan/Pocket-Native-TrimuiSP
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/AleWiccan/Poke-Anil-Trimui
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/AleWiccan/PokemonReloaded-Trimui
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/AleWiccan/TrimuiGen2Recomp
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/AleWiccan/TSP-Apps
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/AlexMC/plateway
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/aliencharm/GrainBernic-RG35XX-Plus
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/AlphaGoob/MinUI-Miyoo-Mini-Plus
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/AndrePianco/minish-cap-port-trimui-knulli
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/aniketmore311/transmission-spruceos
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/antipasta/retort
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/antroma47/MENU-WII_LIKE-TRIMUI_BRICK-ALPHA1
+  reason: no readme or description to tell what it is
+- repo: https://github.com/arthurmarquesribeiro27-ux/ruffle-trimui-builder
+  reason: no readme or description to tell what it is
+- repo: https://github.com/AubinF/jellyfin-rg35xx-pro
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/augustommarques/Trimui
+  reason: no readme or description to tell what it is
+- repo: https://github.com/Axelinhooh/Led4TspS
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/Axelinhooh/TermoTri50
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/Bachtd1/TSPS_Ultimate_Pro_Luxury_AIO
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/belljeffj/pokedaisy-h700
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/blackfyre/mini-spooder
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/blanck/trimui-teleop
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/boomchu-123/slot-flip
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/brenonsc/RomManager4Spruce
+  reason: downloads ROMs from third-party sites (out of scope)
+- repo: https://github.com/carroarmato0/trimui-smart-pro-s-firmware
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/casualducko/MinUIPlus
+  reason: no readme or description to tell what it is
+- repo: https://github.com/CatDadJynx/Descent-Trimui-Model-S
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/CheemaOTB/gen1recomp-trimui
+  reason: no readme or description to tell what it is
+- repo: https://github.com/cixzhang/brick-apps
+  reason: personal setup or collection, nothing reusable
+- repo: https://github.com/clasesethf/minuia
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/cobaltgit/Quark
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/coffeecore/trimui-model-s-toolchain
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/crostow/TrimUI-DevTools-v1.0
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/DankMiimer/PKForge-ARM-LINUX
+  reason: general ARM64/PortMaster port, not specific to the Brick
+- repo: https://github.com/dedicated-os/dedicated-model-s
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/devloom1024/EmuDrop
+  reason: downloads ROMs from third-party sites (out of scope)
+- repo: https://github.com/didicofb/trimui_smart_pro
+  reason: no readme or description to tell what it is
+- repo: https://github.com/DiehlWierce/poke-survivor-ru-pm
+  reason: general ARM64/PortMaster port, not specific to the Brick
+- repo: https://github.com/DiogoBr127/Terraria-Trimui
+  reason: no readme or description to tell what it is
+- repo: https://github.com/dopazz/knulli_dopaz
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/duyquang6/truepod-release
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/Edwinzynx/minuiapp
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/ekungurov/GrainBernik
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/enryutddxd/Tenkaichi3Decomp-TrimUI-R36S
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/enryutddxd/trimui-youtube
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/fchavonet/bash-minui-rg40xxv-rgb_settings_tool
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/feiyunwill/halo-ce-anbernic-rg35xx
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/floracao111/trimui-brick-project
+  reason: no readme or description to tell what it is
+- repo: https://github.com/fnune/kyaraben
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/game-de-it/plumOS-TRIMUI-S
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/geniot/tsp-rubik
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/GERALTdTATUI/install-trimui_inputd.pak
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/GERALTdTATUI/Trimui_Inputd
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/gmnmedeiros/trimui-gamepad
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/GuillemRoca/spruceOS
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/h20hardiman/TRIMUI-KNULLI-SCARAB-DECORATIONS
+  reason: no readme or description to tell what it is
+- repo: https://github.com/haokiet97/kv-trimui
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/haokiet97/trimui-gavhub-release
+  reason: no readme or description to tell what it is
+- repo: https://github.com/hendkai/poke-survivor-ru-pm
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/hhzx/BJFSJ
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/HigloDev/ai-agent-terminal-public
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/higorhgon/NextUI
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/hoveydev/TRIMUI
+  reason: no readme or description to tell what it is
+- repo: https://github.com/hsclionel/nx-handheld-localization-cn
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/infinitechris/trimuisp-podcastplayer
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/isalin/moonlight-tsp
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/jkocontreras/GrainBernic-RG35XX-Plus
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/johnnylowmango/nextui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/jyav-19/MehSlot-BrickPro
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/kablowkaboom0-sys/ZUZU2P
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/kenfabioh/trimui-drive-browser
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/khulnasoft/nextui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/kingbri1/nextui-tailscale
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/kirillabakharev-rgb/minui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/knulli-cfw/toolchains
+  reason: no longer developed (last change 2024)
+- repo: https://github.com/LANMIN-X/trimui-inputd-proxy
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/LeonEstrak/minerva-downloader
+  reason: downloads ROMs from third-party sites (out of scope)
+- repo: https://github.com/Logarythms/nextui-portmaster-h700
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/looke1987/minuix-updates
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/LooseCannon0/gkdpixel2_MinUI
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/LoveRetro/NextUI-nightly
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/Mani007/nextui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/marcellduplessis/minui_plus
+  reason: no readme or description to tell what it is
+- repo: https://github.com/matitika/slot-brick
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/matweew/mpv-tsp
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/metalpapa/diablo2-trimui
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/MidG971/trimui_smart_pro_s
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/MINUISONG/MINUISONG.github.io
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/mohammadsyuhada/nx-redux
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/MootComb/nextui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/murderhire/nextui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/MustardOS/frontend
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/N3o-Qwerty/halo-ce-anbernic-rg35xx
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/NachitoE/overlyder-trimui
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/nanL/nextui-fontleroy
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/Nick6489/NGCrossmix
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/NiCo-dev123/Apotris-smart-pro-s
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/Nivek-GP/MinUI-Miyoo-Flip-Enhanced
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/Nivek-GP/Portmaster-MinUI-Miyoo-Flip
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/nlkcodenew/android-trimui-store
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/NukeBomB3000/minui-rg353m
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/officialjonot/trimui
+  reason: no readme or description to tell what it is
+- repo: https://github.com/oscarcm1/nextui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/PandaQuQ/nextui-updater-pak-CN
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/pmsobrado/spruceOS
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/pocketforge-os/recovery
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/pvaibhav/NextUI
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/rcdev1987/nextui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/rusaakkmods/trimui-brick-backing
+  reason: no readme or description to tell what it is
+- repo: https://github.com/samusfacepalm/MinUI-Amber
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/Santuybe/Otokix
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/SDP1727/trimui-brick-emu-winarm
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/SilverCrow2323/Twinsanity-Rintromped-H700-Edition
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/SongNoin/minui
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/star0081/D-TRIMUI_DEAD_SPACE_PORTMASTER
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/D-TRIMUI_Galaxy_ON-_FIRE-_2
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/D-TRIMUI_led_controll
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/D-TRIMUI_Mass_Effect_Infiltrator
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/D-TRIMUI_NFSMW_PORTMASTER
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/D-TRIMUI_Samurai_II_Vengeance
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/D-TRIMUI_Scrapper
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/D-TRIMUI_SHADOWGUN
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/star0081/radiant-defense-trimui
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/StefanAngelovski/Firefox-Trimui
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/StefanAngelovski/Plunder
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/stefman69/muOS-Trimui-Smart-Pro-Stick-Fix
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/stoicrogue/minui-manager
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/stv-os-android/stv-android-releases
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/Sundownersport/nextui-base-jumper
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/syach1/karipap
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/taptin13/trimui-brick-emu
+  reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/ThatFatUglyCat/spacecadetpinball-miyoomini-minui
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/TheDecade/GGrain
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/ToastedFrog2/hakux-trimui-smart-pro
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/ToastedFrog2/NVForever-TrimUI
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/trimui/ota
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/troyvnit/retroy-releases
+  reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/Ultramarine-Linux/ultramarine-handheld
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/ut-slayer/mesa-panvk-g57
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/vampirekun/retro-chiaki
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/Vetal82/NFSMW-TrimUI
+  reason: no readme or description to tell what it is
+- repo: https://github.com/Vetal82/pocket-native-trimui
+  reason: no readme or description to tell what it is
+- repo: https://github.com/Vetal82/trimui-citra2018-arm64
+  reason: no readme or description to tell what it is
+- repo: https://github.com/Vidnez/MaxUI
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/vnvinhbc/trimuiBrick-freej2me.7z
+  reason: no readme or description to tell what it is
+- repo: https://github.com/W1nyu/minUI
+  reason: not about TrimUI (name match only)
+- repo: https://github.com/weimingtom/cocos2d-x-2.2.6-miyoo-a30
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/yolk00/pocketui-es-de
+  reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/yousafc3/gen1recomp-trimui
+  reason: no readme or description to tell what it is
+- repo: https://github.com/YuJinLei/vmrp-tsp
+  reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/zhangmq/minarch-gl
+  reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/ZT-Alonzo/trimui-device
+  reason: no readme or description to tell what it is

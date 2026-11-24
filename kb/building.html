@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>Building, deploying, testing - Brick Aggregat</title>
+<style>body{margin:0;background:#fafafa;color:#141414;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){body{background:#0b0b0c;color:#ececee}a{color:#ececee}code,pre{background:#1e1e21!important}th,td{border-color:#26262a!important}}
+main{max-width:880px;margin:0 auto;padding:24px}a{color:#141414}code,pre{font:13px ui-monospace,Menlo,Consolas,monospace;background:#f0f0f0;padding:1px 4px}
+pre{padding:10px;overflow:auto}table{border-collapse:collapse;font-size:14px;display:block;overflow:auto}th,td{border:1px solid #e3e3e3;padding:4px 8px;text-align:left;vertical-align:top}
+.top{font:12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}.src{font-size:12px;vertical-align:super;text-decoration:none}</style></head><body><main><div class="top"><a href="../">Brick Aggregat</a> / <a href="index.html">Developing</a>
+ / <a href="https://github.com/70b185/trimui-music-apps/blob/main/knowledge/building.md">edit this page</a></div>
+<h1>Building, deploying, testing</h1>
+<h2>Toolchains</h2>
+<table>
+<thead>
+<tr>
+<th>Toolchain</th>
+<th>What it is</th>
+<th>Use it for</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TrimUI SDK (TG5040)</td>
+<td>TrimUI's own SDK and cross toolchain for the platform</td>
+<td>the vendor baseline</td>
+<td><a class="src" href="SOURCES.html#trimui-sdk">[trimui-sdk]</a></td>
+</tr>
+<tr>
+<td>NextUI <code>tg5040-toolchain</code></td>
+<td>Docker image; <code>make shell</code> drops into a container with the toolchain in <code>/opt/</code> and your <code>./workspace</code> mounted</td>
+<td>building NextUI and paks the NextUI way</td>
+<td><a class="src" href="SOURCES.html#nextui-toolchain">[nextui-toolchain]</a></td>
+</tr>
+<tr>
+<td>MinUI <code>union-tg5040-toolchain</code></td>
+<td>MinUI's Docker image, based on TrimUI's</td>
+<td>MinUI-style builds</td>
+<td><a class="src" href="SOURCES.html#minui-toolchain">[minui-toolchain]</a></td>
+</tr>
+<tr>
+<td>Handkit</td>
+<td>pinned Zig/Clang 19 toolchain for aarch64 glibc 2.33, SDL3 with PowerVR/Mali backends, helper library, <code>.pak</code> packaging; no Docker</td>
+<td>native SDL3 apps</td>
+<td><a class="src" href="SOURCES.html#handkit">[handkit]</a></td>
+</tr>
+<tr>
+<td>zig + SDL2 stub</td>
+<td>cross-compile with zig, link against a stub of SDL2 and use the firmware's SDL2 at run time</td>
+<td>apps for stock and muOS from one binary</td>
+<td><a class="src" href="SOURCES.html#tbr-build">[tbr-build]</a></td>
+</tr>
+<tr>
+<td><code>minui-toolchain-images</code></td>
+<td>builds MinUI toolchain images</td>
+<td>MinUI devices in general</td>
+<td><a class="src" href="SOURCES.html#josegonzalez-toolchains">[josegonzalez-toolchains]</a></td>
+</tr>
+</tbody>
+</table>
+<p>Building NextUI itself: Docker for device builds, a native <code>desktop</code> platform for fast UI work on the host.
+arm64 hosts (Apple Silicon) are the least trouble; x86_64 hosts have hit missing arm64 libraries in Docker <a class="src" href="SOURCES.html#nextui-build">[nextui-build]</a>.</p>
+<h2>UI libraries for paks</h2>
+<ul>
+<li><strong>Apostrophe</strong>: header-only C UI toolkit for NextUI paks <a class="src" href="SOURCES.html#apostrophe">[apostrophe]</a></li>
+<li><strong>Gabagool</strong>: Go UI library for paks (used by the Pak Store) <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a></li>
+<li><strong>Dot</strong>: the C + SDL2 UI shared by the Kino, Musicdisk, Tuner and Speed paks <a class="src" href="SOURCES.html#dotui">[dotui]</a></li>
+<li><strong>minui-list / minui-keyboard / minui-presenter / minui-progress / minui-detail</strong>: ready-made screens for
+  shell-script paks <a class="src" href="SOURCES.html#minui-shell-tools">[minui-shell-tools]</a></li>
+</ul>
+<h2>Getting it onto the device</h2>
+<ul>
+<li><strong>USB + adb</strong>: Handkit's <code>tools/handkit deploy</code> installs a pak over USB with adb enabled on the handheld <a class="src" href="SOURCES.html#handkit">[handkit]</a>.
+  If adb stops answering, the Restart ADB pak brings it back without a reboot (needs BaseOS).</li>
+<li><strong>SSH</strong>: the stock firmware 1.1.1 added SSH <a class="src" href="SOURCES.html#trimui-fw-brick">[trimui-fw-brick]</a>; on NextUI the Toggle Native SSH pak or the
+  Dropbear pak start a server.</li>
+<li><strong>SD card</strong>: copy the <code>.pak</code> folder to <code>Tools/tg5040/</code> (not into <code>.system/</code>, which updates replace) <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>.</li>
+</ul>
+<h2>Testing without a device</h2>
+<ul>
+<li><strong>trimui-brick-emu</strong> runs the Brick's stock system on a Linux PC <a class="src" href="SOURCES.html#brick-emu">[brick-emu]</a>.</li>
+<li><strong>NextUI's <code>desktop</code> platform</strong> runs NextUI on the host for UI work <a class="src" href="SOURCES.html#nextui-build">[nextui-build]</a>.</li>
+<li><strong>Handkit's device test</strong> pak runs an input self-test and a rendering demo and writes a report you can attach
+  to an issue <a class="src" href="SOURCES.html#handkit">[handkit]</a>.</li>
+</ul></main></body></html>

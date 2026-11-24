@@ -1,0 +1,34 @@
+title: ""
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Development questions about the TrimUI Brick family: toolchains, paks, audio and MIDI, input, LEDs, firmwares.
+        Check the [knowledge base](https://70b185.github.io/trimui-music-apps/kb/) first; settled answers go there with
+        their source.
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      multiple: true
+      options: [Brick, Brick Hammer, Brick Pro, Smart Pro, other]
+    validations:
+      required: true
+  - type: dropdown
+    id: firmware
+    attributes:
+      label: Firmware
+      multiple: true
+      options: [NextUI, MinUI, KNULLI, muOS, CrossMix, spruce, NX Redux, Stock OS, other]
+  - type: input
+    id: version
+    attributes:
+      label: Firmware version
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What you are trying to do, what you tried, what happened (logs help).
+    validations:
+      required: true

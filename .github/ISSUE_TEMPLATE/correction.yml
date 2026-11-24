@@ -1,0 +1,24 @@
+name: Correct an entry
+description: A category, firmware, device or note is wrong, or a project moved
+title: "Fix: "
+labels: ["correction"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: The project name or its repo URL
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong, and what is right
+      description: Version, licence, last commit and stars come from the repo itself and update every three days.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link that shows it (README, release, your own test with device and firmware)

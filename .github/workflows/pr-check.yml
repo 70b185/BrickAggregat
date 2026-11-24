@@ -1,0 +1,28 @@
+name: pr-check
+
+# Feedback on every pull request: data checks and a rebuild (no network). Read-only.
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore: ["state/**", "export/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml markdown
+      - name: Validate (fields, vocabularies, duplicates, source keys, no binaries)
+        run: python3 scripts/validate.py
+      - name: Rebuild and list generated files that changed
+        run: |
+          python3 scripts/build.py
+          { echo "### Brick Aggregat checks"; echo; echo '```'; git status --short | head -40; echo '```';
+            echo "Generated files are refreshed on main by the update workflow; committing them in the PR is optional."; } >> "$GITHUB_STEP_SUMMARY"

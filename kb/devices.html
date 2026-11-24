@@ -1,0 +1,170 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>The devices - Brick Aggregat</title>
+<style>body{margin:0;background:#fafafa;color:#141414;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){body{background:#0b0b0c;color:#ececee}a{color:#ececee}code,pre{background:#1e1e21!important}th,td{border-color:#26262a!important}}
+main{max-width:880px;margin:0 auto;padding:24px}a{color:#141414}code,pre{font:13px ui-monospace,Menlo,Consolas,monospace;background:#f0f0f0;padding:1px 4px}
+pre{padding:10px;overflow:auto}table{border-collapse:collapse;font-size:14px;display:block;overflow:auto}th,td{border:1px solid #e3e3e3;padding:4px 8px;text-align:left;vertical-align:top}
+.top{font:12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}.src{font-size:12px;vertical-align:super;text-decoration:none}</style></head><body><main><div class="top"><a href="../">Brick Aggregat</a> / <a href="index.html">Developing</a>
+ / <a href="https://github.com/70b185/trimui-music-apps/blob/main/knowledge/devices.md">edit this page</a></div>
+<h1>The devices</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Brick / Brick Hammer</th>
+<th>Brick Pro</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Model</td>
+<td>TG3040 <a class="src" href="SOURCES.html#trimui-fw-brick">[trimui-fw-brick]</a></td>
+<td>TG4040 <a class="src" href="SOURCES.html#trimui-fw-brickpro">[trimui-fw-brickpro]</a></td>
+</tr>
+<tr>
+<td>SoC</td>
+<td>Allwinner A133P, 4× Cortex-A53, PowerVR GE8300 <code>[doc]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+<td>same <code>[doc]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Clock</td>
+<td>sold as 1.8 GHz; muOS configures 408 MHz–2.0 GHz <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+<td>same</td>
+</tr>
+<tr>
+<td>RAM / storage</td>
+<td>1 GB, 8 GB eMMC + microSD <code>[doc]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+<td>same <code>[doc]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Screen</td>
+<td>3.2" IPS, 1024×768, 60 Hz <code>[doc]</code></td>
+<td>3.95" IPS, 1024×768, 60 Hz <code>[doc]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Battery</td>
+<td>3000 mAh <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+<td>5000 mAh <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Sticks</td>
+<td>none</td>
+<td>two Hall-effect sticks, clickable <code>[doc]</code></td>
+</tr>
+<tr>
+<td>Extra buttons</td>
+<td>F1, F2, side switch, MENU</td>
+<td>as Brick, plus HOME, L3, R3 <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Addressable LEDs</td>
+<td>14 RGB (measured on a Brick) <code>[hw]</code> <a class="src" href="SOURCES.html#ledoh">[ledoh]</a></td>
+<td>22 used <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Speaker</td>
+<td>mono <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+<td>mono <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td>Audio out</td>
+<td>3.5 mm headphone jack</td>
+<td>3.5 mm headphone jack</td>
+</tr>
+<tr>
+<td>USB</td>
+<td>two USB-C: top = host, bottom = charging and USB device (gadget) <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+<td>which port is the host: <a href="open-questions.html">open</a></td>
+</tr>
+<tr>
+<td>Kernel</td>
+<td>Linux 4.9.191, Allwinner BSP <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a></td>
+<td>same</td>
+</tr>
+</tbody>
+</table>
+<p>The Brick Hammer is a Brick variant: muOS treats it as the same board (<code>tui-brick</code>) and the sydilaxe apps ship one
+build for both <code>[src]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>. Its LED layout is not yet confirmed to match.</p>
+<h2>Telling them apart at run time</h2>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Brick / Hammer</th>
+<th>Brick Pro</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>$DEVICE</code> on the stock system</td>
+<td><code>brick</code></td>
+<td><code>brickpro</code></td>
+<td><a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td><code>/opt/muos/device/config/board/name</code> on muOS</td>
+<td><code>tui-brick</code></td>
+<td><code>tui-brick-pro</code></td>
+<td><a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a></td>
+</tr>
+<tr>
+<td><code>$PLATFORM</code> in a NextUI pak</td>
+<td><code>tg5040</code></td>
+<td><code>tg5040</code></td>
+<td><a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a></td>
+</tr>
+</tbody>
+</table>
+<h2>Useful paths (all <code>[src]</code> or <code>[hw]</code> as noted in the source)</h2>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>What</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/sys/class/led_anim/</code></td>
+<td>RGB LEDs (zones, effects, per-LED frames); details in <a class="src" href="SOURCES.html#tbr-leds">[tbr-leds]</a></td>
+</tr>
+<tr>
+<td><code>/sys/class/gpio/gpio227/value</code></td>
+<td>rumble motor</td>
+</tr>
+<tr>
+<td><code>/sys/class/power_supply/axp2202-battery/capacity</code></td>
+<td>battery percent</td>
+</tr>
+<tr>
+<td><code>/sys/class/thermal/thermal_zone0/temp</code></td>
+<td>SoC temperature (milli-°C)</td>
+</tr>
+<tr>
+<td><code>/sys/devices/system/cpu/cpu*/cpufreq/scaling_governor</code></td>
+<td>CPU governor</td>
+</tr>
+<tr>
+<td><code>/sys/class/graphics/fb0/blank</code></td>
+<td>screen blank (4 off, 0 on)</td>
+</tr>
+<tr>
+<td><code>/dev/snd/midiC*D*</code></td>
+<td>USB MIDI ports (ALSA raw MIDI)</td>
+</tr>
+<tr>
+<td><code>/proc/asound/cards</code></td>
+<td>sound cards; USB ones say <code>USB-Audio</code></td>
+</tr>
+</tbody>
+</table>
+<p>All from <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>, which lists more (Wi-Fi, charger, colour temperature) with a source per line.</p>
+<h2>Controller</h2>
+<p>On the stock system the built-in controller ("TRIMUI Player1") reports as an Xbox 360 pad (USB <code>045e:028e</code>), so
+SDL maps it without a custom mapping; F1, F2 and HOME need extra handling <code>[src]</code> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a>. muOS uses its
+own input daemon with different button numbers ("muOS-Keys") <code>[src]</code> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a>. A user-space input daemon
+for the TrimUI family is in <a class="src" href="SOURCES.html#trimui-inputd">[trimui-inputd]</a>. Per-firmware button numbers: <a class="src" href="SOURCES.html#tbr-input">[tbr-input]</a>.</p>
+<h2>Graphics</h2>
+<p>The GPU is driven through the vendor fbdev driver with no window system; EGL takes native window <code>0</code> <code>[src]</code>.
+OpenGL ES and Vulkan (<code>VK_KHR_display</code>) both ran on a Brick Pro under NextUI <code>[hw]</code> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a>.</p></main></body></html>

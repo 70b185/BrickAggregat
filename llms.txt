@@ -1,0 +1,17 @@
+# Brick Aggregat
+
+> Index of free and open-source software for the TrimUI Brick, Brick Hammer and Brick Pro: firmwares, music apps, emulators, tools, plus a developer knowledge base.
+
+## Data
+- [All projects as JSON](https://70b185.github.io/trimui-music-apps/export/projects.json): one object per project, with licence, activity, firmwares
+- [Catalogue as Markdown](https://github.com/70b185/trimui-music-apps/tree/main/catalog)
+
+## Developing for the Brick
+- [Developing for the TrimUI Brick](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/README.md)
+- [Sources](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/SOURCES.md)
+- [Sound and MIDI](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/audio-midi.md)
+- [Building, deploying, testing](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/building.md)
+- [The devices](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/devices.md)
+- [Firmwares, as a developer sees them](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/firmwares.md)
+- [Open questions](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/open-questions.md)
+- [NextUI and MinUI paks](https://github.com/70b185/trimui-music-apps/blob/main/knowledge/paks.md)

@@ -1,0 +1,120 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="data:,"><title>Firmwares, as a developer sees them - Brick Aggregat</title>
+<style>body{margin:0;background:#fafafa;color:#141414;font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+@media(prefers-color-scheme:dark){body{background:#0b0b0c;color:#ececee}a{color:#ececee}code,pre{background:#1e1e21!important}th,td{border-color:#26262a!important}}
+main{max-width:880px;margin:0 auto;padding:24px}a{color:#141414}code,pre{font:13px ui-monospace,Menlo,Consolas,monospace;background:#f0f0f0;padding:1px 4px}
+pre{padding:10px;overflow:auto}table{border-collapse:collapse;font-size:14px;display:block;overflow:auto}th,td{border:1px solid #e3e3e3;padding:4px 8px;text-align:left;vertical-align:top}
+.top{font:12px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}.src{font-size:12px;vertical-align:super;text-decoration:none}</style></head><body><main><div class="top"><a href="../">Brick Aggregat</a> / <a href="index.html">Developing</a>
+ / <a href="https://github.com/70b185/trimui-music-apps/blob/main/knowledge/firmwares.md">edit this page</a></div>
+<h1>Firmwares, as a developer sees them</h1>
+<p>What a program meets on each firmware. Full project entries (versions, activity) are on the website's
+Firmware tab and in <a href="../?c=os"><code>catalog/os.md</code></a>.</p>
+<table>
+<thead>
+<tr>
+<th>Firmware</th>
+<th>Base</th>
+<th>Platform / app folder</th>
+<th>Audio</th>
+<th>glibc</th>
+<th>How an app is packaged</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock TrimUI OS</td>
+<td>Tina Linux</td>
+<td><code>Apps/&lt;name&gt;/</code> with <code>config.json</code></td>
+<td>ALSA directly</td>
+<td>(stock)</td>
+<td>stock app folder</td>
+<td><a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a></td>
+</tr>
+<tr>
+<td>NextUI</td>
+<td>MinUI fork, runs on the stock system</td>
+<td><code>Tools/tg5040/&lt;Name&gt;.pak/</code>, <code>Emus/tg5040/&lt;TAG&gt;.pak/</code></td>
+<td>as stock</td>
+<td>as stock</td>
+<td><code>.pak</code> folder with <code>launch.sh</code></td>
+<td><a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a></td>
+</tr>
+<tr>
+<td>MinUI</td>
+<td>the stock system</td>
+<td>as NextUI (<code>.pak</code>)</td>
+<td>as stock</td>
+<td>as stock</td>
+<td><code>.pak</code> folder</td>
+<td><a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a></td>
+</tr>
+<tr>
+<td>NX Redux</td>
+<td>NextUI fork</td>
+<td><code>.pak</code>, as NextUI</td>
+<td>as stock</td>
+<td>as stock</td>
+<td><code>.pak</code> folder</td>
+<td><a class="src" href="SOURCES.html#nxredux">[nxredux]</a></td>
+</tr>
+<tr>
+<td>CrossMix-OS</td>
+<td>stock interface, extended</td>
+<td><code>Apps/</code></td>
+<td>as stock</td>
+<td>as stock</td>
+<td>stock app folder</td>
+<td><a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a></td>
+</tr>
+<tr>
+<td>spruce</td>
+<td>SD-card layer on the stock system</td>
+<td>spruce app folders</td>
+<td>as stock</td>
+<td>as stock</td>
+<td>spruce app</td>
+<td><a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a></td>
+</tr>
+<tr>
+<td>KNULLI</td>
+<td>Batocera</td>
+<td>Ports (PortMaster)</td>
+<td>(Batocera)</td>
+<td>2.40 <code>[src]</code></td>
+<td>PortMaster port or a script in Ports</td>
+<td><a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a></td>
+</tr>
+<tr>
+<td>muOS (MustardOS)</td>
+<td>own system on the vendor kernel</td>
+<td><code>.muxapp</code></td>
+<td>PipeWire + WirePlumber</td>
+<td>2.38 or newer <code>[src]</code></td>
+<td><code>.muxapp</code></td>
+<td><a class="src" href="SOURCES.html#tbr-audio">[tbr-audio]</a> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a> <a class="src" href="SOURCES.html#tbr-muos">[tbr-muos]</a></td>
+</tr>
+<tr>
+<td>TortOS</td>
+<td>plastron (own minimal Linux)</td>
+<td>own</td>
+<td>own</td>
+<td>own</td>
+<td>see project</td>
+<td><a class="src" href="SOURCES.html#tortos">[tortos]</a></td>
+</tr>
+</tbody>
+</table>
+<p>Notes:</p>
+<ul>
+<li><strong>Same kernel and GPU driver everywhere</strong> that keeps the vendor kernel: 4.9.191 with the PowerVR fbdev driver
+  (<code>libpvrNULL_WSEGL</code>) on stock, NextUI and KNULLI <code>[src]</code> <a class="src" href="SOURCES.html#handkit-platforms">[handkit-platforms]</a>.</li>
+<li><strong>SDL2 comes with the firmware</strong>: on the stock system in <code>/usr/trimui/lib</code>, on muOS in <code>/opt/muos/frontend/lib</code>.
+  The sydilaxe apps link against a stub and use the firmware's library <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>. Handkit instead links SDL3
+  statically and needs only glibc and the GPU driver from the firmware <a class="src" href="SOURCES.html#handkit">[handkit]</a>.</li>
+<li><strong>One binary for several firmwares</strong>: building against glibc 2.28 runs on both the stock system and muOS <code>[hw]</code>
+  <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>; Handkit targets 2.33 <a class="src" href="SOURCES.html#handkit">[handkit]</a>.</li>
+<li><strong>NextUI switches the CPU governor to <code>performance</code></strong> before any pak and resets it after; tools that do not need
+  it should call <code>governor.sh powersave</code> or <code>auto</code> <a class="src" href="SOURCES.html#nextui-paks">[nextui-paks]</a>.</li>
+<li><strong>Root everywhere</strong>: apps can write sysfs, use <code>SCHED_FIFO</code> and <code>mlockall</code> <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>.</li>
+</ul></main></body></html>

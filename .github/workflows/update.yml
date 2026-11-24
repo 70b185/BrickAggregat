@@ -1,0 +1,55 @@
+name: update
+
+# Every three days: read every catalogued repo (git ls-remote, and a blobless clone only when something moved),
+# refresh the GitHub numbers, search for projects not catalogued yet, fetch the latest Discussions, rebuild the
+# website data and commit. No API calls per repo except the batched search; see docs/UPDATING.md.
+#
+# The review run (a scheduled agent session, docs/UPDATING.md) reads state/CHANGES.md and state/NEW.md afterwards and
+# is the only one that edits data/. GitHub starts scheduled workflows late, often by hours.
+on:
+  schedule:
+    - cron: "17 3 */3 * *"   # days 1, 4, 7 ... of each month (and the 31st), 03:17 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  discussions: read
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml markdown
+      - name: Check, search, rebuild; commit and push
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gen() {
+            python3 scripts/check_updates.py
+            python3 scripts/repo_meta.py || echo "repo_meta failed; keeping the old numbers"
+            python3 scripts/find_new.py || echo "find_new failed; keeping the old report"
+            python3 scripts/discussions.py || echo "discussions failed; keeping the old list"
+            python3 scripts/rebuild.py
+          }
+          git config user.name "brick-aggregat-bot"
+          git config user.email "brick-aggregat-bot@users.noreply.github.com"
+          gen
+          for attempt in 1 2 3; do
+            [ -z "$(git status --porcelain)" ] && { echo "nothing changed"; exit 0; }
+            git add state export catalog kb README.md feed.xml llms.txt sitemap.xml
+            git commit -q -m "update: $(sed -n 5p state/CHANGES.md | cut -c1-80)"
+            git push && exit 0
+            echo "push rejected; regenerating on the current branch (attempt $attempt)"
+            git fetch -q origin
+            git reset -q --hard "origin/${GITHUB_REF_NAME}"
+            gen
+          done
+          echo "could not push after 3 attempts"; exit 1
