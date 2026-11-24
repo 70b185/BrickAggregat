@@ -22,5 +22,11 @@
   "id": "pocket-ui",
   "what": "release",
   "detail": "darkos-test-3"
+ },
+ {
+  "date": "2026-11-24",
+  "id": "trimui-brick-kernel",
+  "what": "unreachable",
+  "detail": "Command '['git', 'ls-remote', '--symref', 'https://github.com/jkingston/trimui-brick-kernel', 'HEAD', 'refs/tags/*']' timed out after 60 seconds"
  }
 ]

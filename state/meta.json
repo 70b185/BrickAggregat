@@ -8809,7 +8809,8 @@
   ],
   "checked": "2026-11-24",
   "pushed": "2026-11-16",
-  "fork": true
+  "fork": true,
+  "unreachable": "2026-11-24"
  },
  "https://github.com/jmjoy/trimui-apps": {
   "head": "d998fb6bc1029d15793d9ef124f6f6b10fb13e85",
