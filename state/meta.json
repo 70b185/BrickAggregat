@@ -2257,7 +2257,12 @@
   "tagset": "da39a3ee5e6b",
   "tags": [],
   "tags_all": [],
-  "checked": "2026-11-24"
+  "checked": "2026-11-24",
+  "description": "Lightweight groovebox/synth for cheap Linux handheld consoles (RK3326 & co) with class-compliant USB audio/MIDI",
+  "stars": 0,
+  "created": "2026-10-25",
+  "pushed": "2026-10-30",
+  "fork": false
  },
  "https://github.com/PEDx/rmlui-brick": {
   "head": "2a63860631276650c466cc4a1923417e85b3c823",
@@ -3373,7 +3378,12 @@
   "tags_all": [
    "1.0"
   ],
-  "checked": "2026-11-24"
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-01",
+  "pushed": "2026-11-01",
+  "fork": false
  },
  "https://github.com/Zero-Labs-CFW/MinUI-Zero": {
   "head": "66e1014a000901deada35695323c61f548870139",
@@ -5033,7 +5043,12 @@
   "tagset": "da39a3ee5e6b",
   "tags": [],
   "tags_all": [],
-  "checked": "2026-11-24"
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 2,
+  "created": "2026-11-12",
+  "pushed": "2026-11-23",
+  "fork": false
  },
  "https://github.com/bronzedragon/handheld-link-cores": {
   "head": "f857dc11ef97e02104cdadae9d9611abac2551da",
@@ -7011,7 +7026,12 @@
   "tagset": "da39a3ee5e6b",
   "tags": [],
   "tags_all": [],
-  "checked": "2026-11-24"
+  "checked": "2026-11-24",
+  "description": "Swine Tracker",
+  "stars": 0,
+  "created": "2026-10-28",
+  "pushed": "2026-10-30",
+  "fork": false
  },
  "https://github.com/famiclone/UAPlay-trimui": {
   "head": "397e09db16f2964af86b7f25aaf2a86768105fdd",
@@ -11605,7 +11625,12 @@
    "v1.21.8",
    "v1.21.9"
   ],
-  "checked": "2026-11-24"
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-09-24",
+  "pushed": "2026-10-26",
+  "fork": false
  },
  "https://github.com/nlkcodenew/Trimui-GameSync": {
   "head": "fe6b0b5b855b92398f6fbccfcfb6c51d84903176",

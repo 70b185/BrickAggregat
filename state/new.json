@@ -156,17 +156,6 @@
   ]
  },
  {
-  "url": "https://github.com/DanimanX/ProjectKagemaru",
-  "title": "DanimanX/ProjectKagemaru",
-  "desc": "Virtua Fighter (Sega Model 1, vf1-recomp) ARM64 / OpenGL ES 2.0 / SLJIT PortMaster port for Anbernic RG34XX (Allwinner H700)",
-  "date": "2026-11-24",
-  "fork": false,
-  "links": [],
-  "found_by": [
-   "trimui brick (README)"
-  ]
- },
- {
   "url": "https://github.com/Zetarancio/zlyme",
   "title": "Zetarancio/zlyme",
   "desc": "Custom OS for the Miyoo Flip with mainline kernel.",
@@ -175,6 +164,246 @@
   "links": [],
   "found_by": [
    "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://softletter.itch.io/residuals",
+  "title": "Residuals",
+  "desc": "A night shift in the one room their copies can&#039;t enter. Listen, keep what you hear, make them a song.",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "itch.io games/tag-portmaster"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=_uKfFuPuy08",
+  "title": "TRACKER – Pocket Tracker for TrimUI Brick / Brick Pro #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/tracker"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=sXvckDZzkiA",
+  "title": "TRACKER for TrimUI Brick / Brick Pro – Mixer, Perform FX, Live Mode #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/tracker"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=cRG_-D6QVcI",
+  "title": "REKORDER – Gesture Sampler for TrimUI Brick / Brick Pro #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/rekorder"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick looper",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=xlGJz75l8w4",
+  "title": "SPUR – Step Sequencer & Groovebox for TrimUI Brick / Brick Pro #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/spur"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=8SwLvMVO1ho",
+  "title": "SPUR – MIDI Step Sequencer for TrimUI Brick / Brick Pro #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/spur"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=7p5kxgPbuW4",
+  "title": "REKORDER 1.1 – Sampler for TrimUI Brick / Brick Pro: Send FX & MIDI #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/rekorder"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=YfdHTmODfuY",
+  "title": "KETTE – Multi-FX for TrimUI Brick / Brick Pro #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/kette"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=VyBYs3gTZU4",
+  "title": "KETTE 5.5 – Multi-FX for TrimUI Brick / Brick Pro: Shimmer Reverb #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/kette"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=SaRCXwZasWc",
+  "title": "SCHLEIFE – Live Looper for TrimUI Brick / Brick Pro #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/schleife"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick looper",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=BLuzZC6y_lc",
+  "title": "KETTE 5.5 – Multi-FX for TrimUI Brick / Brick Pro: Stutter & Tape Stop #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/kette"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=sSwOmbcx7Hc",
+  "title": "STELLWERK – Intelligent MIDI Brain for the TrimUI Brick (Router, Filter, Arp & Clock Hub)",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/stellwerk"
+  ],
+  "found_by": [
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=VTT2ZEl0UUM",
+  "title": "Minimal Exploration #12 | Smoky Analog Meets Pocket Digital | Behringer Wasp | FRASIL | GrainBrick |",
+  "desc": "channel Piotr Fiedorowicz",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=0911BXq-Pns",
+  "title": "GrainBrick beta 2.0, played with eurorack",
+  "desc": "channel drmseq",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=KX0q4QuZXwU",
+  "title": "BrickLooper - Guitar Loope and EFX for Trimui Brick Pro",
+  "desc": "channel BeatsOfThings",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick looper",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=DXiIK49VuW4",
+  "title": "STELLWERK – an intelligent MIDI brain on your TrimUI Brick #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/stellwerk"
+  ],
+  "found_by": [
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
   ]
  },
  {
@@ -256,6 +485,58 @@
   ]
  },
  {
+  "url": "https://buttonery.itch.io/buttonery",
+  "title": "Buttonery",
+  "desc": "Cozy 8-way button-stitching meets Balatro combos! 47 glazed brooches, 8 garments · PC/Mac/Linux &amp; PortMaster.",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "itch.io games/tag-portmaster"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=Zf755GdqCz4",
+  "title": "Trimui hammer / BrickSlicer LE / Glitch IDM",
+  "desc": "channel Den Pat",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=YnFLHHGvijI",
+  "title": "BrickSlicer LE v 1.0.2 on TRIMUI BRICK, and FRASIL on FM-1 - check FULL Video",
+  "desc": "channel Grzegorz Bojanek",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [
+   "https://strangeunits.gumroad.com/l/brickslicer-le"
+  ],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=66WgKwE2Y10",
+  "title": "KETTE 5.5 – Himmel Reverb, Stotter, Cab IR & Convolution Reverb (TrimUI Brick Pro Multi-FX)",
+  "desc": "channel grosserd",
+  "date": "2026-11-23",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/kette",
+   "https://grosserd5.gumroad.com/l/pruefstand"
+  ],
+  "found_by": [
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
   "url": "https://github.com/TrungTruong25/SenOS",
   "title": "TrungTruong25/SenOS",
   "desc": "",
@@ -278,6 +559,70 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=vnLPPlKrh8A",
+  "title": "TRACKER – An Pocket Tracker for the TrimUI Brick/ Pro",
+  "desc": "channel grosserd",
+  "date": "2026-11-22",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/pruefstand",
+   "https://grosserd5.gumroad.com/l/tracker"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=-ahVANTZxRo",
+  "title": "SCHLEIFE – A Live Looper in Your Pocket for TrimUI Brick/ Pro",
+  "desc": "channel grosserd",
+  "date": "2026-11-22",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/pruefstand",
+   "https://grosserd5.gumroad.com/l/schleife"
+  ],
+  "found_by": [
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick looper",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=uGoTpqvD9Vs",
+  "title": "NEW!!!🔥🔥🔥🔥 Sampler for TrimUI Brick",
+  "desc": "channel BrickTapeSampler",
+  "date": "2026-11-22",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sampler"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=8PQAlEP1Nck",
+  "title": "Booting Up the Ultimate Retro Beatmaker!",
+  "desc": "channel BrickTapeSampler",
+  "date": "2026-11-22",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sampler"
+  ]
+ },
+ {
   "url": "https://github.com/jakesearle/android-play-retro-games-club",
   "title": "jakesearle/android-play-retro-games-club",
   "desc": "Android launcher for the Play Retro Games Club's current picks, matched to your ROMs by RetroAchievements hash",
@@ -286,6 +631,74 @@
   "links": [],
   "found_by": [
    "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://solmare.itch.io/ralagenetica",
+  "title": "RALA:/:genetica",
+  "desc": "Isometric squad tactics for PSP, Vita, Android, PortMaster &amp; Panic Playdate!",
+  "date": "2026-11-21",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "itch.io games/tag-portmaster"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=Un3ClkUyumk",
+  "title": "REKORDER 1.1 – Four Fingers, Send FX & MIDI in Every Mode (TrimUI Brick Pro)",
+  "desc": "channel grosserd",
+  "date": "2026-11-21",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/pruefstand",
+   "https://grosserd5.gumroad.com/l/rekorder"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick looper",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=SPJ7ct_Z9g0",
+  "title": "Minimal Ambient Exploration #10 | FM1 Frasil & GrainBrick 2.0 Ambient Jam",
+  "desc": "channel Piotr Fiedorowicz",
+  "date": "2026-11-21",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=1hwdlZnt--o",
+  "title": "XTRAK - DUB TECHNO - Preview",
+  "desc": "channel XTRAK_Dev",
+  "date": "2026-11-21",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=lMslmVt5zYQ",
+  "title": "XTRAK - DOOM E2M2 RMX - Preview",
+  "desc": "channel XTRAK_Dev",
+  "date": "2026-11-21",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music"
   ]
  },
  {
@@ -333,6 +746,62 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=R5Cdyc0ROfE",
+  "title": "REKORDER – A Gesture Sampler in Your Pocket for TrimUI Brick/Pro",
+  "desc": "channel grosserd",
+  "date": "2026-11-20",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/pruefstand",
+   "https://grosserd5.gumroad.com/l/rekorder"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick looper",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=Mm7ulI-3JFI",
+  "title": "SPUR – A MIDI Step Sequencer in Your Pocket  for TrimUI Brick/ Pro",
+  "desc": "channel grosserd",
+  "date": "2026-11-20",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/pruefstand",
+   "https://grosserd5.gumroad.com/l/spur"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=BzSdtXG_n6A",
+  "title": "Acid Techno on M8 Headless — TrimUI Brick & Torso T1",
+  "desc": "channel Mentat",
+  "date": "2026-11-20",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
   "url": "https://github.com/retrotiv/AnberNext",
   "title": "retrotiv/AnberNext",
   "desc": "My adaptation for the formerly NextUI from loveretro, including compatibility tests and fixes for the Anbernic RG353V.",
@@ -374,6 +843,77 @@
   "links": [],
   "found_by": [
    "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=8APqtgTQMBA",
+  "title": "KETTE – Multi FX for TrimUI Brick/ Pro",
+  "desc": "channel grosserd",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/kette",
+   "https://grosserd5.gumroad.com/l/pruefstand"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=9P8S9z7_Qrc",
+  "title": "Pocketron music software trimui brickpro ,rg351v,android,pc coming soon #trimuibrickpro #trimuibrick",
+  "desc": "channel dzaxy",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=-cQvyFqUWXI",
+  "title": "VocKit BoT – Synthesizer and 24-Band Vocoder for Akai MPC",
+  "desc": "channel BeatsOfThings",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=sG4uHciNmLc",
+  "title": "M8 Headless on Trimui Brick",
+  "desc": "channel TheFutureBehindUs",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=_qbex-4kK8E",
+  "title": "Lightbrick DMX Control and Show Player for Trimui Brick/ Pro",
+  "desc": "channel grosserd",
+  "date": "2026-11-19",
+  "fork": false,
+  "links": [
+   "https://grosserd5.gumroad.com/l/lightbrick"
+  ],
+  "found_by": [
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
   ]
  },
  {
@@ -429,6 +969,31 @@
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=BaVotHgpNQs",
+  "title": "BrickSlicer LE IS here! Another awesome piece of software for TRIMUI BRICK",
+  "desc": "channel Grzegorz Bojanek",
+  "date": "2026-11-18",
+  "fork": false,
+  "links": [
+   "https://strangeunits.gumroad.com/l/brickslicer-le"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sampler"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=tofB-vHlQG0",
+  "title": "Ambient Exploration #9 |  Bagpipes, Pigtronix Infinity 3, GrainBrick 2.0, Texture Lab & RolandSPD-SX",
+  "desc": "channel Piotr Fiedorowicz",
+  "date": "2026-11-18",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick looper"
   ]
  },
  {
@@ -499,6 +1064,33 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=f9kGTYvTVuY",
+  "title": "Granular on a Gameboy?",
+  "desc": "channel Soundbites",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=MnbbiURarcQ",
+  "title": "GrainBrick BETA 2.0",
+  "desc": "channel GrainBrick",
+  "date": "2026-11-17",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
   "url": "https://github.com/Megus/chipnomad-tracker",
   "title": "Megus/chipnomad-tracker",
   "desc": "Chiptune tracker for handheld consoles like Anbernic RG35xx",
@@ -530,6 +1122,62 @@
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=iCv-8g0LMLY",
+  "title": "Dockable Handheld - Trimui Brick Pro Review",
+  "desc": "channel Retro Core",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=yYt19-WxQqg",
+  "title": "VocKit Vocoder Plugin for Akai MPC - feat. Freestyle and House of pain ",
+  "desc": "channel BeatsOfThings",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=N7TaK7tZgiY",
+  "title": "Minimal Ambient Exploration #8 | Unexpected Turn with Roland SPD-SX, Texture Lab, FM1 & GrainBrick",
+  "desc": "channel Piotr Fiedorowicz",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=0gs4kl-vrw0",
+  "title": "GRAINBRICK on an Anbernic RG35XXSP",
+  "desc": "channel titaniumshell",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick music app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=1qXW9ASaeHQ",
+  "title": "The Trimui Brick Pro is Better than I Thought | Test This Tech ",
+  "desc": "channel The J. Powell Network",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick pro music"
   ]
  },
  {
@@ -566,6 +1214,33 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=uZaz7m4WHho",
+  "title": "TUNNEL | Midnight Techno Jam with OZMA on TrimUI Brick",
+  "desc": "channel ORUMET",
+  "date": "2026-11-15",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=k8mOnhfDKnM",
+  "title": "Midnight Jam with OZMA | Live Techno on TrimUI Brick",
+  "desc": "channel ORUMET",
+  "date": "2026-11-15",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
   "url": "https://github.com/spruceUI/PPSSPP-spruce",
   "title": "spruceUI/PPSSPP-spruce",
   "desc": "PPSSPP standalone builds for SpruceOS",
@@ -596,6 +1271,24 @@
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=E_IcQmzGuyg",
+  "title": "EMBER Brick Hybrid Synthesizer for TRIMUI BRICK Pro - coming soon!",
+  "desc": "channel BeatsOfThings",
+  "date": "2026-11-14",
+  "fork": false,
+  "links": [
+   "https://github.com/octalmusic/octal-samples"
+  ],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
   ]
  },
  {
@@ -632,6 +1325,17 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=sx_HK7UgA_E",
+  "title": "🎛️ GrainBrick - New RHYTHM MODE & MIDI CLOCK",
+  "desc": "channel GrainBrick",
+  "date": "2026-11-13",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
   "url": "https://github.com/spruceUI/Ports-and-Free-Games",
   "title": "spruceUI/Ports-and-Free-Games",
   "desc": "Free Games and Apps for spruceOS",
@@ -651,6 +1355,19 @@
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=btOXbeBSovk",
+  "title": "OZMA 0.9 SUPERNOVA: Loops, MORPH & Knulli | TrimUI Brick",
+  "desc": "channel ORUMET",
+  "date": "2026-11-12",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
   ]
  },
  {
@@ -676,6 +1393,39 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=_KD1YuvbMsM",
+  "title": "DUCK MATTER: fun ducking on a handheld | OZMA 0.9",
+  "desc": "channel ORUMET",
+  "date": "2026-11-11",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=PvyIAN2mgbg",
+  "title": "I Built a Granular Sampler for a Handheld Console",
+  "desc": "channel El Magico",
+  "date": "2026-11-10",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sampler"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=WHANMpNKZ1k",
+  "title": "XTRAK Android Preview 01",
+  "desc": "channel XTRAK_Dev",
+  "date": "2026-11-10",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
   "url": "https://github.com/Pobega/NextUI-v90s",
   "title": "Pobega/NextUI-v90s",
   "desc": "NextUI port for the Powkiddy V90S (Allwinner A133P)",
@@ -698,6 +1448,33 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=KM5umCVtg60",
+  "title": "USB MIDI on a TrimUI Brick | OZMA 0.8.2 “Plug in”",
+  "desc": "channel ORUMET",
+  "date": "2026-11-09",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=NDLocfoS_OQ",
+  "title": "Ambient Exploration #5 | Bagpipes, FM1 Frasil & SP-404MKII",
+  "desc": "channel Piotr Fiedorowicz",
+  "date": "2026-11-09",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sampler"
+  ]
+ },
+ {
   "url": "https://github.com/Ca-h9j9n/Tsugaru-ARM64-Handheld",
   "title": "Ca-h9j9n/Tsugaru-ARM64-Handheld",
   "desc": "Unofficial ARM64 handheld build of the Tsugaru FM TOWNS emulator with controller support and KNULLI integration.",
@@ -706,6 +1483,49 @@
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=D9cYJxay668",
+  "title": "Elektron Tonverk × OZMA on TrimUI Brick | Minimal Live Jam",
+  "desc": "channel ORUMET",
+  "date": "2026-11-08",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=R8-_fBMELoM",
+  "title": "OZMA Feature Demo: LUNA Piano & JAM Mode on TrimUI Brick",
+  "desc": "channel ORUMET",
+  "date": "2026-11-08",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=P9QxQ56IQL8",
+  "title": "OZMA Basics: Clips & Instruments on TrimUI Brick",
+  "desc": "channel ORUMET",
+  "date": "2026-11-08",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music"
   ]
  },
  {
@@ -731,6 +1551,82 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=s5uUatt2sV8",
+  "title": "Turn your TrimUI Brick into a groovebox | OZMA open beta",
+  "desc": "channel ORUMET",
+  "date": "2026-11-07",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=YJFx6CfNPyc",
+  "title": "Brickglide 💜 An ambient chord machine for the TrimUI Brick.",
+  "desc": "channel Michael Tietjen",
+  "date": "2026-11-07",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=eHenoobPGxM",
+  "title": "OZMA open beta soon | Explore the TrimUI Brick groovebox",
+  "desc": "channel ORUMET",
+  "date": "2026-11-07",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=ZVSRUt_L5vg",
+  "title": "Trimui Brick Pro From #litnxt quick rundown.",
+  "desc": "channel Handheld Hero Hideout",
+  "date": "2026-11-07",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick tracker"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=Y_GPUqh2Xyg",
+  "title": "Lo-fi piano, low CPU | Meet LUNA in OZMA for TrimUI Brick",
+  "desc": "channel ORUMET",
+  "date": "2026-11-06",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=e60DmtT2iYY",
+  "title": "Clip launching on a pocket groovebox | OZMA for TrimUI Brick",
+  "desc": "channel ORUMET",
+  "date": "2026-11-06",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick tracker"
+  ]
+ },
+ {
   "url": "https://github.com/tyrannotorus/recomp-dreamcast-rez",
   "title": "tyrannotorus/recomp-dreamcast-rez",
   "desc": "A modern recomp of Rez for the Dreamcast",
@@ -740,6 +1636,18 @@
   "found_by": [
    "trimui brick (README)",
    "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=LEdoDdc9-9w",
+  "title": "GrainForge on TrimUI Brick: Ambient Jam + Chase Bliss | Daily Beats #26",
+  "desc": "channel El Magico",
+  "date": "2026-11-05",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick sampler"
   ]
  },
  {
@@ -776,6 +1684,34 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=3xFsfMdAo3o",
+  "title": "A full techno track made on a handheld 🎛️ OZMA on TrimUI Brick #shorts",
+  "desc": "channel ORUMET",
+  "date": "2026-11-04",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sampler",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=qNpZSY1kRmo",
+  "title": "I made a groovebox for a $100 handheld 🎛️ #shorts #trimui",
+  "desc": "channel Michael Tietjen",
+  "date": "2026-11-04",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick groovebox",
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
   "url": "https://github.com/Marice/Fireplace5",
   "title": "Marice/Fireplace5",
   "desc": "A pixelated fireplace with demoscene extras, running natively on the PlayStation 5 as homebrew (SDL2 payload).",
@@ -795,6 +1731,17 @@
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=EyTcRjRJ--o",
+  "title": "Digitakt + GrainBrick + Lost n Found for an ambient jam",
+  "desc": "channel qolr",
+  "date": "2026-11-03",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sampler"
   ]
  },
  {
@@ -841,6 +1788,17 @@
   "links": [],
   "found_by": [
    "knulli tracker (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=SaL9p2ifFVg",
+  "title": "GAK MUNGKIN SALAH BELI INI! - Trimui Brick Pro #handheld #console #retro #gaming #trimui",
+  "desc": "channel Tekno Geek",
+  "date": "2026-11-02",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sampler"
   ]
  },
  {
@@ -943,6 +1901,17 @@
   ]
  },
  {
+  "url": "https://www.youtube.com/watch?v=pBg9eJobx6o",
+  "title": "The Brick Pro Is a Lie (and I Love It Anyway)",
+  "desc": "channel GameHead Nes",
+  "date": "2026-10-30",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick tracker"
+  ]
+ },
+ {
   "url": "https://github.com/sleepdebt/pocketplex",
   "title": "sleepdebt/pocketplex",
   "desc": "Lightweight text-first Plex client for Linux retro handhelds",
@@ -951,6 +1920,17 @@
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=N59Jg9j0fCI",
+  "title": "GrainBrick - 10 Minutes of Live Ambient Sound Design",
+  "desc": "channel GrainBrick",
+  "date": "2026-10-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sequencer"
   ]
  },
  {
