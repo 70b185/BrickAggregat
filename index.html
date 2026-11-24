@@ -85,12 +85,12 @@
   .card { border-radius:var(--r); border-left-width:4px; }
   .btn, .bar input[type=search], .bar select { border-radius:var(--r); }
   .themes { position:absolute; z-index:5; right:36px; top:26px; display:flex; gap:6px; align-items:center; }
-  .themes button { width:30px; height:30px; border-radius:50%; cursor:pointer; padding:0; display:grid; place-items:center;
-    border:0; background:#1d1d20; box-shadow:0 2px 0 #00000070, inset 0 1px 1px #ffffff25; }
-  .themes button svg { width:18px; height:18px; fill:#cfcfd4; }
-  .themes button:hover svg { fill:#fff; }
-  .themes button.on { background:var(--accent); box-shadow:0 0 0 2px #ffffffaa, 0 0 10px var(--accent); }
-  .themes button.on svg { fill:#fff; }
+  .themes button { width:30px; height:30px; border-radius:50%; border:2px solid #ffffff55; cursor:pointer; padding:0; display:grid; place-items:center; }
+  .themes button.on { border-color:#fff; box-shadow:0 0 0 2px var(--accent); }
+  .themes button svg { width:18px; height:18px; }
+  .themes button[data-theme="light"] { background:#f6a9c9; } .themes button[data-theme="light"] svg { fill:#3a1027; }
+  .themes button[data-theme="auto"] { background:linear-gradient(135deg,#f6a9c9 50%,#0a0a0b 50%); } .themes button[data-theme="auto"] svg { fill:#fff; filter:drop-shadow(0 0 1px #000); }
+  .themes button[data-theme="dark"] { background:#0a0a0b; } .themes button[data-theme="dark"] svg { fill:#ff5fa8; }
   .abxy { display:inline-grid; grid-template-columns:repeat(3,7px); gap:1px; vertical-align:middle; margin-right:8px; }
   .abxy i { width:7px; height:7px; border-radius:50%; background:var(--accent); } .abxy i:nth-child(odd) { visibility:hidden; }
   @media (max-width:700px) { .themes { position:static; margin-top:8px; } }
