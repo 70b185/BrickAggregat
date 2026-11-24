@@ -71,9 +71,10 @@
 
   /* Brick look: device shell with screen, RGB LED strip, shoulder-button tabs */
   header { background:var(--shell); border-bottom:0; padding:14px 24px 0; position:relative; }
-  header::before { content:""; position:absolute; left:24px; right:24px; top:6px; height:3px; border-radius:3px;
-    background:linear-gradient(90deg,#ff3b3b,#ffb03b,#f7f73b,#3bff7a,#3bc8ff,#7a5bff,#ff3bd2); opacity:.85; }
-  .screen { background:var(--screen); color:#ececee; border-radius:var(--r); padding:14px 16px; margin-top:6px; box-shadow:inset 0 0 0 3px #00000055; }
+  .screen { background:var(--screen); color:#ececee; border-radius:var(--r); padding:14px 16px 16px; margin-top:6px; box-shadow:inset 0 0 0 3px #00000055; position:relative; overflow:hidden; }
+  /* the Brick's RGB LEDs, as a faint glow along the bottom edge of the screen */
+  .screen::after { content:""; position:absolute; left:16px; right:16px; bottom:5px; height:2px; border-radius:2px;
+    background:linear-gradient(90deg,#ff3b3b,#ffb03b,#f7f73b,#3bff7a,#3bc8ff,#7a5bff,#ff3bd2); opacity:.3; filter:blur(.3px); }
   .screen .sub { color:var(--subfg); }
   nav { margin-top:10px; gap:6px; }
   nav button { border:0; border-radius:var(--r) var(--r) 0 0; margin:0; }
