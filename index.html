@@ -84,30 +84,30 @@
   .cats button { border-radius:999px; margin:0 6px 6px 0; border-color:var(--line); }
   .card { border-radius:var(--r); border-left-width:4px; }
   .btn, .bar input[type=search], .bar select { border-radius:var(--r); }
-  /* theme switch: the Brick's three small round keys under the screen */
-  .themes { display:flex; justify-content:center; gap:26px; margin:12px 0 2px; }
-  .key { display:flex; flex-direction:column; align-items:center; gap:4px; }
-  .key button { width:26px; height:26px; border-radius:50%; cursor:pointer; padding:0; border:0;
-    background:radial-gradient(circle at 35% 30%,#4a4a50,#18181b 70%); box-shadow:0 2px 0 #00000080, inset 0 1px 1px #ffffff30; transition:transform .08s; }
-  .key button:active { transform:translateY(2px); box-shadow:0 0 0 #0000, inset 0 1px 1px #ffffff30; }
-  .key button.on { background:radial-gradient(circle at 35% 30%,#ffb3d6,var(--accent) 70%); box-shadow:0 2px 0 #00000060, 0 0 10px var(--accent); }
-  .key span { font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:var(--navfg); opacity:.75; }
+  .themes { position:absolute; z-index:5; right:36px; top:26px; display:flex; gap:6px; align-items:center; }
+  .themes button { width:30px; height:30px; border-radius:50%; cursor:pointer; padding:0; display:grid; place-items:center;
+    border:0; background:#1d1d20; box-shadow:0 2px 0 #00000070, inset 0 1px 1px #ffffff25; }
+  .themes button svg { width:18px; height:18px; fill:#cfcfd4; }
+  .themes button:hover svg { fill:#fff; }
+  .themes button.on { background:var(--accent); box-shadow:0 0 0 2px #ffffffaa, 0 0 10px var(--accent); }
+  .themes button.on svg { fill:#fff; }
   .abxy { display:inline-grid; grid-template-columns:repeat(3,7px); gap:1px; vertical-align:middle; margin-right:8px; }
   .abxy i { width:7px; height:7px; border-radius:50%; background:var(--accent); } .abxy i:nth-child(odd) { visibility:hidden; }
+  @media (max-width:700px) { .themes { position:static; margin-top:8px; } }
 </style>
 </head>
 <body>
 <header>
+  <div class="themes" id="themes" aria-label="Colour theme">
+    <button data-theme="light" title="Pink (light)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="8" width="14" height="8" rx="1.5"/></svg></button>
+    <button data-theme="auto" title="Follow the system"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="2.6"/><circle cx="12" cy="12" r="2.6"/><circle cx="18" cy="12" r="2.6"/></svg></button>
+    <button data-theme="dark" title="Dark with pink"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"/></svg></button>
+  </div>
   <div class="screen">
   <h1><span class="abxy"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><b>Brick</b> Aggregat</h1>
   <div class="sub">Open-source software for the TrimUI Brick, Brick Hammer and Brick Pro: music apps, firmwares, emulators,
     tools, and what developers have found out. Links and short notes only; every entry points to the original project.
     <span id="checked"></span></div>
-  </div>
-  <div class="themes" id="themes" aria-label="Colour theme">
-    <div class="key"><button data-theme="light" title="Pink (light)"></button><span>Light</span></div>
-    <div class="key"><button data-theme="auto" title="Follow the system"></button><span>Auto</span></div>
-    <div class="key"><button data-theme="dark" title="Dark with pink"></button><span>Dark</span></div>
   </div>
   <nav id="tabs">
     <button data-t="projects">Projects <span class="n" id="n-projects"></span></button>
@@ -124,6 +124,6 @@
   checked every three days. Licences and activity are read from each repo automatically; check the project itself before
   you install anything.
 </footer>
-<script src="assets/app.js?v=6"></script>
+<script src="assets/app.js?v=7"></script>
 </body>
 </html>
