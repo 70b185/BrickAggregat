@@ -2,7 +2,7 @@
 
 Instruments, trackers, sequencers, samplers, effects and M8 clients.
 
-52 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+54 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,6 +11,8 @@ Instruments, trackers, sequencers, samplers, effects and M8 clients.
 | [BrickRack](https://github.com/andrewfrangella/brickrack) | andrewfrangella | Modular synth with patch cables, built from open Eurorack module DSP (Plaits, Rings, Beads, Tides, Peaks). NextUI on the Brick Pro. | NextUI | v0.1.0 | 2026-11-08 | GPL-3.0 |
 | [BrickTape Sampler](https://github.com/Bhang01/bricktape-sampler) | Bhang01 | 64-pad sampler with chopping, multiband effects, USB audio and on-device stem separation. KNULLI. | KNULLI | v1.6.4-beta | 2026-11-22 | no licence (no source) |
 | [BrickWorld](https://brickworldhub.com/) | brickworldhub | Set of music apps for the Brick on KNULLI: BrickSampler, BrickLooper (five-track loop station), BrickTape (four-track recorder), BrickFX and BrickAmbientFX. The repo holds the website. | KNULLI | - | 2026-11-23 | GPL-3.0 |
+| [ChipNomad Tracker](https://github.com/Megus/chipnomad-tracker) | Megus | Chiptune tracker with an LSDj-like interface for Linux handhelds incl. the Brick. | PortMaster | v1.0.5 | 2026-11-05 | MIT |
+| [ChooChoo Dub Siren](https://github.com/paiheulevrai/ChooChooDubSiren) | paiheulevrai | Analog-style dub siren with four sound slots for live performance, on the ChooChooTracker engine. | NextUI, PortMaster | v0.2.1 | 2026-11-21 | MIT |
 | [ChooChooTracker](https://github.com/paiheulevrai/Choochootracker) | paiheulevrai | Multi-engine tracker that started as a ChipNomad fork: sound chips, synths, samples. NextUI pak. | NextUI, PortMaster | v1.0.25-alpha | 2026-11-20 | MIT |
 | [Columbia Street](https://github.com/sydilaxe/Trimui-Columbiastreet-dev) | sydilaxe | Five-channel jungle sequencer with MIDI clock in/out and a mono + clock output on the headphone jack. muOS. | muOS | v0.6.3 | 2026-11-20 | MIT |
 | [Conduit](https://github.com/sydilaxe/Trimui-Conduit-dev) | sydilaxe | Four-track looper/sampler: records from a USB interface or the mic, syncs to MIDI clock. muOS. | muOS | v0.9.3 | 2026-11-20 | GPL-3.0 |

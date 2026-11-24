@@ -61,6 +61,26 @@
   "pushed": "2026-11-22",
   "fork": false
  },
+ "https://github.com/4fuu/nextui-app-sdk": {
+  "head": "27e5597c053beb7efa277f8f4a7ce9dc3221fd84",
+  "last_commit": "2026-11-19",
+  "files": 18,
+  "code_files": 10,
+  "script_files": 1,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Framework-agnostic app integration SDK for NextUI: app<->system cooperation contract (HOME overlay hosting, volume/brightness HUD, sleep/wake handshake, battery/status) over the devserv protocol. Independent of Apostrophe/borealis.",
+  "stars": 0,
+  "created": "2026-11-18",
+  "pushed": "2026-11-19",
+  "fork": false
+ },
  "https://github.com/4fuu/wiliwili-nextui": {
   "head": "ed6a0f595f91fd26549b00cb70d31637d92a8a54",
   "last_commit": "2026-11-22",
@@ -334,6 +354,35 @@
   "pushed": "2026-07-17",
   "fork": false
  },
+ "https://github.com/Ca-h9j9n/Tsugaru-ARM64-Handheld": {
+  "head": "131eaead594b42e5ac9a37ea64e6999ac6c1b8e6",
+  "last_commit": "2026-11-08",
+  "files": 16,
+  "code_files": 6,
+  "script_files": 2,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "caea91225989",
+  "tags": [
+   "v1.0",
+   "v1.1",
+   "v1.1.1",
+   "v1.2"
+  ],
+  "tags_all": [
+   "v1.0",
+   "v1.1",
+   "v1.1.1",
+   "v1.2"
+  ],
+  "checked": "2026-11-24",
+  "description": "Unofficial ARM64 handheld build of the Tsugaru FM TOWNS emulator with controller support and KNULLI integration.",
+  "stars": 0,
+  "created": "2026-09-22",
+  "pushed": "2026-11-08",
+  "fork": false
+ },
  "https://github.com/CatalyticArkun/aesthetic-spruce": {
   "head": "109284e43ba7e515b6318319721a52daac71add2",
   "last_commit": "2026-11-08",
@@ -423,6 +472,96 @@
   "pushed": "2026-06-29",
   "fork": false
  },
+ "https://github.com/CreatonDevelopment/RetroHero-App": {
+  "head": "e5c8101170fc5458230f251d09f9babf07252c25",
+  "last_commit": "2026-11-23",
+  "files": 13,
+  "code_files": 6,
+  "script_files": 2,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "a6bc5e2f08bf",
+  "tags": [
+   "v0.8.0",
+   "v0.8.1",
+   "v0.9.0",
+   "v0.9.1",
+   "v0.9.2"
+  ],
+  "tags_all": [
+   "v0.1.1",
+   "v0.1.2",
+   "v0.1.3",
+   "v0.2.0",
+   "v0.2.1",
+   "v0.3.0",
+   "v0.4.0",
+   "v0.5.0",
+   "v0.5.1",
+   "v0.6.0",
+   "v0.6.1",
+   "v0.6.2",
+   "v0.6.3",
+   "v0.6.4",
+   "v0.6.5",
+   "v0.6.6",
+   "v0.7.0",
+   "v0.7.1",
+   "v0.8.0",
+   "v0.8.1",
+   "v0.9.0",
+   "v0.9.1",
+   "v0.9.2"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-10-11",
+  "pushed": "2026-11-23",
+  "fork": false
+ },
+ "https://github.com/CreatonDevelopment/TubeHero": {
+  "head": "7d2676a40d9c270be66618b60a19f169a86bce78",
+  "last_commit": "2026-11-24",
+  "files": 2,
+  "code_files": 0,
+  "script_files": 0,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "dd944143a4b3",
+  "tags": [
+   "v0.4.6",
+   "v0.5.0",
+   "v0.5.1",
+   "v0.6.0",
+   "v0.7.0"
+  ],
+  "tags_all": [
+   "v0.1.0",
+   "v0.2.0",
+   "v0.2.1",
+   "v0.3.0",
+   "v0.4.0",
+   "v0.4.1",
+   "v0.4.2",
+   "v0.4.3",
+   "v0.4.4",
+   "v0.4.5",
+   "v0.4.6",
+   "v0.5.0",
+   "v0.5.1",
+   "v0.6.0",
+   "v0.7.0"
+  ],
+  "checked": "2026-11-24",
+  "description": "A fast, optimized YouTube client for retro gaming handhelds",
+  "stars": 4,
+  "created": "2026-11-22",
+  "pushed": "2026-11-24",
+  "fork": false
+ },
  "https://github.com/Drafffffff/brick-mic": {
   "head": "ffb3749894ad38710e1d51b36d72796620334352",
   "last_commit": "2026-10-08",
@@ -492,7 +631,7 @@
    "v2.0.0-beta.2"
   ],
   "description": "GrainBrick is a free granular ambient sound instrument for TrimUI Brick. Create evolving textures with granular synthesis, effects and generative sound.",
-  "stars": 341,
+  "stars": 343,
   "created": "2026-10-29",
   "tagset": "f31b3fd35330",
   "tags_all": [
@@ -1317,6 +1456,26 @@
   "pushed": "2025-10-21",
   "fork": false
  },
+ "https://github.com/Knifethrower/pmhwdec": {
+  "head": "858cb05d73ea2acf44725af974cdc10c7d964c5c",
+  "last_commit": "2026-11-09",
+  "files": 82,
+  "code_files": 48,
+  "script_files": 25,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "LGPL-2.1",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Hardware H.264 / HEVC decoding for PortMaster handhelds: Allwinner video engine (no blobs), Rockchip MPP, V4L2 stateless and stateful, with a self-test and software fallback",
+  "stars": 0,
+  "created": "2026-11-08",
+  "pushed": "2026-11-09",
+  "fork": false
+ },
  "https://github.com/KrutzOtrem/Paws": {
   "head": "3ae41bc48ea6690ded4bc05ebd29bef2b8ac349e",
   "last_commit": "2026-03-22",
@@ -1744,6 +1903,34 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "pushed": "2026-11-24",
+  "fork": false
+ },
+ "https://github.com/LoadState/portpicker": {
+  "head": "1e2b8100e36f745c16e56c9b445345a43cee9443",
+  "last_commit": "2026-11-18",
+  "files": 29,
+  "code_files": 21,
+  "script_files": 0,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "0a5d98d52e29",
+  "tags": [
+   "v1.0.0-beta.1",
+   "v1.0.0-beta.2",
+   "v1.1.0-beta.1"
+  ],
+  "tags_all": [
+   "v1.0.0-beta.1",
+   "v1.0.0-beta.2",
+   "v1.1.0-beta.1"
+  ],
+  "checked": "2026-11-24",
+  "description": "Pick your handheld + CFW, get PortMaster ports that run well on it, install them to your SD card. Windows app.",
+  "stars": 0,
+  "created": "2026-11-12",
+  "pushed": "2026-11-18",
   "fork": false
  },
  "https://github.com/LordNordyx/Slot-Brick": {
@@ -2202,6 +2389,40 @@
   "pushed": "2026-09-02",
   "fork": false
  },
+ "https://github.com/Megus/chipnomad-tracker": {
+  "head": "158f6bba939d97e052514ce89ed894aed0e23202",
+  "last_commit": "2026-11-05",
+  "files": 572,
+  "code_files": 189,
+  "script_files": 10,
+  "binary_files": 3,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "d71074f0a030",
+  "tags": [
+   "v0.0.3a",
+   "v0.1.0b",
+   "v1.0.0",
+   "v1.0.4",
+   "v1.0.5"
+  ],
+  "tags_all": [
+   "v0.0.1a",
+   "v0.0.2a",
+   "v0.0.3a",
+   "v0.1.0b",
+   "v1.0.0",
+   "v1.0.4",
+   "v1.0.5"
+  ],
+  "checked": "2026-11-24",
+  "description": "Chiptune tracker for handheld consoles like Anbernic RG35xx",
+  "stars": 144,
+  "created": "2025-03-24",
+  "pushed": "2026-11-16",
+  "fork": false
+ },
  "https://github.com/MustardOS/internal": {
   "head": "aef38ed9a870419a0fe4f351dac1bac58a84ba5e",
   "last_commit": "2026-11-24",
@@ -2281,6 +2502,34 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "pushed": "2026-08-26",
+  "fork": false
+ },
+ "https://github.com/PatchDev-AM2ARM/AM2ARM": {
+  "head": "d99650dd345b1df8e425e476a48aa120f25fcdf9",
+  "last_commit": "2026-11-23",
+  "files": 57378,
+  "code_files": 329,
+  "script_files": 11,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "9372acd03cfb",
+  "tags": [
+   "v1.6.1",
+   "v1.6.2",
+   "v1.6.3"
+  ],
+  "tags_all": [
+   "v1.6.1",
+   "v1.6.2",
+   "v1.6.3"
+  ],
+  "checked": "2026-11-24",
+  "description": "AM2R ARM64 port for Android and Linux devices",
+  "stars": 32,
+  "created": "2026-11-11",
+  "pushed": "2026-11-23",
   "fork": false
  },
  "https://github.com/Pobega/adbd-restart-pak": {
@@ -2851,6 +3100,50 @@
   "pushed": "2026-10-22",
   "fork": false
  },
+ "https://github.com/SilverPsychoo/Ruffle-Handheld": {
+  "head": "235638417ff050f00a7c6680deeea5e5d15c3b09",
+  "last_commit": "2026-11-16",
+  "files": 64,
+  "code_files": 3,
+  "script_files": 14,
+  "binary_files": 2,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "f4f852043cfc",
+  "tags": [
+   "v5.1",
+   "v5.2",
+   "v5.3",
+   "v5.4",
+   "v6.0"
+  ],
+  "tags_all": [
+   "v1.0",
+   "v2.0",
+   "v2.1",
+   "v3.0",
+   "v3.1",
+   "v3.2",
+   "v3.3",
+   "v3.4",
+   "v4.0",
+   "v4.1",
+   "v4.2",
+   "v5.0",
+   "v5.1",
+   "v5.2",
+   "v5.3",
+   "v5.4",
+   "v6.0"
+  ],
+  "checked": "2026-11-24",
+  "description": "Community Flash runtime integration for ARM64 Linux handhelds, with per-game controller profiles and compatibility tracking.",
+  "stars": 15,
+  "created": "2026-08-27",
+  "pushed": "2026-11-17",
+  "fork": false
+ },
  "https://github.com/SkyWalker541/ChaOS": {
   "head": "3efce67b6d9c38d271cf2c834c8e07101d88ff84",
   "last_commit": "2026-11-23",
@@ -2938,6 +3231,71 @@
   "pushed": "2026-11-23",
   "fork": false
  },
+ "https://github.com/SkyWalker541/ChaOS-Installer": {
+  "head": "eb9519ebbd244b7c704b858184e9d3b412b62cab",
+  "last_commit": "2026-11-18",
+  "files": 41,
+  "code_files": 11,
+  "script_files": 1,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "a16aefbf7263",
+  "tags": [
+   "v1.0.0",
+   "v1.0.1",
+   "v1.0.2",
+   "v1.1.0"
+  ],
+  "tags_all": [
+   "v1.0.0",
+   "v1.0.1",
+   "v1.0.2",
+   "v1.1.0"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 2,
+  "created": "2026-11-07",
+  "pushed": "2026-11-18",
+  "fork": false
+ },
+ "https://github.com/SkyWalker541/Gone-Fishing": {
+  "head": "6249be9a878aa7801849002f8ac95c256ff91b53",
+  "last_commit": "2026-10-31",
+  "files": 41,
+  "code_files": 0,
+  "script_files": 1,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "fa991e965505",
+  "tags": [
+   "v1.4",
+   "v1.4.1",
+   "v1.5",
+   "v1.5.1",
+   "v1.6"
+  ],
+  "tags_all": [
+   "v1.0",
+   "v1.1",
+   "v1.2",
+   "v1.3",
+   "v1.4",
+   "v1.4.1",
+   "v1.5",
+   "v1.5.1",
+   "v1.6"
+  ],
+  "checked": "2026-11-24",
+  "description": "A free, relaxing pixel-art fishing game for PortMaster handhelds, made with LÖVE. Cast with real physics across five places, from an autumn lake to the Columbia River under Mt. Hood, and catch 42 fish that each fight their own way. Lures, bobbers, boats, trolling motors, weather, three save slots and a dog or cat for company.",
+  "stars": 13,
+  "created": "2026-10-17",
+  "pushed": "2026-10-31",
+  "fork": false
+ },
  "https://github.com/SkyWalker541/NextUI-Shader-Installer-Pak": {
   "head": "bb24c20e71b7c3083b73ad06ceb338edb30c8803",
   "last_commit": "2026-06-05",
@@ -2973,6 +3331,43 @@
   ],
   "checked": "2026-11-24",
   "pushed": "2026-06-06",
+  "fork": false
+ },
+ "https://github.com/SkyWalker541/PT-SkyWalker541": {
+  "head": "3277748bc9cc921498546126be8ebe7661dbb5a6",
+  "last_commit": "2026-11-20",
+  "files": 28,
+  "code_files": 2,
+  "script_files": 0,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "1f1969abac97",
+  "tags": [
+   "v1.7.2",
+   "v1.8.0",
+   "v2.0.0",
+   "v2.0.1",
+   "v2.1.0"
+  ],
+  "tags_all": [
+   "latest",
+   "v1.5.2",
+   "v1.6.0",
+   "v1.7.0",
+   "v1.7.1",
+   "v1.7.2",
+   "v1.8.0",
+   "v2.0.0",
+   "v2.0.1",
+   "v2.1.0"
+  ],
+  "checked": "2026-11-24",
+  "description": "A rebuild of my pixel transparency shader, focused on low-power devices.",
+  "stars": 21,
+  "created": "2026-03-12",
+  "pushed": "2026-11-20",
   "fork": false
  },
  "https://github.com/SkyWalker541/Star-Force": {
@@ -3078,6 +3473,69 @@
   "stars": 2,
   "created": "2026-03-22",
   "pushed": "2026-04-05",
+  "fork": false
+ },
+ "https://github.com/SpringThong/NXT-Retro-BookNest": {
+  "head": "3eeb9e5339fae001541a131d0729a99da4ab2126",
+  "last_commit": "2026-11-01",
+  "files": 8,
+  "code_files": 0,
+  "script_files": 0,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "4884bfd4c44e",
+  "tags": [
+   "V1.0.2",
+   "v1.1",
+   "v1.2"
+  ],
+  "tags_all": [
+   "V1.0.2",
+   "v1.1",
+   "v1.2"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 1,
+  "created": "2026-11-01",
+  "pushed": "2026-11-02",
+  "fork": false
+ },
+ "https://github.com/SpringThong/NXT-Retro-Tube": {
+  "head": "0724c24cfa32dd2b475c6650273a0a3f416a5ca8",
+  "last_commit": "2026-11-16",
+  "files": 309,
+  "code_files": 163,
+  "script_files": 17,
+  "binary_files": 2,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "5c3d886c74f1",
+  "tags": [
+   "v2.2",
+   "v2.4",
+   "v2.5",
+   "v2.6",
+   "v2.7"
+  ],
+  "tags_all": [
+   "v2.0",
+   "v2.0.1",
+   "v2.1",
+   "v2.1.1",
+   "v2.1.2",
+   "v2.2",
+   "v2.4",
+   "v2.5",
+   "v2.6",
+   "v2.7"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 3,
+  "created": "2026-10-26",
+  "pushed": "2026-11-16",
   "fork": false
  },
  "https://github.com/Strike-20123/Trimui-Brick-calculator-project": {
@@ -3341,6 +3799,25 @@
   "pushed": "2026-10-02",
   "fork": false
  },
+ "https://github.com/TrungTruong25/SenOS": {
+  "head": "d19e5111bc384f262d9f0b3332596fa85cbb41d3",
+  "last_commit": "2026-11-22",
+  "files": 3,
+  "code_files": 0,
+  "script_files": 0,
+  "binary_files": 1,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-21",
+  "pushed": "2026-11-22",
+  "fork": false
+ },
  "https://github.com/Ultramarine-Linux/trimui-inputrs": {
   "head": "61618aaec046e0b560b8cbb6946dbdfb72f8e532",
   "last_commit": "2026-09-19",
@@ -3359,6 +3836,66 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "pushed": "2026-09-19",
+  "fork": false
+ },
+ "https://github.com/Utility-Muffin-Research-Kitchen/Catastrophe": {
+  "head": "a32c24871f0713e9fc85f067444386761fba669e",
+  "last_commit": "2026-11-17",
+  "files": 121,
+  "code_files": 17,
+  "script_files": 7,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 1,
+  "created": "2026-05-24",
+  "pushed": "2026-11-17",
+  "fork": false
+ },
+ "https://github.com/Utility-Muffin-Research-Kitchen/Fun-Drastic-src": {
+  "head": "75148764fd171f0f0e013fa3a13bedd9b9fb0991",
+  "last_commit": "2026-11-01",
+  "files": 150,
+  "code_files": 10,
+  "script_files": 5,
+  "binary_files": 2,
+  "license_file": "LICENSE",
+  "license": "other",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Mirror of tenlevels' Fun Drastic source, donated for Leaf. Fun Drastic is tenlevels' work; PolyForm Noncommercial 1.0.0.",
+  "stars": 1,
+  "created": "2026-09-04",
+  "pushed": "2026-11-01",
+  "fork": false
+ },
+ "https://github.com/Utility-Muffin-Research-Kitchen/Jawaka": {
+  "head": "3a871625e8ce3f3fbc8bd7e09b8a7077ebbc4082",
+  "last_commit": "2026-11-18",
+  "files": 837,
+  "code_files": 417,
+  "script_files": 61,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": true,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-05-24",
+  "pushed": "2026-11-18",
   "fork": false
  },
  "https://github.com/Vikmat01/Kasseta": {
@@ -3672,6 +4209,44 @@
   "pushed": "2026-11-20",
   "fork": false
  },
+ "https://github.com/alejandroid80/brixeq-manual": {
+  "head": "0152404ea29e4b96d441e7312f59ac60ad46bd9b",
+  "last_commit": "2026-11-17",
+  "files": 6,
+  "code_files": 0,
+  "script_files": 0,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-15",
+  "pushed": "2026-11-17",
+  "fork": false
+ },
+ "https://github.com/alejandroid80/dronage-terminal-manual": {
+  "head": "5ffa41e9859550f0d6e6460a35ea287bd9c51e28",
+  "last_commit": "2026-11-15",
+  "files": 5,
+  "code_files": 0,
+  "script_files": 0,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-15",
+  "pushed": "2026-11-15",
+  "fork": false
+ },
  "https://github.com/alex-vt/TrainModelControl7000-NextUI-Pak": {
   "head": "7eae989e9930f0368997180cbf5b47d59db1d49f",
   "last_commit": "2026-11-15",
@@ -3694,6 +4269,25 @@
   ],
   "checked": "2026-11-24",
   "pushed": "2026-11-15",
+  "fork": false
+ },
+ "https://github.com/almighty-atlas/nextui-mkxp": {
+  "head": "32d6c8d0b18fca26dd31a224e7a85d70e7abca6f",
+  "last_commit": "2026-10-29",
+  "files": 193,
+  "code_files": 72,
+  "script_files": 11,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": true,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 1,
+  "created": "2026-10-25",
+  "pushed": "2026-10-30",
   "fork": false
  },
  "https://github.com/am0k161/trimulli": {
@@ -4568,6 +5162,26 @@
   "pushed": "2026-11-24",
   "fork": false
  },
+ "https://github.com/bmpriest/ds-emu-dac": {
+  "head": "b873b73db0a4fe8910cac17742c59c5702903529",
+  "last_commit": "2026-11-01",
+  "files": 343,
+  "code_files": 72,
+  "script_files": 0,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Python tool to convert 3DS analog cheats for DS games into a format suitable for general emulation to take advantage of analog controls (tongue in cheek: a DS Emulation Digital (the Nintendo DS) to Analog (joysticks!) Converter)",
+  "stars": 0,
+  "created": "2026-10-31",
+  "pushed": "2026-11-01",
+  "fork": false
+ },
  "https://github.com/bmpriest/nextui-dev-bridge": {
   "head": "8488a95a1c8973a4b4b9fc465f027063aaadec80",
   "last_commit": "2026-11-12",
@@ -5000,6 +5614,46 @@
   "pushed": "2026-11-05",
   "fork": false
  },
+ "https://github.com/bravenewaiworld/crystaline-os": {
+  "head": "522f2a623539fd4bf3a659c0259a0b9644c22772",
+  "last_commit": "2026-11-18",
+  "files": 215,
+  "code_files": 35,
+  "script_files": 41,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-10-18",
+  "pushed": "2026-11-23",
+  "fork": false
+ },
+ "https://github.com/bravenewaiworld/specular": {
+  "head": "544d353c26145df0c5efa53a0841dfb32cc0548b",
+  "last_commit": "2026-11-18",
+  "files": 220,
+  "code_files": 147,
+  "script_files": 1,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-10-18",
+  "pushed": "2026-11-23",
+  "fork": false
+ },
  "https://github.com/brian-the-guy92/iPodMusic-TG5040-New": {
   "head": "ced5e58ca74889b221ebcb3910cebee10bfdc7a0",
   "last_commit": "2026-08-30",
@@ -5406,6 +6060,30 @@
   "pushed": "2026-09-10",
   "fork": false
  },
+ "https://github.com/christopher-roelofs/ytc": {
+  "head": "6cc0240f5deee8f384fac6ab6d2c2542902c891e",
+  "last_commit": "2026-10-27",
+  "files": 107,
+  "code_files": 38,
+  "script_files": 5,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "other",
+  "has_pak_dir": false,
+  "tagset": "5b6187bc3fe6",
+  "tags": [
+   "hwdec-v1"
+  ],
+  "tags_all": [
+   "hwdec-v1"
+  ],
+  "checked": "2026-11-24",
+  "description": "An anonymous/unauthenticated YouTube client ",
+  "stars": 4,
+  "created": "2026-08-27",
+  "pushed": "2026-10-27",
+  "fork": false
+ },
  "https://github.com/cizia64/CrossMix-OS": {
   "head": "206d612fdef83972ed54a17de955125d0c0b3528",
   "last_commit": "2026-08-20",
@@ -5530,6 +6208,36 @@
   "stars": 0,
   "created": "2026-08-22",
   "pushed": "2026-08-23",
+  "fork": false
+ },
+ "https://github.com/dalexanco/nextui-samba-sync": {
+  "head": "a3dc08d63955468076afd15f33244bd5176e2937",
+  "last_commit": "2026-11-17",
+  "files": 44,
+  "code_files": 23,
+  "script_files": 6,
+  "binary_files": 0,
+  "license": null,
+  "pak": {
+   "name": "Samba Sync",
+   "version": "v0.2.0",
+   "type": "TOOL",
+   "description": "Pull-sync folders from Samba/SMB shares onto the SD card, declared in one config file.",
+   "author": "Dalexanco",
+   "platforms": [
+    "tg5040",
+    "tg5050"
+   ]
+  },
+  "has_pak_dir": true,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-09-13",
+  "pushed": "2026-11-17",
   "fork": false
  },
  "https://github.com/dennougorilla/nextui-favorite-toggle": {
@@ -7116,6 +7824,30 @@
   "pushed": "2026-11-23",
   "fork": false
  },
+ "https://github.com/fanfanStudio/dragon-radar": {
+  "head": "68180ed7ffe526c7940b3ec9ff9929058e44f3a9",
+  "last_commit": "2026-10-29",
+  "files": 37,
+  "code_files": 8,
+  "script_files": 2,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "a851fa355624",
+  "tags": [
+   "v1.0"
+  ],
+  "tags_all": [
+   "v1.0"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 1,
+  "created": "2026-10-27",
+  "pushed": "2026-10-30",
+  "fork": false
+ },
  "https://github.com/fanium/rockbox": {
   "head": "e295a65b14ebe717630f42b971a1a7233e96129e",
   "last_commit": "2026-09-19",
@@ -7167,6 +7899,78 @@
   ],
   "checked": "2026-11-24",
   "pushed": "2026-06-08",
+  "fork": false
+ },
+ "https://github.com/fnune/pocket-controller": {
+  "head": "0011f54bfe9ab50a1031d56fdc7ee57f097b8c2e",
+  "last_commit": "2026-11-23",
+  "files": 173,
+  "code_files": 34,
+  "script_files": 5,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "AGPL-3.0",
+  "pak": {
+   "name": "Pocket Controller",
+   "version": "v0.1.0",
+   "type": "TOOL",
+   "description": "Use this handheld as a wired controller on a computer",
+   "author": "fnune",
+   "platforms": [
+    "tg5040",
+    "tg5050",
+    "h700"
+   ]
+  },
+  "has_pak_dir": false,
+  "tagset": "f053ddb33a01",
+  "tags": [
+   "v0.1.0"
+  ],
+  "tags_all": [
+   "v0.1.0"
+  ],
+  "checked": "2026-11-24",
+  "description": "Turn your handheld into a plug-and-play USB controller",
+  "stars": 0,
+  "created": "2026-11-23",
+  "pushed": "2026-11-23",
+  "fork": false
+ },
+ "https://github.com/fnune/pocket-tunnel": {
+  "head": "22fd135b3f10790e85d8d7133d729cbc179b32d6",
+  "last_commit": "2026-11-24",
+  "files": 38,
+  "code_files": 20,
+  "script_files": 3,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "pak": {
+   "name": "Pocket Tunnel",
+   "version": "v0.1.0",
+   "type": "TOOL",
+   "description": "A VPN tunnel from this device to your home network, using the wireguard-go library",
+   "author": "fnune",
+   "platforms": [
+    "tg5040",
+    "tg5050",
+    "h700"
+   ]
+  },
+  "has_pak_dir": false,
+  "tagset": "f053ddb33a01",
+  "tags": [
+   "v0.1.0"
+  ],
+  "tags_all": [
+   "v0.1.0"
+  ],
+  "checked": "2026-11-24",
+  "description": "A VPN tunnel pak for NextUI handhelds, using the wireguard-go library",
+  "stars": 0,
+  "created": "2026-11-24",
+  "pushed": "2026-11-24",
   "fork": false
  },
  "https://github.com/gabilungu/glui": {
@@ -7615,6 +8419,26 @@
   ],
   "checked": "2026-11-24",
   "pushed": "2026-11-11",
+  "fork": false
+ },
+ "https://github.com/infosecanalyst-creator/ja2-3ds": {
+  "head": "938fd89400b2aacd4a11606858b2398b9298ba4a",
+  "last_commit": "2026-11-21",
+  "files": 26,
+  "code_files": 4,
+  "script_files": 3,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "other",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Jagged Alliance 2 for the New 3DS: dual-screen JA2 Stracciatella port with stylus play, info dashboard and built-in manual. Requires your own JA2 Gold data.",
+  "stars": 0,
+  "created": "2026-10-30",
+  "pushed": "2026-11-22",
   "fork": false
  },
  "https://github.com/islove659-max/trimui-appstore": {
@@ -9958,6 +10782,25 @@
   "pushed": "2026-07-09",
   "fork": false
  },
+ "https://github.com/juanchuj/Spruce-Collections": {
+  "head": "283fbc3303586e255a843f8d79c2d3911c577c52",
+  "last_commit": "2026-11-17",
+  "files": 62,
+  "code_files": 20,
+  "script_files": 0,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-17",
+  "pushed": "2026-11-17",
+  "fork": false
+ },
  "https://github.com/jukaLang/JukaCrossMix-OS": {
   "head": "d5102fabffe88fad2a74b2253d28378ac59eb495",
   "last_commit": "2026-10-15",
@@ -10095,6 +10938,25 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "pushed": "2026-11-17",
+  "fork": false
+ },
+ "https://github.com/kawaczek/brik": {
+  "head": "de7e22a38e1bb8824639e75f706e2ece1d7eead3",
+  "last_commit": "2026-11-24",
+  "files": 480,
+  "code_files": 256,
+  "script_files": 4,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-24",
+  "pushed": "2026-11-24",
   "fork": false
  },
  "https://github.com/keewhi/openrct2-pocket": {
@@ -10759,6 +11621,26 @@
   "pushed": "2026-11-14",
   "fork": false
  },
+ "https://github.com/mcereal/inkstand": {
+  "head": "f40a591f81a45e4dbead6e93730214746a4a179f",
+  "last_commit": "2026-11-14",
+  "files": 60,
+  "code_files": 42,
+  "script_files": 0,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 1,
+  "created": "2026-09-24",
+  "pushed": "2026-11-14",
+  "fork": false
+ },
  "https://github.com/mcereal/mesh-client": {
   "head": "3923270a447123492a4a16d902025abfcb32810f",
   "last_commit": "2026-11-18",
@@ -11161,6 +12043,59 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "pushed": "2026-09-28",
+  "fork": false
+ },
+ "https://github.com/mrkhdly/weather.pak": {
+  "head": "4217f169aa4cdba8cfcd0ef075342eabed24f403",
+  "last_commit": "2026-11-01",
+  "files": 9,
+  "code_files": 0,
+  "script_files": 2,
+  "binary_files": 0,
+  "license": null,
+  "pak": {
+   "name": null,
+   "version": "1.2.3",
+   "type": null,
+   "description": "Current weather for any city via wttr.in. Requires WiFi.",
+   "author": "mrkhdly",
+   "platforms": [
+    "tg5040"
+   ]
+  },
+  "has_pak_dir": true,
+  "tagset": "f306a4547064",
+  "tags": [
+   "v1.1.10",
+   "v1.2.0",
+   "v1.2.1",
+   "v1.2.2",
+   "v1.2.3"
+  ],
+  "tags_all": [
+   "v1.0.0",
+   "v1.0.1",
+   "v1.1.0",
+   "v1.1.1",
+   "v1.1.2",
+   "v1.1.3",
+   "v1.1.4",
+   "v1.1.5",
+   "v1.1.6",
+   "v1.1.7",
+   "v1.1.8",
+   "v1.1.9",
+   "v1.1.10",
+   "v1.2.0",
+   "v1.2.1",
+   "v1.2.2",
+   "v1.2.3"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-08-02",
+  "pushed": "2026-11-02",
   "fork": false
  },
  "https://github.com/mxmgorin/retsurf": {
@@ -12053,6 +12988,75 @@
   "pushed": "2026-11-23",
   "fork": false
  },
+ "https://github.com/paiheulevrai/ChooChooDubSiren": {
+  "head": "09d5b1b0559cbcacf75f8a2113d76821d28f53bd",
+  "last_commit": "2026-11-21",
+  "files": 44,
+  "code_files": 8,
+  "script_files": 5,
+  "binary_files": 0,
+  "license_file": "LICENSE.tracker",
+  "license": "MIT",
+  "has_pak_dir": false,
+  "tagset": "c70fa4f4b6f6",
+  "tags": [
+   "v0.2.0",
+   "v0.2.1"
+  ],
+  "tags_all": [
+   "v0.2.0",
+   "v0.2.1"
+  ],
+  "checked": "2026-11-24",
+  "description": "Dub Siren for your handheld console. ",
+  "stars": 2,
+  "created": "2026-11-20",
+  "pushed": "2026-11-21",
+  "fork": false
+ },
+ "https://github.com/paiheulevrai/ChooChooHacker": {
+  "head": "c6597f07616b7f544789b92df8b2eced7c76f655",
+  "last_commit": "2026-11-20",
+  "files": 29,
+  "code_files": 10,
+  "script_files": 3,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "pak": {
+   "name": "ChooChoohacker - Microphone activator",
+   "version": "v0.1.6",
+   "type": "TOOL",
+   "description": "Control the mic and persistent USB audio IN on Smart Pro.",
+   "author": "paiheulevrai",
+   "platforms": [
+    "tg5040",
+    "tg5050"
+   ]
+  },
+  "has_pak_dir": false,
+  "tagset": "dd3842c3e2b9",
+  "tags": [
+   "v0.1.0",
+   "v0.1.1",
+   "v0.1.2",
+   "v0.1.5",
+   "v0.1.6"
+  ],
+  "tags_all": [
+   "v0.1.0",
+   "v0.1.1",
+   "v0.1.2",
+   "v0.1.5",
+   "v0.1.6"
+  ],
+  "checked": "2026-11-24",
+  "description": "Patcher to activate the on-board mic on your console. ",
+  "stars": 0,
+  "created": "2026-11-18",
+  "pushed": "2026-11-20",
+  "fork": false
+ },
  "https://github.com/paiheulevrai/Choochootracker": {
   "head": "8e945eee1235ef4a24d884c70122fcb9a0d2c6dc",
   "last_commit": "2026-11-20",
@@ -12140,6 +13144,25 @@
   "stars": 13,
   "created": "2026-10-30",
   "pushed": "2026-11-18",
+  "fork": false
+ },
+ "https://github.com/patois/knulli-vm": {
+  "head": "31b57c6dda7f825d7361579f838c871520aed5d2",
+  "last_commit": "2026-11-19",
+  "files": 27,
+  "code_files": 6,
+  "script_files": 17,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-02",
+  "pushed": "2026-11-19",
   "fork": false
  },
  "https://github.com/pawndev/Game-Watch-NextUI": {
@@ -12521,6 +13544,106 @@
   "pushed": "2026-09-10",
   "fork": false
  },
+ "https://github.com/retroshelf-org/linux": {
+  "head": "74b2e7135aa23de9e066b4c8902702d9bd1898ac",
+  "last_commit": "2026-11-04",
+  "files": 2,
+  "code_files": 0,
+  "script_files": 0,
+  "binary_files": 0,
+  "license": null,
+  "pak": {
+   "name": "retroshelf",
+   "version": "v0.6.11",
+   "type": "TOOL",
+   "description": "Sync NextUI play sessions to retroshelf",
+   "author": "retroshelf",
+   "platforms": [
+    "tg5040",
+    "tg5050"
+   ]
+  },
+  "has_pak_dir": false,
+  "tagset": "266238c5780c",
+  "tags": [
+   "v0.6.7",
+   "v0.6.8",
+   "v0.6.9",
+   "v0.6.10",
+   "v0.6.11"
+  ],
+  "tags_all": [
+   "v0.2.1",
+   "v0.2.2",
+   "v0.3.0",
+   "v0.3.1",
+   "v0.3.2",
+   "v0.3.3",
+   "v0.4.0",
+   "v0.4.1",
+   "v0.4.2",
+   "v0.4.3",
+   "v0.4.4",
+   "v0.5.0",
+   "v0.5.1",
+   "v0.5.2",
+   "v0.5.3",
+   "v0.5.4",
+   "v0.5.5",
+   "v0.5.6",
+   "v0.6.0",
+   "v0.6.1",
+   "v0.6.2",
+   "v0.6.3",
+   "v0.6.4",
+   "v0.6.5",
+   "v0.6.6",
+   "v0.6.7",
+   "v0.6.8",
+   "v0.6.9",
+   "v0.6.10",
+   "v0.6.11"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-07-15",
+  "pushed": "2026-11-04",
+  "fork": false
+ },
+ "https://github.com/retrotiv/BrickNEXT": {
+  "head": "ff0805d940ace0a5e68a6c91de6b2085da12f6e4",
+  "last_commit": "2026-11-18",
+  "files": 27,
+  "code_files": 0,
+  "script_files": 2,
+  "binary_files": 1,
+  "license_file": "LICENSE",
+  "license": "other",
+  "has_pak_dir": true,
+  "tagset": "e6783ad47d7f",
+  "tags": [
+   "0.9.0",
+   "v1.0.0",
+   "v1.1.0",
+   "v1.2.0",
+   "6.1.0"
+  ],
+  "tags_all": [
+   "0.6.5",
+   "0.9.0",
+   "v1.0.0",
+   "v1.1.0",
+   "v1.2.0",
+   "6.1.0"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 0,
+  "created": "2026-11-03",
+  "pushed": "2026-11-18",
+  "fork": false
+ },
  "https://github.com/retrotiv/Pak-Plaza": {
   "head": "72d79366c04c32f4d8282752d4eb024338d6ad06",
   "last_commit": "2026-11-04",
@@ -12590,12 +13713,12 @@
   "license_file": "LICENSE",
   "license": "GPL-2.0",
   "has_pak_dir": true,
-  "tagset": "3c2c68015d93",
+  "tagset": "cd5cc8f8606d",
   "tags": [
-   "brick-parts-0.7.0",
    "v0.7.0",
    "darkos-test-1",
    "darkos-test-2",
+   "darkos-test-3",
    "r36s-test-1"
   ],
   "tags_all": [
@@ -12651,6 +13774,7 @@
    "v0.7.0",
    "darkos-test-1",
    "darkos-test-2",
+   "darkos-test-3",
    "r36s-test-1"
   ],
   "checked": "2026-11-24",
@@ -12865,6 +13989,30 @@
   "pushed": "2026-10-15",
   "fork": true
  },
+ "https://github.com/saivishnu2299/pocketlab": {
+  "head": "5af0039c16cdee6376784ba6c5b60a0d73be5a39",
+  "last_commit": "2026-11-24",
+  "files": 109,
+  "code_files": 45,
+  "script_files": 3,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "AGPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "5e166fb80032",
+  "tags": [
+   "v1.1.0"
+  ],
+  "tags_all": [
+   "v1.1.0"
+  ],
+  "checked": "2026-11-24",
+  "description": "Create mini apps for your Brick Pro with your coding agent.",
+  "stars": 1,
+  "created": "2026-11-15",
+  "pushed": "2026-11-24",
+  "fork": false
+ },
  "https://github.com/sharuru3501/rockbox-classic-revival-brick": {
   "head": "83570af4848112194c529bcb6a10590e55a4e5fa",
   "last_commit": "2026-10-25",
@@ -12992,6 +14140,25 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "pushed": "2026-08-04",
+  "fork": false
+ },
+ "https://github.com/sleepdebt/pocketplex": {
+  "head": "9b140161a7d2237f52af0855961287dec6695757",
+  "last_commit": "2026-10-28",
+  "files": 122,
+  "code_files": 62,
+  "script_files": 4,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Lightweight text-first Plex client for Linux retro handhelds",
+  "stars": 0,
+  "created": "2026-10-03",
+  "pushed": "2026-10-28",
   "fork": false
  },
  "https://github.com/slickor/ha-retroconsole": {
@@ -13180,6 +14347,87 @@
   "pushed": "2026-06-23",
   "fork": true
  },
+ "https://github.com/spruceUI/PPSSPP-spruce": {
+  "head": "e193c9a1d4aca6bbce927012b4e175f422ad6378",
+  "last_commit": "2026-11-14",
+  "files": 58,
+  "code_files": 22,
+  "script_files": 9,
+  "binary_files": 0,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "176690d64725",
+  "tags": [
+   "sdk-toolchains",
+   "beta-sigusr1-save-quit",
+   "beta-pixel2-build",
+   "beta-rgb30-target",
+   "beta-aarch64-gcc-10"
+  ],
+  "tags_all": [
+   "beta-For-Ry",
+   "beta-debug-pvr",
+   "beta-flip-vulkan",
+   "beta-main",
+   "beta-skip-vulkan-probe",
+   "beta-vulkan-tsps-flip",
+   "latest",
+   "sdk-toolchains",
+   "beta-sigusr1-save-quit",
+   "beta-pixel2-build",
+   "beta-rgb30-target",
+   "beta-aarch64-gcc-10"
+  ],
+  "checked": "2026-11-24",
+  "description": "PPSSPP standalone builds for SpruceOS",
+  "stars": 1,
+  "created": "2026-03-26",
+  "pushed": "2026-11-14",
+  "fork": false
+ },
+ "https://github.com/spruceUI/Ports-and-Free-Games": {
+  "head": "a981c7601bb4e47a28985b9ec6860311ae5e609e",
+  "last_commit": "2026-10-24",
+  "files": 16349,
+  "code_files": 112,
+  "script_files": 27,
+  "binary_files": 155,
+  "license": null,
+  "has_pak_dir": false,
+  "tagset": "0f2fc27161fa",
+  "tags": [
+   "3.0.0",
+   "AllPortsandFreeGamesV3.0.1",
+   "test5",
+   "test6",
+   "test7"
+  ],
+  "tags_all": [
+   "Arduboy",
+   "INFO",
+   "Nursery",
+   "Singles",
+   "SuperMarioWar",
+   "sonic-mania-fix",
+   "test",
+   "OpenJazzV1.0",
+   "PlanetMergeV1.0",
+   "nKarugaV1.0",
+   "OpenJazzV1.1",
+   "ALL.Free.Games.and.Ports.V2.0",
+   "3.0.0",
+   "AllPortsandFreeGamesV3.0.1",
+   "test5",
+   "test6",
+   "test7"
+  ],
+  "checked": "2026-11-24",
+  "description": "Free Games and Apps for spruceOS",
+  "stars": 20,
+  "created": "2024-09-21",
+  "pushed": "2026-11-12",
+  "fork": false
+ },
  "https://github.com/spruceUI/PyUI-Themes": {
   "head": "ebc8cbf87819495674c33de1f81fda8c678f8075",
   "last_commit": "2026-11-23",
@@ -13201,6 +14449,43 @@
   ],
   "checked": "2026-11-24",
   "pushed": "2026-11-24",
+  "fork": false
+ },
+ "https://github.com/spruceUI/oakMOSS": {
+  "head": "fc42aede52fd6e68fac75bf97b97bbe76d4267ff",
+  "last_commit": "2026-11-14",
+  "files": 575,
+  "code_files": 28,
+  "script_files": 49,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "other",
+  "has_pak_dir": false,
+  "tagset": "7821beaf0590",
+  "tags": [
+   "v0.4.2-beta.1",
+   "v0.5.0-beta.1",
+   "v0.5.0-beta.2",
+   "v0.6.0-beta.1",
+   "v0.7.0-beta.1"
+  ],
+  "tags_all": [
+   "v0.1.0-beta.1",
+   "v0.2.0-beta.1",
+   "v0.3.0-beta.1",
+   "v0.4.0-beta.1",
+   "v0.4.1-beta.1",
+   "v0.4.2-beta.1",
+   "v0.5.0-beta.1",
+   "v0.5.0-beta.2",
+   "v0.6.0-beta.1",
+   "v0.7.0-beta.1"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 5,
+  "created": "2026-09-16",
+  "pushed": "2026-11-14",
   "fork": false
  },
  "https://github.com/spruceUI/spruceOS": {
@@ -13561,6 +14846,49 @@
   "pushed": "2026-11-20",
   "fork": false
  },
+ "https://github.com/tarikbc/ZyperOS": {
+  "head": "7e15d3d68ae0a1feee696b67748c47f54a1cb407",
+  "last_commit": "2026-11-24",
+  "files": 3251,
+  "code_files": 1353,
+  "script_files": 125,
+  "binary_files": 40,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "925f54cceabf",
+  "tags": [
+   "v1.0.6-rc.3",
+   "v1.0.7-kit.1",
+   "v1.1.0",
+   "cores-2026-11-11",
+   "cores-2026-11-16"
+  ],
+  "tags_all": [
+   "brick-kit-1",
+   "v1.0.0",
+   "v1.0.1",
+   "v1.0.2",
+   "v1.0.3",
+   "v1.0.4",
+   "v1.0.5",
+   "v1.0.6",
+   "v1.0.6-rc.1",
+   "v1.0.6-kit.2",
+   "v1.0.6-rc.2",
+   "v1.0.6-rc.3",
+   "v1.0.7-kit.1",
+   "v1.1.0",
+   "cores-2026-11-11",
+   "cores-2026-11-16"
+  ],
+  "checked": "2026-11-24",
+  "description": "A fast, light firmware for the GKD Pixel 2 that plays your whole retro library: forty systems, PortMaster ports, and your music, audiobooks and videos.",
+  "stars": 20,
+  "created": "2026-11-07",
+  "pushed": "2026-11-24",
+  "fork": false
+ },
  "https://github.com/tfournier/ReminisLink": {
   "head": "591ed564b792127b6242c9416145463127fdf3c2",
   "last_commit": "2026-11-23",
@@ -13757,6 +15085,30 @@
   ],
   "checked": "2026-11-24",
   "pushed": "2026-05-03",
+  "fork": false
+ },
+ "https://github.com/thwonp/dsperate-lr": {
+  "head": "27b9d76fb4c900d29f9629806f316527b5da90c2",
+  "last_commit": "2026-11-04",
+  "files": 14,
+  "code_files": 2,
+  "script_files": 1,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "0133b15d7572",
+  "tags": [
+   "v3.3.0-lr.1"
+  ],
+  "tags_all": [
+   "v3.3.0-lr.1"
+  ],
+  "checked": "2026-11-24",
+  "description": "libretro core around DSperate, the Nintendo DS emulator (plorpOS)",
+  "stars": 2,
+  "created": "2026-10-23",
+  "pushed": "2026-11-04",
   "fork": false
  },
  "https://github.com/thwonp/plorpOS": {
@@ -14071,6 +15423,37 @@
   "pushed": "2024-01-07",
   "fork": false
  },
+ "https://github.com/trngaje/advanced_drastic": {
+  "head": "d445a56349cce68f5337d02c9fe890de9d390f3f",
+  "last_commit": "2026-11-01",
+  "files": 68,
+  "code_files": 0,
+  "script_files": 7,
+  "binary_files": 8,
+  "license": null,
+  "has_pak_dir": true,
+  "tagset": "41be8b170609",
+  "tags": [
+   "ark",
+   "libadvdrastic",
+   "libs",
+   "rocknix",
+   "rocknix_rgds"
+  ],
+  "tags_all": [
+   "ark",
+   "libadvdrastic",
+   "libs",
+   "rocknix",
+   "rocknix_rgds"
+  ],
+  "checked": "2026-11-24",
+  "description": null,
+  "stars": 48,
+  "created": "2024-12-12",
+  "pushed": "2026-11-01",
+  "fork": false
+ },
  "https://github.com/tsolfan/beetle-supergrafx-libretro-nextui": {
   "head": "d447012652277ab9a3e3203d19c2641d8a8f151a",
   "last_commit": "2026-11-05",
@@ -14379,6 +15762,73 @@
   "pushed": "2026-11-23",
   "fork": false
  },
+ "https://github.com/tyrannotorus/emulator-deadstation-1-recomp-rally-cross": {
+  "head": "5bf75c27f26dd855b335d25cd12308b35cddfed0",
+  "last_commit": "2026-11-07",
+  "files": 19,
+  "code_files": 6,
+  "script_files": 0,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "other",
+  "has_pak_dir": false,
+  "tagset": "541fd2379ab2",
+  "tags": [
+   "1.0.0",
+   "1.1.0",
+   "1.1.1",
+   "1.1.2"
+  ],
+  "tags_all": [
+   "1.0.0",
+   "1.1.0",
+   "1.1.1",
+   "1.1.2"
+  ],
+  "checked": "2026-11-24",
+  "description": "Deadstation 1 - Tekken 3 Recomp",
+  "stars": 0,
+  "created": "2026-11-03",
+  "pushed": "2026-11-07",
+  "fork": false
+ },
+ "https://github.com/tyrannotorus/emulator-deadstation-1-recomp-tekken-3": {
+  "head": "b79613eb1cbb7d90abd5e5b23f3c92665c67c228",
+  "last_commit": "2026-11-07",
+  "files": 30,
+  "code_files": 12,
+  "script_files": 0,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "other",
+  "has_pak_dir": false,
+  "tagset": "890130f9c7d2",
+  "tags": [
+   "1.2.3",
+   "1.2.4",
+   "1.2.5",
+   "1.3.0",
+   "1.3.1"
+  ],
+  "tags_all": [
+   "1.0.0",
+   "1.1.0",
+   "1.2.0",
+   "1.2.1",
+   "1.2.2",
+   "1.2.3",
+   "1.2.4",
+   "1.2.5",
+   "1.3.0",
+   "1.3.1"
+  ],
+  "checked": "2026-11-24",
+  "description": "Deadstation 1 - Tekken 3 Recomp",
+  "stars": 0,
+  "created": "2026-11-03",
+  "pushed": "2026-11-07",
+  "fork": false
+ },
  "https://github.com/tyrannotorus/emulator-deadstation-portable": {
   "head": "e8a664133dc25fbc097d609ec3c02d83a5fe7ca0",
   "last_commit": "2026-11-24",
@@ -14420,6 +15870,52 @@
   "stars": 2,
   "created": "2026-11-05",
   "pushed": "2026-11-24",
+  "fork": false
+ },
+ "https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-sdk": {
+  "head": "375ff8d75049f7a10ba5587ca329e8280f88af9a",
+  "last_commit": "2026-11-11",
+  "files": 63,
+  "code_files": 26,
+  "script_files": 2,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Deadstation Portable Recomp SDK",
+  "stars": 0,
+  "created": "2026-11-05",
+  "pushed": "2026-11-11",
+  "fork": false
+ },
+ "https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-soulcalibur-broken-destiny": {
+  "head": "a900e0da8f4e8c4dc0122f8e7a8b928467382cc7",
+  "last_commit": "2026-11-11",
+  "files": 12,
+  "code_files": 2,
+  "script_files": 2,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "dcf8aced6d29",
+  "tags": [
+   "1.0.0",
+   "1.0.1"
+  ],
+  "tags_all": [
+   "1.0.0",
+   "1.0.1"
+  ],
+  "checked": "2026-11-24",
+  "description": "Deadstation Portable - Soul Calibur Recomp",
+  "stars": 0,
+  "created": "2026-11-09",
+  "pushed": "2026-11-11",
   "fork": false
  },
  "https://github.com/tyrannotorus/emulator-dreamcast-deadcast": {
@@ -14467,6 +15963,62 @@
   "checked": "2026-11-24",
   "stars": 5,
   "created": "2026-10-30",
+  "pushed": "2026-11-24",
+  "fork": false
+ },
+ "https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-rez-recompiled": {
+  "head": "067d974dd683017cfc57c451bb134ba03c8c44c4",
+  "last_commit": "2026-11-24",
+  "files": 35,
+  "code_files": 25,
+  "script_files": 0,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-2.0",
+  "has_pak_dir": false,
+  "tagset": "94513174bc13",
+  "tags": [
+   "1.2.0",
+   "1.2.1",
+   "1.2.2",
+   "1.3.0",
+   "1.3.1"
+  ],
+  "tags_all": [
+   "1.0.3",
+   "1.0.4",
+   "1.1.0",
+   "1.1.1",
+   "1.2.0",
+   "1.2.1",
+   "1.2.2",
+   "1.3.0",
+   "1.3.1"
+  ],
+  "checked": "2026-11-24",
+  "description": "Rez Recompiled Recomp Module for Deadcast",
+  "stars": 0,
+  "created": "2026-11-02",
+  "pushed": "2026-11-24",
+  "fork": false
+ },
+ "https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-sdk": {
+  "head": "d5647fed6e16d9266d45d16eae57b7fd79467485",
+  "last_commit": "2026-11-24",
+  "files": 230,
+  "code_files": 193,
+  "script_files": 4,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-2.0",
+  "has_pak_dir": false,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24",
+  "description": "Deadcast Recomp SDK",
+  "stars": 0,
+  "created": "2026-11-02",
   "pushed": "2026-11-24",
   "fork": false
  },

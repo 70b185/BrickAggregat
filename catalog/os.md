@@ -2,7 +2,7 @@
 
 Custom firmwares, launchers and frontends.
 
-39 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+47 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,9 +11,13 @@ Custom firmwares, launchers and frontends.
 | [Brick Buildroot firmware](https://github.com/jkingston/trimui-brick-firmware) | jkingston | Minimal Buildroot firmware for TrimUI Brick | - | brick-7.3.0-1 | 2026-11-08 | GPL-2.0 |
 | [Brick product firmware layer](https://github.com/jkingston/trimui-brick-custom-firmware) | jkingston | Minimal product firmware layer for the TrimUI Brick | - | - | 2026-11-18 | GPL-2.0 |
 | [BRICK-UI](https://github.com/bebeidon/BRICK-UI) | bebeidon | A fork of NX Redux | - | v2.0.0 | 2026-10-17 | GPL-3.0 |
+| [BrickDeck OS](https://github.com/kawaczek/brik) | kawaczek |  | - | - | 2026-11-24 | no licence |
+| [BrickNext](https://github.com/retrotiv/BrickNEXT) | retrotiv |  | - | 6.1.0 | 2026-11-18 | other (scripts) |
 | [ChaOS](https://github.com/SkyWalker541/ChaOS) | SkyWalker541 | Brick firmware with shaders, overlays, PortMaster, RomM, music and audiobooks. | - | v2.7.8-test1 | 2026-11-23 | GPL-3.0 |
+| [Crystaline OS](https://github.com/bravenewaiworld/crystaline-os) | bravenewaiworld |  | - | - | 2026-11-18 | GPL-3.0 |
 | [fbui](https://github.com/movsb/fbui) | movsb | A TrimUI frontend alternative. | - | - | 2026-11-22 | no licence |
 | [glui](https://github.com/gabilungu/glui) | gabilungu | A simple system for the TrimUI Brick | - | v0.3.2 | 2026-10-15 | other |
+| [Jawaka](https://github.com/Utility-Muffin-Research-Kitchen/Jawaka) | Utility-Muffin-Research-Kitchen |  | - | - | 2026-11-18 | MIT |
 | [JukaCrossMix OS](https://github.com/jukaLang/JukaCrossMix-OS) | jukaLang | Juka's Fork of CrossMix OS. Enhanced OS for the TrimUI Smart Pro | - | v1.3.0 | 2026-10-15 | GPL-3.0 |
 | [kiln](https://github.com/mSulleza/kiln) | mSulleza | A minimal launcher for the TrimUI Brick: one static C binary on the framebuffer, autostarted from the SD card. | - | - | 2026-11-08 | no licence |
 | [KNULLI](https://github.com/knulli-cfw/knulli-linux) | knulli-cfw | KNULLI: Batocera-based firmware with EmulationStation, PortMaster and many standalone emulators. Several music apps (GrainBrick, BrickPad, brickchord) target it. | - | 20260511 | 2026-10-01 | GPL-2.0 |
@@ -26,15 +30,19 @@ Custom firmwares, launchers and frontends.
 | [ndsui](https://github.com/TimeATronics/ndsui) | TimeATronics | An alternative launcher / frontend for TrimUI Brick | - | - | 2026-09-20 | GPL-3.0 |
 | [NextUI](https://github.com/LoveRetro/NextUI) | LoveRetro | MinUI fork that became its own firmware: rebuilt emulation engine, shaders, overlays, Wi-Fi, LED control, Pak Store. The most used launcher on the Brick; platform folder tg5040. | - | v6.15.0 | 2026-11-12 | other |
 | [NX Redux](https://github.com/nx-redux/nx-handheld) | nx-redux | NX Redux: NextUI fork with its own app set and UI changes for the Brick, Brick Hammer, Brick Pro and the Smart Pro family. | - | v2.5.1 | 2026-11-23 | GPL-3.0 |
+| [oakMOSS](https://github.com/spruceUI/oakMOSS) | spruceUI |  | - | v0.7.0-beta.1 | 2026-11-14 | other |
 | [Pingo OS](https://github.com/luciano2000/pingo-os) | luciano2000 | Pingo OS by Retrogamer Brasil: distro Linux mínima para handhelds retrô (Anbernic RG35XX-H, RG40XX, TrimUI Brick) | - | v0.3.7-beta | 2026-11-24 | GPL-2.0 |
 | [plorpOS](https://github.com/thwonp/plorpOS) | thwonp | Small firmware for several handhelds including the Brick, Hammer and Brick Pro, with an emphasis on music. | - | archive/pokedaisy-parity-9506907 | 2026-11-20 | MIT |
 | [pocket-ui](https://github.com/robbyczgw-cla/pocket-ui) | robbyczgw-cla | pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped. | - | r36s-test-1 | 2026-11-24 | GPL-2.0 |
 | [RaineyUI](https://github.com/usfjrain/RaineyUI) | usfjrain | Neon-arcade retro gaming frontend for TrimUI Brick/Smart Pro and Android | - | v0.3.0 | 2026-11-05 | no licence |
 | [RmlUi Brick](https://github.com/PEDx/rmlui-brick) | PEDx | A handheld-style game library and emulator frontend built specifically for the TrimUI Brick with RmlUi, SDL2, and MinArch. | - | - | 2026-08-26 | no licence |
+| [SenOS](https://github.com/TrungTruong25/SenOS) | TrungTruong25 |  | - | - | 2026-11-22 | no licence (no source) |
 | [Slot. (Brick)](https://github.com/LordNordyx/Slot-Brick) | LordNordyx | Slot. for the TrimUI Brick: a Game Boy–focused GB/GBC/GBA frontend on stock firmware. | - | v0.60 | 2026-11-19 | GPL-3.0 |
+| [Specular](https://github.com/bravenewaiworld/specular) | bravenewaiworld |  | - | - | 2026-11-18 | GPL-3.0 |
 | [spruceOS](https://github.com/spruceUI/spruceOS) | spruceUI | SD-card layer over the stock system for Miyoo, TrimUI and Anbernic devices, with its own PyUI frontend. | - | v4.6.0 | 2026-11-24 | MIT |
 | [TortOS](https://github.com/ericreinsmidt/TortOS) | ericreinsmidt | Custom firmware for games, music and audiobooks on the Brick and Brick Hammer, configured on the device itself. Built on plastron. | - | v2.2.1 | 2026-11-13 | GPL-3.0 |
 | [trimulli](https://github.com/am0k161/trimulli) | am0k161 | Slimmed KNULLI fork with audio optimisations for the Brick and Smart Pro. | - | - | 2026-11-15 | GPL-2.0 |
+| [ZyperOS](https://github.com/tarikbc/ZyperOS) | tarikbc | A fast, light firmware for the GKD Pixel 2 that plays your whole retro library: forty systems, PortMaster ports, and your music, audiobooks and videos. | - | cores-2026-11-16 | 2026-11-24 | GPL-3.0 |
 | [Better Stock](https://github.com/djaysan/Better-Stock) | djaysan | Trimui Brick Better Stock mix (personal use) | - | v1.0.0 | 2026-07-08 | no licence (scripts) |
 | [contrarian](https://github.com/ericreinsmidt/contrarian) | ericreinsmidt | A custom firmware for the TrimUI Brick that plays Contra, because what else is there? | - | v1.2 | 2026-08-21 | 0BSD |
 | [CrossMix-OS](https://github.com/cizia64/CrossMix-OS) | cizia64 | Extends the stock TrimUI interface with new emulators, apps and settings; started on the Smart Pro. | - | v1.3.0 | 2026-08-20 | GPL-3.0 |

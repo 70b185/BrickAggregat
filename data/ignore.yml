@@ -2,6 +2,8 @@
 # scripts/find_new.py leaves these out of state/NEW.md. Remove a line to have a repo reported again.
 
 ignore:
+- url: https://buttonery.itch.io/buttonery
+  reason: general PortMaster game, not specific to the Brick
 - repo: https://github.com/4fuu/Apostrophe
   reason: fork or copy without changes of its own that matter here
 - repo: https://github.com/4fuu/NextUI
@@ -14,6 +16,8 @@ ignore:
   reason: other device (Anbernic H700, R36S, Action Pi)
 - repo: https://github.com/ahmadteeb/EmuDrop
   reason: downloads ROMs from third-party sites (out of scope)
+- repo: https://github.com/alejandrodiazovh/brixeq-manual
+  reason: copy of a listed repo
 - repo: https://github.com/AlekseyMalykh/GrainBernik
   reason: other device (Anbernic H700, R36S, Action Pi)
 - repo: https://github.com/AleWiccan/Pocket-Native-TrimuiSP
@@ -58,9 +62,13 @@ ignore:
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/blanck/trimui-teleop
   reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/bobbyjball3/sbc-android-card-imager
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/boomchu-123/slot-flip
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/brenonsc/RomManager4Spruce
+  reason: downloads ROMs from third-party sites (out of scope)
+- repo: https://github.com/bun2it/RomcloudV2
   reason: downloads ROMs from third-party sites (out of scope)
 - repo: https://github.com/carroarmato0/trimui-smart-pro-s-firmware
   reason: Smart Pro / Smart Pro S only, no Brick build
@@ -68,8 +76,14 @@ ignore:
   reason: no readme or description to tell what it is
 - repo: https://github.com/CatDadJynx/Descent-Trimui-Model-S
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/CharlexH/CharlexH
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/CheemaOTB/gen1recomp-trimui
   reason: no readme or description to tell what it is
+- repo: https://github.com/chopfitzroy/chopfitzroy
+  reason: not about the Brick (README mention only), or a profile/portfolio page
+- repo: https://github.com/chrisj951/MainPyUI
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/cixzhang/brick-apps
   reason: personal setup or collection, nothing reusable
 - repo: https://github.com/clasesethf/minuia
@@ -148,10 +162,20 @@ ignore:
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/isalin/moonlight-tsp
   reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/itchio/zitch
+  reason: not about the Brick (README mention only), or a profile/portfolio page
+- repo: https://github.com/JAKARTA2006/orbe
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
+- repo: https://github.com/jakesearle/android-play-retro-games-club
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
+- repo: https://github.com/jimmyhat999/godot-portmaster-export
+  reason: general PortMaster tooling or port, not specific to the Brick
 - repo: https://github.com/jkocontreras/GrainBernic-RG35XX-Plus
   reason: other device (Anbernic H700, R36S, Action Pi)
 - repo: https://github.com/johnnylowmango/nextui
   reason: not about TrimUI (name match only)
+- repo: https://github.com/jukaLang/Packages
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/jyav-19/MehSlot-BrickPro
   reason: fork or copy without changes of its own that matter here
 - repo: https://github.com/kablowkaboom0-sys/ZUZU2P
@@ -170,6 +194,8 @@ ignore:
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/LeonEstrak/minerva-downloader
   reason: downloads ROMs from third-party sites (out of scope)
+- repo: https://github.com/lidor30/pokedaisy
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/Logarythms/nextui-portmaster-h700
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/looke1987/minuix-updates
@@ -182,6 +208,8 @@ ignore:
   reason: not about TrimUI (name match only)
 - repo: https://github.com/marcellduplessis/minui_plus
   reason: no readme or description to tell what it is
+- repo: https://github.com/Marice/Fireplace5
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/matitika/slot-brick
   reason: fork or copy without changes of its own that matter here
 - repo: https://github.com/matweew/mpv-tsp
@@ -190,6 +218,8 @@ ignore:
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/MidG971/trimui_smart_pro_s
   reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/miguelwrks/portifolio
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/MINUISONG/MINUISONG.github.io
   reason: not about TrimUI (name match only)
 - repo: https://github.com/mohammadsyuhada/nx-redux
@@ -216,34 +246,58 @@ ignore:
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/nlkcodenew/android-trimui-store
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/nlkcodenew/lottoforecast-release
+  reason: out of scope (game mod without licence / lottery forecasting)
 - repo: https://github.com/NukeBomB3000/minui-rg353m
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/officialjonot/trimui
   reason: no readme or description to tell what it is
+- repo: https://github.com/osbm/flake
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/oscarcm1/nextui
   reason: not about TrimUI (name match only)
 - repo: https://github.com/PandaQuQ/nextui-updater-pak-CN
   reason: fork or copy without changes of its own that matter here
 - repo: https://github.com/pmsobrado/spruceOS
   reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/Pobega/NextUI-v90s
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/pocketforge-os/recovery
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/pvaibhav/NextUI
   reason: other device (Anbernic H700, R36S, Action Pi)
 - repo: https://github.com/rcdev1987/nextui
   reason: not about TrimUI (name match only)
+- repo: https://github.com/retrotiv/AnberNext
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
+- repo: https://github.com/robbyczgw-cla/robbyczgw-cla
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/rusaakkmods/trimui-brick-backing
   reason: no readme or description to tell what it is
+- repo: https://github.com/saivishnu2299/saivishnu2299
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/samusfacepalm/MinUI-Amber
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/Santuybe/Otokix
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/SDP1727/trimui-brick-emu-winarm
   reason: fork or copy without changes of its own that matter here
+- repo: https://github.com/serdarbayram/Hill-Climb-Racing-Portmaster-Version
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/SilverCrow2323/Twinsanity-Rintromped-H700-Edition
   reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/SkyWalker541/ChaOS-diatom
+  reason: copy of a listed repo
 - repo: https://github.com/SongNoin/minui
   reason: not about TrimUI (name match only)
+- repo: https://github.com/spruceUI/cores-experimental
+  reason: build infrastructure or nightly mirror of a listed firmware (spruceOS)
+- repo: https://github.com/spruceUI/Cores-spruce
+  reason: build infrastructure or nightly mirror of a listed firmware (spruceOS)
+- repo: https://github.com/spruceUI/RA
+  reason: build infrastructure or nightly mirror of a listed firmware (spruceOS)
+- repo: https://github.com/spruceUI/spruceOSNightlies
+  reason: build infrastructure or nightly mirror of a listed firmware (spruceOS)
 - repo: https://github.com/star0081/D-TRIMUI_DEAD_SPACE_PORTMASTER
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/star0081/D-TRIMUI_Galaxy_ON-_FIRE-_2
@@ -288,12 +342,22 @@ ignore:
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/ToastedFrog2/NVForever-TrimUI
   reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/tomtombombadil/PM-GoldBoxGameEngine
+  reason: general PortMaster tooling or port, not specific to the Brick
 - repo: https://github.com/trimui/ota
   reason: release-only mirror or copy of an entry we list
 - repo: https://github.com/troyvnit/retroy-releases
   reason: release-only mirror or copy of an entry we list
+- repo: https://github.com/truongliu75-sketch/YugiLan
+  reason: out of scope (game mod without licence / lottery forecasting)
+- repo: https://github.com/tyrannotorus/recomp-dreamcast-rez
+  reason: superseded by a listed entry (Deadcast)
+- repo: https://github.com/ujjwal313/ujjwal313
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/Ultramarine-Linux/ultramarine-handheld
   reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/unitreign/playtime
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/ut-slayer/mesa-panvk-g57
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/vampirekun/retro-chiaki
@@ -312,13 +376,43 @@ ignore:
   reason: not about TrimUI (name match only)
 - repo: https://github.com/weimingtom/cocos2d-x-2.2.6-miyoo-a30
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
+- repo: https://github.com/xzys/rex
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/yolk00/pocketui-es-de
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/yousafc3/gen1recomp-trimui
   reason: no readme or description to tell what it is
 - repo: https://github.com/YuJinLei/vmrp-tsp
   reason: Smart Pro / Smart Pro S only, no Brick build
+- repo: https://github.com/Zetarancio/zlyme
+  reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
 - repo: https://github.com/zhangmq/minarch-gl
   reason: other device (Anbernic H700, R36S, Action Pi)
+- repo: https://github.com/ZiMMediaLab/ZiMMediaLab
+  reason: not about the Brick (README mention only), or a profile/portfolio page
 - repo: https://github.com/ZT-Alonzo/trimui-device
   reason: no readme or description to tell what it is
+- url: https://softletter.itch.io/residuals
+  reason: general PortMaster game, not specific to the Brick
+- url: https://solmare.itch.io/ralagenetica
+  reason: general PortMaster game, not specific to the Brick
+- url: https://www.youtube.com/watch?v=-cQvyFqUWXI
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=8PQAlEP1Nck
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=BzSdtXG_n6A
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=f9kGTYvTVuY
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=NDLocfoS_OQ
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=PvyIAN2mgbg
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=qNpZSY1kRmo
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=sG4uHciNmLc
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=uGoTpqvD9Vs
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- url: https://www.youtube.com/watch?v=yYt19-WxQqg
+  reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear

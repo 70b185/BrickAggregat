@@ -2,7 +2,7 @@
 
 Themes, overlays, shaders, fonts, LEDs.
 
-19 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+20 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -11,6 +11,7 @@ Themes, overlays, shaders, fonts, LEDs.
 | [es theme xmb psp](https://github.com/barretstorck/es-theme-xmb-psp) | barretstorck | A PSP XMB-style theme for batocera-emulationstation, built and tuned for Knulli on the TrimUI Brick. Twelve PSP-month colorsets, an animated XMB wave, three gamelist styles and five tuned aspect ratios. | KNULLI | - | 2026-09-12 | other |
 | [gb overlays trimui brick](https://github.com/anhaeh/gb-overlays-trimui-brick) | anhaeh | Gameboy overlays for trimui brick | NextUI, NX Redux | - | 2026-09-14 | GPL-3.0 (no source) |
 | [nextui community overlays](https://github.com/LoveRetro/nextui-community-overlays) | LoveRetro | A collection of community-created overlays for various emulators. | NextUI | - | 2026-11-22 | no licence (no source) |
+| [PT SkyWalker541 shader](https://github.com/SkyWalker541/PT-SkyWalker541) | SkyWalker541 | A rebuild of my pixel transparency shader, focused on low-power devices. | - | v2.1.0 | 2026-11-20 | MIT |
 | [PyUI Themes](https://github.com/spruceUI/PyUI-Themes) | spruceUI | A collection of community-authored themes compatible with PyUI-based OSes | NextUI, spruce | 1 | 2026-11-23 | no licence |
 | [Status LED](https://github.com/apommel/nextui-status-led-pak) | apommel | NextUI Pak to control a device status LED (currently Miyoo Flip only) | NextUI | v1.0.0 | 2026-10-24 | MIT |
 | [TrimUI Brick Pro Noir Theme](https://github.com/meobeodihoc-ship-it/TrimUI-Brick-Pro-Noir-Theme) | meobeodihoc-ship-it | Noir Atelier theme for TrimUI Brick Pro Stock OS | Stock OS | v1.0 | 2026-09-03 | no licence (no source) |

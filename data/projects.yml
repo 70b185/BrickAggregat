@@ -5143,3 +5143,509 @@ projects:
   - brick-pro
   note: Tracker previewed on YouTube for the Brick Pro and Android; no download page found yet.
   added: '2026-11-24'
+- id: choochoo-dub-siren
+  name: ChooChoo Dub Siren
+  author: paiheulevrai
+  category: music-make
+  repo: https://github.com/paiheulevrai/ChooChooDubSiren
+  runs_on:
+  - nextui
+  - portmaster
+  devices:
+  - brick
+  note: Analog-style dub siren with four sound slots for live performance, on the ChooChooTracker engine.
+  added: '2026-11-24'
+- id: choochoo-hacker
+  name: ChooChooHacker
+  author: paiheulevrai
+  category: app
+  repo: https://github.com/paiheulevrai/ChooChooHacker
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  note: Patcher that turns on the built-in microphone and USB audio input, for music apps that record.
+  added: '2026-11-24'
+- id: chipnomad
+  name: ChipNomad Tracker
+  author: Megus
+  category: music-make
+  repo: https://github.com/Megus/chipnomad-tracker
+  runs_on:
+  - portmaster
+  devices:
+  - brick
+  note: Chiptune tracker with an LSDj-like interface for Linux handhelds incl. the Brick.
+  added: '2026-11-24'
+- id: pocket-tunnel
+  name: Pocket Tunnel
+  author: fnune
+  category: app
+  repo: https://github.com/fnune/pocket-tunnel
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: pocket-controller
+  name: Pocket Controller
+  author: fnune
+  category: app
+  repo: https://github.com/fnune/pocket-controller
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: zyperos
+  name: ZyperOS
+  author: tarikbc
+  category: os
+  repo: https://github.com/tarikbc/ZyperOS
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: tubehero
+  name: TubeHero
+  author: CreatonDevelopment
+  category: media
+  repo: https://github.com/CreatonDevelopment/TubeHero
+  runs_on:
+  - stock
+  - nextui
+  - nx-redux
+  - spruce
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: brickdeck-os
+  name: BrickDeck OS
+  author: kawaczek
+  category: os
+  repo: https://github.com/kawaczek/brik
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: deadcast-rez
+  name: Rez recomp module (Deadcast)
+  author: tyrannotorus
+  category: emulator
+  repo: https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-rez-recompiled
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: deadcast-recomp-sdk
+  name: Deadcast recomp SDK
+  author: tyrannotorus
+  category: dev
+  repo: https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-sdk
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: deadstation-portable-soulcalibur
+  name: 'Soulcalibur: Broken Destiny recomp (Deadstation Portable)'
+  author: tyrannotorus
+  category: emulator
+  repo: https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-soulcalibur-broken-destiny
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: deadstation-portable-recomp-sdk
+  name: Deadstation Portable recomp SDK
+  author: tyrannotorus
+  category: dev
+  repo: https://github.com/tyrannotorus/emulator-deadstation-portable-recomp-sdk
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: deadstation-tekken3
+  name: Tekken 3 recomp (Deadstation)
+  author: tyrannotorus
+  category: emulator
+  repo: https://github.com/tyrannotorus/emulator-deadstation-1-recomp-tekken-3
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: deadstation-rally-cross
+  name: Rally Cross recomp (Deadstation)
+  author: tyrannotorus
+  category: emulator
+  repo: https://github.com/tyrannotorus/emulator-deadstation-1-recomp-rally-cross
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: pocketlab
+  name: PocketLAB
+  author: saivishnu2299
+  category: dev
+  repo: https://github.com/saivishnu2299/pocketlab
+  devices:
+  - brick-pro
+  added: '2026-11-24'
+- id: retrohero
+  name: RetroHero
+  author: CreatonDevelopment
+  category: port
+  repo: https://github.com/CreatonDevelopment/RetroHero-App
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: specular
+  name: Specular
+  author: bravenewaiworld
+  category: os
+  repo: https://github.com/bravenewaiworld/specular
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: crystaline-os
+  name: Crystaline OS
+  author: bravenewaiworld
+  category: os
+  repo: https://github.com/bravenewaiworld/crystaline-os
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: senos
+  name: SenOS
+  author: TrungTruong25
+  category: os
+  repo: https://github.com/TrungTruong25/SenOS
+  devices:
+  - brick-pro
+  added: '2026-11-24'
+- id: ja2-3ds
+  name: Jagged Alliance 2 (ja2-3ds)
+  author: infosecanalyst-creator
+  category: port
+  repo: https://github.com/infosecanalyst-creator/ja2-3ds
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: pt-skywalker541
+  name: PT SkyWalker541 shader
+  author: SkyWalker541
+  category: theme
+  repo: https://github.com/SkyWalker541/PT-SkyWalker541
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: knulli-vm
+  name: knulli-vm
+  author: patois
+  category: dev
+  repo: https://github.com/patois/knulli-vm
+  devices:
+  - brick
+  note: Runs apps built for the Brick on KNULLI (e.g. GrainBrick) on an Apple Silicon Mac inside the real KNULLI userspace.
+  added: '2026-11-24'
+- id: nextui-app-sdk
+  name: nextui-app-sdk
+  author: 4fuu
+  category: dev
+  repo: https://github.com/4fuu/nextui-app-sdk
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: bricknext
+  name: BrickNext
+  author: retrotiv
+  category: os
+  repo: https://github.com/retrotiv/BrickNEXT
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: chaos-installer
+  name: ChaOS Installer
+  author: SkyWalker541
+  category: guide
+  repo: https://github.com/SkyWalker541/ChaOS-Installer
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: portpicker
+  name: PortPicker
+  author: LoadState
+  category: guide
+  repo: https://github.com/LoadState/portpicker
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: ruffle-handheld
+  name: Ruffle Handheld
+  author: SilverPsychoo
+  category: emulator
+  repo: https://github.com/SilverPsychoo/Ruffle-Handheld
+  runs_on:
+  - portmaster
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: brixeq-manual-es
+  name: BRIXEQ manual (Spanish)
+  author: alejandroid80
+  category: guide
+  repo: https://github.com/alejandroid80/brixeq-manual
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: dronage-terminal-manual-es
+  name: Dronage Terminal manual (Spanish)
+  author: alejandroid80
+  category: guide
+  repo: https://github.com/alejandroid80/dronage-terminal-manual
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: samba-sync
+  name: Samba Sync
+  author: dalexanco
+  category: app
+  repo: https://github.com/dalexanco/nextui-samba-sync
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: spruce-collections
+  name: Spruce Collections
+  author: juanchuj
+  category: guide
+  repo: https://github.com/juanchuj/Spruce-Collections
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: catastrophe
+  name: Catastrophe
+  author: Utility-Muffin-Research-Kitchen
+  category: dev
+  repo: https://github.com/Utility-Muffin-Research-Kitchen/Catastrophe
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: jawaka
+  name: Jawaka
+  author: Utility-Muffin-Research-Kitchen
+  category: os
+  repo: https://github.com/Utility-Muffin-Research-Kitchen/Jawaka
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: nxt-retro-tube
+  name: NXT Retro Tube
+  author: SpringThong
+  category: media
+  repo: https://github.com/SpringThong/NXT-Retro-Tube
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: nxt-retro-booknest
+  name: NXT Retro BookNest
+  author: SpringThong
+  category: media
+  repo: https://github.com/SpringThong/NXT-Retro-BookNest
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: ppsspp-spruce
+  name: PPSSPP for spruceOS
+  author: spruceUI
+  category: emulator
+  repo: https://github.com/spruceUI/PPSSPP-spruce
+  runs_on:
+  - spruce
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: oakmoss
+  name: oakMOSS
+  author: spruceUI
+  category: os
+  repo: https://github.com/spruceUI/oakMOSS
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: inkstand
+  name: inkstand
+  author: mcereal
+  category: dev
+  repo: https://github.com/mcereal/inkstand
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: spruce-ports-free-games
+  name: Ports and Free Games (spruceOS)
+  author: spruceUI
+  category: port
+  repo: https://github.com/spruceUI/Ports-and-Free-Games
+  runs_on:
+  - spruce
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: pmhwdec
+  name: libpmhwdec
+  author: Knifethrower
+  category: dev
+  repo: https://github.com/Knifethrower/pmhwdec
+  devices:
+  - brick
+  note: Hardware H.264/HEVC/VP8 decoding on the Allwinner video engine for PortMaster handhelds.
+  added: '2026-11-24'
+- id: tsugaru-handheld
+  name: Tsugaru (FM TOWNS) handheld
+  author: Ca-h9j9n
+  category: emulator
+  repo: https://github.com/Ca-h9j9n/Tsugaru-ARM64-Handheld
+  runs_on:
+  - portmaster
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: dsperate-lr
+  name: dsperate-lr
+  author: thwonp
+  category: emulator
+  repo: https://github.com/thwonp/dsperate-lr
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: retroshelf
+  name: retroshelf tracker
+  author: retroshelf-org
+  category: app
+  repo: https://github.com/retroshelf-org/linux
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: weather-pak
+  name: weather.pak
+  author: mrkhdly
+  category: app
+  repo: https://github.com/mrkhdly/weather.pak
+  runs_on:
+  - nextui
+  - minui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: advanced-drastic
+  name: advanced_drastic
+  author: trngaje
+  category: emulator
+  repo: https://github.com/trngaje/advanced_drastic
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: fun-drastic
+  name: Fun Drastic
+  author: Utility-Muffin-Research-Kitchen
+  category: emulator
+  repo: https://github.com/Utility-Muffin-Research-Kitchen/Fun-Drastic-src
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: ds-emu-dac
+  name: ds-emu-dac
+  author: bmpriest
+  category: app
+  repo: https://github.com/bmpriest/ds-emu-dac
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: gone-fishing
+  name: Gone Fishing
+  author: SkyWalker541
+  category: port
+  repo: https://github.com/SkyWalker541/Gone-Fishing
+  runs_on:
+  - portmaster
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: dragon-radar
+  name: Dragon Radar
+  author: fanfanStudio
+  category: app
+  repo: https://github.com/fanfanStudio/dragon-radar
+  runs_on: []
+  devices:
+  - brick-pro
+  added: '2026-11-24'
+- id: nextui-mkxp
+  name: mkxp for NextUI
+  author: almighty-atlas
+  category: emulator
+  repo: https://github.com/almighty-atlas/nextui-mkxp
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: pocketplex
+  name: pocketplex
+  author: sleepdebt
+  category: media
+  repo: https://github.com/sleepdebt/pocketplex
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: ytc
+  name: ytc
+  author: christopher-roelofs
+  category: media
+  repo: https://github.com/christopher-roelofs/ytc
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: am2arm
+  name: AM2ARM
+  author: PatchDev-AM2ARM
+  category: port
+  repo: https://github.com/PatchDev-AM2ARM/AM2ARM
+  runs_on: []
+  devices:
+  - brick
+  added: '2026-11-24'
+- id: h-stick
+  name: H-Stick
+  author: placebo-yue
+  category: app
+  url: https://placebo-yue.itch.io/h-stick
+  runs_on:
+  - knulli
+  devices: []
+  note: Turns the handheld into a PC joystick. itch.io download.
+  added: '2026-11-24'
+- id: merge-up-blast
+  name: Merge Up Blast
+  author: codebeans
+  category: port
+  url: https://codebeans.itch.io/merge-up-blast
+  runs_on: []
+  devices: []
+  note: Physics fruit-merge game, tagged for TrimUI on itch.io.
+  added: '2026-11-24'

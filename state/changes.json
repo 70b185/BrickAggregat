@@ -16,5 +16,11 @@
   "id": "pocket-ui",
   "what": "release",
   "detail": "r36s-test-1"
+ },
+ {
+  "date": "2026-11-24",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "darkos-test-3"
  }
 ]

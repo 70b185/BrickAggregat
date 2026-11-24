@@ -7,6 +7,12 @@
  },
  {
   "date": "2026-11-24",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "darkos-test-3"
+ },
+ {
+  "date": "2026-11-24",
   "id": "pingo-os",
   "what": "release",
   "detail": "v0.3.7-beta"
