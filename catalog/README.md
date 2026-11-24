@@ -4,10 +4,10 @@ Generated from `data/projects.yml` (checked 2026-11-24). Do not edit by hand.
 
 | List | What | Entries |
 | --- | --- | --- |
-| [Make music](music-make.md) | Instruments, trackers, sequencers, samplers, effects and M8 clients | 54 |
+| [Make music](music-make.md) | Instruments, trackers, sequencers, samplers, effects and M8 clients | 55 |
 | [Listen](music-play.md) | Music, radio, podcast and audiobook players | 28 |
 | [Firmware](os.md) | Custom firmwares, launchers and frontends | 47 |
-| [Apps & tools](app.md) | Stores, system tools, network, sync, ROM management and everything else on the device | 129 |
+| [Apps & tools](app.md) | Stores, system tools, network, sync, ROM management and everything else on the device | 130 |
 | [Emulators](emulator.md) | Emulator paks and cores | 60 |
 | [Games & ports](port.md) | PortMaster, ports and original games | 32 |
 | [Video & reading](media.md) | Video, TV, readers, galleries | 22 |

@@ -562,6 +562,37 @@
   "pushed": "2026-11-24",
   "fork": false
  },
+ "https://github.com/CyberAly/minui-random-game-pak-plus": {
+  "head": "c99d1ca9955b249f1167dc204f30ee8194e855ab",
+  "last_commit": "2026-11-24",
+  "files": 14,
+  "code_files": 0,
+  "script_files": 2,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "MIT",
+  "pak": {
+   "name": "Random Game",
+   "version": "0.7.0",
+   "type": "TOOL",
+   "description": "Randomly selects a game from the ROMs folder and launches it",
+   "author": "josegonzalez",
+   "platforms": [
+    "h700",
+    "miyoomini",
+    "my282",
+    "my355",
+    "rg35xxplus",
+    "tg5040",
+    "tg5050"
+   ]
+  },
+  "has_pak_dir": true,
+  "tagset": "da39a3ee5e6b",
+  "tags": [],
+  "tags_all": [],
+  "checked": "2026-11-24"
+ },
  "https://github.com/Drafffffff/brick-mic": {
   "head": "ffb3749894ad38710e1d51b36d72796620334352",
   "last_commit": "2026-10-08",
@@ -12898,6 +12929,25 @@
   "checked": "2026-11-24",
   "pushed": "2026-11-24",
   "fork": false
+ },
+ "https://github.com/nzimas/amalthea": {
+  "head": "2c89079df00352111e3bdeb5a2754e1170be67fe",
+  "last_commit": "2026-11-24",
+  "files": 796,
+  "code_files": 602,
+  "script_files": 21,
+  "binary_files": 0,
+  "license_file": "LICENSE",
+  "license": "GPL-3.0",
+  "has_pak_dir": false,
+  "tagset": "c8db52a70513",
+  "tags": [
+   "build-36"
+  ],
+  "tags_all": [
+   "build-36"
+  ],
+  "checked": "2026-11-24"
  },
  "https://github.com/obhateion/brickpad": {
   "head": "247edbf5048de49321352971212287587b5651f3",

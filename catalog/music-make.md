@@ -2,10 +2,11 @@
 
 Instruments, trackers, sequencers, samplers, effects and M8 clients.
 
-54 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+55 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Amalthea](https://github.com/nzimas/amalthea) | nzimas | Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines. | - | build-36 | 2026-11-24 | GPL-3.0 |
 | [brickchord](https://github.com/michaeltietjen/brickchord) | michaeltietjen | Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox edition with drum pads and song mode. KNULLI on Brick and Brick Pro. | KNULLI | v0.4.3-r36 | 2026-11-22 | MIT |
 | [BrickPad](https://github.com/obhateion/brickpad) | obhateion | Real-time sampler, synth and clip sequencer for the Brick on KNULLI, played with the d-pad and buttons. | KNULLI | v2.0-alpha.1 | 2026-11-20 | other |
 | [BrickRack](https://github.com/andrewfrangella/brickrack) | andrewfrangella | Modular synth with patch cables, built from open Eurorack module DSP (Plaits, Rings, Beads, Tides, Peaks). NextUI on the Brick Pro. | NextUI | v0.1.0 | 2026-11-08 | GPL-3.0 |

@@ -2,7 +2,7 @@
 
 Stores, system tools, network, sync, ROM management and everything else on the device.
 
-129 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+130 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -66,6 +66,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Profiles](https://github.com/bmpriest/nextui-profiles-pak) | bmpriest | Create and switch between profiles, each with their own saves, save states and settings. | NextUI, MinUI | 0.3.0 | 2026-10-18 | no licence (scripts) |
 | [RA Explorer](https://github.com/apommel/nextui-ra-explorer) | apommel | Explore your RetroAchievements on NextUI. | NextUI | v1.3.0 | 2026-10-24 | MIT |
 | [Random Game](https://github.com/josegonzalez/minui-random-game-pak) | josegonzalez | A MinUI app that starts a random game | NextUI, MinUI | 0.7.0 | 2026-09-27 | MIT (scripts) |
+| [Random Game Plus](https://github.com/CyberAly/minui-random-game-pak-plus) | CyberAly | Randomly selects a game from the ROMs folder and launches it | NextUI, MinUI | 0.7.0 | 2026-11-24 | MIT (scripts) |
 | [Remote Terminal](https://github.com/josegonzalez/minui-remote-terminal-pak) | josegonzalez | A MinUI app that starts a browser-based remote terminal. | NextUI, MinUI | 0.9.0 | 2026-09-27 | MIT |
 | [RetroArch Core Saves](https://github.com/bmpriest/nextui-retroarch-core-saves-pak) | bmpriest | Adapt NextUI's save game file handling to be more compatible with SyncThing: converts all of your .sav files to .srm and puts them in /Saves/Cores in RetroArch core name folders. | NextUI | 0.7.1 | 2026-10-18 | MIT (scripts) |
 | [retroshelf tracker](https://github.com/retroshelf-org/linux) | retroshelf-org | Sync NextUI play sessions to retroshelf | NextUI | v0.6.11 | 2026-11-04 | no licence (no source) |

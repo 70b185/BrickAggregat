@@ -5649,3 +5649,24 @@ projects:
   devices: []
   note: Physics fruit-merge game, tagged for TrimUI on itch.io.
   added: '2026-11-24'
+- id: amalthea
+  name: Amalthea
+  author: nzimas
+  category: music-make
+  repo: https://github.com/nzimas/amalthea
+  runs_on: []
+  devices:
+  - brick
+  note: Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines.
+  added: '2026-11-24'
+- id: random-game-plus
+  name: Random Game Plus
+  author: CyberAly
+  category: app
+  repo: https://github.com/CyberAly/minui-random-game-pak-plus
+  runs_on:
+  - nextui
+  - minui
+  devices:
+  - brick
+  added: '2026-11-24'

@@ -64,6 +64,8 @@ ignore:
   reason: Smart Pro / Smart Pro S only, no Brick build
 - repo: https://github.com/bobbyjball3/sbc-android-card-imager
   reason: other device only (Miyoo, Anbernic, R36S, Powkiddy, Android, 3DS, PS5)
+- repo: https://github.com/boblefrag/avenir-en-commun-rpg
+  reason: not about the Brick (README mention only)
 - repo: https://github.com/boomchu-123/slot-flip
   reason: other device (Miyoo, Anbernic, TrimUI Model S, Android, GKD)
 - repo: https://github.com/brenonsc/RomManager4Spruce
