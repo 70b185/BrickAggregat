@@ -86,7 +86,7 @@
   .cats button { border-radius:999px; margin:0 6px 6px 0; border-color:var(--line); }
   .card { border-radius:var(--r); border-left-width:4px; }
   .btn, .bar input[type=search], .bar select { border-radius:var(--r); }
-  .themes { position:absolute; right:24px; top:22px; display:flex; gap:6px; align-items:center; }
+  .themes { position:absolute; z-index:5; right:36px; top:26px; display:flex; gap:6px; align-items:center; }
   .themes button { width:22px; height:22px; border-radius:50%; border:2px solid #ffffff55; cursor:pointer; padding:0; }
   .themes button.on { border-color:#fff; box-shadow:0 0 0 2px var(--accent); }
   .abxy { display:inline-grid; grid-template-columns:repeat(3,7px); gap:1px; vertical-align:middle; margin-right:8px; }
@@ -123,6 +123,6 @@
   checked every three days. Licences and activity are read from each repo automatically; check the project itself before
   you install anything.
 </footer>
-<script src="assets/app.js"></script>
+<script src="assets/app.js?v=2"></script>
 </body>
 </html>
