@@ -5,5 +5,25 @@
   <link rel="self" href="https://70b185.github.io/trimui-music-apps/feed.xml"/>
   <id>https://70b185.github.io/trimui-music-apps/</id>
   <updated>2026-11-24T00:00:00Z</updated>
-
+  <entry>
+    <title>pocket-ui: release r36s-test-1</title>
+    <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-24-pocket-ui-release-r36s-test-1</id>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
+  </entry>
+  <entry>
+    <title>Pingo OS: release v0.3.7-beta</title>
+    <link href="https://github.com/luciano2000/pingo-os"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-24-pingo-os-release-v0.3.7-beta</id>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary>Pingo OS by Retrogamer Brasil: distro Linux mínima para handhelds retrô (Anbernic RG35XX-H, RG40XX, TrimUI Brick)</summary>
+  </entry>
+  <entry>
+    <title>Dreamcast (Deadcast): release 1.2.8</title>
+    <link href="https://github.com/tyrannotorus/emulator-dreamcast-deadcast"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-24-dreamcast-deadcast-release-1.2.8</id>
+    <updated>2026-11-24T00:00:00Z</updated>
+    <summary>A performance-focused Dreamcast emulator with recomp support.</summary>
+  </entry>
 </feed>

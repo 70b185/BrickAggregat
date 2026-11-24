@@ -2611,7 +2611,7 @@
    "2026-11-24_1333"
   ],
   "description": "New PortMaster repo",
-  "stars": 422,
+  "stars": 423,
   "created": "2023-12-10",
   "script_files": 1588,
   "binary_files": 2550,
@@ -10514,26 +10514,26 @@
   "fork": false
  },
  "https://github.com/luciano2000/pingo-os": {
-  "head": "681241da0809dca57b966b4c8773f1d731277297",
+  "head": "5fad6fb40c1a59b10300351243da1bdd0260ce0c",
   "last_commit": "2026-11-24",
-  "files": 289,
+  "files": 290,
   "code_files": 33,
   "license_file": "LICENSE",
   "license": "GPL-2.0",
   "has_pak_dir": false,
   "tags": [
-   "v0.3.2-beta",
    "v0.3.3-beta",
    "v0.3.4-beta",
    "v0.3.5-beta",
-   "v0.3.6-beta"
+   "v0.3.6-beta",
+   "v0.3.7-beta"
   ],
   "description": "Pingo OS by Retrogamer Brasil: distro Linux mínima para handhelds retrô (Anbernic RG35XX-H, RG40XX, TrimUI Brick)",
   "stars": 0,
   "created": "2026-11-03",
   "script_files": 10,
   "binary_files": 0,
-  "tagset": "84b52c243bcf",
+  "tagset": "aa04e2868416",
   "tags_all": [
    "v0.1.0-beta",
    "v0.2.0-beta",
@@ -10543,7 +10543,8 @@
    "v0.3.3-beta",
    "v0.3.4-beta",
    "v0.3.5-beta",
-   "v0.3.6-beta"
+   "v0.3.6-beta",
+   "v0.3.7-beta"
   ],
   "checked": "2026-11-24",
   "pushed": "2026-11-24",
@@ -11831,7 +11832,7 @@
    "v2.0-alpha.1"
   ],
   "checked": "2026-11-24",
-  "pushed": "2026-11-20",
+  "pushed": "2026-11-24",
   "fork": false
  },
  "https://github.com/one-retro/1retro-nextui": {
@@ -11975,7 +11976,7 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "description": "Music apps for your console ! ",
-  "stars": 12,
+  "stars": 13,
   "created": "2026-10-30",
   "pushed": "2026-11-18",
   "fork": false
@@ -12428,13 +12429,13 @@
   "license_file": "LICENSE",
   "license": "GPL-2.0",
   "has_pak_dir": true,
-  "tagset": "b02e85fe6405",
+  "tagset": "3c2c68015d93",
   "tags": [
-   "v0.6.0-android.1",
    "brick-parts-0.7.0",
    "v0.7.0",
    "darkos-test-1",
-   "darkos-test-2"
+   "darkos-test-2",
+   "r36s-test-1"
   ],
   "tags_all": [
    "v0.1.0",
@@ -12488,7 +12489,8 @@
    "brick-parts-0.7.0",
    "v0.7.0",
    "darkos-test-1",
-   "darkos-test-2"
+   "darkos-test-2",
+   "r36s-test-1"
   ],
   "checked": "2026-11-24",
   "description": "pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.",
@@ -13823,7 +13825,7 @@
    "v1.0.0-20260626"
   ],
   "description": "Brick Pro TG4040 SD base package",
-  "stars": 17,
+  "stars": 18,
   "created": "2026-07-18",
   "tagset": "faa0cf91a3e8",
   "tags_all": [
@@ -13875,7 +13877,7 @@
    "v1.1.1-20260717"
   ],
   "description": "Firmware release for TG4040 Brick Pro",
-  "stars": 32,
+  "stars": 33,
   "created": "2026-07-18",
   "tagset": "88948e117cef",
   "tags_all": [
@@ -14260,7 +14262,7 @@
   "fork": false
  },
  "https://github.com/tyrannotorus/emulator-dreamcast-deadcast": {
-  "head": "ac0657ce7b14c836b296e964ca747201f72c4dbe",
+  "head": "18788b0515aa5af685b780feb4f9449af3b04dc6",
   "last_commit": "2026-11-24",
   "files": 3326,
   "code_files": 1478,
@@ -14268,7 +14270,7 @@
   "license": "GPL-2.0",
   "pak": {
    "name": "DC-DEADCAST",
-   "version": "1.2.7",
+   "version": "1.2.8",
    "type": "EMU",
    "description": "A performance-focused Dreamcast emulator with recomp modules.",
    "author": "tyrannotorus",
@@ -14278,16 +14280,16 @@
   },
   "has_pak_dir": false,
   "tags": [
-   "1.2.3",
    "1.2.4",
    "1.2.5",
    "1.2.6",
-   "1.2.7"
+   "1.2.7",
+   "1.2.8"
   ],
   "description": "A performance-focused Dreamcast emulator with recomp support.",
   "script_files": 15,
   "binary_files": 159,
-  "tagset": "d201d34c33dd",
+  "tagset": "dfbe472acd18",
   "tags_all": [
    "1.1.0",
    "1.1.1",
@@ -14298,7 +14300,8 @@
    "1.2.4",
    "1.2.5",
    "1.2.6",
-   "1.2.7"
+   "1.2.7",
+   "1.2.8"
   ],
   "checked": "2026-11-24",
   "stars": 5,

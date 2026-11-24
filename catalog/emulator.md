@@ -9,7 +9,7 @@ Emulator paks and cores.
 | [Arduboy](https://github.com/amayer5125/nextui-arduboy-pak) | amayer5125 | A NextUI Pak for playing Arduboy games via a Libretro core | NextUI | 0.2.0 | 2026-10-13 | MIT (scripts) |
 | [CrossMix OS DC](https://github.com/kantonin/CrossMix-OS_DC) | kantonin | Performance Launcher for Dreamcast flycast standalone | CrossMix | - | 2026-11-17 | no licence (scripts) |
 | [Discrete Integrated Circuit Emulator (DICE)](https://github.com/tsolfan/dice-libretro-nextui) | tsolfan | DICE is a Discrete Integrated Circuit Emulator. It emulates computer systems that lack any type of CPU, consisting only of discrete logic components.  dice-libretro is a Libretro port of DICE, to run in RetroArch. | NextUI | v1.0.0 | 2026-11-05 | GPL-3.0 |
-| [Dreamcast (Deadcast)](https://github.com/tyrannotorus/emulator-dreamcast-deadcast) | tyrannotorus | A performance-focused Dreamcast emulator with recomp support. | NextUI | 1.2.7 | 2026-11-24 | GPL-2.0 |
+| [Dreamcast (Deadcast)](https://github.com/tyrannotorus/emulator-dreamcast-deadcast) | tyrannotorus | A performance-focused Dreamcast emulator with recomp support. | NextUI | 1.2.8 | 2026-11-24 | GPL-2.0 |
 | [Dreamcast (Flycast)](https://github.com/josegonzalez/minui-dreamcast-pak) | josegonzalez | A MinUI Emu pak for Dreamcast | NextUI, MinUI | 0.6.5 | 2026-10-22 | MIT (scripts) |
 | [Dreamcast (Flycastrophe)](https://github.com/Pobega/nextui-flycastrophe-pak) | Pobega | Sega Dreamcast (Flycastrophe) libretro Pak for NextUI | NextUI | 0.1.0 | 2026-11-23 | GPL-2.0 (scripts) |
 | [DSperate](https://github.com/TimeATronics/DSperate) | TimeATronics | DSperate build + patches for the TrimUI Brick (Stock OS) | Stock OS | v0.01 | 2026-09-19 | GPL-3.0 |

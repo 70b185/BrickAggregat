@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "date": "2026-11-24",
+  "id": "dreamcast-deadcast",
+  "what": "release",
+  "detail": "1.2.8"
+ },
+ {
+  "date": "2026-11-24",
+  "id": "pingo-os",
+  "what": "release",
+  "detail": "v0.3.7-beta"
+ },
+ {
+  "date": "2026-11-24",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "r36s-test-1"
+ }
+]
