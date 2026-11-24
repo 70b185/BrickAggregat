@@ -4955,14 +4955,16 @@ projects:
   name: SPUR
   author: grosserd5
   category: music-make
-  url: https://www.youtube.com/watch?v=UqWTp2QPHB8
+  url: https://grosserd5.gumroad.com/l/spur
   runs_on: []
   devices:
   - brick-pro
   - brick
-  note: 'Step sequencer and groovebox for the Brick Pro: built-in sound engine or MIDI out to synths, drum machines and a DAW. Only
-    a YouTube demo found so far; download page to be added.'
+  note: 'Step sequencer and groovebox for the Brick and Brick Pro: built-in sound engine or MIDI out to synths, drum machines and a
+    DAW. Gumroad download, no public source.'
   added: '2026-11-24'
+  links:
+    video: https://www.youtube.com/watch?v=Mm7ulI-3JFI
 - id: 4trkmini
   name: 4TRKmini
   author: JasonB
@@ -5040,4 +5042,104 @@ projects:
   devices:
   - brick-pro
   note: 'Self-contained music player for the Brick Pro stock OS: WAV/MP3/OGG/FLAC/OPUS, Google Drive streaming.'
+  added: '2026-11-24'
+- id: kette
+  name: KETTE
+  author: grosserd5
+  category: music-make
+  url: https://grosserd5.gumroad.com/l/kette
+  runs_on: []
+  devices:
+  - brick
+  - brick-pro
+  note: 'Multi-effects unit for the Brick and Brick Pro: shimmer and convolution reverb, stutter, tape stop, cabinet IRs. Gumroad download,
+    no public source.'
+  links:
+    video: https://www.youtube.com/watch?v=8APqtgTQMBA
+  added: '2026-11-24'
+- id: schleife
+  name: SCHLEIFE
+  author: grosserd5
+  category: music-make
+  url: https://grosserd5.gumroad.com/l/schleife
+  runs_on: []
+  devices:
+  - brick
+  - brick-pro
+  note: Live looper for the Brick and Brick Pro. Gumroad download, no public source.
+  links:
+    video: https://www.youtube.com/watch?v=-ahVANTZxRo
+  added: '2026-11-24'
+- id: rekorder
+  name: REKORDER
+  author: grosserd5
+  category: music-make
+  url: https://grosserd5.gumroad.com/l/rekorder
+  runs_on: []
+  devices:
+  - brick
+  - brick-pro
+  note: Gesture sampler for the Brick and Brick Pro with send effects and MIDI. Gumroad download, no public source.
+  links:
+    video: https://www.youtube.com/watch?v=R5Cdyc0ROfE
+  added: '2026-11-24'
+- id: tracker-grosserd
+  name: TRACKER
+  author: grosserd5
+  category: music-make
+  url: https://grosserd5.gumroad.com/l/tracker
+  runs_on: []
+  devices:
+  - brick
+  - brick-pro
+  note: Pocket tracker for the Brick and Brick Pro with mixer, performance effects and live mode. Gumroad download, no public source.
+  links:
+    video: https://www.youtube.com/watch?v=vnLPPlKrh8A
+  added: '2026-11-24'
+- id: stellwerk
+  name: STELLWERK
+  author: grosserd5
+  category: music-make
+  url: https://grosserd5.gumroad.com/l/stellwerk
+  runs_on: []
+  devices:
+  - brick
+  note: 'MIDI hub for the Brick: router, filter, arpeggiator and clock. Gumroad download, no public source.'
+  links:
+    video: https://www.youtube.com/watch?v=sSwOmbcx7Hc
+  added: '2026-11-24'
+- id: lightbrick
+  name: Lightbrick
+  author: grosserd5
+  category: app
+  url: https://grosserd5.gumroad.com/l/lightbrick
+  runs_on: []
+  devices:
+  - brick
+  - brick-pro
+  note: DMX lighting control and show player for the Brick and Brick Pro. Gumroad download, no public source.
+  links:
+    video: https://www.youtube.com/watch?v=_qbex-4kK8E
+  added: '2026-11-24'
+- id: brickslicer
+  name: BrickSlicer LE
+  author: Strange Units
+  category: music-make
+  url: https://strangeunits.gumroad.com/l/brickslicer-le
+  runs_on: []
+  devices:
+  - brick
+  note: 'Pocket slicer and glitch groovebox: record, slice, play and export samples. Gumroad download, no public source.'
+  links:
+    video: https://www.youtube.com/watch?v=BaVotHgpNQs
+  added: '2026-11-24'
+- id: xtrak
+  name: XTRAK
+  author: XTRAK_Dev
+  category: music-make
+  url: https://www.youtube.com/watch?v=1hwdlZnt--o
+  runs_on: []
+  devices:
+  - brick-pro
+  note: Tracker previewed on YouTube for the Brick Pro and Android; no download page found yet.
   added: '2026-11-24'

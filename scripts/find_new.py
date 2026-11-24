@@ -21,6 +21,7 @@ import shutil
 import subprocess
 import tempfile
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -66,10 +67,16 @@ def gh_search(args):
     return []
 
 
-def http_get(url, timeout=30):
+def http_get(url, timeout=30, tries=4):
     req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    for attempt in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:   # itch.io answers 429 when asked too fast
+            if e.code != 429 or attempt == tries - 1:
+                raise
+            time.sleep(15 * (attempt + 1))
 
 
 def storefront(cfg):
@@ -117,7 +124,7 @@ def itch(cfg, since):
                     continue
                 desc = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", it.findtext("description") or "")).strip()
                 out.append({"url": link, "title": title, "desc": desc[:160], "date": d, "why": f"itch.io {kind}/tag-{tag}"})
-            time.sleep(1)
+            time.sleep(4)
     return out
 
 
@@ -132,6 +139,7 @@ def youtube(cfg, since):
         return []
     out = []
     must = re.compile(cfg.get("must_match", "trimui|brick"), re.I)
+    title_must = re.compile(cfg.get("title_must_match", "."), re.I)
     for q in cfg.get("queries", []):
         params = {"part": "snippet", "q": q, "type": "video", "maxResults": "50", "order": "date",
                   "publishedAfter": f"{since}T00:00:00Z", "key": key}
@@ -147,7 +155,7 @@ def youtube(cfg, since):
             continue
         for v in vids.get("items", []):
             sn = v["snippet"]
-            if not must.search(f"{sn['title']} {sn.get('description', '')}"):
+            if not must.search(f"{sn['title']} {sn.get('description', '')}") or not title_must.search(sn["title"]):
                 continue
             links = sorted({m.group(0).rstrip(".,)") for m in LINK_RE.finditer(sn.get("description", ""))})
             out.append({"url": f"https://www.youtube.com/watch?v={v['id']}", "title": sn["title"],
@@ -197,10 +205,22 @@ def main():
     for p in itch(cfg.get("itch") or {}, since):
         if norm(p["url"]) not in known:
             add(p["url"], p["title"], p["desc"], p["date"], p["why"])
-    # 4. YouTube: report a video unless it or one of its links is already catalogued
+    # 4. YouTube: report a video unless it, one of its links, or a catalogued project's distinctive name
+    #    (name or alias, not a generic word) is already known; one line per linked page, not per video
+    generic = {w.lower() for w in (cfg.get("youtube") or {}).get("generic_names", [])}
+    names = [n.lower() for p in projects() for n in [p["name"], *(p.get("aliases") or [])]]
+    names = [n for n in names if len(n) >= 4 and n not in generic]
+    name_re = re.compile(r"\b(" + "|".join(re.escape(n) for n in sorted(names, key=len, reverse=True)) + r")\b", re.I) if names else None
+    seen_links = set()
     for p in youtube(cfg.get("youtube") or {}, since):
         if norm(p["url"]) in known or any(norm(l) in known for l in p["links"]):
             continue
+        if name_re and name_re.search(p["title"]):
+            continue
+        key = tuple(sorted(norm(l) for l in p["links"]))
+        if key and key in seen_links:
+            continue
+        seen_links.add(key)
         add(p["url"], p["title"], p["desc"], p["date"], p["why"], links=p["links"])
 
     rows = sorted(hits.values(), key=lambda h: h["date"], reverse=True)

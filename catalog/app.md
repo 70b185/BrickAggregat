@@ -2,7 +2,7 @@
 
 Stores, system tools, network, sync, ROM management and everything else on the device.
 
-119 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+120 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -107,6 +107,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Gift Code](https://github.com/dalexanco/nextui-gift-code) | dalexanco | A plugin (pak) for nextui retro gaming os that let user 'unlock' games using gift-codes (for kids) | NextUI | v1.0.0 | 2026-08-24 | no licence |
 | [ha retroconsole](https://github.com/slickor/ha-retroconsole) | slickor | A lightweight, controller-driven Home Assistant client for Linux-based retro handhelds. Optimized for PortMaster devices (R36S, TrimUI Smart Pro) with a native SDL2 retro UI. | KNULLI, muOS, spruce, PortMaster | v0.35.0 | 2026-06-24 | MIT |
 | [Joe's Calibrage](https://github.com/Helaas/nextui-Joe-s-Calibrage-pak) | Helaas | Between the two of us, we’ll find a way to work it out. | NextUI | v0.2.0 | 2026-07-16 | MIT |
+| [Lightbrick](https://grosserd5.gumroad.com/l/lightbrick) | grosserd5 | DMX lighting control and show player for the Brick and Brick Pro. Gumroad download, no public source. | - | - | - | no licence (no source) |
 | [Lodor](https://github.com/lodordev/lodor-nextui) | lodordev | Lodor for NextUI — your self-hosted RomM library on stock NextUI, as a no-fork Tool pak: whole-library stubs with box art, download-on-launch, two-way save sync. Beta. | NextUI, MinUI | 1.0.0-alpha1 | 2026-07-25 | MIT |
 | [Memory Editor](https://github.com/aaronearles/nextui-memcheat) | aaronearles | Memory scanner and cheat editor for TrimUI Brick / NextUI. Scan, freeze, and write game memory via browser. Export RetroArch .cht files. | NextUI | v0.1.7 | 2026-06-09 | no licence |
 | [minui map txt creator](https://github.com/josegonzalez/minui-map-txt-creator) | josegonzalez | A map.txt generator from fbneo dat xml files for MinUI | MinUI | 0.2.0 | 2026-03-07 | MIT |

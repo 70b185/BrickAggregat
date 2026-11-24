@@ -2,7 +2,7 @@
 
 Instruments, trackers, sequencers, samplers, effects and M8 clients.
 
-45 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+52 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -44,10 +44,17 @@ Instruments, trackers, sequencers, samplers, effects and M8 clients.
 | [TrimFX](https://github.com/sydilaxe/Trimui-Trimfx-dev) | sydilaxe | Multi-effects engine with USB audio in/out, tap tempo and MIDI learn. muOS on Brick, Hammer and Brick Pro. | muOS | v0.4.7 | 2026-11-18 | GPL-3.0 |
 | [Twill Studio](https://github.com/LiminalKid/TwillStudio) | LiminalKid | Piano-roll groovebox: eight tracks written note by note with the d-pad. NextUI pak. | NextUI, KNULLI, PortMaster | v0.7.0 | 2026-11-23 | GPL-3.0 |
 | [4TRKmini](https://jasonbmusic.itch.io/4trk-mini) | JasonB | Four-track recorder and tracker with MIDI in, Launchpad workflow and audio/mic recording. itch.io download, no public source. | NextUI, KNULLI, PortMaster | - | - | no licence (no source) |
+| [BrickSlicer LE](https://strangeunits.gumroad.com/l/brickslicer-le) | Strange Units | Pocket slicer and glitch groovebox: record, slice, play and export samples. Gumroad download, no public source. | - | - | - | no licence (no source) |
 | [BRIXEQ](https://github.com/boorch/brixeq-pak) | boorch | Tracker-style sequencer pak for NextUI. | NextUI | v1.9.0 | 2026-07-17 | no licence (no source) |
 | [Grampus](https://github.com/boorch/grampus-pak) | boorch | Grid sequencer after ORCA with built-in polyphonic synth engines. NextUI pak (Pak Store). | NextUI | v1.2.0 | 2026-06-01 | no licence (no source) |
+| [KETTE](https://grosserd5.gumroad.com/l/kette) | grosserd5 | Multi-effects unit for the Brick and Brick Pro: shimmer and convolution reverb, stutter, tape stop, cabinet IRs. Gumroad download, no public source. | - | - | - | no licence (no source) |
 | [m8c builds for Brick (KNULLI)](https://github.com/myldy20/m8c-trimui-brick-knulli) | myldy20 | Automated arm64 builds of m8c for the Brick on KNULLI. | KNULLI, PortMaster | m8c-v2.2.3-brick-r1 | 2026-07-28 | MIT |
 | [M8Tape](https://github.com/romainguerif/M8Tape) | romainguerif | Records the M8's 24-channel USB audio on the Brick into 12 stereo files per take (NextUI/MinUI). | NextUI, MinUI | - | 2026-08-10 | no licence |
 | [MimmlMomml](https://grosserd5.gumroad.com/l/mimmlmomml) | grosserd5 | Groovebox for the Brick Pro on KNULLI: four tracks with three module slots and a sequencer each, mixer, master effects, pattern and song mode. Gumroad download, no public source. | KNULLI | - | - | no licence (no source) |
 | [PortMaster LittleGPTracker](https://github.com/romainguerif/PortMaster-LittleGPTracker) | romainguerif | Docker build instructions for the PortMaster LGPT port. | PortMaster | - | 2026-08-19 | no licence (scripts) |
-| [SPUR](https://www.youtube.com/watch?v=UqWTp2QPHB8) | grosserd5 | Step sequencer and groovebox for the Brick Pro: built-in sound engine or MIDI out to synths, drum machines and a DAW. Only a YouTube demo found so far; download page to be added. | - | - | - | no licence (no source) |
+| [REKORDER](https://grosserd5.gumroad.com/l/rekorder) | grosserd5 | Gesture sampler for the Brick and Brick Pro with send effects and MIDI. Gumroad download, no public source. | - | - | - | no licence (no source) |
+| [SCHLEIFE](https://grosserd5.gumroad.com/l/schleife) | grosserd5 | Live looper for the Brick and Brick Pro. Gumroad download, no public source. | - | - | - | no licence (no source) |
+| [SPUR](https://grosserd5.gumroad.com/l/spur) | grosserd5 | Step sequencer and groovebox for the Brick and Brick Pro: built-in sound engine or MIDI out to synths, drum machines and a DAW. Gumroad download, no public source. | - | - | - | no licence (no source) |
+| [STELLWERK](https://grosserd5.gumroad.com/l/stellwerk) | grosserd5 | MIDI hub for the Brick: router, filter, arpeggiator and clock. Gumroad download, no public source. | - | - | - | no licence (no source) |
+| [TRACKER](https://grosserd5.gumroad.com/l/tracker) | grosserd5 | Pocket tracker for the Brick and Brick Pro with mixer, performance effects and live mode. Gumroad download, no public source. | - | - | - | no licence (no source) |
+| [XTRAK](https://www.youtube.com/watch?v=1hwdlZnt--o) | XTRAK_Dev | Tracker previewed on YouTube for the Brick Pro and Android; no download page found yet. | - | - | - | no licence (no source) |

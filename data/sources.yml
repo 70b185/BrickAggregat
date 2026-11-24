@@ -2,28 +2,8 @@
 #
 # searches:   GitHub repository searches (names, descriptions, topics). Repos pushed within `days` are reported.
 # topics:     GitHub topics, searched the same way.
-# # itch.io tag feeds (https://itch.io/<kind>/newest/tag-<tag>.xml). Music apps for the Brick are often only here.
-itch:
-  kinds: [tools, games, soundtracks]
-  tags: [trimui-brick, trimui, trimui-brick-pro, nextui, knulli, portmaster]
-
-# YouTube search: runs only when the YOUTUBE_API_KEY secret is set (free key from Google Cloud, YouTube Data API v3).
-# Each query costs 100 of the 10,000 daily units; every three days that is far below the limit.
-youtube:
-  must_match: "trimui|\\bbrick\\b"
-  queries:
-    - trimui brick groovebox
-    - trimui brick sequencer
-    - trimui brick synth
-    - trimui brick sampler
-    - trimui brick looper
-    - trimui brick tracker
-    - trimui brick music app
-    - trimui brick pro music
-    - trimui brick midi
-    - trimui brick knulli app
-
-storefront: the NextUI Pak Store's storefront file; every pak listed there and not catalogued is reported.
+# itch:       itch.io tag feeds; youtube: YouTube search (needs the YOUTUBE_API_KEY secret).
+# storefront: the NextUI Pak Store's storefront file; every pak listed there and not catalogued is reported.
 
 days: 30
 
@@ -89,6 +69,10 @@ itch:
 # Each query costs 100 of the 10,000 daily units; every three days that is far below the limit.
 youtube:
   must_match: "trimui|\\bbrick\\b"
+  # the video title must name a kind of music software; keeps out device reviews and unboxings
+  title_must_match: "sampler|synth|groovebox|sequencer|looper|tracker|\\bfx\\b|multi-?fx|effect|midi|chord|granular|drum|beat|vocoder|player|recorder|music|ambient|techno|jam|m8|instrument|dmx"
+  # project names too common to identify a project in a video title
+  generic_names: [Tracker, Music Player, Player, Sampler, Looper, Recorder, Speed, Terminal, Portmaster, Kino, Tuner]
   queries:
     - trimui brick groovebox
     - trimui brick sequencer
