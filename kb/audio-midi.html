@@ -53,7 +53,15 @@ or ALSA's PipeWire plugin.</p>
 <p><strong>USB audio on NextUI</strong>: one project found that the stock audio library pins ALSA's <code>default</code> device to the internal
 codec (and rewrites <code>hw:0,0</code> to <code>hw:1,0</code>), so SDL never reaches a USB card. Their fix: find the USB card in
 <code>/proc/asound/cards</code> in <code>launch.sh</code>, then point SDL straight at it with <code>SDL_AUDIODRIVER=alsa</code> <code>[hw]</code> <a class="src" href="SOURCES.html#trimui-fixes">[trimui-fixes]</a>.
-SideB prefers a USB DAC whenever the system exposes it as an ALSA card <code>[hw]</code> <a class="src" href="SOURCES.html#sideb">[sideb]</a>.</p>
+<strong>USB audio on the Brick Pro stock OS</strong>: the stock ALSA config defines <code>sysdefault</code> without a <code>CARD</code> argument, so
+SDL3 cannot open <code>sysdefault:N</code> to list cards and misses USB audio; an <code>.asoundrc</code> that overrides
+<code>ctl.sysdefault</code>/<code>pcm.sysdefault</code> for the app process alone fixed it <code>[hw]</code> <a class="src" href="SOURCES.html#m8c-brickpro-stock">[m8c-brickpro-stock]</a>. The stock kernel
+has <code>cdc_acm</code> built in, so USB serial devices appear as <code>/dev/ttyACM0</code> <code>[hw]</code> <a class="src" href="SOURCES.html#m8c-brickpro-stock">[m8c-brickpro-stock]</a>.</p>
+<p><strong>USB audio on the Brick Pro with NextUI 6.15.0</strong>: the volume buttons act on the first non-internal card, which can be
+a USB source (an M8) rather than the USB headphone adapter; one port therefore picks its output card in <code>launch.sh</code>
+and bridges audio with <code>arecord</code>/<code>aplay</code>. The built-in headphone output had audible noise and clicks even with
+nothing playing, cause unknown <code>[hw]</code> <a class="src" href="SOURCES.html#m8c-brickpro-nextui">[m8c-brickpro-nextui]</a>.</p>
+<p>SideB prefers a USB DAC whenever the system exposes it as an ALSA card <code>[hw]</code> <a class="src" href="SOURCES.html#sideb">[sideb]</a>.</p>
 <h2>Latency and buffers</h2>
 <ul>
 <li>Opening a USB interface <strong>directly through <code>plughw:CARD=&lt;id&gt;</code></strong> (skipping <code>dmix</code>/<code>dsnoop</code> and PipeWire) took
@@ -80,6 +88,8 @@ SideB prefers a USB DAC whenever the system exposes it as an ALSA card <code>[hw
 <ul>
 <li>On the Brick the <strong>top USB-C port is the host</strong> (MIDI controllers, audio interfaces, hubs); it supplies about
   500 mA, so use a powered hub for hungry devices <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>.</li>
+<li>On the Brick Pro the <strong>top port</strong> is the host too: an M8 Headless (Teensy) is found there and not on the bottom
+  port (stock OS, November 2026) <code>[hw]</code> <a class="src" href="SOURCES.html#m8c-brickpro-stock">[m8c-brickpro-stock]</a>.</li>
 <li>The <strong>bottom port</strong> charges and can be a USB device (gadget). The kernel has no USB audio or USB MIDI gadget
   function; a FunctionFS probe bound one isochronous endpoint in one direction but not one each way <code>[hw]</code> <a class="src" href="SOURCES.html#tbr-hw">[tbr-hw]</a>.
   OZMA's README nevertheless describes the bottom port as "sound card + MIDI port" for an iPad <code>[doc]</code> <a class="src" href="SOURCES.html#ozma">[ozma]</a>.

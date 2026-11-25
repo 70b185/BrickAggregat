@@ -20,6 +20,16 @@ or ALSA's PipeWire plugin.
 **USB audio on NextUI**: one project found that the stock audio library pins ALSA's `default` device to the internal
 codec (and rewrites `hw:0,0` to `hw:1,0`), so SDL never reaches a USB card. Their fix: find the USB card in
 `/proc/asound/cards` in `launch.sh`, then point SDL straight at it with `SDL_AUDIODRIVER=alsa` `[hw]` {trimui-fixes}.
+**USB audio on the Brick Pro stock OS**: the stock ALSA config defines `sysdefault` without a `CARD` argument, so
+SDL3 cannot open `sysdefault:N` to list cards and misses USB audio; an `.asoundrc` that overrides
+`ctl.sysdefault`/`pcm.sysdefault` for the app process alone fixed it `[hw]` {m8c-brickpro-stock}. The stock kernel
+has `cdc_acm` built in, so USB serial devices appear as `/dev/ttyACM0` `[hw]` {m8c-brickpro-stock}.
+
+**USB audio on the Brick Pro with NextUI 6.15.0**: the volume buttons act on the first non-internal card, which can be
+a USB source (an M8) rather than the USB headphone adapter; one port therefore picks its output card in `launch.sh`
+and bridges audio with `arecord`/`aplay`. The built-in headphone output had audible noise and clicks even with
+nothing playing, cause unknown `[hw]` {m8c-brickpro-nextui}.
+
 SideB prefers a USB DAC whenever the system exposes it as an ALSA card `[hw]` {sideb}.
 
 ## Latency and buffers
@@ -49,6 +59,8 @@ All `[hw]` in {tbr-audio}:
 
 - On the Brick the **top USB-C port is the host** (MIDI controllers, audio interfaces, hubs); it supplies about
   500 mA, so use a powered hub for hungry devices `[hw]` {tbr-hw}.
+- On the Brick Pro the **top port** is the host too: an M8 Headless (Teensy) is found there and not on the bottom
+  port (stock OS, November 2026) `[hw]` {m8c-brickpro-stock}.
 - The **bottom port** charges and can be a USB device (gadget). The kernel has no USB audio or USB MIDI gadget
   function; a FunctionFS probe bound one isochronous endpoint in one direction but not one each way `[hw]` {tbr-hw}.
   OZMA's README nevertheless describes the bottom port as "sound card + MIDI port" for an iPad `[doc]` {ozma}.

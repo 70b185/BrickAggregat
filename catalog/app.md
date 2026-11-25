@@ -58,7 +58,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Pak Store](https://github.com/LoveRetro/nextui-pak-store) | LoveRetro | On-device store for NextUI paks; its storefront list is one of this index's sources. | NextUI | v4.3.0 | 2026-11-24 | MIT |
 | [pakman](https://github.com/josegonzalez/pakman) | josegonzalez | Automatically generated collection of MinUI/NextUI paks. | NextUI, MinUI, PortMaster | 0.24.34 | 2026-11-12 | MIT (no source) |
 | [Play Retro Games Club](https://github.com/jakesearle/nextui-play-retro-games-club) | jakesearle | A NextUI Pak that shows what the Play Retro Games Club is playing right now. | NextUI | v1.0.0 | 2026-10-26 | MIT |
-| [Pocket Controller](https://github.com/fnune/pocket-controller) | fnune | Turn your handheld into a plug-and-play USB controller | NextUI | v0.1.0 | 2026-11-23 | AGPL-3.0 |
+| [Pocket Controller](https://github.com/fnune/pocket-controller) | fnune | Turn your handheld into a plug-and-play USB controller | NextUI | v0.1.0 | 2026-11-25 | AGPL-3.0 |
 | [pocket hermes](https://github.com/ptaranat/pocket-hermes) | ptaranat | A handheld voice client for Hermes Agent on the TrimUI Brick | Stock OS | - | 2026-11-06 | MIT |
 | [Pocket Tunnel](https://github.com/fnune/pocket-tunnel) | fnune | A VPN tunnel pak for NextUI handhelds, using the wireguard-go library | NextUI | v0.1.0 | 2026-11-24 | MIT |
 | [Pokémon Manager](https://github.com/ProClifo/NextUI-Pokemon-Manager) | ProClifo | PKHeX-powered save manager: move Pokémon between games, perform trade evolutions, and inject Mystery Gifts, Mystery Events and e-Reader cards. | NextUI | v0.2.58 | 2026-11-12 | other |
@@ -70,7 +70,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Remote Terminal](https://github.com/josegonzalez/minui-remote-terminal-pak) | josegonzalez | A MinUI app that starts a browser-based remote terminal. | NextUI, MinUI | 0.9.0 | 2026-09-27 | MIT |
 | [RetroArch Core Saves](https://github.com/bmpriest/nextui-retroarch-core-saves-pak) | bmpriest | Adapt NextUI's save game file handling to be more compatible with SyncThing: converts all of your .sav files to .srm and puts them in /Saves/Cores in RetroArch core name folders. | NextUI | 0.7.1 | 2026-10-18 | MIT (scripts) |
 | [retroshelf tracker](https://github.com/retroshelf-org/linux) | retroshelf-org | Sync NextUI play sessions to retroshelf | NextUI | v0.7.1 | 2026-11-25 | no licence (no source) |
-| [retsurf](https://github.com/mxmgorin/retsurf) | mxmgorin | Portable, gamepad-first web browser on Servo. Runs on retro handhelds, Android, Kindle, Linux, Windows and macOS | - | v0.11.0 | 2026-11-24 | GPL-3.0 |
+| [retsurf](https://github.com/mxmgorin/retsurf) | mxmgorin | Portable, gamepad-first web browser on Servo. Runs on retro handhelds, Android, Kindle, Linux, Windows and macOS | - | v0.11.0 | 2026-11-25 | GPL-3.0 |
 | [Romoogle](https://github.com/mattcarvercom/romoogle) | mattcarvercom | Indexed ROM search for NextUI/MinUI handhelds. | NextUI, MinUI | v1.0.0 | 2026-10-20 | MIT |
 | [Samba Sync](https://github.com/dalexanco/nextui-samba-sync) | dalexanco | Pull-sync folders from Samba/SMB shares onto the SD card, declared in one config file. | NextUI | v0.2.0 | 2026-11-17 | no licence |
 | [Save Sync](https://github.com/1DeX6/save-sync) | 1DeX6 | Save Sync — automatic cloud sync of saves between devices, ROM copy and download for Batocera / KNULLI / Recalbox. Play on one device, continue on another from the same spot. | KNULLI | v1.6.0 | 2026-11-08 | MIT (scripts) |

@@ -45,3 +45,5 @@ Keys used in the knowledge pages. Dates are when we read them.
 | `{lgpt}` | [djdiskmachine/LittleGPTracker](https://github.com/djdiskmachine/LittleGPTracker) | 2026-11-24 |
 | `{m8tape}` | [romainguerif/M8Tape](https://github.com/romainguerif/M8Tape) | 2026-11-24 |
 | `{picotracker-trimui}` | [Jarodwr/picotracker-advance-trimui](https://github.com/Jarodwr/picotracker-advance-trimui) | 2026-11-24 |
+| `{m8c-brickpro-stock}` | [mauSuaza/m8c-trimui-brick-pro: README](https://github.com/mauSuaza/m8c-trimui-brick-pro) | 2026-11-25 |
+| `{m8c-brickpro-nextui}` | [Aalenberg/m8c-trimui-brick-pro-nextui: README](https://github.com/Aalenberg/m8c-trimui-brick-pro-nextui) | 2026-11-25 |

@@ -27,3 +27,7 @@ projects:
   note: granular sampler El Magico built for the Brick on KNULLI; a different project from GrainBrick (ETRNLIAM); no download page found
     yet
   seen: '2026-11-24'
+- repo: https://github.com/DecentSamples/decent-sampler-pak
+  name: DecentSampler pak (Decent Samples)
+  note: empty repo, described as the home of a DecentSampler NextUI Pak Store package; sampler, check again once files are pushed
+  seen: '2026-11-25'

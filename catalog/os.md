@@ -13,7 +13,7 @@ Custom firmwares, launchers and frontends.
 | [BRICK-UI](https://github.com/bebeidon/BRICK-UI) | bebeidon | A fork of NX Redux | - | v2.0.0 | 2026-10-17 | GPL-3.0 |
 | [BrickDeck OS](https://github.com/kawaczek/brik) | kawaczek |  | - | - | 2026-11-24 | no licence |
 | [BrickNext](https://github.com/retrotiv/BrickNEXT) | retrotiv |  | - | 6.1.0 | 2026-11-18 | other (scripts) |
-| [ChaOS](https://github.com/SkyWalker541/ChaOS) | SkyWalker541 | Brick firmware with shaders, overlays, PortMaster, RomM, music and audiobooks. | - | v2.7.8-test1 | 2026-11-23 | GPL-3.0 |
+| [ChaOS](https://github.com/SkyWalker541/ChaOS) | SkyWalker541 | Brick firmware with shaders, overlays, PortMaster, RomM, music and audiobooks. | - | v2.7.8-test1 | 2026-11-25 | GPL-3.0 |
 | [Crystaline OS](https://github.com/bravenewaiworld/crystaline-os) | bravenewaiworld |  | - | - | 2026-11-18 | GPL-3.0 |
 | [fbui](https://github.com/movsb/fbui) | movsb | A TrimUI frontend alternative. | - | - | 2026-11-22 | no licence |
 | [glui](https://github.com/gabilungu/glui) | gabilungu | A simple system for the TrimUI Brick | - | v0.3.2 | 2026-10-15 | other |

@@ -9,9 +9,9 @@ notes only; every entry points to the original project.
 **[Open the website](https://70b185.github.io/trimui-music-apps/)**
 
 <!-- counts -->
-**471 projects** (322 with a licence and source, 355 with commits in the last 90 days), checked 2026-11-24:
+**475 projects** (324 with a licence and source, 359 with commits in the last 90 days), checked 2026-11-25:
 
-[Make music](https://70b185.github.io/trimui-music-apps/?c=music-make) 55 · [Listen](https://70b185.github.io/trimui-music-apps/?c=music-play) 28 · [Firmware](https://70b185.github.io/trimui-music-apps/?c=os) 47 · [Apps & tools](https://70b185.github.io/trimui-music-apps/?c=app) 130 · [Emulators](https://70b185.github.io/trimui-music-apps/?c=emulator) 60 · [Games & ports](https://70b185.github.io/trimui-music-apps/?c=port) 32 · [Video & reading](https://70b185.github.io/trimui-music-apps/?c=media) 22 · [Look](https://70b185.github.io/trimui-music-apps/?c=theme) 20 · [Developer](https://70b185.github.io/trimui-music-apps/?c=dev) 52 · [Guides & companions](https://70b185.github.io/trimui-music-apps/?c=guide) 25
+[Make music](https://70b185.github.io/trimui-music-apps/?c=music-make) 57 · [Listen](https://70b185.github.io/trimui-music-apps/?c=music-play) 29 · [Firmware](https://70b185.github.io/trimui-music-apps/?c=os) 47 · [Apps & tools](https://70b185.github.io/trimui-music-apps/?c=app) 130 · [Emulators](https://70b185.github.io/trimui-music-apps/?c=emulator) 60 · [Games & ports](https://70b185.github.io/trimui-music-apps/?c=port) 33 · [Video & reading](https://70b185.github.io/trimui-music-apps/?c=media) 22 · [Look](https://70b185.github.io/trimui-music-apps/?c=theme) 20 · [Developer](https://70b185.github.io/trimui-music-apps/?c=dev) 52 · [Guides & companions](https://70b185.github.io/trimui-music-apps/?c=guide) 25
 <!-- /counts -->
 
 ## Looking for software

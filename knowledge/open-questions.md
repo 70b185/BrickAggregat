@@ -7,7 +7,6 @@ a device, write the answer into the right page with device, firmware version and
 | # | Question | Why it matters | Sources |
 | --- | --- | --- | --- |
 | Q1 | **Can the Brick's bottom USB-C port be a sound card and MIDI device for a computer or iPad?** A FunctionFS probe found no USB audio/MIDI gadget in the kernel and could not bind isochronous endpoints both ways; OZMA's README says its Brick plays into an iPad over USB as sound card and MIDI port. Is OZMA using bulk endpoints with its own protocol, a one-way isochronous stream, or something else? | Recording a Brick straight into a DAW | {tbr-hw} {ozma} |
-| Q2 | **Which USB-C port is the host on the Brick Pro?** | MIDI controllers and audio interfaces | {tbr-hw} |
 | Q3 | **Does the Brick Hammer have the Brick's 14-LED layout?** | LED meters and feedback | {tbr-hw} {ledoh} |
 | Q4 | **Brick Pro L2/R2: analog or digital?** Spec sheets disagree | expressive control in instruments | {tbr-hw} |
 | Q5 | **Audio input on the Brick**: PolyBrik's sample recorder records silence on NextUI; BrickTape (KNULLI) records from the mic and USB, GrainBrick (KNULLI) processes live input, Conduit (muOS) records from the mic or a USB interface. Is input a firmware question (mixer setup) rather than hardware? | sampling on the device | {polybrik} {bricktape} {conduit} |

@@ -31,8 +31,57 @@
 #
 # `checked` is the date of the last update run (docs/UPDATING.md).
 
-checked: '2026-11-24'
+checked: '2026-11-25'
 projects:
+- id: m8c-brick-pro-stock
+  name: m8c for Brick Pro (stock OS)
+  author: mauSuaza
+  category: music-make
+  repo: https://github.com/mauSuaza/m8c-trimui-brick-pro
+  runs_on:
+  - stock
+  devices:
+  - brick-pro
+  note: m8c packaged as a stock-OS app for the Brick Pro, with an ALSA fix so the M8's USB audio is found. Teensy on
+    the top USB-C port.
+  added: '2026-11-25'
+- id: m8c-brick-pro-nextui
+  name: M8C for Brick Pro (NextUI)
+  author: Aalenberg
+  category: music-make
+  repo: https://github.com/Aalenberg/m8c-trimui-brick-pro-nextui
+  runs_on:
+  - nextui
+  devices:
+  - brick-pro
+  note: m8c port for the Brick Pro on NextUI; routes the M8's USB audio to the headphone jack or to a USB headphone
+    adapter on a hub.
+  added: '2026-11-25'
+- id: boombrick-b-side
+  name: Boombrick B-Side
+  author: Scorch-94
+  category: music-play
+  repo: https://github.com/Scorch-94/Boombrick-B-Side
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  - brick-pro
+  note: Fork of Boombrick for NextUI without internet radio, adding library search, .m3u playlists and shuffle of all
+    songs; installs beside the original.
+  added: '2026-11-25'
+- id: woof-nextui
+  name: Woof! for NextUI
+  author: Overflask
+  category: port
+  repo: https://github.com/Overflask/woof-nextui
+  runs_on:
+  - nextui
+  devices:
+  - brick
+  - brick-pro
+  - smart-pro
+  added: '2026-11-25'
 - id: moonlight-nextui
   name: moonlight nextui
   author: 4fuu

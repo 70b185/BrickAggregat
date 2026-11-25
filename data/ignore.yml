@@ -418,3 +418,11 @@ ignore:
   reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
 - url: https://www.youtube.com/watch?v=yYt19-WxQqg
   reason: video of a listed app (BrickTape Sampler, m8c, GrainBrick, brickchord) or of other gear
+- repo: https://github.com/kida7/aoe-trimui-port
+  reason: Smart Pro only (Age of Empires via Box86 + Wine), no Brick build
+- repo: https://github.com/djaysan/guide-watch
+  reason: other devices (Miyoo Mini on OnionOS, Switch, DS/3DS); a TrimUI port is only planned
+- repo: https://github.com/nohablodanes/m8c-trimui-brick-pro
+  reason: fork of mauSuaza/m8c-trimui-brick-pro without changes of its own
+- repo: https://github.com/PatttF/m8c-trimui-brick-pro
+  reason: fork of mauSuaza/m8c-trimui-brick-pro without changes of its own

@@ -2,7 +2,7 @@
 
 PortMaster, ports and original games.
 
-32 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+33 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -34,6 +34,7 @@ PortMaster, ports and original games.
 | [Trimui Brick calculator project](https://github.com/Strike-20123/Trimui-Brick-calculator-project) | Strike-20123 | Just a tiny project to create a functionable calculater GUI | - | - | 2026-09-21 | no licence |
 | [TrimUI Brick Ports](https://github.com/Hkattelu/TrimUI-Brick-Ports) | Hkattelu | TrimUI Brick ports, source code and community testing builds. | - | ddd-v0.1.4-test | 2026-11-23 | MIT |
 | [trimui chroot ubuntu portmaster](https://github.com/movsb/trimui-chroot-ubuntu-portmaster) | movsb | A highly-automated Ubuntu chroot environment installer isolated from TrimUI for managing PortMaster and launching its Ports/Games. | PortMaster | - | 2026-09-28 | no licence |
+| [Woof! for NextUI](https://github.com/Overflask/woof-nextui) | Overflask | Woof! V16.0.0 port for NextUI | NextUI | v1.0.0 | 2026-11-25 | no licence |
 | [Merge Up Blast](https://codebeans.itch.io/merge-up-blast) | codebeans | Physics fruit-merge game, tagged for TrimUI on itch.io. | - | - | - | no licence (no source) |
 | [Porty McPortface](https://github.com/Helaas/nextui-PortyMcPortface-my355-pak) | Helaas | Install or update the PortMaster runtime into PORTS.pak. | NextUI, MinUI, spruce, PortMaster | v0.3.0 | 2026-07-16 | MIT |
 | [SquareStormTrimui](https://github.com/JoaoPedroMarimon/SquareStormTrimui) | JoaoPedroMarimon |  | - | - | 2026-07-11 | no licence |

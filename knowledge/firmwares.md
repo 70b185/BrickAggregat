@@ -27,3 +27,5 @@ Notes:
 - **NextUI switches the CPU governor to `performance`** before any pak and resets it after; tools that do not need
   it should call `governor.sh powersave` or `auto` {nextui-paks}.
 - **Root everywhere**: apps can write sysfs, use `SCHED_FIFO` and `mlockall` `[hw]` {tbr-hw}.
+- **KNULLI on the Brick Pro**: as of November 2026 one developer reports that KNULLI's public Brick image shows
+  white stripes on the Brick Pro's screen, so their M8 client targets the stock OS instead `[doc]` {m8c-brickpro-stock}.

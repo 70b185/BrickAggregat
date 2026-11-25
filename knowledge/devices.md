@@ -13,7 +13,7 @@
 | Addressable LEDs | 14 RGB (measured on a Brick) `[hw]` {ledoh} | 22 used `[hw]` {tbr-hw} |
 | Speaker | mono `[src]` {tbr-hw} | mono `[src]` {tbr-hw} |
 | Audio out | 3.5 mm headphone jack | 3.5 mm headphone jack |
-| USB | two USB-C: top = host, bottom = charging and USB device (gadget) `[hw]` {tbr-hw} | which port is the host: [open](open-questions.md) |
+| USB | two USB-C: top = host, bottom = charging and USB device (gadget) `[hw]` {tbr-hw} | top port as host: a Teensy (M8 Headless) works there, not on the bottom port (stock OS) `[hw]` {m8c-brickpro-stock} |
 | Kernel | Linux 4.9.191, Allwinner BSP `[src]` {tbr-hw} {handkit-platforms} | same |
 
 The Brick Hammer is a Brick variant: muOS treats it as the same board (`tui-brick`) and the sydilaxe apps ship one

@@ -1,9 +1,27 @@
 [
  {
   "date": "2026-11-25",
+  "id": "woof-nextui",
+  "what": "added",
+  "detail": ""
+ },
+ {
+  "date": "2026-11-25",
   "id": "uipod",
   "what": "release",
   "detail": "v0.9.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "uipod",
+  "what": "release",
+  "detail": "v0.9.2"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "uipod",
+  "what": "release",
+  "detail": "v0.10.0"
  },
  {
   "date": "2026-11-25",
@@ -55,6 +73,24 @@
  },
  {
   "date": "2026-11-25",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-07_0548"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-09_1411"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-09_2128"
+ },
+ {
+  "date": "2026-11-25",
   "id": "portmaster-gui",
   "what": "release",
   "detail": "2025.05.30-0959"
@@ -85,6 +121,30 @@
  },
  {
   "date": "2026-11-25",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "v0.7.1-android.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "v0.7.2"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "brick-parts-0.7.2"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "openrct2-pocket",
+  "what": "release",
+  "detail": "v0.4.2-beta.1"
+ },
+ {
+  "date": "2026-11-25",
   "id": "mutable-dreams-handheld",
   "what": "release",
   "detail": "v1.6.2"
@@ -94,6 +154,18 @@
   "id": "mutable-dreams-handheld",
   "what": "release",
   "detail": "v1.6.2-rg35xx-test"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "m8c-brick-pro-stock",
+  "what": "added",
+  "detail": ""
+ },
+ {
+  "date": "2026-11-25",
+  "id": "m8c-brick-pro-nextui",
+  "what": "added",
+  "detail": ""
  },
  {
   "date": "2026-11-25",
@@ -115,6 +187,30 @@
  },
  {
   "date": "2026-11-25",
+  "id": "dronage-terminal",
+  "what": "release",
+  "detail": "v3.5.0"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "chaos",
+  "what": "release",
+  "detail": "v0.11.0"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "chaos",
+  "what": "release",
+  "detail": "v0.11.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "chaos",
+  "what": "release",
+  "detail": "v0.11.2"
+ },
+ {
+  "date": "2026-11-25",
   "id": "bricktape-sampler",
   "what": "release",
   "detail": "v1.12.0-beta"
@@ -133,6 +229,12 @@
  },
  {
   "date": "2026-11-25",
+  "id": "boombrick-b-side",
+  "what": "added",
+  "detail": ""
+ },
+ {
+  "date": "2026-11-25",
   "id": "amalthea",
   "what": "release",
   "detail": "build-37"
@@ -142,6 +244,12 @@
   "id": "amalthea",
   "what": "release",
   "detail": "build-38"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "amalthea",
+  "what": "release",
+  "detail": "build-39"
  },
  {
   "date": "2026-11-25",

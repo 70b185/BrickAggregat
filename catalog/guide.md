@@ -9,7 +9,7 @@ Guides, docs, installers and companion apps on a computer or phone.
 | [brickdrop](https://github.com/jitdor/brickdrop) | jitdor | Native macOS ROM importer and metadata cleaner for the TRIMUI Brick Pro | - | v1.2.1 | 2026-09-29 | MIT |
 | [BRIXEQ manual (Spanish)](https://github.com/alejandroid80/brixeq-manual) | alejandroid80 |  | - | - | 2026-11-17 | no licence (no source) |
 | [cartwright](https://github.com/chiotas/cartwright) | chiotas | Build the SD card of a modern retro handheld with Claude Code. TrimUI Brick Pro / NextUI verified, portable to any libretro handheld. | - | - | 2026-09-10 | MIT |
-| [ChaOS Installer](https://github.com/SkyWalker541/ChaOS-Installer) | SkyWalker541 |  | - | v1.1.0 | 2026-11-18 | GPL-3.0 |
+| [ChaOS Installer](https://github.com/SkyWalker541/ChaOS-Installer) | SkyWalker541 |  | - | v1.1.0 | 2026-11-25 | GPL-3.0 |
 | [Dronage Terminal manual (Spanish)](https://github.com/alejandroid80/dronage-terminal-manual) | alejandroid80 |  | - | - | 2026-11-15 | no licence (no source) |
 | [Mee-a-rai RomStore](https://github.com/namememem02-ui/Mee-a-rai-RomStore) | namememem02-ui | Wireless LAN ROM Bridge & Sync Utility between PC and Retro Handhelds (TrimUI / NextUI) | - | v1.2.6 | 2026-11-03 | MIT |
 | [Megalist of PortMaster music apps](https://github.com/paiheulevrai/Megalist-of-awesome-Portmaster-music-production-apps) | paiheulevrai | Curated list of trackers, synths, grooveboxes and samplers for Linux handhelds via PortMaster (kept by the ChooChooTracker author). | - | - | 2026-11-18 | no licence (no source) |
