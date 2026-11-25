@@ -2,7 +2,7 @@
 
 PortMaster, ports and original games.
 
-32 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+32 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -21,8 +21,8 @@ PortMaster, ports and original games.
 | [NextUI Stones](https://github.com/kodabey/NextUI-Stones-Pak) | kodabey | A game of Go for Trimui Brick handhelds | NextUI | v1.0 | 2026-10-10 | MIT |
 | [OpenRCT2 Pocket](https://github.com/keewhi/openrct2-pocket) | keewhi | RollerCoaster Tycoon 2 rebuilt to play like a handheld game. A controller-first OpenRCT2 build for Linux and Android devices. | - | brick-explorer-proof1 | 2026-11-24 | GPL-3.0 |
 | [Portmaster](https://github.com/ben16w/minui-portmaster) | ben16w | A PortMaster Emu Pack for MinUI and NextUI that includes everything needed out of the box, no additional software required. | NextUI, MinUI, PortMaster | 2.14.0 | 2026-11-10 | MIT |
-| [PortMaster](https://github.com/PortsMaster/PortMaster-GUI) | PortsMaster | PortMaster: installs and launches game ports on most firmwares, the Brick's included. | PortMaster | 2026.11.17-0700 | 2026-11-17 | MIT |
-| [PortMaster ports](https://github.com/PortsMaster/PortMaster-New) | PortsMaster | New PortMaster repo | PortMaster | 2026-11-24_1333 | 2026-11-24 | MIT |
+| [PortMaster](https://github.com/PortsMaster/PortMaster-GUI) | PortsMaster | PortMaster: installs and launches game ports on most firmwares, the Brick's included. | PortMaster | 2026.11.17-0700 | 2026-11-25 | MIT |
+| [PortMaster ports](https://github.com/PortsMaster/PortMaster-New) | PortsMaster | New PortMaster repo | PortMaster | 2026-11-24_1333 | 2026-11-25 | MIT |
 | [Ports and Free Games (spruceOS)](https://github.com/spruceUI/Ports-and-Free-Games) | spruceUI | Free Games and Apps for spruceOS | spruce | test7 | 2026-10-24 | no licence |
 | [redemption liar](https://github.com/gopherbone/redemption-liar) | gopherbone | Run your own retail copy of Redemption: Liar (GP2X Wiz) on a Mortar TrimUI Brick. No game data included. | - | - | 2026-11-02 | GPL-2.0 |
 | [RetroHero](https://github.com/CreatonDevelopment/RetroHero-App) | CreatonDevelopment |  | - | v0.9.2 | 2026-11-23 | no licence |

@@ -2,15 +2,15 @@
 
 Instruments, trackers, sequencers, samplers, effects and M8 clients.
 
-55 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+55 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
-| [Amalthea](https://github.com/nzimas/amalthea) | nzimas | Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines. | - | build-36 | 2026-11-24 | GPL-3.0 |
-| [brickchord](https://github.com/michaeltietjen/brickchord) | michaeltietjen | Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox edition with drum pads and song mode. KNULLI on Brick and Brick Pro. | KNULLI | v0.4.3-r36 | 2026-11-22 | MIT |
+| [Amalthea](https://github.com/nzimas/amalthea) | nzimas | Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines. | - | build-38 | 2026-11-25 | GPL-3.0 |
+| [brickchord](https://github.com/michaeltietjen/brickchord) | michaeltietjen | Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox edition with drum pads and song mode. KNULLI on Brick and Brick Pro. | KNULLI | v0.5.0 | 2026-11-24 | MIT |
 | [BrickPad](https://github.com/obhateion/brickpad) | obhateion | Real-time sampler, synth and clip sequencer for the Brick on KNULLI, played with the d-pad and buttons. | KNULLI | v2.0-alpha.1 | 2026-11-20 | other |
 | [BrickRack](https://github.com/andrewfrangella/brickrack) | andrewfrangella | Modular synth with patch cables, built from open Eurorack module DSP (Plaits, Rings, Beads, Tides, Peaks). NextUI on the Brick Pro. | NextUI | v0.1.0 | 2026-11-08 | GPL-3.0 |
-| [BrickTape Sampler](https://github.com/Bhang01/bricktape-sampler) | Bhang01 | 64-pad sampler with chopping, multiband effects, USB audio and on-device stem separation. KNULLI. | KNULLI | v1.6.4-beta | 2026-11-22 | no licence (no source) |
+| [BrickTape Sampler](https://github.com/Bhang01/bricktape-sampler) | Bhang01 | 64-pad sampler with chopping, multiband effects, USB audio and on-device stem separation. KNULLI. | KNULLI | v1.13.0-beta | 2026-11-25 | no licence (no source) |
 | [BrickWorld](https://brickworldhub.com/) | brickworldhub | Set of music apps for the Brick on KNULLI: BrickSampler, BrickLooper (five-track loop station), BrickTape (four-track recorder), BrickFX and BrickAmbientFX. The repo holds the website. | KNULLI | - | 2026-11-23 | GPL-3.0 |
 | [ChipNomad Tracker](https://github.com/Megus/chipnomad-tracker) | Megus | Chiptune tracker with an LSDj-like interface for Linux handhelds incl. the Brick. | PortMaster | v1.0.5 | 2026-11-05 | MIT |
 | [ChooChoo Dub Siren](https://github.com/paiheulevrai/ChooChooDubSiren) | paiheulevrai | Analog-style dub siren with four sound slots for live performance, on the ChooChooTracker engine. | NextUI, PortMaster | v0.2.1 | 2026-11-21 | MIT |
@@ -30,11 +30,11 @@ Instruments, trackers, sequencers, samplers, effects and M8 clients.
 | [m8c for Brick (KNULLI)](https://github.com/stephennap/m8c-brick-knulli) | stephennap | m8c binaries for the Brick on KNULLI. | KNULLI, PortMaster | v0.1 | 2026-09-07 | MIT (scripts) |
 | [m8c headless handheld](https://github.com/null-rot/m8c-headless-handheld) | null-rot | m8c builds for muOS and KNULLI handhelds, with controller cheat sheets. | KNULLI, muOS | m8c-v1.7.10-run2 | 2026-09-06 | MIT |
 | [mgba-midisync](https://github.com/Ayagi3678/mgba-midisync) | Ayagi3678 | mGBA libretro fork that syncs LSDj and FMS to USB MIDI clock through the link port. | NextUI, KNULLI | v0.1.6 | 2026-10-09 | MPL-2.0 |
-| [Mutable Dreams (handheld)](https://github.com/kidbee85-beep/mutable-dreams-handheld) | kidbee85-beep | Generative 'garden of sound' with Mutable Instruments based voices; handheld spin-off of Mutable Dreams for the FM-1. | KNULLI | v1.5.10 | 2026-11-21 | GPL-3.0 |
+| [Mutable Dreams (handheld)](https://github.com/kidbee85-beep/mutable-dreams-handheld) | kidbee85-beep | Generative 'garden of sound' with Mutable Instruments based voices; handheld spin-off of Mutable Dreams for the FM-1. | KNULLI | v1.6.2-rg35xx-test | 2026-11-25 | GPL-3.0 |
 | [OZMA](https://github.com/Manticorees/OZMA) | Manticorees | Groovebox and tracker: clips, sampler, effects, live tools, MIDI in/out and clock; uses both USB ports. Packages for Brick firmwares and other handhelds. | NextUI, MinUI, KNULLI, muOS, CrossMix, spruce, Stock OS | v0.9.2 | 2026-11-14 | no licence (no source) |
 | [picoTracker Advance (TrimUI)](https://github.com/Jarodwr/picotracker-advance-trimui) | Jarodwr | picoTracker Advance firmware run through a thin SDL wrapper. Smart Pro on NextUI (tg5040). | NextUI | v0.1.0 | 2026-11-18 | GPL-3.0 |
 | [Pocket Euclidean](https://github.com/ijnekenamay/PocketEuclidean) | ijnekenamay | C++17 groovebox: eight-track euclidean sequencer, WAV sampler and swappable synth voices, for desktops and handhelds. Early, unfinished. | - | v0.3.0 | 2026-11-01 | no licence |
-| [pocketpads](https://github.com/prone/pocketpads) | prone | 16-pad sample sequencer with MIDI via the ALSA sequencer. Written for the Smart Pro on KNULLI (same platform as the Brick). | KNULLI | v0.4 | 2026-11-20 | MIT |
+| [pocketpads](https://github.com/prone/pocketpads) | prone | 16-pad sample sequencer with MIDI via the ALSA sequencer. Written for the Smart Pro on KNULLI (same platform as the Brick). | KNULLI | v0.4 | 2026-11-25 | MIT |
 | [PocketTracker](https://github.com/vandaltwist/pockettracker) | vandaltwist | Tracker inspired by the M8 and LGPT, for TrimUI handhelds. | - | - | 2026-11-06 | GPL-3.0 |
 | [PolyBrik](https://github.com/boorch/polybrik-public) | boorch | Polyend Tracker Community Edition running on the Brick and Brick Pro under NextUI. No MIDI, USB audio or audio input yet. | NextUI | v1.0.0 | 2026-11-05 | MIT |
 | [PolyTracker](https://github.com/vitaliso/polytracker) | vitaliso | Polyend Tracker CE on the Brick under KNULLI, with USB MIDI (host) and USB audio out. | KNULLI | - | 2026-11-13 | MIT |
@@ -45,7 +45,7 @@ Instruments, trackers, sequencers, samplers, effects and M8 clients.
 | [ThorTracker](https://github.com/esko997/thortracker) | esko997 | Controller-first chiptune tracker for NextUI with music export. | NextUI | v1.0.0 | 2026-11-13 | GPL-3.0 |
 | [TrackWerk](https://github.com/kidbee85-beep/TrackWerk) | kidbee85-beep | Music studio: tracker sequencing, synthesis, sampling and performance effects (formerly Pocket Tracker Extreme). Android handhelds and the Brick/Hammer with KNULLI. | KNULLI | v1.3.0-smartpro-test | 2026-11-23 | GPL-3.0 |
 | [TrimFX](https://github.com/sydilaxe/Trimui-Trimfx-dev) | sydilaxe | Multi-effects engine with USB audio in/out, tap tempo and MIDI learn. muOS on Brick, Hammer and Brick Pro. | muOS | v0.4.7 | 2026-11-18 | GPL-3.0 |
-| [Twill Studio](https://github.com/LiminalKid/TwillStudio) | LiminalKid | Piano-roll groovebox: eight tracks written note by note with the d-pad. NextUI pak. | NextUI, KNULLI, PortMaster | v0.7.0 | 2026-11-23 | GPL-3.0 |
+| [Twill Studio](https://github.com/LiminalKid/TwillStudio) | LiminalKid | Piano-roll groovebox: eight tracks written note by note with the d-pad. NextUI pak. | NextUI, KNULLI, PortMaster | v0.7.1 | 2026-11-25 | GPL-3.0 |
 | [4TRKmini](https://jasonbmusic.itch.io/4trk-mini) | JasonB | Four-track recorder and tracker with MIDI in, Launchpad workflow and audio/mic recording. itch.io download, no public source. | NextUI, KNULLI, PortMaster | - | - | no licence (no source) |
 | [BrickSlicer LE](https://strangeunits.gumroad.com/l/brickslicer-le) | Strange Units | Pocket slicer and glitch groovebox: record, slice, play and export samples. Gumroad download, no public source. | - | - | - | no licence (no source) |
 | [BRIXEQ](https://github.com/boorch/brixeq-pak) | boorch | Tracker-style sequencer pak for NextUI. | NextUI | v1.9.0 | 2026-07-17 | no licence (no source) |

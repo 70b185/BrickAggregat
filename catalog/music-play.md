@@ -2,7 +2,7 @@
 
 Music, radio, podcast and audiobook players.
 
-28 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+28 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -20,10 +20,10 @@ Music, radio, podcast and audiobook players.
 | [Rockbox (hi-res fork)](https://github.com/fanium/rockbox) | fanium | high resolution for GKD Pixel 2, trimui brick | NextUI | 4.0.92 | 2026-09-19 | no licence |
 | [Rockbox Classic Revival](https://github.com/sharuru3501/rockbox-classic-revival-brick) | sharuru3501 | Rockbox + Classic Revival theme optimised for the TrimUI Brick (Knulli): 640x480, CJK fonts, perspective cover art | KNULLI, PortMaster | - | 2026-10-25 | other |
 | [StoryBoy](https://github.com/abhi5794/StoryBoy) | abhi5794 | Audiobook player for SBC game consoles like the Miyoo A30, Miyoo Flip, Miyoo Mini Flip, TRIMUI Brick/Hammer, and TRIMUI Smart Pro/S | NextUI, spruce | - | 2026-11-08 | GPL-3.0 |
-| [Trimpod Classic](https://github.com/tyrannotorus/c-trimui-trimpod-classic-pak) | tyrannotorus | iPod Classic style player with MilkDrop visualisations; USB-C and Bluetooth audio. | NextUI | v1.0.15 | 2026-11-17 | no licence |
+| [Trimpod Classic](https://github.com/tyrannotorus/c-trimui-trimpod-classic-pak) | tyrannotorus | iPod Classic style player with MilkDrop visualisations; USB-C and Bluetooth audio. | NextUI | v1.0.16 | 2026-11-24 | no licence |
 | [TrimUI Music Player & Scrobbler](https://github.com/ExpandedPlum/trimui-brick-music-player-with-scrobbling-pak) | ExpandedPlum | A TrimUI Brick app wrapping the built-in Music Player app for MinUI - Trying to add LastFM scrobbling | NextUI, MinUI | 0.4.2 | 2026-10-11 | MIT (scripts) |
 | [Truepod](https://github.com/duyquang6/truepod) | duyquang6 | Bit-perfect hi-res player for the Brick Pro (tested to 88.2 kHz). | spruce, Stock OS | v2026.10.03 | 2026-10-03 | other (no source) |
-| [UIPod](https://github.com/famiclone/UIPod) | famiclone | iPod-style player for local files, Navidrome and Jellyfin: lossless, audiobooks, NSF/GSF, MIDI with SoundFonts, EQ. | NextUI | v0.9.0 | 2026-11-24 | no licence |
+| [UIPod](https://github.com/famiclone/UIPod) | famiclone | iPod-style player for local files, Navidrome and Jellyfin: lossless, audiobooks, NSF/GSF, MIDI with SoundFonts, EQ. | NextUI | v0.9.1 | 2026-11-25 | no licence |
 | [Vibe](https://github.com/Ponjen/Vibe-A-Vibecoded-Music-Player-for-the-TrimUI-Brick) | Ponjen | Vibe is a music player made solely for the TrimUI Brick. Only available for Stock and Crossmix. It is entirely vibecoded by Claude. | CrossMix | Release | 2026-11-15 | GPL-3.0 |
 | [Ambience](https://github.com/calmery/Ambience.pak) | calmery | Ambient-sound mixer: layered loops, presets, sleep timer. NextUI. | NextUI | v0.1.0 | 2026-06-19 | no licence |
 | [Mono](https://github.com/Berckan/mono) | Berckan | Minimal MP3 player with Bluetooth A2DP for NextUI/MinUI. | NextUI, MinUI | v1.9.5 | 2026-08-12 | no licence |

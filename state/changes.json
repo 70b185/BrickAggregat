@@ -28,5 +28,190 @@
   "id": "trimui-brick-kernel",
   "what": "unreachable",
   "detail": "Command '['git', 'ls-remote', '--symref', 'https://github.com/jkingston/trimui-brick-kernel', 'HEAD', 'refs/tags/*']' timed out after 60 seconds"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "jukahubv2",
+  "what": "release",
+  "detail": "JukaHub-20261125004908"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "jukahubv2",
+  "what": "release",
+  "detail": "JukaHub-20261125040241"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "jukahubv2",
+  "what": "release",
+  "detail": "JukaHub-20261125114654"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "trimui-brick-kernel",
+  "what": "back online"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "nx-redux-docs",
+  "what": "commits",
+  "detail": "last commit 2026-11-25"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "bricktape-sampler",
+  "what": "release",
+  "detail": "v1.12.0-beta"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "bricktape-sampler",
+  "what": "release",
+  "detail": "v1.13.0-beta"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "mutable-dreams-handheld",
+  "what": "release",
+  "detail": "v1.6.2"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "mutable-dreams-handheld",
+  "what": "release",
+  "detail": "v1.6.2-rg35xx-test"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "twill-studio",
+  "what": "release",
+  "detail": "v0.7.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "brickchord",
+  "what": "release",
+  "detail": "v0.5.0"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "pocketpads",
+  "what": "commits",
+  "detail": "last commit 2026-11-25"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "uipod",
+  "what": "release",
+  "detail": "v0.9.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "trimpod-classic",
+  "what": "commits",
+  "detail": "last commit 2026-11-24"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "trimpod-classic",
+  "what": "release",
+  "detail": "pak.json v1.0.16"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "internal",
+  "what": "commits",
+  "detail": "last commit 2026-11-25"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "nx-handheld",
+  "what": "commits",
+  "detail": "last commit 2026-11-25"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-gui",
+  "what": "release",
+  "detail": "2025.05.30-0959"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-gui",
+  "what": "release",
+  "detail": "2025.05.31-1002"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-gui",
+  "what": "release",
+  "detail": "2025.06.06-1114"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-07_0548"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-09_1411"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-09_2128"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "brick-parts-0.7.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "v0.7.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "1retro-sync",
+  "what": "release",
+  "detail": "v0.12.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "senos",
+  "what": "commits",
+  "detail": "last commit 2026-11-25"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "retroshelf",
+  "what": "release",
+  "detail": "v0.7.0"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "retroshelf",
+  "what": "release",
+  "detail": "v0.7.1"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "amalthea",
+  "what": "release",
+  "detail": "build-37"
+ },
+ {
+  "date": "2026-11-25",
+  "id": "amalthea",
+  "what": "release",
+  "detail": "build-38"
  }
 ]

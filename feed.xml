@@ -4,7 +4,182 @@
   <link href="https://70b185.github.io/trimui-music-apps/"/>
   <link rel="self" href="https://70b185.github.io/trimui-music-apps/feed.xml"/>
   <id>https://70b185.github.io/trimui-music-apps/</id>
-  <updated>2026-11-24T00:00:00Z</updated>
+  <updated>2026-11-25T00:00:00Z</updated>
+  <entry>
+    <title>UIPod: release v0.9.1</title>
+    <link href="https://github.com/famiclone/UIPod"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-uipod-release-v0.9.1</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>iPod-style player for local files, Navidrome and Jellyfin: lossless, audiobooks, NSF/GSF, MIDI with SoundFonts, EQ.</summary>
+  </entry>
+  <entry>
+    <title>Twill Studio: release v0.7.1</title>
+    <link href="https://github.com/LiminalKid/TwillStudio"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-twill-studio-release-v0.7.1</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Piano-roll groovebox: eight tracks written note by note with the d-pad. NextUI pak.</summary>
+  </entry>
+  <entry>
+    <title>Brick kernel: back online</title>
+    <link href="https://github.com/jkingston/trimui-brick-kernel"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-trimui-brick-kernel-back online-</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Linux kernel tree for the Brick.</summary>
+  </entry>
+  <entry>
+    <title>Trimpod Classic: release pak.json v1.0.16</title>
+    <link href="https://github.com/tyrannotorus/c-trimui-trimpod-classic-pak"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-trimpod-classic-release-pak.json v1.0.16</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>iPod Classic style player with MilkDrop visualisations; USB-C and Bluetooth audio.</summary>
+  </entry>
+  <entry>
+    <title>retroshelf tracker: release v0.7.0</title>
+    <link href="https://github.com/retroshelf-org/linux"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-retroshelf-release-v0.7.0</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Sync NextUI play sessions to retroshelf</summary>
+  </entry>
+  <entry>
+    <title>retroshelf tracker: release v0.7.1</title>
+    <link href="https://github.com/retroshelf-org/linux"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-retroshelf-release-v0.7.1</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Sync NextUI play sessions to retroshelf</summary>
+  </entry>
+  <entry>
+    <title>PortMaster ports: release 2026-06-07_0548</title>
+    <link href="https://github.com/PortsMaster/PortMaster-New"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-portmaster-new-release-2026-06-07_0548</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>New PortMaster repo</summary>
+  </entry>
+  <entry>
+    <title>PortMaster ports: release 2026-06-09_1411</title>
+    <link href="https://github.com/PortsMaster/PortMaster-New"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-portmaster-new-release-2026-06-09_1411</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>New PortMaster repo</summary>
+  </entry>
+  <entry>
+    <title>PortMaster ports: release 2026-06-09_2128</title>
+    <link href="https://github.com/PortsMaster/PortMaster-New"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-portmaster-new-release-2026-06-09_2128</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>New PortMaster repo</summary>
+  </entry>
+  <entry>
+    <title>PortMaster: release 2025.05.30-0959</title>
+    <link href="https://github.com/PortsMaster/PortMaster-GUI"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-portmaster-gui-release-2025.05.30-0959</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>PortMaster: installs and launches game ports on most firmwares, the Brick&#x27;s included.</summary>
+  </entry>
+  <entry>
+    <title>PortMaster: release 2025.05.31-1002</title>
+    <link href="https://github.com/PortsMaster/PortMaster-GUI"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-portmaster-gui-release-2025.05.31-1002</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>PortMaster: installs and launches game ports on most firmwares, the Brick&#x27;s included.</summary>
+  </entry>
+  <entry>
+    <title>PortMaster: release 2025.06.06-1114</title>
+    <link href="https://github.com/PortsMaster/PortMaster-GUI"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-portmaster-gui-release-2025.06.06-1114</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>PortMaster: installs and launches game ports on most firmwares, the Brick&#x27;s included.</summary>
+  </entry>
+  <entry>
+    <title>pocket-ui: release brick-parts-0.7.1</title>
+    <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-pocket-ui-release-brick-parts-0.7.1</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
+  </entry>
+  <entry>
+    <title>pocket-ui: release v0.7.1</title>
+    <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-pocket-ui-release-v0.7.1</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
+  </entry>
+  <entry>
+    <title>Mutable Dreams (handheld): release v1.6.2</title>
+    <link href="https://github.com/kidbee85-beep/mutable-dreams-handheld"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-mutable-dreams-handheld-release-v1.6.2</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Generative &#x27;garden of sound&#x27; with Mutable Instruments based voices; handheld spin-off of Mutable Dreams for the FM-1.</summary>
+  </entry>
+  <entry>
+    <title>Mutable Dreams (handheld): release v1.6.2-rg35xx-test</title>
+    <link href="https://github.com/kidbee85-beep/mutable-dreams-handheld"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-mutable-dreams-handheld-release-v1.6.2-rg35xx-test</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Generative &#x27;garden of sound&#x27; with Mutable Instruments based voices; handheld spin-off of Mutable Dreams for the FM-1.</summary>
+  </entry>
+  <entry>
+    <title>JukaHubV2: release JukaHub-20261125004908</title>
+    <link href="https://github.com/jukaLang/JukaHubV2"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-jukahubv2-release-JukaHub-20261125004908</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer</summary>
+  </entry>
+  <entry>
+    <title>JukaHubV2: release JukaHub-20261125040241</title>
+    <link href="https://github.com/jukaLang/JukaHubV2"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-jukahubv2-release-JukaHub-20261125040241</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer</summary>
+  </entry>
+  <entry>
+    <title>JukaHubV2: release JukaHub-20261125114654</title>
+    <link href="https://github.com/jukaLang/JukaHubV2"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-jukahubv2-release-JukaHub-20261125114654</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer</summary>
+  </entry>
+  <entry>
+    <title>BrickTape Sampler: release v1.12.0-beta</title>
+    <link href="https://github.com/Bhang01/bricktape-sampler"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-bricktape-sampler-release-v1.12.0-beta</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>64-pad sampler with chopping, multiband effects, USB audio and on-device stem separation. KNULLI.</summary>
+  </entry>
+  <entry>
+    <title>BrickTape Sampler: release v1.13.0-beta</title>
+    <link href="https://github.com/Bhang01/bricktape-sampler"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-bricktape-sampler-release-v1.13.0-beta</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>64-pad sampler with chopping, multiband effects, USB audio and on-device stem separation. KNULLI.</summary>
+  </entry>
+  <entry>
+    <title>brickchord: release v0.5.0</title>
+    <link href="https://github.com/michaeltietjen/brickchord"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-brickchord-release-v0.5.0</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox edition with drum pads and song mode. KNULLI on Brick and Brick Pro.</summary>
+  </entry>
+  <entry>
+    <title>Amalthea: release build-37</title>
+    <link href="https://github.com/nzimas/amalthea"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-amalthea-release-build-37</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines.</summary>
+  </entry>
+  <entry>
+    <title>Amalthea: release build-38</title>
+    <link href="https://github.com/nzimas/amalthea"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-amalthea-release-build-38</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines.</summary>
+  </entry>
+  <entry>
+    <title>1Retro Sync: release v0.12.1</title>
+    <link href="https://github.com/one-retro/1retro-nextui"/>
+    <id>https://70b185.github.io/trimui-music-apps/#2026-11-25-1retro-sync-release-v0.12.1</id>
+    <updated>2026-11-25T00:00:00Z</updated>
+    <summary>NextUI Pak Store publishing repo</summary>
+  </entry>
   <entry>
     <title>pocket-ui: release r36s-test-1</title>
     <link href="https://github.com/robbyczgw-cla/pocket-ui"/>

@@ -2,7 +2,7 @@
 
 Guides, docs, installers and companion apps on a computer or phone.
 
-25 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+25 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -15,7 +15,7 @@ Guides, docs, installers and companion apps on a computer or phone.
 | [Megalist of PortMaster music apps](https://github.com/paiheulevrai/Megalist-of-awesome-Portmaster-music-production-apps) | paiheulevrai | Curated list of trackers, synths, grooveboxes and samplers for Linux handhelds via PortMaster (kept by the ChooChooTracker author). | - | - | 2026-11-18 | no licence (no source) |
 | [NextUI docs](https://github.com/LoveRetro/nextui-docs) | LoveRetro | NextUI's documentation, including how to make paks and build NextUI. | - | - | 2026-10-24 | no licence |
 | [nextui web dashboard](https://github.com/aaronhoogstraten/nextui-web-dashboard) | aaronhoogstraten | NextUI Web Dashboard | - | v1.8.0 | 2026-11-09 | MIT |
-| [NX Redux docs](https://github.com/nx-redux/nx-redux-docs) | nx-redux | User documentation for NX Redux — custom firmware for TrimUI retro handhelds | - | - | 2026-11-24 | no licence |
+| [NX Redux docs](https://github.com/nx-redux/nx-redux-docs) | nx-redux | User documentation for NX Redux — custom firmware for TrimUI retro handhelds | - | - | 2026-11-25 | no licence |
 | [PortPicker](https://github.com/LoadState/portpicker) | LoadState | Pick your handheld + CFW, get PortMaster ports that run well on it, install them to your SD card. Windows app. | - | v1.1.0-beta.1 | 2026-11-18 | MIT |
 | [ReminisLink](https://github.com/tfournier/ReminisLink) | tfournier | iPhone companion for retro handhelds: manage games, saves, save states, cheats, patches and apps on a TrimUI Brick running NextUI, over local Wi-Fi. Go pak + SwiftUI app, QR pairing, end-to-end on your network. | - | v1.1.0 | 2026-11-23 | MIT |
 | [Spruce Collections](https://github.com/juanchuj/Spruce-Collections) | juanchuj |  | - | - | 2026-11-17 | no licence |

@@ -2,11 +2,11 @@
 
 Stores, system tools, network, sync, ROM management and everything else on the device.
 
-130 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+130 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
-| [1Retro Sync](https://github.com/one-retro/1retro-nextui) | one-retro | NextUI Pak Store publishing repo | NextUI, MinUI | v0.12.0 | 2026-11-22 | MIT (scripts) |
+| [1Retro Sync](https://github.com/one-retro/1retro-nextui) | one-retro | NextUI Pak Store publishing repo | NextUI, MinUI | v0.12.1 | 2026-11-24 | MIT (scripts) |
 | [Another Cheat Downloader](https://github.com/ExpandedPlum/another-nextui-cheat-downloader) | ExpandedPlum | A MinUI pak for downloading cheat files from the Libretro database | NextUI, MinUI | v1.0.0 | 2026-10-11 | MIT (scripts) |
 | [Artwork Scraper](https://github.com/josegonzalez/minui-artwork-scraper-pak) | josegonzalez | A MinUI app that scrapes artwork for your MinUI or NextUI device | NextUI, MinUI | 0.9.0 | 2026-09-27 | MIT (scripts) |
 | [Auto Power Down](https://github.com/lmerriam/nextui-auto-power-off) | lmerriam | NextUI pak: turns your handheld off after it has been asleep for a time you choose. Games resume where you left off. | NextUI | v1.1.0 | 2026-11-16 | MIT (scripts) |
@@ -39,7 +39,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Grout](https://github.com/rommapp/grout) | rommapp | A RomM Client for your Linux retro handheld | NextUI, MinUI, KNULLI, muOS, spruce, Stock OS | v5.4.1.0 | 2026-11-10 | MIT |
 | [handheld-link-cores](https://github.com/bronzedragon/handheld-link-cores) | bronzedragon | Link-cable and local-wireless multiplayer for two retro handhelds over network: patched RetroArch cores for GB/GBC, GBA, DS, WonderSwan, Neo Geo Pocket and Game Gear, plus netplay fixes for MAME 2003-Plus, FBNeo, MSX and DOS. Prebuilt for aarch64 Linux (KNULLI). | - | - | 2026-10-29 | GPL-3.0 |
 | [Itch.io Store](https://github.com/carroarmato0/NextUI-Itchio-Pak) | carroarmato0 | Browse and download GB/GBC games from Itch.io's GB Studio collection | NextUI, muOS | v1.1.1 | 2026-11-09 | MIT |
-| [JukaHubV2](https://github.com/jukaLang/JukaHubV2) | jukaLang | Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer | Stock OS | JukaHub-20261124145648 | 2026-11-24 | AGPL-3.0 |
+| [JukaHubV2](https://github.com/jukaLang/JukaHubV2) | jukaLang | Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer | Stock OS | JukaHub-20261125114654 | 2026-11-25 | AGPL-3.0 |
 | [leviathan scraper](https://github.com/du-aite/leviathan-scraper) | du-aite | Box art scraper for Trimui Brick Pro | Stock OS | v1.0.0 | 2026-09-10 | MIT |
 | [LoLo](https://github.com/alejandroid80/LoLo) | alejandroid80 | Pequeño proyecto de asistente de IA en Español para la Trimui Brick | NextUI | - | 2026-11-20 | no licence |
 | [M3U Manager](https://github.com/josegonzalez/minui-m3u-manager-pak) | josegonzalez | A MinUI pak that manages M3U files for your emulators | NextUI, MinUI | 0.3.0 | 2026-09-28 | MIT (scripts) |
@@ -66,10 +66,10 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Profiles](https://github.com/bmpriest/nextui-profiles-pak) | bmpriest | Create and switch between profiles, each with their own saves, save states and settings. | NextUI, MinUI | 0.3.0 | 2026-10-18 | no licence (scripts) |
 | [RA Explorer](https://github.com/apommel/nextui-ra-explorer) | apommel | Explore your RetroAchievements on NextUI. | NextUI | v1.3.0 | 2026-10-24 | MIT |
 | [Random Game](https://github.com/josegonzalez/minui-random-game-pak) | josegonzalez | A MinUI app that starts a random game | NextUI, MinUI | 0.7.0 | 2026-09-27 | MIT (scripts) |
-| [Random Game Plus](https://github.com/CyberAly/minui-random-game-pak-plus) | CyberAly | Randomly selects a game from the ROMs folder and launches it | NextUI, MinUI | 0.7.0 | 2026-11-24 | MIT (scripts) |
+| [Random Game Plus](https://github.com/CyberAly/minui-random-game-pak-plus) | CyberAly | Enhanced MinUI/NextUI random game pak featuring interactive cover art previews, instant re-roll controls, and smarter ROM scanning. | NextUI, MinUI | 0.7.0 | 2026-11-24 | MIT (scripts) |
 | [Remote Terminal](https://github.com/josegonzalez/minui-remote-terminal-pak) | josegonzalez | A MinUI app that starts a browser-based remote terminal. | NextUI, MinUI | 0.9.0 | 2026-09-27 | MIT |
 | [RetroArch Core Saves](https://github.com/bmpriest/nextui-retroarch-core-saves-pak) | bmpriest | Adapt NextUI's save game file handling to be more compatible with SyncThing: converts all of your .sav files to .srm and puts them in /Saves/Cores in RetroArch core name folders. | NextUI | 0.7.1 | 2026-10-18 | MIT (scripts) |
-| [retroshelf tracker](https://github.com/retroshelf-org/linux) | retroshelf-org | Sync NextUI play sessions to retroshelf | NextUI | v0.6.11 | 2026-11-04 | no licence (no source) |
+| [retroshelf tracker](https://github.com/retroshelf-org/linux) | retroshelf-org | Sync NextUI play sessions to retroshelf | NextUI | v0.7.1 | 2026-11-25 | no licence (no source) |
 | [retsurf](https://github.com/mxmgorin/retsurf) | mxmgorin | Portable, gamepad-first web browser on Servo. Runs on retro handhelds, Android, Kindle, Linux, Windows and macOS | - | v0.11.0 | 2026-11-24 | GPL-3.0 |
 | [Romoogle](https://github.com/mattcarvercom/romoogle) | mattcarvercom | Indexed ROM search for NextUI/MinUI handhelds. | NextUI, MinUI | v1.0.0 | 2026-10-20 | MIT |
 | [Samba Sync](https://github.com/dalexanco/nextui-samba-sync) | dalexanco | Pull-sync folders from Samba/SMB shares onto the SD card, declared in one config file. | NextUI | v0.2.0 | 2026-11-17 | no licence |

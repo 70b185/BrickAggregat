@@ -2,7 +2,7 @@
 
 Custom firmwares, launchers and frontends.
 
-47 entries, generated 2026-11-24 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+47 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -26,17 +26,16 @@ Custom firmwares, launchers and frontends.
 | [Mortar](https://github.com/gopherbone/mortar) | gopherbone | NixOS for the Brick: mainline kernel and boot chain from microSD, with a controller-driven multitasking shell; the stock OS stays untouched. | - | v0.1.0-rc.4 | 2026-11-05 | GPL-2.0 |
 | [mosaic-launcher](https://github.com/josegonzalez/mosaic-launcher) | josegonzalez | Experimental replacement for the NextUI launcher with a plugin API, so features from different forks can be combined. | - | - | 2026-11-20 | other |
 | [Mosaik](https://github.com/diapolon/mosaik_cfw) | diapolon | Gaming system on microSD for TrimUI Smart Pro and Brick Pro: arcade, emulators, Apps and Linux games with its own launcher. | - | v0.9.110 | 2026-11-23 | GPL-3.0 |
-| [muOS (MustardOS)](https://github.com/MustardOS/internal) | MustardOS | muOS (MustardOS) system internals. Has device configs for the Brick (tui-brick) and Brick Pro (tui-brick-pro); PipeWire audio. The sydilaxe music apps target it. | - | 2606.0_Andromeda | 2026-11-24 | GPL-3.0 |
+| [muOS (MustardOS)](https://github.com/MustardOS/internal) | MustardOS | muOS (MustardOS) system internals. Has device configs for the Brick (tui-brick) and Brick Pro (tui-brick-pro); PipeWire audio. The sydilaxe music apps target it. | - | 2606.0_Andromeda | 2026-11-25 | GPL-3.0 |
 | [ndsui](https://github.com/TimeATronics/ndsui) | TimeATronics | An alternative launcher / frontend for TrimUI Brick | - | - | 2026-09-20 | GPL-3.0 |
 | [NextUI](https://github.com/LoveRetro/NextUI) | LoveRetro | MinUI fork that became its own firmware: rebuilt emulation engine, shaders, overlays, Wi-Fi, LED control, Pak Store. The most used launcher on the Brick; platform folder tg5040. | - | v6.15.0 | 2026-11-12 | other |
-| [NX Redux](https://github.com/nx-redux/nx-handheld) | nx-redux | NX Redux: NextUI fork with its own app set and UI changes for the Brick, Brick Hammer, Brick Pro and the Smart Pro family. | - | v2.5.1 | 2026-11-23 | GPL-3.0 |
+| [NX Redux](https://github.com/nx-redux/nx-handheld) | nx-redux | NX Redux: NextUI fork with its own app set and UI changes for the Brick, Brick Hammer, Brick Pro and the Smart Pro family. | - | v2.5.1 | 2026-11-25 | GPL-3.0 |
 | [oakMOSS](https://github.com/spruceUI/oakMOSS) | spruceUI |  | - | v0.7.0-beta.1 | 2026-11-14 | other |
 | [Pingo OS](https://github.com/luciano2000/pingo-os) | luciano2000 | Pingo OS by Retrogamer Brasil: distro Linux mínima para handhelds retrô (Anbernic RG35XX-H, RG40XX, TrimUI Brick) | - | v0.3.7-beta | 2026-11-24 | GPL-2.0 |
 | [plorpOS](https://github.com/thwonp/plorpOS) | thwonp | Small firmware for several handhelds including the Brick, Hammer and Brick Pro, with an emphasis on music. | - | archive/pokedaisy-parity-9506907 | 2026-11-20 | MIT |
-| [pocket-ui](https://github.com/robbyczgw-cla/pocket-ui) | robbyczgw-cla | pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped. | - | r36s-test-1 | 2026-11-24 | GPL-2.0 |
+| [pocket-ui](https://github.com/robbyczgw-cla/pocket-ui) | robbyczgw-cla | pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped. | - | r36s-test-1 | 2026-11-25 | GPL-2.0 |
 | [RaineyUI](https://github.com/usfjrain/RaineyUI) | usfjrain | Neon-arcade retro gaming frontend for TrimUI Brick/Smart Pro and Android | - | v0.3.0 | 2026-11-05 | no licence |
-| [RmlUi Brick](https://github.com/PEDx/rmlui-brick) | PEDx | A handheld-style game library and emulator frontend built specifically for the TrimUI Brick with RmlUi, SDL2, and MinArch. | - | - | 2026-08-26 | no licence |
-| [SenOS](https://github.com/TrungTruong25/SenOS) | TrungTruong25 |  | - | - | 2026-11-22 | no licence (no source) |
+| [SenOS](https://github.com/TrungTruong25/SenOS) | TrungTruong25 |  | - | - | 2026-11-25 | no licence (no source) |
 | [Slot. (Brick)](https://github.com/LordNordyx/Slot-Brick) | LordNordyx | Slot. for the TrimUI Brick: a Game Boy–focused GB/GBC/GBA frontend on stock firmware. | - | v0.60 | 2026-11-19 | GPL-3.0 |
 | [Specular](https://github.com/bravenewaiworld/specular) | bravenewaiworld |  | - | - | 2026-11-18 | GPL-3.0 |
 | [spruceOS](https://github.com/spruceUI/spruceOS) | spruceUI | SD-card layer over the stock system for Miyoo, TrimUI and Anbernic devices, with its own PyUI frontend. | - | v4.6.0 | 2026-11-24 | MIT |
@@ -50,6 +49,7 @@ Custom firmwares, launchers and frontends.
 | [Ideal OS](https://github.com/jreinach-alt/ideal_os) | jreinach-alt | Ideal OS is a curated appliance‑style operating system for the TrimUI Brick designed to deliver the **ideal retro handheld experience** | - | - | 2026-07-08 | MIT |
 | [kUI Cold](https://github.com/ArjunKdaf/kUI-Cold) | ArjunKdaf | kUI is a custom OS based of NextUI with many additional features! | - | kUI-0.81a | 2026-07-22 | GPL-3.0 |
 | [MinUI](https://github.com/shauninman/MinUI) | shauninman | The original minimal launcher and libretro frontend that NextUI and most paks build on. Archived by its author in 2025; paks still target its layout. | - | v20251127-1 | 2025-11-27 | no licence |
+| [RmlUi Brick](https://github.com/PEDx/rmlui-brick) | PEDx | A handheld-style game library and emulator frontend built specifically for the TrimUI Brick with RmlUi, SDL2, and MinArch. | - | - | 2026-08-26 | no licence |
 | [TrimUI stock firmware (Brick Pro)](https://github.com/trimui/firmware_brickpro) | trimui | TrimUI's own firmware releases for the Brick Pro (TG4040). Binary images, no source. | - | v1.1.1-20260717 | 2026-07-18 | no licence (no source) |
 | [TrimUI stock firmware (Brick)](https://github.com/trimui/firmware_brick) | trimui | TrimUI's own firmware releases for the Brick (TG3040). Binary images, no source. | - | v1.1.1-20251126 | 2025-12-02 | no licence (no source) |
 | [WiiMenu](https://github.com/antroma47/MENU-WII_LIKE-TRIMUI_BRICK) | antroma47 |  | - | - | 2026-06-15 | no licence |

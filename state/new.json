@@ -1,38 +1,109 @@
 [
  {
-  "url": "https://github.com/nzimas/amalthea",
-  "title": "nzimas/amalthea",
-  "desc": "Amalthea: a custom Linux distribution that replaces the TRIMUI Brick's firmware with three musical instruments: a generative tracker, an effect rack and a living effect network for the M-VAVE FM-1.",
-  "date": "2026-11-24",
+  "url": "https://github.com/Aalenberg/m8c-trimui-brick-pro-nextui",
+  "title": "Aalenberg/m8c-trimui-brick-pro-nextui",
+  "desc": "m8c client for TrimUI Brick Pro running NextUI",
+  "date": "2026-11-25",
   "fork": false,
   "links": [],
   "found_by": [
    "trimui brick",
    "trimui",
-   "trimui brick (README)",
-   "topic:trimui-brick"
+   "nextui",
+   "trimui brick (README)"
   ]
  },
  {
-  "url": "https://github.com/CyberAly/minui-random-game-pak-plus",
-  "title": "CyberAly/minui-random-game-pak-plus",
-  "desc": "Enhanced MinUI/NextUI random game pak featuring interactive cover art previews, instant re-roll controls, and smarter ROM scanning.",
-  "date": "2026-11-24",
-  "fork": true,
+  "url": "https://github.com/mauSuaza/m8c-trimui-brick-pro",
+  "title": "mauSuaza/m8c-trimui-brick-pro",
+  "desc": "Run Dirtywave M8 Headless (m8c) on the TrimUI Brick Pro stock OS: display, controls and audio",
+  "date": "2026-11-25",
+  "fork": false,
   "links": [],
   "found_by": [
-   "nextui (forks)"
+   "trimui brick",
+   "trimui",
+   "trimui brick (README)"
   ]
  },
  {
-  "url": "https://github.com/boblefrag/avenir-en-commun-rpg",
-  "title": "boblefrag/avenir-en-commun-rpg",
-  "desc": "L'Union Populaire : Le RPG (PICO-8) — Pour la 6e République",
-  "date": "2026-11-12",
+  "url": "https://github.com/kida7/aoe-trimui-port",
+  "title": "kida7/aoe-trimui-port",
+  "desc": "Age of Empires (Rise of Rome) on TrimUI Smart Pro via Box86 + Wine + cnc-ddraw, GPU via glremote/gl4es (no game files included)",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui"
+  ]
+ },
+ {
+  "url": "https://github.com/djaysan/guide-watch",
+  "title": "djaysan/guide-watch",
+  "desc": "In-game walkthroughs for OnionOS on the Miyoo Mini Plus: a rumble when a guide exists, L2+R2+Down to read it over your paused game, and an on-device app that downloads GameFAQs guides for your ROMs over wifi.",
+  "date": "2026-11-25",
   "fork": false,
   "links": [],
   "found_by": [
    "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Overflask/woof-nextui",
+  "title": "Overflask/woof-nextui",
+  "desc": "Woof! V16.0.0 port for NextUI",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)",
+   "nextui pak (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/nohablodanes/m8c-trimui-brick-pro",
+  "title": "nohablodanes/m8c-trimui-brick-pro",
+  "desc": "Run Dirtywave M8 Headless (m8c) on the TrimUI Brick Pro stock OS: display, controls and audio",
+  "date": "2026-11-25",
+  "fork": true,
+  "links": [],
+  "found_by": [
+   "trimui brick (forks)"
+  ]
+ },
+ {
+  "url": "https://github.com/PatttF/m8c-trimui-brick-pro",
+  "title": "PatttF/m8c-trimui-brick-pro",
+  "desc": "Run Dirtywave M8 Headless (m8c) on the TrimUI Brick Pro stock OS: display, controls and audio",
+  "date": "2026-11-25",
+  "fork": true,
+  "links": [],
+  "found_by": [
+   "trimui brick (forks)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=MNLJoeoUR4M",
+  "title": "Our Chord Generator Is a TrimUI Brick Pro 🎹",
+  "desc": "channel Rack and Wave",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=IVi8i68XjG4",
+  "title": "TrimUI Brick Pro as a Chord Generator | Live Eurorack Jam",
+  "desc": "channel Rack and Wave",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
   ]
  }
 ]
