@@ -4,7 +4,7 @@ What people building apps, instruments and firmwares for the Brick family have f
 their public repositories. Everything here is second-hand: each fact names where it comes from (a key in braces, resolved
 in [SOURCES.md](SOURCES.md)) and how sure it is. Read the original before you rely on a detail.
 
-**Ask a question** in [Discussions → Q&A](https://github.com/70b185/trimui-music-apps/discussions/categories/q-a).
+**Ask a question** in [Discussions → Q&A](https://github.com/70b185/BrickAggregat/discussions/categories/q-a).
 When the answer is settled, it moves into these pages with its source.
 
 ## Pages

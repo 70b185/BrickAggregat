@@ -2,7 +2,7 @@
 
 Thanks for helping. Three kinds of contribution, smallest first:
 
-1. **Report a project or a mistake**: the [issue forms](https://github.com/70b185/trimui-music-apps/issues/new/choose).
+1. **Report a project or a mistake**: the [issue forms](https://github.com/70b185/BrickAggregat/issues/new/choose).
 2. **Edit the data**: `data/projects.yml` (fields explained at the top of the file). Do not edit generated files
    (`catalog/`, `export/`, `kb/`, `feed.xml`, `state/`); the update workflow rebuilds them.
 3. **Add knowledge**: a pull request against `knowledge/`. Every fact needs a source: add a key to
@@ -18,4 +18,4 @@ python3 scripts/build.py        # optional: see the result in export/ and kb/
 ```
 
 Ground rules: links and short notes in our own words, no binaries, firmware images or copied code. Development
-questions belong in [Discussions → Q&A](https://github.com/70b185/trimui-music-apps/discussions/categories/q-a).
+questions belong in [Discussions → Q&A](https://github.com/70b185/BrickAggregat/discussions/categories/q-a).

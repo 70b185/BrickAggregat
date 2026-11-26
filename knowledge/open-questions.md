@@ -1,7 +1,7 @@
 # Open questions
 
 Things sources disagree on or nobody has tested. Discuss them in
-[Discussions → Q&A](https://github.com/70b185/trimui-music-apps/discussions/categories/q-a); when one is settled on
+[Discussions → Q&A](https://github.com/70b185/BrickAggregat/discussions/categories/q-a); when one is settled on
 a device, write the answer into the right page with device, firmware version and date, and remove it here.
 
 | # | Question | Why it matters | Sources |

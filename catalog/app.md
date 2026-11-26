@@ -2,7 +2,7 @@
 
 Stores, system tools, network, sync, ROM management and everything else on the device.
 
-130 entries, generated 2026-11-25 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+130 entries, generated 2026-11-26 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |

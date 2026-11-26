@@ -1,7 +1,7 @@
 /* Brick Aggregat website: reads export/*.json and renders five tabs. No build step, no dependencies. */
 (function () {
   "use strict";
-  const REPO = "https://github.com/70b185/trimui-music-apps";
+  const REPO = "https://github.com/70b185/BrickAggregat";
   const $ = (s, el) => (el || document).querySelector(s);
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const view = $("#view");

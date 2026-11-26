@@ -29,7 +29,7 @@ import xml.etree.ElementTree as ET
 from common import STATE, TODAY, load_json, load_yaml, projects, repo_slug, run, write_json, write_text
 
 FIELDS = "fullName,description,pushedAt,stargazersCount,isFork,isArchived,url"
-UA = {"User-Agent": "brick-aggregat/1.0 (+https://github.com/70b185/trimui-music-apps)"}
+UA = {"User-Agent": "brick-aggregat/1.0 (+https://github.com/70b185/BrickAggregat)"}
 
 
 def norm(u):

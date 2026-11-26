@@ -12,7 +12,7 @@ and want the knowledge here, and **maintainers**, who change this repository.
    `devices`, `open`) or the Markdown lists in `catalog/`.
 3. Open questions are in `knowledge/open-questions.md`. If your project settles one, say so in a Discussion or a pull
    request with your device, firmware version and date.
-4. Ask humans in [Discussions → Q&A](https://github.com/70b185/trimui-music-apps/discussions/categories/q-a).
+4. Ask humans in [Discussions → Q&A](https://github.com/70b185/BrickAggregat/discussions/categories/q-a).
 
 ## If you are changing this repository
 

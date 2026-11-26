@@ -8,7 +8,7 @@ ignore:
   reason: fork or copy without changes of its own that matter here
 - repo: https://github.com/4fuu/NextUI
   reason: release-only mirror or copy of an entry we list
-- repo: https://github.com/70b185/trimui-music-apps
+- repo: https://github.com/70b185/BrickAggregat
   reason: this repository
 - repo: https://github.com/abhishek-rawal/MustardOS-Flat
   reason: Smart Pro / Smart Pro S only, no Brick build

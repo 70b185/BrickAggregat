@@ -176,8 +176,8 @@ FIRMWARES = {
     "nx-redux": "NX Redux", "stock": "Stock OS", "portmaster": "PortMaster", "tortos": "TortOS",
 }
 DEVICES = {"brick": "Brick", "brick-hammer": "Brick Hammer", "brick-pro": "Brick Pro", "smart-pro": "Smart Pro"}
-SITE_URL = "https://70b185.github.io/trimui-music-apps/"
-REPO_URL = "https://github.com/70b185/trimui-music-apps"
+SITE_URL = "https://70b185.github.io/BrickAggregat/"
+REPO_URL = "https://github.com/70b185/BrickAggregat"
 
 
 def projects():
