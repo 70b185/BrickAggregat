@@ -2,7 +2,7 @@
 
 Emulator paks and cores.
 
-60 entries, generated 2026-11-26 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+60 entries, generated 2026-11-28 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -28,17 +28,16 @@ Emulator paks and cores.
 | [Mega Duck](https://github.com/evolver79/nextui-megaduck-pak) | evolver79 | Mega Duck / Cougar Boy emulator pak for NextUI (SameDuck core) | NextUI | v1.0.1 | 2026-11-20 | MIT (scripts) |
 | [mkxp for NextUI](https://github.com/almighty-atlas/nextui-mkxp) | almighty-atlas |  | NextUI | - | 2026-10-29 | no licence |
 | [N64](https://github.com/Pobega/nextui-mupen64plus-rearmed-pak) | Pobega | Nintendo 64 (Mupen64Plus-ReARMed) GLES libretro pak for NextUI (tg5040 & h700) | NextUI | 0.1.0 | 2026-11-21 | GPL-2.0 (scripts) |
-| [n64ui](https://github.com/TimeATronics/n64ui) | TimeATronics | Mupen64 GUI for TrimUI Brick + GCC 16 Toolchain / Sysroot | - | v0.1 | 2026-08-29 | no licence |
 | [NEC PC Engine SuperGrafx](https://github.com/tsolfan/beetle-supergrafx-libretro-nextui) | tsolfan | Standalone port of Mednafen PCE Fast to libretro. This one only emulates a SuperGrafx TG-16. | NextUI | v1.0.0 | 2026-11-05 | GPL-2.0 |
 | [Neo Geo CD](https://github.com/tsolfan/neocd_libretro-nextui) | tsolfan | Neo Geo CD emulator for minarch | NextUI | v1.0.0 | 2026-11-05 | LGPL-3.0 |
 | [Nintendo 64 (mupen64plus)](https://github.com/josegonzalez/minui-n64-pak) | josegonzalez | A MinUI Emu pak for N64 | NextUI, MinUI | 0.9.0 | 2026-10-23 | MIT |
 | [Nintendo 64 (ParaLLEl N64)](https://github.com/Pobega/nextui-parallel-n64-pak) | Pobega | Nintendo 64 (ParaLLEl N64) GLES3 libretro pak for NextUI | NextUI | 0.1.0 | 2026-11-23 | GPL-2.0 (scripts) |
-| [Nintendo DS (DraStic)](https://github.com/josegonzalez/minui-nintendo-ds-pak) | josegonzalez | A MinUI Emu Pak for Nintendo DS | NextUI, MinUI | 0.15.1 | 2026-11-13 | MIT (scripts) |
+| [Nintendo DS (DraStic)](https://github.com/josegonzalez/minui-nintendo-ds-pak) | josegonzalez | A MinUI Emu Pak for Nintendo DS | NextUI, MinUI | 0.15.2 | 2026-11-25 | MIT (scripts) |
 | [Nintendo DS (DSperate)](https://github.com/josegonzalez/minui-nintendo-dsperate-pak) | josegonzalez | Runs DSperate in standalone mode for the specified rom | NextUI, MinUI | 0.2.0 | 2026-10-24 | MIT |
 | [PICO-8](https://github.com/josegonzalez/minui-pico-8-pak) | josegonzalez | A pak wrapping PICO-8, a fantasy video game console | NextUI, MinUI | 0.13.0 | 2026-10-24 | MIT |
 | [Playstation (Deadstation 1)](https://github.com/tyrannotorus/emulator-deadstation-1) | tyrannotorus | Deadstation - A PS1 emulator for Trimui Brick / Hammer | NextUI | 1.0.2 | 2026-11-23 | GPL-2.0 |
-| [PPSSPP](https://github.com/ben16w/minui-psp) | ben16w | A MinUI and NextUI Emu Pak for PSP, wrapping the standalone PPSSPP emulator. | NextUI, MinUI | 6.2.0 | 2026-11-10 | MIT (scripts) |
-| [PPSSPP for spruceOS](https://github.com/spruceUI/PPSSPP-spruce) | spruceUI | PPSSPP standalone builds for SpruceOS | spruce | beta-aarch64-gcc-10 | 2026-11-14 | no licence |
+| [PPSSPP](https://github.com/ben16w/minui-psp) | ben16w | A MinUI and NextUI Emu Pak for PSP, wrapping the standalone PPSSPP emulator. | NextUI, MinUI | 7.0.0 | 2026-11-25 | MIT (scripts) |
+| [PPSSPP for spruceOS](https://github.com/spruceUI/PPSSPP-spruce) | spruceUI | PPSSPP standalone builds for SpruceOS | spruce | beta-darkmoss3326-vulkan | 2026-11-14 | no licence |
 | [PSP (Deadstation Portable)](https://github.com/tyrannotorus/emulator-deadstation-portable) | tyrannotorus | A performance-focused PSP emulator supporting local multiplayer and downloadable recomp modules | NextUI | 1.3.2 | 2026-11-24 | GPL-2.0 |
 | [Rally Cross recomp (Deadstation)](https://github.com/tyrannotorus/emulator-deadstation-1-recomp-rally-cross) | tyrannotorus | Deadstation 1 - Tekken 3 Recomp | NextUI | 1.1.2 | 2026-11-07 | other |
 | [Rez recomp module (Deadcast)](https://github.com/tyrannotorus/emulator-dreamcast-deadcast-recomp-rez-recompiled) | tyrannotorus | Rez Recompiled Recomp Module for Deadcast | NextUI | 1.3.1 | 2026-11-24 | GPL-2.0 |
@@ -59,6 +58,7 @@ Emulator paks and cores.
 | [Atari 800](https://github.com/KrutzOtrem/nextui-a800) | KrutzOtrem | Adds support for Atari 8-bit. | NextUI | v0.4.2 | 2026-02-21 | MIT (scripts) |
 | [Intellivision (FreeINTV)](https://github.com/K2Retro2nd/minui-intv-pak) | K2Retro2nd | Play classic Intellivision games with the FreeINTV core. Credit and shoutout goes to the original owner of FreeINTV and the person that pre-compiled this core for use here. You can download the core here. | NextUI, MinUI | v0.0.0 | 2025-10-20 | no licence (no source) |
 | [JAGUAR](https://github.com/dominickvaccaro/nextui-virtual-jaguar) | dominickvaccaro | Virtual Jaguar Add-On for NextUI | NextUI | v1.1.0 | 2026-01-30 | no licence (scripts) |
+| [n64ui](https://github.com/TimeATronics/n64ui) | TimeATronics | Mupen64 GUI for TrimUI Brick + GCC 16 Toolchain / Sysroot | - | v0.1 | 2026-08-29 | no licence |
 | [RPG Maker 2000/2003](https://github.com/KrutzOtrem/nextui-easyrpg) | KrutzOtrem | Adds support for RPG Maker 2000/2003 | NextUI | v1.2.1 | 2026-03-17 | no licence (scripts) |
 | [RPG Maker XP/VX/VX Ace (MKXPZ)](https://github.com/KrutzOtrem/nextui-mkxpz) | KrutzOtrem | This core emulates RPG Maker XP/VX/VX Ace games. | NextUI | v0.6.7 | 2026-03-05 | no licence (no source) |
 | [ScummVM](https://github.com/laesetuc/minui-scummvm) | laesetuc | ScummVM emulator for NextUI. | NextUI, MinUI | 0.3.0 | 2025-12-17 | MIT (scripts) |

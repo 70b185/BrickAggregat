@@ -125,7 +125,7 @@
   ],
   "checked": "2026-11-25",
   "description": "m8c client for TrimUI Brick Pro running NextUI",
-  "stars": 0,
+  "stars": 1,
   "created": "2026-11-24",
   "pushed": "2026-11-25",
   "fork": false
@@ -350,7 +350,7 @@
    "v2.9.0"
   ],
   "description": "Manage your games on device",
-  "stars": 20,
+  "stars": 21,
   "created": "2025-04-11",
   "script_files": 1,
   "binary_files": 0,
@@ -471,7 +471,7 @@
    "v1.2.2"
   ],
   "description": "Retro cassette-style music player for TrimUI Brick with Spotify Connect, offline favorites, and local MP3 playback",
-  "stars": 34,
+  "stars": 35,
   "created": "2026-03-26",
   "script_files": 17,
   "binary_files": 0,
@@ -557,13 +557,13 @@
   "binary_files": 0,
   "license": null,
   "has_pak_dir": false,
-  "tagset": "dd944143a4b3",
+  "tagset": "b10d8eea2924",
   "tags": [
-   "v0.4.6",
    "v0.5.0",
    "v0.5.1",
    "v0.6.0",
-   "v0.7.0"
+   "v0.7.0",
+   "v0.8.0"
   ],
   "tags_all": [
    "v0.1.0",
@@ -580,13 +580,14 @@
    "v0.5.0",
    "v0.5.1",
    "v0.6.0",
-   "v0.7.0"
+   "v0.7.0",
+   "v0.8.0"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": "A fast, optimized YouTube client for retro gaming handhelds",
-  "stars": 5,
+  "stars": 7,
   "created": "2026-11-22",
-  "pushed": "2026-11-24",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/CyberAly/minui-random-game-pak-plus": {
@@ -622,7 +623,7 @@
   "description": "Enhanced MinUI/NextUI random game pak featuring interactive cover art previews, instant re-roll controls, and smarter ROM scanning.",
   "stars": 0,
   "created": "2026-11-13",
-  "pushed": "2026-11-24",
+  "pushed": "2026-11-25",
   "fork": true
  },
  "https://github.com/Drafffffff/brick-mic": {
@@ -694,7 +695,7 @@
    "v2.0.0-beta.2"
   ],
   "description": "GrainBrick is a free granular ambient sound instrument for TrimUI Brick. Create evolving textures with granular synthesis, effects and generative sound.",
-  "stars": 344,
+  "stars": 359,
   "created": "2026-10-29",
   "tagset": "f31b3fd35330",
   "tags_all": [
@@ -1334,35 +1335,37 @@
   "fork": false
  },
  "https://github.com/Hkattelu/TrimUI-Brick-Ports": {
-  "head": "799fb1412f6ec309e25bcf6320bb3650f291470d",
-  "last_commit": "2026-11-23",
-  "files": 237,
+  "head": "9733b010216ab70f8d13f37b83bc7d0b2f6ebc58",
+  "last_commit": "2026-11-26",
+  "files": 243,
   "code_files": 43,
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": true,
   "tags": [
-   "ddd-v0.1.0-test",
-   "ddd-v0.1.1-test",
    "ddd-v0.1.2-test",
    "ddd-v0.1.3-test",
-   "ddd-v0.1.4-test"
+   "ddd-v0.1.4-test",
+   "ddd-v0.1.5-test",
+   "ddd-v0.1.6-test"
   ],
   "description": "TrimUI Brick ports, source code and community testing builds.",
   "stars": 0,
   "created": "2026-10-28",
   "script_files": 23,
   "binary_files": 0,
-  "tagset": "e8f78f49b570",
+  "tagset": "efc71afa85ad",
   "tags_all": [
    "ddd-v0.1.0-test",
    "ddd-v0.1.1-test",
    "ddd-v0.1.2-test",
    "ddd-v0.1.3-test",
-   "ddd-v0.1.4-test"
+   "ddd-v0.1.4-test",
+   "ddd-v0.1.5-test",
+   "ddd-v0.1.6-test"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-23",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/Hkattelu/trimui-brick-easy-setup": {
@@ -1727,13 +1730,13 @@
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": false,
-  "tagset": "23ba1b007267",
+  "tagset": "4f5be97b17f9",
   "tags": [
-   "v1.0.0-beta.2",
    "v1.0.0-beta.3",
    "v1.0.2",
    "v1.1.2",
-   "v1.1.3"
+   "v1.1.3",
+   "ds-pre-v4"
   ],
   "tags_all": [
    "v1.0.0",
@@ -1741,25 +1744,26 @@
    "v1.0.0-beta.3",
    "v1.0.2",
    "v1.1.2",
-   "v1.1.3"
+   "v1.1.3",
+   "ds-pre-v4"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": "Argon is a launcher and emulation core runner for low power EDC Linux handhelds with a focus on simplicity and performance.",
-  "stars": 6,
+  "stars": 7,
   "created": "2026-11-04",
-  "pushed": "2026-11-24",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/LiminalKid/TwillStudio": {
-  "head": "b0be68cec4d8bfbaa8eb07ed51972c9dfc5b7125",
-  "last_commit": "2026-11-25",
-  "files": 371,
-  "code_files": 225,
+  "head": "c1545c6c9440d60270de870763fc3c5f71e8c409",
+  "last_commit": "2026-11-27",
+  "files": 385,
+  "code_files": 234,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
   "pak": {
    "name": "Twill Studio",
-   "version": "v0.7.1",
+   "version": "v0.8.0",
    "type": "TOOL",
    "description": "A piano-roll groovebox: write songs note by note with the d-pad on eight tracks, with twenty-four synth engines and a sampler, then arrange, mix and render them to WAV or stems. Songs and samples are kept in TwillStudio/ on the SD card, outside the pak.",
    "author": "Liminal Kid",
@@ -1769,16 +1773,16 @@
   },
   "has_pak_dir": false,
   "tags": [
-   "v0.4.1",
-   "v0.5.0",
    "v0.6.0",
    "v0.7.0",
-   "v0.7.1"
+   "v0.7.1",
+   "v0.7.2",
+   "v0.8.0"
   ],
   "description": "A music making app for handheld D-Pad devices.",
-  "script_files": 14,
+  "script_files": 16,
   "binary_files": 0,
-  "tagset": "354fef5e92ef",
+  "tagset": "444b62e273f5",
   "tags_all": [
    "v0.2.0",
    "v0.2.1",
@@ -1789,12 +1793,14 @@
    "v0.5.0",
    "v0.6.0",
    "v0.7.0",
-   "v0.7.1"
+   "v0.7.1",
+   "v0.7.2",
+   "v0.8.0"
   ],
-  "checked": "2026-11-25",
-  "stars": 4,
+  "checked": "2026-11-28",
+  "stars": 12,
   "created": "2026-11-15",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/Lin0u0/NextUI-NothingClock-Pak": {
@@ -1892,7 +1898,7 @@
    "v0.1.12"
   ],
   "description": "A native WeRead client for TrimUI handhelds.",
-  "stars": 6,
+  "stars": 7,
   "created": "2026-03-27",
   "script_files": 11,
   "binary_files": 0,
@@ -1959,7 +1965,7 @@
   "has_pak_dir": false,
   "tags": [],
   "description": "All you need to know about the TrimUI Brick, Stock & Custom Firmwares, ROMs, HackRoms, etc",
-  "stars": 224,
+  "stars": 226,
   "created": "2025-01-18",
   "script_files": 0,
   "binary_files": 0,
@@ -2013,7 +2019,7 @@
    "v0.60"
   ],
   "description": "Slot. for the TrimUI Brick: a Game Boy–focused GB/GBC/GBA frontend on stock firmware.",
-  "stars": 44,
+  "stars": 45,
   "created": "2026-10-12",
   "script_files": 33,
   "binary_files": 18,
@@ -2050,7 +2056,7 @@
    "v6.15.0"
   ],
   "description": "NextUI is a custom OS based of MinUI with many additional features!",
-  "stars": 1081,
+  "stars": 1085,
   "created": "2025-01-24",
   "script_files": 187,
   "binary_files": 0,
@@ -2188,7 +2194,7 @@
    "v4.3.0"
   ],
   "description": "A Pak Store in this economy?!",
-  "stars": 69,
+  "stars": 70,
   "created": "2025-04-25",
   "script_files": 1,
   "binary_files": 0,
@@ -2230,7 +2236,7 @@
    "v4.3.0"
   ],
   "checked": "2026-11-24",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/LoveRetro/nextui-updater-pak": {
@@ -2309,23 +2315,31 @@
   "fork": false
  },
  "https://github.com/Majirefy/NewPalTrimuiBrick": {
-  "head": "98a2ad0996c63d31d531b666628aa3740ec666ad",
-  "last_commit": "2026-11-24",
-  "files": 50,
-  "code_files": 18,
+  "head": "e0ec22a2fab9b5ab297107acf1f4f477a1587c91",
+  "last_commit": "2026-11-26",
+  "files": 78,
+  "code_files": 0,
   "license_file": "LICENSE",
-  "license": "GPL-3.0",
+  "license": null,
   "has_pak_dir": false,
-  "tags": [],
+  "tags": [
+   "v1.0.0",
+   "v1.0.1",
+   "v1.0.2"
+  ],
   "description": "MacNewPal engine port for TrimUI TG5040 / NX Redux (BYOD, no game data)",
   "stars": 0,
   "created": "2026-11-23",
-  "script_files": 5,
-  "binary_files": 0,
-  "tagset": "da39a3ee5e6b",
-  "tags_all": [],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-24",
+  "script_files": 2,
+  "binary_files": 9,
+  "tagset": "a7fdd6d5cd38",
+  "tags_all": [
+   "v1.0.0",
+   "v1.0.1",
+   "v1.0.2"
+  ],
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/Majirefy/nextui-wiliwili": {
@@ -2390,8 +2404,8 @@
   "fork": false
  },
  "https://github.com/Manticorees/OZMA": {
-  "head": "81d60feef422011161149686b31e75cfa67dfa9f",
-  "last_commit": "2026-11-14",
+  "head": "eb576894479e7749880632c6a48051d4b1e20b6f",
+  "last_commit": "2026-11-25",
   "files": 15,
   "code_files": 0,
   "script_files": 0,
@@ -2399,25 +2413,26 @@
   "license": null,
   "has_pak_dir": false,
   "tags": [
-   "v0.8-beta.1",
    "v0.8.2",
    "v0.9",
    "v0.9.1",
-   "v0.9.2"
+   "v0.9.2",
+   "v0.9.5"
   ],
   "description": "A groovebox for handhelds with clips, a sampler, effects and live performance tools. Free open beta.",
-  "stars": 5,
+  "stars": 9,
   "created": "2026-11-07",
-  "tagset": "8c30d714087e",
+  "tagset": "dbf57f0f97f7",
   "tags_all": [
    "v0.8-beta.1",
    "v0.8.2",
    "v0.9",
    "v0.9.1",
-   "v0.9.2"
+   "v0.9.2",
+   "v0.9.5"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/Marice/nextui-fireplace-pak": {
@@ -2488,9 +2503,9 @@
   "fork": false
  },
  "https://github.com/MustardOS/internal": {
-  "head": "8b7787a178548d51bc5376d52583dd2a91f5091f",
-  "last_commit": "2026-11-25",
-  "files": 17150,
+  "head": "509bbb53426ed34ece802229ef2e7157f73f826a",
+  "last_commit": "2026-11-28",
+  "files": 16899,
   "code_files": 829,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
@@ -2501,14 +2516,14 @@
   "description": "MustardOS Internals",
   "stars": 122,
   "created": "2024-04-04",
-  "script_files": 294,
-  "binary_files": 157,
+  "script_files": 293,
+  "binary_files": 156,
   "tagset": "cbd6b8639c61",
   "tags_all": [
    "2606.0_Andromeda"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/NewAnarchyTaunt/TRIMUI-BRICK-OVERLAYS": {
@@ -2605,31 +2620,33 @@
   "fork": false
  },
  "https://github.com/PatchDev-AM2ARM/AM2ARM": {
-  "head": "d99650dd345b1df8e425e476a48aa120f25fcdf9",
-  "last_commit": "2026-11-23",
-  "files": 57378,
-  "code_files": 329,
-  "script_files": 11,
+  "head": "0a079fa79ca221704d0db60af2f5c4b302a8b9ca",
+  "last_commit": "2026-11-25",
+  "files": 57408,
+  "code_files": 345,
+  "script_files": 13,
   "binary_files": 0,
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": false,
-  "tagset": "9372acd03cfb",
+  "tagset": "a524f5aa28c8",
   "tags": [
    "v1.6.1",
    "v1.6.2",
-   "v1.6.3"
+   "v1.6.3",
+   "v1.6.3-launcher-beta.1"
   ],
   "tags_all": [
    "v1.6.1",
    "v1.6.2",
-   "v1.6.3"
+   "v1.6.3",
+   "v1.6.3-launcher-beta.1"
   ],
-  "checked": "2026-11-24",
-  "description": "AM2R ARM64 port for Android and Linux devices",
-  "stars": 32,
+  "checked": "2026-11-28",
+  "description": "AM2ARM — The unified AM2R launcher for Android and Linux.",
+  "stars": 33,
   "created": "2026-11-11",
-  "pushed": "2026-11-23",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/Pobega/adbd-restart-pak": {
@@ -2847,7 +2864,7 @@
   ],
   "checked": "2026-11-24",
   "description": "Nintendo 64 (ParaLLEl N64) GLES3 libretro pak for NextUI",
-  "stars": 2,
+  "stars": 3,
   "created": "2026-11-20",
   "pushed": "2026-11-24",
   "fork": false
@@ -2892,7 +2909,7 @@
    "2026.11.17-0700"
   ],
   "description": "PortMaster GUI Repository.",
-  "stars": 296,
+  "stars": 298,
   "created": "2023-09-10",
   "script_files": 12,
   "binary_files": 6,
@@ -2964,10 +2981,10 @@
   "fork": false
  },
  "https://github.com/PortsMaster/PortMaster-New": {
-  "head": "6b5f9b7c72b0127a592d20d821abb51944cb7bb1",
-  "last_commit": "2026-11-25",
-  "files": 151477,
-  "code_files": 5769,
+  "head": "fa66e52817e144e1af697b28506d702199e5a8ac",
+  "last_commit": "2026-11-28",
+  "files": 151623,
+  "code_files": 5773,
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": false,
@@ -2979,10 +2996,10 @@
    "2026-11-24_1333"
   ],
   "description": "New PortMaster repo",
-  "stars": 424,
+  "stars": 428,
   "created": "2023-12-10",
-  "script_files": 1593,
-  "binary_files": 2551,
+  "script_files": 1597,
+  "binary_files": 2558,
   "tagset": "e2dd90f5f984",
   "tags_all": [
    "2026-06-22_1100",
@@ -3046,8 +3063,8 @@
    "2026-11-22_1940",
    "2026-11-24_1333"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/PortsMaster/gptokeyb2": {
@@ -3201,17 +3218,17 @@
   "fork": false
  },
  "https://github.com/Scorch-94/Boombrick-B-Side": {
-  "head": "1061c986439f1991d3989de30e1d52dd9bd4914d",
-  "last_commit": "2026-11-25",
-  "files": 532,
-  "code_files": 476,
+  "head": "143a97e2fbcf03663b345b73b7be26d56aaab812",
+  "last_commit": "2026-11-27",
+  "files": 620,
+  "code_files": 563,
   "script_files": 6,
   "binary_files": 0,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
   "pak": {
    "name": "Boombrick B-Side",
-   "version": "v0.7.1",
+   "version": "v0.7.9",
    "type": "TOOL",
    "description": "Your music, Spotify and YouTube Music in one player for the TrimUI Brick, with album art, synced lyrics and music that keeps playing while you game.\n\nFeatures:\n- Your music: MP3, FLAC, Opus and M4A (AAC) from the SD card, gapless, with ReplayGain levelling\n- Browse by album, artist, song or genre; the queue has shuffle and repeat and is kept between launches\n- Covers from the files, folder pictures or the Cover Art Archive, with the screen's colours taken from the album playing\n- Synced lyrics from the files, .lrc files or LRCLIB, with the line being sung highlighted\n- YouTube Music: search, browse albums and artists, and download songs as tagged Opus files with covers and lyrics; a song still downloading plays as soon as it lands\n- Spotify (Premium): sign in with a code on your phone, then play Liked Songs and your playlists at 96, 160 or 320 kbps\n- Spotify import: download your playlists' songs, or a single song, from YouTube Music to keep them offline, matched by ISRC or by title, artist and length\n- Internet radio: browse and search stations from Radio Browser, save your favourites, and see the song a station is playing\n- Play in background from the quick menu: the music goes on while you play a game\n- Sleep timer: 15 to 60 minutes, or the end of the track or album, with a fade\n- Screen off with Power, with skipping and pausing still working\n- Titles and lyrics in every main script, Japanese, Chinese, Korean, Arabic, Hebrew, Thai and Hindi among them, and emoji; each script's font is downloaded the first time it's needed\n- Switch Spotify, YouTube or Radio off in Settings if you don't use them\n- Updates for Boombrick and its downloader from Settings\n\nWi-Fi is used for Spotify, YouTube Music, radio, covers, lyrics, fonts and updates; the music on the card plays without it. Your library and settings are kept in .userdata/tg5040/Boombrick and downloads in Music/Boombrick, so updates never touch them.",
    "author": "ujjwal313",
@@ -3220,20 +3237,33 @@
    ]
   },
   "has_pak_dir": false,
-  "tagset": "a7ed39e38614",
+  "tagset": "84d4cdad1f72",
   "tags": [
-   "0.7.0",
-   "v0.7.0"
+   "v0.7.5",
+   "v0.7.6",
+   "v0.7.7",
+   "v0.7.8",
+   "v0.7.9"
   ],
   "tags_all": [
    "0.7.0",
-   "v0.7.0"
+   "v0.7.0",
+   "v0.7.1",
+   "v0.7.2",
+   "v0.7.3",
+   "v0.7.4",
+   "V0.7.5",
+   "v0.7.5",
+   "v0.7.6",
+   "v0.7.7",
+   "v0.7.8",
+   "v0.7.9"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": "A fork of Music player for the TrimUI Brick on NextUI and CrossMix: your music, Spotify streaming and YouTube Music downloads, with album art, synced lyrics and background play.",
   "stars": 0,
   "created": "2026-11-25",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-28",
   "fork": true
  },
  "https://github.com/SilverPsychoo/Ruffle-Handheld": {
@@ -3281,40 +3311,27 @@
   "fork": false
  },
  "https://github.com/SkyWalker541/ChaOS": {
-  "head": "b9dd541967ee64d40718c32b825e13f9b39394ff",
-  "last_commit": "2026-11-25",
+  "head": "69c8a3be6929c2a2c4da5232972749c6650e9c38",
+  "last_commit": "2026-11-27",
   "files": 709,
   "code_files": 338,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
   "has_pak_dir": false,
   "tags": [
-   "v2.7.6",
-   "v2.7.6-test1",
-   "v2.7.7",
-   "v2.7.7-test1",
-   "v2.7.8-test1"
+   "v2.8.0-test2",
+   "v2.8.0-test3",
+   "v2.8.0-test4",
+   "v2.8.0-test5",
+   "v2.8.0-test6"
   ],
   "description": "Custom firmware for the TrimUI Brick: classic consoles with shader and overlay support, PortMaster ports, RomM, music and audiobooks. Built on TortOS.",
-  "stars": 10,
+  "stars": 11,
   "created": "2026-11-06",
   "script_files": 16,
   "binary_files": 8,
-  "tagset": "871e4f8285f1",
+  "tagset": "1c4cbb2e5b00",
   "tags_all": [
-   "v0.11.3",
-   "v0.12.0",
-   "v0.12.1",
-   "v1.0.0",
-   "v1.1.0",
-   "v1.1.1",
-   "v1.2.0",
-   "v1.2.1",
-   "v1.3.0",
-   "v2.0.0",
-   "v2.1.0",
-   "v2.1.1",
-   "v2.1.2",
    "v2.2.0",
    "v2.3.0",
    "v2.3.1",
@@ -3361,15 +3378,28 @@
    "v2.7.6-test1",
    "v2.7.7",
    "v2.7.7-test1",
-   "v2.7.8-test1"
+   "v2.7.8-test1",
+   "v2.7.9-test1",
+   "v2.7.9-test2",
+   "v2.7.9-test3",
+   "v2.7.9-test4",
+   "v2.7.9-test5",
+   "v2.7.9-test6",
+   "v2.7.9-test7",
+   "v2.8.0-test1",
+   "v2.8.0-test2",
+   "v2.8.0-test3",
+   "v2.8.0-test4",
+   "v2.8.0-test5",
+   "v2.8.0-test6"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/SkyWalker541/ChaOS-Installer": {
-  "head": "0cf16c0068a5ddf92e24f3ede2eb64b8f04fab5e",
-  "last_commit": "2026-11-25",
+  "head": "f94a6be42f9bae0a29e3eec353844c579302c18c",
+  "last_commit": "2026-11-26",
   "files": 42,
   "code_files": 11,
   "script_files": 1,
@@ -3390,11 +3420,11 @@
    "v1.0.2",
    "v1.1.0"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": null,
   "stars": 2,
   "created": "2026-11-07",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/SkyWalker541/Gone-Fishing": {
@@ -3620,40 +3650,42 @@
   "binary_files": 0,
   "license": null,
   "has_pak_dir": false,
-  "tagset": "4884bfd4c44e",
+  "tagset": "832e5684c308",
   "tags": [
    "V1.0.2",
    "v1.1",
-   "v1.2"
+   "v1.2",
+   "v1.4"
   ],
   "tags_all": [
    "V1.0.2",
    "v1.1",
-   "v1.2"
+   "v1.2",
+   "v1.4"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": null,
   "stars": 1,
   "created": "2026-11-01",
-  "pushed": "2026-11-02",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/SpringThong/NXT-Retro-Tube": {
-  "head": "0724c24cfa32dd2b475c6650273a0a3f416a5ca8",
-  "last_commit": "2026-11-16",
-  "files": 309,
-  "code_files": 163,
+  "head": "548bbabf36d240add55a72d4b5d70d4edb05a67a",
+  "last_commit": "2026-11-26",
+  "files": 311,
+  "code_files": 164,
   "script_files": 17,
   "binary_files": 2,
   "license": null,
   "has_pak_dir": false,
-  "tagset": "5c3d886c74f1",
+  "tagset": "2bcefa309e50",
   "tags": [
-   "v2.2",
    "v2.4",
    "v2.5",
    "v2.6",
-   "v2.7"
+   "v2.7",
+   "v2.8"
   ],
   "tags_all": [
    "v2.0",
@@ -3665,13 +3697,14 @@
    "v2.4",
    "v2.5",
    "v2.6",
-   "v2.7"
+   "v2.7",
+   "v2.8"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": null,
   "stars": 3,
   "created": "2026-10-26",
-  "pushed": "2026-11-16",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/Strike-20123/Trimui-Brick-calculator-project": {
@@ -3936,8 +3969,8 @@
   "fork": false
  },
  "https://github.com/TrungTruong25/SenOS": {
-  "head": "871e819626c6a0ffd63374a4d103d36c2a059164",
-  "last_commit": "2026-11-25",
+  "head": "7a202c899059818f69fb4a4bfc8a7fa1f3f69a93",
+  "last_commit": "2026-11-26",
   "files": 3,
   "code_files": 0,
   "script_files": 0,
@@ -3947,11 +3980,11 @@
   "tagset": "da39a3ee5e6b",
   "tags": [],
   "tags_all": [],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": null,
   "stars": 0,
   "created": "2026-11-21",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/Ultramarine-Linux/trimui-inputrs": {
@@ -3991,7 +4024,7 @@
   "description": null,
   "stars": 1,
   "created": "2026-05-24",
-  "pushed": "2026-11-17",
+  "pushed": "2026-11-25",
   "fork": false
  },
  "https://github.com/Utility-Muffin-Research-Kitchen/Fun-Drastic-src": {
@@ -4031,7 +4064,7 @@
   "description": null,
   "stars": 0,
   "created": "2026-05-24",
-  "pushed": "2026-11-18",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/Vikmat01/Kasseta": {
@@ -4059,10 +4092,10 @@
   "fork": false
  },
  "https://github.com/Zero-Labs-CFW/MinUI-Zero": {
-  "head": "66e1014a000901deada35695323c61f548870139",
-  "last_commit": "2026-11-20",
-  "files": 1300,
-  "code_files": 193,
+  "head": "9519a9e15d14fe1f7a25379e0ef0d3dc3dfc0dac",
+  "last_commit": "2026-11-26",
+  "files": 1488,
+  "code_files": 333,
   "license_file": "LICENSE.md",
   "license": "other",
   "has_pak_dir": true,
@@ -4076,10 +4109,11 @@
   "description": "MinUI Zero: Same simple MinUI. Tuned end to end.",
   "stars": 37,
   "created": "2026-06-30",
-  "script_files": 177,
+  "script_files": 197,
   "binary_files": 6,
-  "tagset": "269f0a951cbd",
+  "tagset": "96c6c4d201e2",
   "tags_all": [
+   "cubexx-test-1",
    "v1.0.0",
    "v1.1.0",
    "v1.2.0",
@@ -4110,44 +4144,47 @@
    "v1.9.1",
    "v1.10.0"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-20",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/aaaldo/brick-controller": {
-  "head": "b9829f34da821ba21384622ab9c32251357e288b",
-  "last_commit": "2026-11-13",
-  "files": 84,
-  "code_files": 47,
+  "head": "29eb8683f51ec48da3c52e228cf4e9593338a720",
+  "last_commit": "2026-11-26",
+  "files": 85,
+  "code_files": 48,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
   "pak": {
    "name": "Brick Controller",
-   "version": "v1.1.0",
+   "version": "v1.2.0",
    "type": "TOOL",
-   "description": "Bluetooth HID gamepad for the TrimUI Brick and Brick Pro: PC, Xbox, PS4 and Switch identities, on-device settings, no host driver. Brick Pro support is not yet hardware-validated; Smart Pro is not supported.",
+   "description": "Bluetooth HID gamepad for the TrimUI Brick, Brick Pro and Anbernic RG40XX H on NextUI: PC, Xbox, PS4 and Switch identities, on-device settings, no host driver. Wired USB is temporarily hidden in v1.2.0. Brick Pro support is not yet hardware-validated; Smart Pro is not supported.",
    "author": "Brick Controller contributors",
    "platforms": [
-    "tg5040"
+    "tg5040",
+    "h700"
    ]
   },
   "has_pak_dir": false,
   "tags": [
    "v1.0.0",
-   "v1.1.0"
+   "v1.1.0",
+   "v1.2.0"
   ],
   "description": "Brick Controller : manette Bluetooth HID pour TrimUI Brick sous NextUI",
-  "stars": 4,
+  "stars": 3,
   "created": "2026-11-09",
   "script_files": 5,
   "binary_files": 0,
-  "tagset": "34fad8662eb1",
+  "tagset": "e09b8aebb756",
   "tags_all": [
    "v1.0.0",
-   "v1.1.0"
+   "v1.1.0",
+   "v1.2.0"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/aaronearles/nextui-memcheat": {
@@ -5018,15 +5055,15 @@
   "fork": false
  },
  "https://github.com/ben16w/minui-portmaster": {
-  "head": "af2ba366dd9d400542cf2cf2b3034311be66daeb",
-  "last_commit": "2026-11-10",
+  "head": "305215809d83c5032ffd989f20a60dac159abbac",
+  "last_commit": "2026-11-25",
   "files": 24,
   "code_files": 1,
   "license_file": "LICENSE",
   "license": "MIT",
   "pak": {
    "name": "PORTS",
-   "version": "2.14.0",
+   "version": "2.15.0",
    "type": "EMU",
    "description": "A Emu Pak for PortMaster which includes everything needed and requires no additional software.",
    "author": "ben16w",
@@ -5036,18 +5073,18 @@
   },
   "has_pak_dir": true,
   "tags": [
-   "2.11.0",
    "2.11.1",
    "2.12.0",
    "2.13.0",
-   "2.14.0"
+   "2.14.0",
+   "2.15.0"
   ],
   "description": "A PortMaster Emu Pack for MinUI and NextUI that includes everything needed out of the box, no additional software required.",
   "stars": 66,
   "created": "2025-04-24",
   "script_files": 2,
   "binary_files": 0,
-  "tagset": "90c2cb66cf38",
+  "tagset": "759cc601b021",
   "tags_all": [
    "0.1.0",
    "1.0.0",
@@ -5077,49 +5114,51 @@
    "2.11.1",
    "2.12.0",
    "2.13.0",
-   "2.14.0"
+   "2.14.0",
+   "2.15.0"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-11",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-25",
   "fork": false
  },
  "https://github.com/ben16w/minui-power-control": {
-  "head": "2ee1b99737c1e048e818610b3fd50a4c645ad038",
-  "last_commit": "2026-11-10",
-  "files": 14,
-  "code_files": 2,
+  "head": "8c56908d731a0b6b1a498dc468f4d19f621ddd92",
+  "last_commit": "2026-11-25",
+  "files": 20,
+  "code_files": 3,
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": false,
   "tags": [
-   "1.1.0",
    "1.2.0",
    "2.0.0",
    "2.0.1",
-   "3.0.0"
+   "3.0.0",
+   "4.0.0"
   ],
   "description": "A MinUI and NextUI app which provides deep sleep and shutdown functionality via the power button for emulators lacking native support.",
   "stars": 3,
   "created": "2025-04-17",
-  "script_files": 1,
+  "script_files": 2,
   "binary_files": 0,
-  "tagset": "8215a93dc786",
+  "tagset": "03163db1e55c",
   "tags_all": [
    "1.0.0",
    "1.1.0",
    "1.2.0",
    "2.0.0",
    "2.0.1",
-   "3.0.0"
+   "3.0.0",
+   "4.0.0"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-10",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/ben16w/minui-psp": {
-  "head": "d9495897f9342d17ca8e626a2a57e105e1bd3250",
-  "last_commit": "2026-11-10",
-  "files": 186,
+  "head": "ba077a574c668e2d2a15b53e2febd05255080e64",
+  "last_commit": "2026-11-25",
+  "files": 194,
   "code_files": 0,
   "script_files": 1,
   "binary_files": 0,
@@ -5127,27 +5166,29 @@
   "license": "MIT",
   "pak": {
    "name": "PSP",
-   "version": "6.2.0",
+   "version": "7.0.0",
    "type": "EMU",
    "description": "A Emu Pak for PSP, wrapping the standalone PPSSPP emulator.",
    "author": "ben16w",
    "platforms": [
+    "tg4040",
     "tg5040",
-    "tg5050"
+    "tg5050",
+    "h700"
    ]
   },
   "has_pak_dir": true,
   "tags": [
-   "5.1.0",
    "6.0.0",
    "6.0.1",
    "6.1.0",
-   "6.2.0"
+   "6.2.0",
+   "7.0.0"
   ],
   "description": "A MinUI and NextUI Emu Pak for PSP, wrapping the standalone PPSSPP emulator.",
   "stars": 22,
   "created": "2025-04-11",
-  "tagset": "fc31e8728879",
+  "tagset": "b8ba44966e71",
   "tags_all": [
    "1.0.0",
    "1.0.1",
@@ -5168,10 +5209,11 @@
    "6.0.0",
    "6.0.1",
    "6.1.0",
-   "6.2.0"
+   "6.2.0",
+   "7.0.0"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-10",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-25",
   "fork": false
  },
  "https://github.com/ben16w/minui-tailscale": {
@@ -5554,8 +5596,8 @@
   "fork": false
  },
  "https://github.com/boorch/dronage-terminal-pak": {
-  "head": "fc80c63477246a73dbd9527cf1581cd495bade67",
-  "last_commit": "2026-11-25",
+  "head": "ff9be2a7926ecefc5d7fe254682d523a2d011e62",
+  "last_commit": "2026-11-26",
   "files": 5,
   "code_files": 0,
   "script_files": 0,
@@ -5563,7 +5605,7 @@
   "license": null,
   "pak": {
    "name": "Dronage Terminal",
-   "version": "v3.5.0",
+   "version": "v3.5.1",
    "type": "TOOL",
    "description": "PRO TIP: R1+Select is HELP. Ambient drone synthesizer with 4 macro oscillators, modulation matrix, and effects. Projects, recordings and user scales are stored in DronageTerminal folder at the root of your SD Card. You can check out the 'desktop' version (that contains a very comprehensive README.md) of Dronage Terminal here: https://boorch.itch.io/dronage-terminal Additionally you can search for 'Dronage Terminal Tutorial' on YouTube for a 'Basics Tutorial'.",
    "author": "boorch (Bruce Menace/Cometary Trails)",
@@ -5573,16 +5615,16 @@
   },
   "has_pak_dir": false,
   "tags": [
-   "v3.0.0",
    "v3.0.1",
    "v3.1.0",
    "v3.2.0",
-   "v3.5.0"
+   "v3.5.0",
+   "v3.5.1"
   ],
   "description": "Dronage Terminal - TrimUI Brick NextUI port",
   "stars": 9,
   "created": "2026-03-04",
-  "tagset": "df38e9f3f4b0",
+  "tagset": "3da0b9b8069d",
   "tags_all": [
    "v2.0.1",
    "v2.1.0",
@@ -5594,10 +5636,11 @@
    "v3.0.1",
    "v3.1.0",
    "v3.2.0",
-   "v3.5.0"
+   "v3.5.0",
+   "v3.5.1"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/boorch/euclidtrack-pak": {
@@ -5739,7 +5782,7 @@
    "v1.0.0"
   ],
   "description": "Polyend Tracker CE ported to TrimUI Brick/Brick Pro with NextUI",
-  "stars": 16,
+  "stars": 17,
   "created": "2026-11-05",
   "script_files": 10,
   "binary_files": 0,
@@ -5822,9 +5865,9 @@
   "fork": false
  },
  "https://github.com/brickworldhub/brickworldhub.github.io": {
-  "head": "f926f31f9a96586b24f283009ede6d636c45d450",
-  "last_commit": "2026-11-23",
-  "files": 141,
+  "head": "e14dedde50a6e15f132b378c70bd52f1d49d996f",
+  "last_commit": "2026-11-28",
+  "files": 145,
   "code_files": 11,
   "script_files": 15,
   "binary_files": 5,
@@ -5834,11 +5877,11 @@
   "tagset": "da39a3ee5e6b",
   "tags": [],
   "tags_all": [],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": null,
   "stars": 2,
   "created": "2026-11-12",
-  "pushed": "2026-11-23",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/bronzedragon/handheld-link-cores": {
@@ -5858,7 +5901,7 @@
   "description": "Link-cable and local-wireless multiplayer for two retro handhelds over network: patched RetroArch cores for GB/GBC, GBA, DS, WonderSwan, Neo Geo Pocket and Game Gear, plus netplay fixes for MAME 2003-Plus, FBNeo, MSX and DOS. Prebuilt for aarch64 Linux (KNULLI).",
   "stars": 0,
   "created": "2026-11-08",
-  "pushed": "2026-11-10",
+  "pushed": "2026-11-27",
   "fork": true
  },
  "https://github.com/byMr712/SlotGame-PortMaster": {
@@ -6416,10 +6459,10 @@
   "fork": false
  },
  "https://github.com/diapolon/mosaik_cfw": {
-  "head": "fe6c1be753d0d80f095a8fde341b4387d45a612e",
-  "last_commit": "2026-11-23",
-  "files": 526,
-  "code_files": 112,
+  "head": "55897ead24f993c859bfa04b311f606fcc2fce22",
+  "last_commit": "2026-11-27",
+  "files": 529,
+  "code_files": 113,
   "license_file": "COPYING",
   "license": "GPL-3.0",
   "has_pak_dir": false,
@@ -6433,7 +6476,7 @@
   "description": "Gaming system on microSD for TrimUI Smart Pro and Brick Pro: arcade, emulators, Apps and Linux games with its own launcher.",
   "stars": 4,
   "created": "2026-11-08",
-  "script_files": 65,
+  "script_files": 67,
   "binary_files": 0,
   "tagset": "ac647bbfa1fe",
   "tags_all": [
@@ -6498,8 +6541,8 @@
    "v0.9.103",
    "v0.9.110"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-23",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/djaysan/Better-Stock": {
@@ -6576,7 +6619,7 @@
    "1.6.0-bacon20"
   ],
   "description": "Little Piggy Tracker, LittleGPTracker feature improved",
-  "stars": 268,
+  "stars": 269,
   "created": "2022-08-03",
   "script_files": 10,
   "binary_files": 0,
@@ -6800,7 +6843,7 @@
    "2026.10.03"
   ],
   "description": "The TrimUI Brick Pro as a controller for PC, iPad ",
-  "stars": 4,
+  "stars": 3,
   "created": "2026-10-02",
   "script_files": 3,
   "binary_files": 0,
@@ -6900,7 +6943,7 @@
    "v2.2.1"
   ],
   "description": "A fast, focused custom firmware for games, music and audiobooks on the TrimUI Brick, Brick Hammer and GKD Pixel 2.",
-  "stars": 56,
+  "stars": 57,
   "created": "2026-08-22",
   "script_files": 7,
   "binary_files": 0,
@@ -6941,7 +6984,7 @@
    "v3.0.0"
   ],
   "description": "Puts TortOS on a microSD card for the TrimUI Brick or the GKD Pixel 2",
-  "stars": 12,
+  "stars": 13,
   "created": "2026-10-07",
   "script_files": 1,
   "binary_files": 0,
@@ -7019,7 +7062,7 @@
    "v1.1"
   ],
   "description": "A deliberately minimal firmware for the TrimUI Brick. Turn it on. Play.",
-  "stars": 5,
+  "stars": 6,
   "created": "2026-07-14",
   "script_files": 7,
   "binary_files": 0,
@@ -7351,7 +7394,7 @@
    "brick-linux-4.9.191-base"
   ],
   "description": "a minimal Linux for handhelds, the system under TortOS on the TrimUI Brick and GKD Pixel 2",
-  "stars": 5,
+  "stars": 6,
   "created": "2026-10-03",
   "script_files": 12,
   "binary_files": 4,
@@ -7410,15 +7453,15 @@
   "fork": false
  },
  "https://github.com/esko997/thortracker": {
-  "head": "855744c2b4dcb03a7c27a4d9be57151457f88c28",
-  "last_commit": "2026-11-13",
-  "files": 1548,
-  "code_files": 1108,
+  "head": "83525165f489125fe7c5c286fd3adbf761caaece",
+  "last_commit": "2026-11-27",
+  "files": 1633,
+  "code_files": 1192,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
   "pak": {
    "name": "ThorTracker",
-   "version": "v1.0.0",
+   "version": "v1.1.0",
    "type": "TOOL",
    "description": "Controller-first chiptune tracker for NextUI. Write patterns, shape instruments and export music for classic consoles and computers.",
    "author": "esko997",
@@ -7428,16 +7471,16 @@
   },
   "has_pak_dir": false,
   "tags": [
-   "instrument-pilots-0.43.0-2",
    "instrument-pilots-0.43.0-3",
    "v0.44.0",
    "v0.45.0",
-   "v1.0.0"
+   "v1.0.0",
+   "v1.1.0"
   ],
   "description": "Controller-first chiptune tracker for Android, Steam Deck and NextUI handhelds. Compose, design instruments and export for classic sound systems.",
   "script_files": 34,
   "binary_files": 58,
-  "tagset": "a0f995a0ae2f",
+  "tagset": "9ff04cb1ddc3",
   "tags_all": [
    "v0.8.4",
    "v0.8.5",
@@ -7488,17 +7531,18 @@
    "instrument-pilots-0.43.0-3",
    "v0.44.0",
    "v0.45.0",
-   "v1.0.0"
+   "v1.0.0",
+   "v1.1.0"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "stars": 0,
   "created": "2026-11-05",
-  "pushed": "2026-11-13",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/evolver79/nextui-dotui": {
-  "head": "b1c4d06e9782479bf6a2380f63738a2dc62e227b",
-  "last_commit": "2026-11-24",
+  "head": "4b1c97b68ee49d5a7561eb88f173a551fe177503",
+  "last_commit": "2026-11-26",
   "files": 35,
   "code_files": 5,
   "license_file": "LICENSE",
@@ -7512,8 +7556,8 @@
   "binary_files": 0,
   "tagset": "da39a3ee5e6b",
   "tags_all": [],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-24",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/evolver79/nextui-gamate-pak": {
@@ -7551,15 +7595,15 @@
   "fork": false
  },
  "https://github.com/evolver79/nextui-kino-pak": {
-  "head": "175745de7c7ec16787250e3139d0348fb6afe65b",
-  "last_commit": "2026-11-24",
-  "files": 49,
+  "head": "2ccff5f6f721985f6fac2919fa81fed500226970",
+  "last_commit": "2026-11-26",
+  "files": 53,
   "code_files": 12,
   "license_file": "LICENSE",
   "license": "MIT",
   "pak": {
    "name": "Kino",
-   "version": "v1.1.0",
+   "version": "v1.2.0",
    "type": "TOOL",
    "description": "Video player for the TrimUI Brick and Smart Pro: films and series from the SD card (it starts in Videos) or a Jellyfin server at home, with hardware decoding for H.264 and HEVC, resume, subtitles, picture filters and a cover grid. Drawn in Dot, the shared look of Kino, Musicdisk and Tuner.",
    "author": "evolver79",
@@ -7569,28 +7613,29 @@
   },
   "has_pak_dir": true,
   "tags": [
-   "v0.9.1",
    "v0.10.0",
    "v0.10.1",
    "v1.0.0",
-   "v1.1.0"
+   "v1.1.0",
+   "v1.2.0"
   ],
   "description": "Video player for NextUI on the TrimUI Brick and Smart Pro: films and series from the SD card or a Jellyfin server, with hardware H.264 and HEVC decoding",
-  "stars": 0,
+  "stars": 1,
   "created": "2026-11-19",
   "script_files": 7,
   "binary_files": 0,
-  "tagset": "f2f9a25a972c",
+  "tagset": "ca4c036280df",
   "tags_all": [
    "v0.9.0",
    "v0.9.1",
    "v0.10.0",
    "v0.10.1",
    "v1.0.0",
-   "v1.1.0"
+   "v1.1.0",
+   "v1.2.0"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-24",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/evolver79/nextui-megaduck-pak": {
@@ -7738,17 +7783,17 @@
   "fork": false
  },
  "https://github.com/evolver79/nextui-tuner-pak": {
-  "head": "32a8f873605d0f7883f850108f725a52fe9f8ecd",
-  "last_commit": "2026-11-24",
-  "files": 51,
-  "code_files": 22,
+  "head": "3ee9cb825bb108d1ddec088782dfaf287c6c943a",
+  "last_commit": "2026-11-26",
+  "files": 57,
+  "code_files": 26,
   "license_file": "LICENSE",
   "license": "MIT",
   "pak": {
    "name": "Tuner",
-   "version": "v1.5.0",
+   "version": "v1.6.2",
    "type": "TOOL",
-   "description": "Free TV channels for the TrimUI Brick and Smart Pro: Pluto TV, Samsung TV Plus and iptv-org channels plus your own M3U playlists and Xtream accounts, a TV guide, favourites, search and hardware video decoding, drawn in Dot, the shared look of Kino, Musicdisk and Tuner.",
+   "description": "Free TV channels for the TrimUI Brick and Smart Pro: Pluto TV, Samsung TV Plus and iptv-org channels plus your own M3U playlists and Xtream accounts, a TV guide, favourites, search, subtitles and hardware video decoding, drawn in Dot, the shared look of Kino, Musicdisk and Tuner.",
    "author": "evolver79",
    "platforms": [
     "tg5040"
@@ -7756,18 +7801,18 @@
   },
   "has_pak_dir": true,
   "tags": [
-   "v1.3.0",
-   "v1.3.1",
-   "v1.3.2",
    "v1.4.0",
-   "v1.5.0"
+   "v1.5.0",
+   "v1.6.0",
+   "v1.6.1",
+   "v1.6.2"
   ],
   "description": "Free TV for NextUI on the TrimUI Brick and Smart Pro: Pluto TV, Samsung TV Plus, iptv-org and your own M3U and Xtream playlists, with a TV guide and hardware decoding",
   "stars": 2,
   "created": "2026-11-13",
   "script_files": 5,
   "binary_files": 0,
-  "tagset": "a4d200ec1204",
+  "tagset": "d5162fd4f446",
   "tags_all": [
    "v1.0.0",
    "v1.1.0",
@@ -7776,10 +7821,13 @@
    "v1.3.1",
    "v1.3.2",
    "v1.4.0",
-   "v1.5.0"
+   "v1.5.0",
+   "v1.6.0",
+   "v1.6.1",
+   "v1.6.2"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-24",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/evolver79/nextui-vectrex-pak": {
@@ -7912,14 +7960,14 @@
   "fork": false
  },
  "https://github.com/famiclone/UIPod": {
-  "head": "61310b7ea07720077bc7921678baeb8ad026f3b2",
-  "last_commit": "2026-11-25",
-  "files": 1637,
-  "code_files": 1358,
+  "head": "e6c30d9d9d74e0c0fa52967c1a7b54a50c2e847e",
+  "last_commit": "2026-11-26",
+  "files": 1651,
+  "code_files": 1369,
   "license": null,
   "pak": {
    "name": "UIPod",
-   "version": "v0.10.0",
+   "version": "v0.11.0",
    "type": "TOOL",
    "description": "An iPod-inspired offline, Navidrome & Jellyfin media player for the TrimUI Brick/Hammer with GPU UI and visualizations.",
    "author": "famiclone",
@@ -7929,16 +7977,16 @@
   },
   "has_pak_dir": false,
   "tags": [
-   "v0.8.2",
-   "v0.9.0",
-   "v0.9.1",
-   "v0.9.2",
-   "v0.10.0"
+   "v0.10.0",
+   "v0.10.1",
+   "v0.10.2",
+   "v0.10.3",
+   "v0.11.0"
   ],
   "description": "An iPod-inspired offline, Navidrome & Jellyfin media player for the TrimUI Brick/Hammer with GPU UI and visualizations.",
   "script_files": 13,
   "binary_files": 0,
-  "tagset": "a493b71e9b83",
+  "tagset": "61db8c0d11e3",
   "tags_all": [
    "v0.1.0",
    "v0.1.1",
@@ -7956,12 +8004,16 @@
    "v0.9.0",
    "v0.9.1",
    "v0.9.2",
-   "v0.10.0"
+   "v0.10.0",
+   "v0.10.1",
+   "v0.10.2",
+   "v0.10.3",
+   "v0.11.0"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "stars": 6,
   "created": "2026-11-16",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/fanfanStudio/dragon-radar": {
@@ -8042,8 +8094,8 @@
   "fork": false
  },
  "https://github.com/fnune/pocket-controller": {
-  "head": "3e3924d24d9aa3ebffef02715519fc5f0eb048a2",
-  "last_commit": "2026-11-25",
+  "head": "6dfb873bac1fb404a200b200e8134e000e8c6b6a",
+  "last_commit": "2026-11-27",
   "files": 174,
   "code_files": 35,
   "script_files": 5,
@@ -8052,7 +8104,7 @@
   "license": "AGPL-3.0",
   "pak": {
    "name": "Pocket Controller",
-   "version": "v0.1.0",
+   "version": "v0.3.0",
    "type": "TOOL",
    "description": "Use this handheld as a wired controller on a computer",
    "author": "fnune",
@@ -8063,23 +8115,27 @@
    ]
   },
   "has_pak_dir": false,
-  "tagset": "f053ddb33a01",
+  "tagset": "325b6ae5bb8e",
   "tags": [
-   "v0.1.0"
+   "v0.1.0",
+   "v0.2.0",
+   "v0.3.0"
   ],
   "tags_all": [
-   "v0.1.0"
+   "v0.1.0",
+   "v0.2.0",
+   "v0.3.0"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": "Turn your handheld into a plug-and-play USB controller",
   "stars": 0,
   "created": "2026-11-23",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/fnune/pocket-tunnel": {
-  "head": "22fd135b3f10790e85d8d7133d729cbc179b32d6",
-  "last_commit": "2026-11-24",
+  "head": "7187c324497786f5c451db64e6f4ff498885b000",
+  "last_commit": "2026-11-27",
   "files": 38,
   "code_files": 20,
   "script_files": 3,
@@ -8106,11 +8162,11 @@
   "tags_all": [
    "v0.1.0"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": "A VPN tunnel pak for NextUI handhelds, using the wireguard-go library",
   "stars": 0,
   "created": "2026-11-24",
-  "pushed": "2026-11-24",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/gabilungu/glui": {
@@ -8562,8 +8618,8 @@
   "fork": false
  },
  "https://github.com/infosecanalyst-creator/ja2-3ds": {
-  "head": "938fd89400b2aacd4a11606858b2398b9298ba4a",
-  "last_commit": "2026-11-21",
+  "head": "9de365f61e169366657eaff135150b8bd4985b8b",
+  "last_commit": "2026-11-27",
   "files": 26,
   "code_files": 4,
   "script_files": 3,
@@ -8574,11 +8630,11 @@
   "tagset": "da39a3ee5e6b",
   "tags": [],
   "tags_all": [],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": "Jagged Alliance 2 for the New 3DS: dual-screen JA2 Stracciatella port with stylus play, info dashboard and built-in manual. Requires your own JA2 Gold data.",
   "stars": 0,
   "created": "2026-10-30",
-  "pushed": "2026-11-22",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/islove659-max/trimui-appstore": {
@@ -8753,7 +8809,7 @@
    "v0.3.0"
   ],
   "checked": "2026-11-24",
-  "pushed": "2026-11-11",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/jitdor/brickdrop": {
@@ -9351,7 +9407,7 @@
    "0.10.0"
   ],
   "description": "A MinUI app wrapping filebrowser, an http file server",
-  "stars": 15,
+  "stars": 16,
   "created": "2025-01-05",
   "tagset": "c80520dba381",
   "tags_all": [
@@ -9747,7 +9803,7 @@
    "0.9.0"
   ],
   "description": "A MinUI Emu pak for N64",
-  "stars": 22,
+  "stars": 23,
   "created": "2025-03-02",
   "script_files": 4,
   "binary_files": 0,
@@ -9778,8 +9834,8 @@
   "fork": false
  },
  "https://github.com/josegonzalez/minui-nintendo-ds-pak": {
-  "head": "e9d7e84a1591f84fb893c5a8bce338661b6051d9",
-  "last_commit": "2026-11-13",
+  "head": "c15c938e97fabce0af27c6b11959c90a89cc8b24",
+  "last_commit": "2026-11-25",
   "files": 360,
   "code_files": 0,
   "script_files": 1,
@@ -9788,7 +9844,7 @@
   "license": "MIT",
   "pak": {
    "name": "NDS",
-   "version": "0.15.1",
+   "version": "0.15.2",
    "type": "EMU",
    "description": "Runs drastic in standalone mode for the specified rom",
    "author": "josegonzalez",
@@ -9800,16 +9856,16 @@
   },
   "has_pak_dir": true,
   "tags": [
-   "0.13.4",
    "0.14.0",
    "0.14.1",
    "0.15.0",
-   "0.15.1"
+   "0.15.1",
+   "0.15.2"
   ],
   "description": "A MinUI Emu Pak for Nintendo DS",
   "stars": 33,
   "created": "2025-03-28",
-  "tagset": "8c049bfa37dc",
+  "tagset": "343a6eb90117",
   "tags_all": [
    "0.1.0",
    "0.1.1",
@@ -9838,10 +9894,11 @@
    "0.14.0",
    "0.14.1",
    "0.15.0",
-   "0.15.1"
+   "0.15.1",
+   "0.15.2"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-13",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-25",
   "fork": false
  },
  "https://github.com/josegonzalez/minui-nintendo-dsperate-pak": {
@@ -9886,7 +9943,7 @@
    "0.2.0"
   ],
   "checked": "2026-11-24",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/josegonzalez/minui-pico-8-pak": {
@@ -9919,7 +9976,7 @@
    "0.13.0"
   ],
   "description": "A pak wrapping PICO-8, a fantasy video game console",
-  "stars": 34,
+  "stars": 35,
   "created": "2025-03-23",
   "script_files": 3,
   "binary_files": 0,
@@ -10225,7 +10282,7 @@
    "0.10.1"
   ],
   "description": "A MinUI app allowing for taking screenshots on the device using a hotkey",
-  "stars": 10,
+  "stars": 11,
   "created": "2025-01-25",
   "tagset": "c583503642c6",
   "tags_all": [
@@ -10534,7 +10591,7 @@
    "0.17.0"
   ],
   "description": "A Minui app that manages wifi connections",
-  "stars": 56,
+  "stars": 57,
   "created": "2024-12-29",
   "tagset": "595012267767",
   "tags_all": [
@@ -10608,8 +10665,8 @@
   "fork": false
  },
  "https://github.com/josegonzalez/pakman": {
-  "head": "d7c35684dea884e95e96650e1b8e8fd60138806d",
-  "last_commit": "2026-11-12",
+  "head": "677a49d682870b0418d096d4d573b04c9bdae312",
+  "last_commit": "2026-11-26",
   "files": 10,
   "code_files": 0,
   "script_files": 0,
@@ -10690,8 +10747,8 @@
    "0.24.33",
    "0.24.34"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-13",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/josegonzalez/trimui-brick-fn-editor-pak": {
@@ -10975,39 +11032,27 @@
   "fork": true
  },
  "https://github.com/jukaLang/JukaHubV2": {
-  "head": "49c560ef636e6bf598030f56c8c55a4ec53ae7f3",
-  "last_commit": "2026-11-25",
-  "files": 2615,
-  "code_files": 2100,
+  "head": "5c9bbd5ba7b4e3f707314e8eef23313e9bd463e7",
+  "last_commit": "2026-11-28",
+  "files": 2780,
+  "code_files": 2240,
   "license_file": "LICENSE",
   "license": "AGPL-3.0",
   "has_pak_dir": false,
   "tags": [
-   "JukaHub-20261124064104",
-   "JukaHub-20261124145648",
-   "JukaHub-20261125004908",
-   "JukaHub-20261125040241",
-   "JukaHub-20261125114654"
+   "JukaHub-20261127234206",
+   "JukaHub-20261128025427",
+   "JukaHub-20261128052702",
+   "JukaHub-20261128054653",
+   "JukaHub-20261128061721"
   ],
   "description": "Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer",
-  "stars": 10,
+  "stars": 11,
   "created": "2025-01-02",
-  "script_files": 50,
-  "binary_files": 1,
-  "tagset": "edf82803b780",
+  "script_files": 51,
+  "binary_files": 2,
+  "tagset": "5e0f4f2dd225",
   "tags_all": [
-   "JukaHub-20261104130454",
-   "JukaHub-20261107064335",
-   "JukaHub-20261109211456",
-   "JukaHub-20261110011126",
-   "JukaHub-20261110054938",
-   "JukaHub-20261111002135",
-   "JukaHub-20261111021717",
-   "JukaHub-20261111042006",
-   "JukaHub-20261111042056",
-   "JukaHub-20261111042103",
-   "JukaHub-20261111042107",
-   "JukaHub-20261111042128",
    "JukaHub-20261111075528",
    "JukaHub-20261111164654",
    "JukaHub-20261112004539",
@@ -11055,10 +11100,22 @@
    "JukaHub-20261124145648",
    "JukaHub-20261125004908",
    "JukaHub-20261125040241",
-   "JukaHub-20261125114654"
+   "JukaHub-20261125114654",
+   "JukaHub-20261126034858",
+   "JukaHub-20261126153118",
+   "JukaHub-20261127011136",
+   "JukaHub-20261127073501",
+   "JukaHub-20261127073852",
+   "JukaHub-20261127200505",
+   "JukaHub-20261127200559",
+   "JukaHub-20261127234206",
+   "JukaHub-20261128025427",
+   "JukaHub-20261128052702",
+   "JukaHub-20261128054653",
+   "JukaHub-20261128061721"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/kantonin/CrossMix-OS_DC": {
@@ -11100,21 +11157,21 @@
   "fork": false
  },
  "https://github.com/keewhi/openrct2-pocket": {
-  "head": "6f13c015ddaab5f6f180459a6065f16ae53a224a",
-  "last_commit": "2026-11-24",
-  "files": 12985,
+  "head": "ecf0971b65849c5356b84ba33c20965e6571ab7f",
+  "last_commit": "2026-11-25",
+  "files": 12990,
   "code_files": 1837,
   "script_files": 15,
   "binary_files": 1,
   "license_file": "licence.txt",
   "license": "GPL-3.0",
   "has_pak_dir": false,
-  "tagset": "77f6d5c1f53c",
+  "tagset": "f20a07b2e6f0",
   "tags": [
-   "pocket-menu-native-0.2",
    "v0.4.0-beta.1",
    "v0.4.1-beta.1",
    "v0.4.2-beta.1",
+   "v0.4.2-beta.2",
    "brick-explorer-proof1"
   ],
   "tags_all": [
@@ -11122,13 +11179,14 @@
    "v0.4.0-beta.1",
    "v0.4.1-beta.1",
    "v0.4.2-beta.1",
+   "v0.4.2-beta.2",
    "brick-explorer-proof1"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": "RollerCoaster Tycoon 2 rebuilt to play like a handheld game. A controller-first OpenRCT2 build for Linux and Android devices.",
-  "stars": 10,
+  "stars": 12,
   "created": "2026-10-06",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/kidbee85-beep/TrackWerk": {
@@ -11147,7 +11205,7 @@
    "v1.3.0-smartpro-test"
   ],
   "description": "TrackWerk — a free, open-source music studio by Kid Bunka. Tracker sequencing, synthesis, archive sampling and performance effects for Android, Trimui Brick and Miyoo.",
-  "stars": 15,
+  "stars": 17,
   "created": "2026-11-09",
   "script_files": 27,
   "binary_files": 6,
@@ -11167,9 +11225,9 @@
   "fork": false
  },
  "https://github.com/kidbee85-beep/mutable-dreams-handheld": {
-  "head": "4ffa0298fd7612b40f0ce44ab41f6916a31ee4fe",
-  "last_commit": "2026-11-25",
-  "files": 1940,
+  "head": "5a811e4e48a7e07658675889236f4a734c812d15",
+  "last_commit": "2026-11-27",
+  "files": 1943,
   "code_files": 1440,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
@@ -11178,22 +11236,24 @@
    "v1.5.9",
    "v1.5.10",
    "v1.6.2",
-   "v1.6.2-rg35xx-test"
+   "v1.6.2-rg35xx-test",
+   "v1.7.0-rc1-gkd350hultra"
   ],
   "description": "Mutable Dreams for handhelds: a garden of sound for Trimui Brick, Miyoo, RGB20S, H700, Android and Linux. GPL-3.0.",
   "stars": 5,
   "created": "2026-11-20",
-  "script_files": 28,
+  "script_files": 30,
   "binary_files": 0,
-  "tagset": "6427c55f702b",
+  "tagset": "fe1b8595f98f",
   "tags_all": [
    "v1.5.9",
    "v1.5.10",
    "v1.6.2",
-   "v1.6.2-rg35xx-test"
+   "v1.6.2-rg35xx-test",
+   "v1.7.0-rc1-gkd350hultra"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-24",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/knulli-cfw/knulli-linux": {
@@ -11208,7 +11268,7 @@
    "20260511"
   ],
   "description": "Custom Linux based firmware for handheld devices",
-  "stars": 369,
+  "stars": 373,
   "created": "2025-09-12",
   "script_files": 156,
   "binary_files": 405,
@@ -11232,7 +11292,7 @@
   "has_pak_dir": false,
   "tags": [],
   "description": "Knulli Documentation website",
-  "stars": 296,
+  "stars": 301,
   "created": "2024-04-07",
   "tagset": "da39a3ee5e6b",
   "tags_all": [],
@@ -11748,8 +11808,8 @@
   "fork": false
  },
  "https://github.com/mauSuaza/m8c-trimui-brick-pro": {
-  "head": "2246278712dfde21c1683f6e53d53231c322c93d",
-  "last_commit": "2026-11-25",
+  "head": "81b6f5b55d09c1195c6c27b92b7fd198519b6eaa",
+  "last_commit": "2026-11-26",
   "files": 16,
   "code_files": 0,
   "script_files": 1,
@@ -11764,11 +11824,11 @@
   "tags_all": [
    "v1.0.0"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": "Run Dirtywave M8 Headless (m8c) on the TrimUI Brick Pro stock OS: display, controls and audio",
   "stars": 1,
   "created": "2026-11-25",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/mcereal/inkcell": {
@@ -11837,7 +11897,7 @@
    "v2.78.1"
   ],
   "description": "Meshtastic Client for TrimUI Brick",
-  "stars": 14,
+  "stars": 15,
   "created": "2025-09-18",
   "script_files": 24,
   "binary_files": 3,
@@ -11905,7 +11965,7 @@
    "v2.78.1"
   ],
   "checked": "2026-11-24",
-  "pushed": "2026-11-19",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/meobeodihoc-ship-it/TrimUI-Brick-Pro-Noir-Theme": {
@@ -11932,27 +11992,28 @@
   "fork": false
  },
  "https://github.com/michaeltietjen/brickchord": {
-  "head": "6d99648935631462fed733e6be22695309358a1e",
-  "last_commit": "2026-11-25",
-  "files": 246,
-  "code_files": 35,
+  "head": "356edecdb61689eb7509594f2d5aaeebb95c43a0",
+  "last_commit": "2026-11-27",
+  "files": 564,
+  "code_files": 154,
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": false,
   "tags": [
-   "v0.4.0-r36",
-   "v0.4.1-r36",
-   "v0.4.2-r36",
    "v0.4.3-r36",
-   "v0.5.0"
+   "v0.5.0",
+   "v0.5.1-portmaster",
+   "v0.6.0",
+   "v0.7.0"
   ],
   "description": "Pocket chord machine for the TrimUI Brick / Brick Pro (KNULLI): HiChord-style chords, analog-VA synth, strums, arps, drums",
-  "stars": 22,
+  "stars": 23,
   "created": "2026-10-31",
-  "script_files": 12,
+  "script_files": 14,
   "binary_files": 0,
-  "tagset": "540da2cb0adf",
+  "tagset": "3c547c5a9299",
   "tags_all": [
+   "miyoo-probe",
    "v0.1.0-alpha",
    "v0.2.0-alpha",
    "v0.3.0",
@@ -11962,10 +12023,13 @@
    "v0.4.1-r36",
    "v0.4.2-r36",
    "v0.4.3-r36",
-   "v0.5.0"
+   "v0.5.0",
+   "v0.5.1-portmaster",
+   "v0.6.0",
+   "v0.7.0"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/mikecosentino/Screenshots": {
@@ -12083,7 +12147,7 @@
    "v1.7.6"
   ],
   "description": " NextUI app for playing local music, streaming internet radio, and listening to podcast on TrimUI devices",
-  "stars": 16,
+  "stars": 15,
   "created": "2025-12-31",
   "archived": true,
   "script_files": 1,
@@ -12179,10 +12243,10 @@
   "fork": false
  },
  "https://github.com/movsb/fbui": {
-  "head": "b4b6a17e0aff82007411abd2e2f3ecd6cb1943b2",
-  "last_commit": "2026-11-22",
-  "files": 128,
-  "code_files": 87,
+  "head": "99e7de3a98c154c798303ff2fd6514fda2c9ccf1",
+  "last_commit": "2026-11-27",
+  "files": 142,
+  "code_files": 101,
   "license": null,
   "has_pak_dir": false,
   "tags": [],
@@ -12193,8 +12257,8 @@
   "binary_files": 0,
   "tagset": "da39a3ee5e6b",
   "tags_all": [],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-22",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/movsb/trimui-chroot-ubuntu-portmaster": {
@@ -12270,10 +12334,10 @@
   "fork": false
  },
  "https://github.com/mxmgorin/retsurf": {
-  "head": "d78dec155b9e5e58cae569425855af5d760a1b1c",
-  "last_commit": "2026-11-25",
-  "files": 442,
-  "code_files": 232,
+  "head": "20d7c83a44e12d57dfd496d19517116a99ce942f",
+  "last_commit": "2026-11-27",
+  "files": 443,
+  "code_files": 233,
   "script_files": 26,
   "binary_files": 0,
   "license_file": "LICENSE",
@@ -12303,11 +12367,11 @@
    "v0.10.0",
    "v0.11.0"
   ],
-  "checked": "2026-11-25",
-  "description": "Portable, gamepad-first web browser on Servo. Runs on retro handhelds, Android, Kindle, Linux, Windows and macOS",
-  "stars": 82,
+  "checked": "2026-11-28",
+  "description": "Console-like web browser on Servo. Runs on 128 MB retro handhelds, Kindle, Android, Linux, Windows and macOS",
+  "stars": 83,
   "created": "2025-09-05",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/mxtmod-lab/ZimTube": {
@@ -12480,10 +12544,10 @@
   "fork": false
  },
  "https://github.com/nborodikhin/nextui-music-player": {
-  "head": "afeb1842523f0bc3a640faef119b8dbdee8a7ac1",
-  "last_commit": "2026-11-23",
-  "files": 881,
-  "code_files": 836,
+  "head": "bcb58f2246322136a3911fbe1044ba0945655254",
+  "last_commit": "2026-11-27",
+  "files": 888,
+  "code_files": 843,
   "license_file": "LICENSE",
   "license": "MIT",
   "pak": {
@@ -12508,7 +12572,7 @@
    "v1.20.0-beta.2"
   ],
   "description": " NextUI app for playing local music, streaming internet radio, and listening to podcast on TrimUI devices",
-  "stars": 12,
+  "stars": 13,
   "created": "2026-03-21",
   "script_files": 1,
   "binary_files": 0,
@@ -12561,8 +12625,8 @@
    "v1.20.0-beta.1",
    "v1.20.0-beta.2"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-24",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-28",
   "fork": true
  },
  "https://github.com/nborodikhin/trimui-tools": {
@@ -13051,9 +13115,9 @@
   "fork": true
  },
  "https://github.com/nx-redux/nx-redux-docs": {
-  "head": "6dab6d26cb8c8b228c522ae367b3dd2d1355cc80",
-  "last_commit": "2026-11-25",
-  "files": 506,
+  "head": "eec81993cf914d039564e04c72a3fd636328cf75",
+  "last_commit": "2026-11-28",
+  "files": 512,
   "code_files": 6,
   "license": null,
   "has_pak_dir": false,
@@ -13065,38 +13129,40 @@
   "binary_files": 0,
   "tagset": "da39a3ee5e6b",
   "tags_all": [],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/nzimas/amalthea": {
-  "head": "d74799ead515b56a8a102541d08764365f60f140",
-  "last_commit": "2026-11-25",
-  "files": 810,
-  "code_files": 608,
+  "head": "6ccf4384a386360ee7be84c43d77ccb0dec5d3b0",
+  "last_commit": "2026-11-28",
+  "files": 859,
+  "code_files": 651,
   "script_files": 23,
   "binary_files": 0,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
   "has_pak_dir": false,
-  "tagset": "04f3fb285851",
+  "tagset": "9e1f0ed04850",
   "tags": [
    "build-36",
    "build-37",
    "build-38",
-   "build-39"
+   "build-39",
+   "build-56"
   ],
   "tags_all": [
    "build-36",
    "build-37",
    "build-38",
-   "build-39"
+   "build-39",
+   "build-56"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": "Amalthea: a custom Linux distribution that replaces the TRIMUI Brick's firmware with three musical instruments: a generative tracker, an effect rack and a living effect network for the M-VAVE FM-1.",
   "stars": 0,
   "created": "2026-11-24",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/obhateion/brickpad": {
@@ -13115,7 +13181,7 @@
    "v2.0-alpha.1"
   ],
   "description": "Sampler, synth and clip sequencer for the TrimUI Brick",
-  "stars": 4,
+  "stars": 5,
   "created": "2026-11-12",
   "script_files": 1,
   "binary_files": 0,
@@ -13260,34 +13326,35 @@
   "fork": false
  },
  "https://github.com/paiheulevrai/Choochootracker": {
-  "head": "8e945eee1235ef4a24d884c70122fcb9a0d2c6dc",
-  "last_commit": "2026-11-20",
-  "files": 3036,
-  "code_files": 1272,
+  "head": "c228c976fe40919781b8002afa4175a04c64e96c",
+  "last_commit": "2026-11-27",
+  "files": 3052,
+  "code_files": 1283,
   "license_file": "LICENSE",
   "license": "MIT",
   "pak": {
    "name": "ChooChooTracker",
-   "version": "v1.0.25-alpha",
+   "version": "v1.0.26-alpha",
    "type": "TOOL",
    "description": "A portable music tracker combining classic sound chips, modern synth engines and samples.",
    "author": "ChooChooTracker contributors",
    "platforms": [
-    "tg5040"
+    "tg5040",
+    "h700"
    ]
   },
   "has_pak_dir": false,
   "tags": [
-   "v1.0.22-alpha",
    "v1.0.23-alpha",
    "v1.0.24-alpha",
    "v1.0.25-alpha",
+   "v1.0.26-alpha",
    "miyooports-test-2026-10-06"
   ],
   "description": "Multiengine music tracker for your handheld console and your phone.  Choo choo! ",
-  "script_files": 17,
+  "script_files": 19,
   "binary_files": 36,
-  "tagset": "3564b1e6a18b",
+  "tagset": "463f705087ad",
   "tags_all": [
    "v0.1.0-prealpha.1",
    "v0.1.0-prealpha.2",
@@ -13321,12 +13388,13 @@
    "v1.0.23-alpha",
    "v1.0.24-alpha",
    "v1.0.25-alpha",
+   "v1.0.26-alpha",
    "miyooports-test-2026-10-06"
   ],
-  "checked": "2026-11-24",
-  "stars": 72,
+  "checked": "2026-11-28",
+  "stars": 73,
   "created": "2026-08-09",
-  "pushed": "2026-11-20",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/paiheulevrai/Megalist-of-awesome-Portmaster-music-production-apps": {
@@ -13343,7 +13411,7 @@
   "tags_all": [],
   "checked": "2026-11-24",
   "description": "Music apps for your console ! ",
-  "stars": 14,
+  "stars": 18,
   "created": "2026-10-30",
   "pushed": "2026-11-18",
   "fork": false
@@ -13469,27 +13537,29 @@
   "fork": true
  },
  "https://github.com/prone/pocketpads": {
-  "head": "72108b0c72e62315296e2d4f565975045f7d5215",
-  "last_commit": "2026-11-25",
-  "files": 334,
-  "code_files": 12,
+  "head": "21f81a1c5c5d671a9e779ef8ee2d83e574ee7270",
+  "last_commit": "2026-11-26",
+  "files": 374,
+  "code_files": 26,
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": false,
   "tags": [
-   "v0.4"
+   "v0.4",
+   "v0.5"
   ],
   "description": "16-pad sample sequencer and sampler for the TrimUI Smart Pro handheld",
   "stars": 2,
   "created": "2026-11-20",
-  "script_files": 1,
+  "script_files": 4,
   "binary_files": 0,
-  "tagset": "96a17e7662a3",
+  "tagset": "b30bc79d936e",
   "tags_all": [
-   "v0.4"
+   "v0.4",
+   "v0.5"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-27",
   "fork": false
  },
  "https://github.com/ptaranat/pocket-hermes": {
@@ -13524,7 +13594,7 @@
    "v1.0.0"
   ],
   "description": "Authentic reflective-LCD shaders and bezel overlays for Game Boy, GBC and GBA on NextUI",
-  "stars": 8,
+  "stars": 9,
   "created": "2026-10-31",
   "script_files": 0,
   "binary_files": 0,
@@ -13559,7 +13629,7 @@
    "1.1.0"
   ],
   "description": "Makes the TrimUI Brick, Brick Hammer and Brick Pro start in under 6 seconds instead of 15. A NextUI pak.",
-  "stars": 2,
+  "stars": 4,
   "created": "2026-11-07",
   "script_files": 4,
   "binary_files": 0,
@@ -13908,26 +13978,24 @@
   "fork": false
  },
  "https://github.com/robbyczgw-cla/pocket-ui": {
-  "head": "8294e087c55ecf033ecb205fec64c11e4277b687",
-  "last_commit": "2026-11-25",
-  "files": 2625,
-  "code_files": 1330,
-  "script_files": 218,
+  "head": "38a8b73e3af4e270a97813f4deab0c0648509a2a",
+  "last_commit": "2026-11-28",
+  "files": 2766,
+  "code_files": 1402,
+  "script_files": 226,
   "binary_files": 14,
   "license_file": "LICENSE",
   "license": "GPL-2.0",
   "has_pak_dir": true,
-  "tagset": "ad95359eb89d",
+  "tagset": "be2aad1b3281",
   "tags": [
-   "v0.7.2",
+   "v0.8.0-android.1",
    "darkos-test-1",
    "darkos-test-2",
    "darkos-test-3",
    "r36s-test-1"
   ],
   "tags_all": [
-   "v0.1.0",
-   "v0.1.1",
    "v0.1.2",
    "v0.1.3",
    "v0.1.4",
@@ -13981,16 +14049,19 @@
    "v0.7.1-android.1",
    "brick-parts-0.7.2",
    "v0.7.2",
+   "brick-parts-0.8.0",
+   "v0.8.0",
+   "v0.8.0-android.1",
    "darkos-test-1",
    "darkos-test-2",
    "darkos-test-3",
    "r36s-test-1"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": "pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.",
-  "stars": 26,
+  "stars": 27,
   "created": "2026-10-28",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/romainguerif/M8Tape": {
@@ -14059,7 +14130,7 @@
    "v5.4.1.0"
   ],
   "description": "A RomM Client for your Linux retro handheld",
-  "stars": 256,
+  "stars": 257,
   "created": "2025-11-15",
   "script_files": 18,
   "binary_files": 4,
@@ -14199,14 +14270,14 @@
   "fork": true
  },
  "https://github.com/saivishnu2299/pocketlab": {
-  "head": "5af0039c16cdee6376784ba6c5b60a0d73be5a39",
-  "last_commit": "2026-11-24",
+  "head": "14364d913873247ef520ddbe581ab8b470346905",
+  "last_commit": "2026-11-25",
   "files": 109,
   "code_files": 45,
   "script_files": 3,
   "binary_files": 0,
   "license_file": "LICENSE",
-  "license": "AGPL-3.0",
+  "license": "MIT",
   "has_pak_dir": false,
   "tagset": "5e166fb80032",
   "tags": [
@@ -14215,11 +14286,11 @@
   "tags_all": [
    "v1.1.0"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": "Create mini apps for your Brick Pro with your coding agent.",
   "stars": 2,
   "created": "2026-11-15",
-  "pushed": "2026-11-24",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/sharuru3501/rockbox-classic-revival-brick": {
@@ -14257,7 +14328,7 @@
    "v20251127-1"
   ],
   "description": "MinUI is a focused, custom launcher and libretro frontend for a variety of retro handhelds.",
-  "stars": 1461,
+  "stars": 1462,
   "created": "2023-08-26",
   "archived": true,
   "script_files": 332,
@@ -14565,13 +14636,13 @@
   "binary_files": 0,
   "license": null,
   "has_pak_dir": false,
-  "tagset": "176690d64725",
+  "tagset": "2fa7ad57f696",
   "tags": [
-   "sdk-toolchains",
    "beta-sigusr1-save-quit",
    "beta-pixel2-build",
    "beta-rgb30-target",
-   "beta-aarch64-gcc-10"
+   "beta-aarch64-gcc-10",
+   "beta-darkmoss3326-vulkan"
   ],
   "tags_all": [
    "beta-For-Ry",
@@ -14585,13 +14656,14 @@
    "beta-sigusr1-save-quit",
    "beta-pixel2-build",
    "beta-rgb30-target",
-   "beta-aarch64-gcc-10"
+   "beta-aarch64-gcc-10",
+   "beta-darkmoss3326-vulkan"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "description": "PPSSPP standalone builds for SpruceOS",
   "stars": 1,
   "created": "2026-03-26",
-  "pushed": "2026-11-14",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/spruceUI/Ports-and-Free-Games": {
@@ -14698,9 +14770,9 @@
   "fork": false
  },
  "https://github.com/spruceUI/spruceOS": {
-  "head": "46845acd1eda675b0972d63c25ccf53100b7f2da",
-  "last_commit": "2026-11-24",
-  "files": 13788,
+  "head": "b8e30eff4166234b0163ff922811f6898a687adb",
+  "last_commit": "2026-11-27",
+  "files": 13784,
   "code_files": 2948,
   "license_file": "LICENSE",
   "license": "MIT",
@@ -14713,9 +14785,9 @@
    "v4.6.0"
   ],
   "description": "Custom software for a variety of Miyoo, TrimUI, and Anbernic handhelds - and then some.",
-  "stars": 738,
+  "stars": 743,
   "created": "2024-08-04",
-  "script_files": 341,
+  "script_files": 342,
   "binary_files": 513,
   "tagset": "ca64a7942484",
   "tags_all": [
@@ -14753,8 +14825,8 @@
    "v4.5.6",
    "v4.6.0"
   ],
-  "checked": "2026-11-25",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/spruceUI/spruceOS-Installer": {
@@ -15056,20 +15128,20 @@
   "fork": false
  },
  "https://github.com/tarikbc/ZyperOS": {
-  "head": "c66e2d16aeb7103d31f8cc2d935da8cf09b28768",
-  "last_commit": "2026-11-24",
-  "files": 3299,
-  "code_files": 1354,
-  "script_files": 127,
-  "binary_files": 58,
+  "head": "ac74b3611e2b12877e519d6c42b444719d93f557",
+  "last_commit": "2026-11-28",
+  "files": 3497,
+  "code_files": 1449,
+  "script_files": 133,
+  "binary_files": 85,
   "license_file": "LICENSE",
   "license": "GPL-3.0",
   "has_pak_dir": false,
-  "tagset": "925f54cceabf",
+  "tagset": "33089d55da5d",
   "tags": [
-   "v1.0.6-rc.3",
    "v1.0.7-kit.1",
    "v1.1.0",
+   "v1.1.1-rc.1",
    "cores-2026-11-11",
    "cores-2026-11-16"
   ],
@@ -15088,14 +15160,15 @@
    "v1.0.6-rc.3",
    "v1.0.7-kit.1",
    "v1.1.0",
+   "v1.1.1-rc.1",
    "cores-2026-11-11",
    "cores-2026-11-16"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "description": "A fast, light firmware for the GKD Pixel 2 that plays your whole retro library: forty systems, PortMaster ports, and your music, audiobooks and videos.",
-  "stars": 20,
+  "stars": 21,
   "created": "2026-11-07",
-  "pushed": "2026-11-25",
+  "pushed": "2026-11-28",
   "fork": false
  },
  "https://github.com/tfournier/ReminisLink": {
@@ -15321,10 +15394,10 @@
   "fork": false
  },
  "https://github.com/thwonp/plorpOS": {
-  "head": "2b6309dc9fd323da1e446be810bab2874721f1b2",
-  "last_commit": "2026-11-20",
-  "files": 1153,
-  "code_files": 275,
+  "head": "ce743e7872c77804938d97ac6f9317c4b3279b75",
+  "last_commit": "2026-11-28",
+  "files": 1230,
+  "code_files": 308,
   "license_file": "LICENSE",
   "license": "MIT",
   "has_pak_dir": false,
@@ -15335,12 +15408,12 @@
    "cores-2026-08",
    "archive/pokedaisy-parity-9506907"
   ],
-  "description": "A fast, musicly inclined CFW for the RG Rotate, GKD 350H Ultra, TrimUI Brick/Hammer/Pro, RG Nano, and H700 devices",
-  "stars": 27,
+  "description": "A fast CFW with advanced music player features, for an ever-growing list of handhelds",
+  "stars": 28,
   "created": "2026-09-27",
-  "script_files": 96,
+  "script_files": 109,
   "binary_files": 0,
-  "tagset": "504f5123659d",
+  "tagset": "d495a86c8ee2",
   "tags_all": [
    "plorpos-gkd-v1.0",
    "v1.0",
@@ -15372,6 +15445,7 @@
    "plorpos-v1.9",
    "plorpos-v1.9.1",
    "plorpos-v1.9.2",
+   "plorpos-v2.0",
    "v2.0.0",
    "v2.0.1",
    "v2.1.0",
@@ -15379,8 +15453,8 @@
    "cores-2026-08",
    "archive/pokedaisy-parity-9506907"
   ],
-  "checked": "2026-11-24",
-  "pushed": "2026-11-25",
+  "checked": "2026-11-28",
+  "pushed": "2026-11-28",
   "fork": true
  },
  "https://github.com/toky0s/TrimUIBrickPro_StockOS_Guide": {
@@ -15439,7 +15513,7 @@
    "v7.4.6"
   ],
   "description": "A free, feature-rich music player for TrimUI handhelds running NX Redux. Built for a better listening experience, with an enhanced music library, playlists, 31-band PEQ, bit-perfect playback, and more.",
-  "stars": 1,
+  "stars": 3,
   "created": "2026-10-20",
   "tagset": "0d472c383e5b",
   "tags_all": [
@@ -15524,7 +15598,7 @@
    "20241105"
   ],
   "description": "TRIMUI Brick (TG3040) SD base package",
-  "stars": 105,
+  "stars": 106,
   "created": "2024-11-13",
   "tagset": "221f13f3c0bf",
   "tags_all": [
@@ -15622,7 +15696,7 @@
    "20231018"
   ],
   "description": "SDK and toolchain for TRIMUI Smart Pro TG5040",
-  "stars": 46,
+  "stars": 47,
   "created": "2024-01-07",
   "tagset": "968ab8bac3d0",
   "tags_all": [
@@ -15899,18 +15973,18 @@
   },
   "has_pak_dir": false,
   "tags": [
-   "v1.0.11",
    "v1.0.12",
    "v1.0.13",
    "v1.0.14",
-   "v1.0.15"
+   "v1.0.15",
+   "v1.0.16"
   ],
   "description": "An ipod classic-inspired Trimui Brick music player with milkdrop visualizations",
-  "stars": 25,
+  "stars": 26,
   "created": "2026-06-23",
   "script_files": 7,
   "binary_files": 0,
-  "tagset": "cba4b2956117",
+  "tagset": "f408c1670239",
   "tags_all": [
    "v1.0.0",
    "v1.0.1",
@@ -15927,9 +16001,10 @@
    "v1.0.12",
    "v1.0.13",
    "v1.0.14",
-   "v1.0.15"
+   "v1.0.15",
+   "v1.0.16"
   ],
-  "checked": "2026-11-25",
+  "checked": "2026-11-28",
   "pushed": "2026-11-25",
   "fork": false
  },
@@ -15957,7 +16032,7 @@
    "1.0.2"
   ],
   "description": "Deadstation - A PS1 emulator for Trimui Brick / Hammer",
-  "stars": 2,
+  "stars": 3,
   "created": "2026-11-03",
   "script_files": 7,
   "binary_files": 0,
@@ -16170,7 +16245,7 @@
    "1.2.8"
   ],
   "checked": "2026-11-24",
-  "stars": 5,
+  "stars": 6,
   "created": "2026-10-30",
   "pushed": "2026-11-24",
   "fork": false
@@ -16206,7 +16281,7 @@
   ],
   "checked": "2026-11-24",
   "description": "Rez Recompiled Recomp Module for Deadcast",
-  "stars": 0,
+  "stars": 1,
   "created": "2026-11-02",
   "pushed": "2026-11-24",
   "fork": false
@@ -16257,7 +16332,7 @@
    "fonts-1"
   ],
   "description": "Music player for the TrimUI Brick on NextUI and CrossMix: your music, Spotify streaming and YouTube Music downloads, with album art, synced lyrics and background play.",
-  "stars": 14,
+  "stars": 15,
   "created": "2026-10-16",
   "script_files": 9,
   "binary_files": 0,
@@ -16306,24 +16381,20 @@
   "has_pak_dir": false,
   "tags": [
    "v0.1.0",
-   "v0.1.1",
-   "0.2.0",
    "v0.2.0"
   ],
   "description": "Native standalone MAME 0.223 for Game & Watch on TrimUI Brick / Smart Pro (NextUI). G&W-only build with performance patches; bundled 56-game NextUI menu artwork (.media) and readable display names (map.txt). Requires your own MAME romset zips in Roms/Game & Watch MAME (GW_MAME)/ and matching MAME case-artwork zips in its .artwork/ subfolder.",
   "script_files": 5,
   "binary_files": 0,
-  "tagset": "9ed6c525752b",
+  "tagset": "fc0f914a57f9",
   "tags_all": [
    "v0.1.0",
-   "v0.1.1",
-   "0.2.0",
    "v0.2.0"
   ],
-  "checked": "2026-11-24",
+  "checked": "2026-11-28",
   "stars": 0,
   "created": "2026-11-20",
-  "pushed": "2026-11-24",
+  "pushed": "2026-11-26",
   "fork": false
  },
  "https://github.com/usasha/trimui_game_and_watch": {

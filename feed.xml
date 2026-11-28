@@ -4,334 +4,425 @@
   <link href="https://70b185.github.io/BrickAggregat/"/>
   <link rel="self" href="https://70b185.github.io/BrickAggregat/feed.xml"/>
   <id>https://70b185.github.io/BrickAggregat/</id>
-  <updated>2026-11-25T00:00:00Z</updated>
+  <updated>2026-11-28T00:00:00Z</updated>
   <entry>
-    <title>Woof! for NextUI: new in the index</title>
-    <link href="https://github.com/Overflask/woof-nextui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-woof-nextui-added-</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Woof! V16.0.0 port for NextUI</summary>
+    <title>ZyperOS: release v1.1.1-rc.1</title>
+    <link href="https://github.com/tarikbc/ZyperOS"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-zyperos-release-v1.1.1-rc.1</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>A fast, light firmware for the GKD Pixel 2 that plays your whole retro library: forty systems, PortMaster ports, and your music, audiobooks and videos.</summary>
   </entry>
   <entry>
-    <title>UIPod: release v0.9.1</title>
+    <title>UIPod: release v0.10.2</title>
     <link href="https://github.com/famiclone/UIPod"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-uipod-release-v0.9.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-uipod-release-v0.10.2</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>iPod-style player for local files, Navidrome and Jellyfin: lossless, audiobooks, NSF/GSF, MIDI with SoundFonts, EQ.</summary>
   </entry>
   <entry>
-    <title>UIPod: release v0.9.2</title>
+    <title>UIPod: release v0.10.3</title>
     <link href="https://github.com/famiclone/UIPod"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-uipod-release-v0.9.2</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-uipod-release-v0.10.3</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>iPod-style player for local files, Navidrome and Jellyfin: lossless, audiobooks, NSF/GSF, MIDI with SoundFonts, EQ.</summary>
   </entry>
   <entry>
-    <title>UIPod: release v0.10.0</title>
+    <title>UIPod: release v0.11.0</title>
     <link href="https://github.com/famiclone/UIPod"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-uipod-release-v0.10.0</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-uipod-release-v0.11.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>iPod-style player for local files, Navidrome and Jellyfin: lossless, audiobooks, NSF/GSF, MIDI with SoundFonts, EQ.</summary>
   </entry>
   <entry>
-    <title>Twill Studio: release v0.7.1</title>
+    <title>Twill Studio: release v0.7.2</title>
     <link href="https://github.com/LiminalKid/TwillStudio"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-twill-studio-release-v0.7.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-twill-studio-release-v0.7.2</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Piano-roll groovebox: eight tracks written note by note with the d-pad. NextUI pak.</summary>
   </entry>
   <entry>
-    <title>Brick kernel: back online</title>
-    <link href="https://github.com/jkingston/trimui-brick-kernel"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-trimui-brick-kernel-back online-</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Linux kernel tree for the Brick.</summary>
+    <title>Twill Studio: release v0.8.0</title>
+    <link href="https://github.com/LiminalKid/TwillStudio"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-twill-studio-release-v0.8.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Piano-roll groovebox: eight tracks written note by note with the d-pad. NextUI pak.</summary>
   </entry>
   <entry>
-    <title>Trimpod Classic: release pak.json v1.0.16</title>
+    <title>Tuner: release v1.6.0</title>
+    <link href="https://github.com/evolver79/nextui-tuner-pak"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-tuner-release-v1.6.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Free TV for NextUI on the TrimUI Brick and Smart Pro: Pluto TV, Samsung TV Plus, iptv-org and your own M3U and Xtream playlists, with a TV guide and hardware decoding</summary>
+  </entry>
+  <entry>
+    <title>Tuner: release v1.6.1</title>
+    <link href="https://github.com/evolver79/nextui-tuner-pak"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-tuner-release-v1.6.1</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Free TV for NextUI on the TrimUI Brick and Smart Pro: Pluto TV, Samsung TV Plus, iptv-org and your own M3U and Xtream playlists, with a TV guide and hardware decoding</summary>
+  </entry>
+  <entry>
+    <title>Tuner: release v1.6.2</title>
+    <link href="https://github.com/evolver79/nextui-tuner-pak"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-tuner-release-v1.6.2</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Free TV for NextUI on the TrimUI Brick and Smart Pro: Pluto TV, Samsung TV Plus, iptv-org and your own M3U and Xtream playlists, with a TV guide and hardware decoding</summary>
+  </entry>
+  <entry>
+    <title>TubeHero: release v0.8.0</title>
+    <link href="https://github.com/CreatonDevelopment/TubeHero"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-tubehero-release-v0.8.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>A fast, optimized YouTube client for retro gaming handhelds</summary>
+  </entry>
+  <entry>
+    <title>TrimUI Brick Ports: release ddd-v0.1.5-test</title>
+    <link href="https://github.com/Hkattelu/TrimUI-Brick-Ports"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-trimui-brick-ports-release-ddd-v0.1.5-test</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>TrimUI Brick ports, source code and community testing builds.</summary>
+  </entry>
+  <entry>
+    <title>TrimUI Brick Ports: release ddd-v0.1.6-test</title>
+    <link href="https://github.com/Hkattelu/TrimUI-Brick-Ports"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-trimui-brick-ports-release-ddd-v0.1.6-test</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>TrimUI Brick ports, source code and community testing builds.</summary>
+  </entry>
+  <entry>
+    <title>Trimpod Classic: release v1.0.16</title>
     <link href="https://github.com/tyrannotorus/c-trimui-trimpod-classic-pak"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-trimpod-classic-release-pak.json v1.0.16</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-trimpod-classic-release-v1.0.16</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>iPod Classic style player with MilkDrop visualisations; USB-C and Bluetooth audio.</summary>
   </entry>
   <entry>
-    <title>retroshelf tracker: release v0.7.0</title>
-    <link href="https://github.com/retroshelf-org/linux"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-retroshelf-release-v0.7.0</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Sync NextUI play sessions to retroshelf</summary>
+    <title>ThorTracker: release v1.1.0</title>
+    <link href="https://github.com/esko997/thortracker"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-thortracker-release-v1.1.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Controller-first chiptune tracker for NextUI with music export.</summary>
   </entry>
   <entry>
-    <title>retroshelf tracker: release v0.7.1</title>
-    <link href="https://github.com/retroshelf-org/linux"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-retroshelf-release-v0.7.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Sync NextUI play sessions to retroshelf</summary>
+    <title>PPSSPP for spruceOS: release beta-darkmoss3326-vulkan</title>
+    <link href="https://github.com/spruceUI/PPSSPP-spruce"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-ppsspp-spruce-release-beta-darkmoss3326-vulkan</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>PPSSPP standalone builds for SpruceOS</summary>
+  </entry>
+  <entry>
+    <title>PPSSPP: release 7.0.0</title>
+    <link href="https://github.com/ben16w/minui-psp"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-ppsspp-release-7.0.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>A MinUI and NextUI Emu Pak for PSP, wrapping the standalone PPSSPP emulator.</summary>
   </entry>
   <entry>
     <title>PortMaster ports: release 2026-06-07_0548</title>
     <link href="https://github.com/PortsMaster/PortMaster-New"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-new-release-2026-06-07_0548</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-portmaster-new-release-2026-06-07_0548</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>New PortMaster repo</summary>
   </entry>
   <entry>
     <title>PortMaster ports: release 2026-06-09_1411</title>
     <link href="https://github.com/PortsMaster/PortMaster-New"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-new-release-2026-06-09_1411</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-portmaster-new-release-2026-06-09_1411</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>New PortMaster repo</summary>
   </entry>
   <entry>
     <title>PortMaster ports: release 2026-06-09_2128</title>
     <link href="https://github.com/PortsMaster/PortMaster-New"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-new-release-2026-06-09_2128</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-portmaster-new-release-2026-06-09_2128</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>New PortMaster repo</summary>
   </entry>
   <entry>
-    <title>PortMaster ports: release 2026-06-07_0548</title>
-    <link href="https://github.com/PortsMaster/PortMaster-New"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-new-release-2026-06-07_0548</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>New PortMaster repo</summary>
+    <title>Portmaster: release 2.15.0</title>
+    <link href="https://github.com/ben16w/minui-portmaster"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-portmaster-release-2.15.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>A PortMaster Emu Pack for MinUI and NextUI that includes everything needed out of the box, no additional software required.</summary>
   </entry>
   <entry>
-    <title>PortMaster ports: release 2026-06-09_1411</title>
-    <link href="https://github.com/PortsMaster/PortMaster-New"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-new-release-2026-06-09_1411</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>New PortMaster repo</summary>
+    <title>pocketpads: release v0.5</title>
+    <link href="https://github.com/prone/pocketpads"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pocketpads-release-v0.5</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>16-pad sample sequencer with MIDI via the ALSA sequencer. Written for the Smart Pro on KNULLI (same platform as the Brick).</summary>
   </entry>
   <entry>
-    <title>PortMaster ports: release 2026-06-09_2128</title>
-    <link href="https://github.com/PortsMaster/PortMaster-New"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-new-release-2026-06-09_2128</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>New PortMaster repo</summary>
+    <title>PocketLAB: licence AGPL-3.0 -&gt; MIT</title>
+    <link href="https://github.com/saivishnu2299/pocketlab"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pocketlab-licence-AGPL-3.0 -&gt; MIT</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Create mini apps for your Brick Pro with your coding agent.</summary>
   </entry>
   <entry>
-    <title>PortMaster: release 2025.05.30-0959</title>
-    <link href="https://github.com/PortsMaster/PortMaster-GUI"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-gui-release-2025.05.30-0959</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>PortMaster: installs and launches game ports on most firmwares, the Brick&#x27;s included.</summary>
-  </entry>
-  <entry>
-    <title>PortMaster: release 2025.05.31-1002</title>
-    <link href="https://github.com/PortsMaster/PortMaster-GUI"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-gui-release-2025.05.31-1002</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>PortMaster: installs and launches game ports on most firmwares, the Brick&#x27;s included.</summary>
-  </entry>
-  <entry>
-    <title>PortMaster: release 2025.06.06-1114</title>
-    <link href="https://github.com/PortsMaster/PortMaster-GUI"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-portmaster-gui-release-2025.06.06-1114</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>PortMaster: installs and launches game ports on most firmwares, the Brick&#x27;s included.</summary>
-  </entry>
-  <entry>
-    <title>pocket-ui: release brick-parts-0.7.1</title>
+    <title>pocket-ui: release brick-parts-0.8.0</title>
     <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-pocket-ui-release-brick-parts-0.7.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pocket-ui-release-brick-parts-0.8.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
   </entry>
   <entry>
-    <title>pocket-ui: release v0.7.1</title>
+    <title>pocket-ui: release v0.8.0</title>
     <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-pocket-ui-release-v0.7.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pocket-ui-release-v0.8.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
   </entry>
   <entry>
-    <title>pocket-ui: release v0.7.1-android.1</title>
+    <title>pocket-ui: release v0.8.0-android.1</title>
     <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-pocket-ui-release-v0.7.1-android.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pocket-ui-release-v0.8.0-android.1</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
   </entry>
   <entry>
-    <title>pocket-ui: release v0.7.2</title>
-    <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-pocket-ui-release-v0.7.2</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
+    <title>Pocket Controller: release v0.2.0</title>
+    <link href="https://github.com/fnune/pocket-controller"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pocket-controller-release-v0.2.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Turn your handheld into a plug-and-play USB controller</summary>
   </entry>
   <entry>
-    <title>pocket-ui: release brick-parts-0.7.2</title>
-    <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-pocket-ui-release-brick-parts-0.7.2</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
+    <title>Pocket Controller: release v0.3.0</title>
+    <link href="https://github.com/fnune/pocket-controller"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pocket-controller-release-v0.3.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Turn your handheld into a plug-and-play USB controller</summary>
   </entry>
   <entry>
-    <title>OpenRCT2 Pocket: release v0.4.2-beta.1</title>
+    <title>plorpOS: release plorpos-v2.0</title>
+    <link href="https://github.com/thwonp/plorpOS"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-plorpos-release-plorpos-v2.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Small firmware for several handhelds including the Brick, Hammer and Brick Pro, with an emphasis on music.</summary>
+  </entry>
+  <entry>
+    <title>pakman: release 0.20.2</title>
+    <link href="https://github.com/josegonzalez/pakman"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pakman-release-0.20.2</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Automatically generated collection of MinUI/NextUI paks.</summary>
+  </entry>
+  <entry>
+    <title>pakman: release 0.20.3</title>
+    <link href="https://github.com/josegonzalez/pakman"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pakman-release-0.20.3</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Automatically generated collection of MinUI/NextUI paks.</summary>
+  </entry>
+  <entry>
+    <title>pakman: release 0.20.4</title>
+    <link href="https://github.com/josegonzalez/pakman"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-pakman-release-0.20.4</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Automatically generated collection of MinUI/NextUI paks.</summary>
+  </entry>
+  <entry>
+    <title>OZMA: release v0.9.5</title>
+    <link href="https://github.com/Manticorees/OZMA"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-ozma-release-v0.9.5</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Groovebox and tracker: clips, sampler, effects, live tools, MIDI in/out and clock; uses both USB ports. Packages for Brick firmwares and other handhelds.</summary>
+  </entry>
+  <entry>
+    <title>OpenRCT2 Pocket: release v0.4.2-beta.2</title>
     <link href="https://github.com/keewhi/openrct2-pocket"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-openrct2-pocket-release-v0.4.2-beta.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-openrct2-pocket-release-v0.4.2-beta.2</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>RollerCoaster Tycoon 2 rebuilt to play like a handheld game. A controller-first OpenRCT2 build for Linux and Android devices.</summary>
   </entry>
   <entry>
-    <title>Mutable Dreams (handheld): release v1.6.2</title>
+    <title>NXT Retro Tube: release v2.8</title>
+    <link href="https://github.com/SpringThong/NXT-Retro-Tube"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-nxt-retro-tube-release-v2.8</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>NXT Retro BookNest: release v1.4</title>
+    <link href="https://github.com/SpringThong/NXT-Retro-BookNest"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-nxt-retro-booknest-release-v1.4</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Nintendo DS (DraStic): release 0.15.2</title>
+    <link href="https://github.com/josegonzalez/minui-nintendo-ds-pak"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-nintendo-ds-drastic-release-0.15.2</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>A MinUI Emu Pak for Nintendo DS</summary>
+  </entry>
+  <entry>
+    <title>NewPalTrimuiBrick: release v1.0.0</title>
+    <link href="https://github.com/Majirefy/NewPalTrimuiBrick"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-newpaltrimuibrick-release-v1.0.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>MacNewPal engine port for TrimUI TG5040 / NX Redux (BYOD, no game data)</summary>
+  </entry>
+  <entry>
+    <title>NewPalTrimuiBrick: release v1.0.1</title>
+    <link href="https://github.com/Majirefy/NewPalTrimuiBrick"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-newpaltrimuibrick-release-v1.0.1</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>MacNewPal engine port for TrimUI TG5040 / NX Redux (BYOD, no game data)</summary>
+  </entry>
+  <entry>
+    <title>NewPalTrimuiBrick: release v1.0.2</title>
+    <link href="https://github.com/Majirefy/NewPalTrimuiBrick"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-newpaltrimuibrick-release-v1.0.2</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>MacNewPal engine port for TrimUI TG5040 / NX Redux (BYOD, no game data)</summary>
+  </entry>
+  <entry>
+    <title>NewPalTrimuiBrick: licence GPL-3.0 -&gt; None</title>
+    <link href="https://github.com/Majirefy/NewPalTrimuiBrick"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-newpaltrimuibrick-licence-GPL-3.0 -&gt; None</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>MacNewPal engine port for TrimUI TG5040 / NX Redux (BYOD, no game data)</summary>
+  </entry>
+  <entry>
+    <title>Mutable Dreams (handheld): release v1.7.0-rc1-gkd350hultra</title>
     <link href="https://github.com/kidbee85-beep/mutable-dreams-handheld"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-mutable-dreams-handheld-release-v1.6.2</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-mutable-dreams-handheld-release-v1.7.0-rc1-gkd350hultra</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Generative &#x27;garden of sound&#x27; with Mutable Instruments based voices; handheld spin-off of Mutable Dreams for the FM-1.</summary>
   </entry>
   <entry>
-    <title>Mutable Dreams (handheld): release v1.6.2-rg35xx-test</title>
-    <link href="https://github.com/kidbee85-beep/mutable-dreams-handheld"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-mutable-dreams-handheld-release-v1.6.2-rg35xx-test</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Generative &#x27;garden of sound&#x27; with Mutable Instruments based voices; handheld spin-off of Mutable Dreams for the FM-1.</summary>
+    <title>Mosaik: release v0.9.15</title>
+    <link href="https://github.com/diapolon/mosaik_cfw"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-mosaik-cfw-release-v0.9.15</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Gaming system on microSD for TrimUI Smart Pro and Brick Pro: arcade, emulators, Apps and Linux games with its own launcher.</summary>
   </entry>
   <entry>
-    <title>m8c for Brick Pro (stock OS): new in the index</title>
-    <link href="https://github.com/mauSuaza/m8c-trimui-brick-pro"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-m8c-brick-pro-stock-added-</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>m8c packaged as a stock-OS app for the Brick Pro, with an ALSA fix so the M8&#x27;s USB audio is found. Teensy on the top USB-C port.</summary>
+    <title>Mosaik: release v0.9.16</title>
+    <link href="https://github.com/diapolon/mosaik_cfw"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-mosaik-cfw-release-v0.9.16</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Gaming system on microSD for TrimUI Smart Pro and Brick Pro: arcade, emulators, Apps and Linux games with its own launcher.</summary>
   </entry>
   <entry>
-    <title>M8C for Brick Pro (NextUI): new in the index</title>
-    <link href="https://github.com/Aalenberg/m8c-trimui-brick-pro-nextui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-m8c-brick-pro-nextui-added-</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>m8c port for the Brick Pro on NextUI; routes the M8&#x27;s USB audio to the headphone jack or to a USB headphone adapter on a hub.</summary>
+    <title>Mosaik: release v0.9.17</title>
+    <link href="https://github.com/diapolon/mosaik_cfw"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-mosaik-cfw-release-v0.9.17</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Gaming system on microSD for TrimUI Smart Pro and Brick Pro: arcade, emulators, Apps and Linux games with its own launcher.</summary>
   </entry>
   <entry>
-    <title>JukaHubV2: release JukaHub-20261125004908</title>
+    <title>MinUI Zero: release cubexx-test-1</title>
+    <link href="https://github.com/Zero-Labs-CFW/MinUI-Zero"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-minui-zero-release-cubexx-test-1</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>MinUI Zero: Same simple MinUI. Tuned end to end.</summary>
+  </entry>
+  <entry>
+    <title>minui power control: release 4.0.0</title>
+    <link href="https://github.com/ben16w/minui-power-control"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-minui-power-control-release-4.0.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>A MinUI and NextUI app which provides deep sleep and shutdown functionality via the power button for emulators lacking native support.</summary>
+  </entry>
+  <entry>
+    <title>Kino – Video Player for SD Card and Jellyfin: release v1.2.0</title>
+    <link href="https://github.com/evolver79/nextui-kino-pak"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-kino-video-player-for-sd-card-and-jellyfin-release-v1.2.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Video player for NextUI on the TrimUI Brick and Smart Pro: films and series from the SD card or a Jellyfin server, with hardware H.264 and HEVC decoding</summary>
+  </entry>
+  <entry>
+    <title>JukaHubV2: release JukaHub-20261128052702</title>
     <link href="https://github.com/jukaLang/JukaHubV2"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-jukahubv2-release-JukaHub-20261125004908</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-jukahubv2-release-JukaHub-20261128052702</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer</summary>
   </entry>
   <entry>
-    <title>JukaHubV2: release JukaHub-20261125040241</title>
+    <title>JukaHubV2: release JukaHub-20261128054653</title>
     <link href="https://github.com/jukaLang/JukaHubV2"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-jukahubv2-release-JukaHub-20261125040241</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-jukahubv2-release-JukaHub-20261128054653</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer</summary>
   </entry>
   <entry>
-    <title>JukaHubV2: release JukaHub-20261125114654</title>
+    <title>JukaHubV2: release JukaHub-20261128061721</title>
     <link href="https://github.com/jukaLang/JukaHubV2"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-jukahubv2-release-JukaHub-20261125114654</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-jukahubv2-release-JukaHub-20261128061721</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer</summary>
   </entry>
   <entry>
-    <title>Dronage Terminal: release v3.5.0</title>
+    <title>Dronage Terminal: release v3.5.1</title>
     <link href="https://github.com/boorch/dronage-terminal-pak"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-dronage-terminal-release-v3.5.0</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-dronage-terminal-release-v3.5.1</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Drone instrument, NextUI port of Dronage Terminal.</summary>
   </entry>
   <entry>
-    <title>ChaOS: release v0.11.0</title>
+    <title>ChooChooTracker: release v1.0.26-alpha</title>
+    <link href="https://github.com/paiheulevrai/Choochootracker"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-choochootracker-release-v1.0.26-alpha</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Multi-engine tracker that started as a ChipNomad fork: sound chips, synths, samples. NextUI pak.</summary>
+  </entry>
+  <entry>
+    <title>ChaOS: release v2.8.0-test4</title>
     <link href="https://github.com/SkyWalker541/ChaOS"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-chaos-release-v0.11.0</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-chaos-release-v2.8.0-test4</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Brick firmware with shaders, overlays, PortMaster, RomM, music and audiobooks.</summary>
   </entry>
   <entry>
-    <title>ChaOS: release v0.11.1</title>
+    <title>ChaOS: release v2.8.0-test5</title>
     <link href="https://github.com/SkyWalker541/ChaOS"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-chaos-release-v0.11.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-chaos-release-v2.8.0-test5</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Brick firmware with shaders, overlays, PortMaster, RomM, music and audiobooks.</summary>
   </entry>
   <entry>
-    <title>ChaOS: release v0.11.2</title>
+    <title>ChaOS: release v2.8.0-test6</title>
     <link href="https://github.com/SkyWalker541/ChaOS"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-chaos-release-v0.11.2</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-chaos-release-v2.8.0-test6</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Brick firmware with shaders, overlays, PortMaster, RomM, music and audiobooks.</summary>
   </entry>
   <entry>
-    <title>BrickTape Sampler: release v1.12.0-beta</title>
-    <link href="https://github.com/Bhang01/bricktape-sampler"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-bricktape-sampler-release-v1.12.0-beta</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>64-pad sampler with chopping, multiband effects, USB audio and on-device stem separation. KNULLI.</summary>
-  </entry>
-  <entry>
-    <title>BrickTape Sampler: release v1.13.0-beta</title>
-    <link href="https://github.com/Bhang01/bricktape-sampler"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-bricktape-sampler-release-v1.13.0-beta</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>64-pad sampler with chopping, multiband effects, USB audio and on-device stem separation. KNULLI.</summary>
-  </entry>
-  <entry>
-    <title>brickchord: release v0.5.0</title>
+    <title>brickchord: release v0.5.1-portmaster</title>
     <link href="https://github.com/michaeltietjen/brickchord"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-brickchord-release-v0.5.0</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-brickchord-release-v0.5.1-portmaster</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox edition with drum pads and song mode. KNULLI on Brick and Brick Pro.</summary>
   </entry>
   <entry>
-    <title>Boombrick B-Side: new in the index</title>
+    <title>brickchord: release v0.6.0</title>
+    <link href="https://github.com/michaeltietjen/brickchord"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-brickchord-release-v0.6.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox edition with drum pads and song mode. KNULLI on Brick and Brick Pro.</summary>
+  </entry>
+  <entry>
+    <title>brickchord: release v0.7.0</title>
+    <link href="https://github.com/michaeltietjen/brickchord"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-brickchord-release-v0.7.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Chord machine in the style of the HiChord: chords, virtual-analog synth, strums, arps and drums. Bricklab is its groovebox edition with drum pads and song mode. KNULLI on Brick and Brick Pro.</summary>
+  </entry>
+  <entry>
+    <title>Brick Controller: release v1.2.0</title>
+    <link href="https://github.com/aaaldo/brick-controller"/>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-brick-controller-release-v1.2.0</id>
+    <updated>2026-11-28T00:00:00Z</updated>
+    <summary>Brick Controller : manette Bluetooth HID pour TrimUI Brick sous NextUI</summary>
+  </entry>
+  <entry>
+    <title>Boombrick B-Side: release v0.7.7</title>
     <link href="https://github.com/Scorch-94/Boombrick-B-Side"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-boombrick-b-side-added-</id>
-    <updated>2026-11-25T00:00:00Z</updated>
+    <id>https://70b185.github.io/BrickAggregat/#2026-11-28-boombrick-b-side-release-v0.7.7</id>
+    <updated>2026-11-28T00:00:00Z</updated>
     <summary>Fork of Boombrick for NextUI without internet radio, adding library search, .m3u playlists and shuffle of all songs; installs beside the original.</summary>
-  </entry>
-  <entry>
-    <title>Amalthea: release build-37</title>
-    <link href="https://github.com/nzimas/amalthea"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-amalthea-release-build-37</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines.</summary>
-  </entry>
-  <entry>
-    <title>Amalthea: release build-38</title>
-    <link href="https://github.com/nzimas/amalthea"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-amalthea-release-build-38</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines.</summary>
-  </entry>
-  <entry>
-    <title>Amalthea: release build-39</title>
-    <link href="https://github.com/nzimas/amalthea"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-amalthea-release-build-39</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>Own Linux distribution that replaces the Brick firmware and turns it into a dedicated instrument with three musical engines.</summary>
-  </entry>
-  <entry>
-    <title>1Retro Sync: release v0.12.1</title>
-    <link href="https://github.com/one-retro/1retro-nextui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-25-1retro-sync-release-v0.12.1</id>
-    <updated>2026-11-25T00:00:00Z</updated>
-    <summary>NextUI Pak Store publishing repo</summary>
-  </entry>
-  <entry>
-    <title>pocket-ui: release r36s-test-1</title>
-    <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-24-pocket-ui-release-r36s-test-1</id>
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
-  </entry>
-  <entry>
-    <title>pocket-ui: release darkos-test-3</title>
-    <link href="https://github.com/robbyczgw-cla/pocket-ui"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-24-pocket-ui-release-darkos-test-3</id>
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary>pocket-ui OS for retro handhelds and pocket-ui for Android: a cozy, free game shelf. Every game in its real box, click it in, continue where you stopped.</summary>
-  </entry>
-  <entry>
-    <title>Pingo OS: release v0.3.7-beta</title>
-    <link href="https://github.com/luciano2000/pingo-os"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-24-pingo-os-release-v0.3.7-beta</id>
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary>Pingo OS by Retrogamer Brasil: distro Linux mínima para handhelds retrô (Anbernic RG35XX-H, RG40XX, TrimUI Brick)</summary>
-  </entry>
-  <entry>
-    <title>Dreamcast (Deadcast): release 1.2.8</title>
-    <link href="https://github.com/tyrannotorus/emulator-dreamcast-deadcast"/>
-    <id>https://70b185.github.io/BrickAggregat/#2026-11-24-dreamcast-deadcast-release-1.2.8</id>
-    <updated>2026-11-24T00:00:00Z</updated>
-    <summary>A performance-focused Dreamcast emulator with recomp support.</summary>
   </entry>
 </feed>

@@ -9,7 +9,7 @@ notes only; every entry points to the original project.
 **[Open the website](https://70b185.github.io/BrickAggregat/)**
 
 <!-- counts -->
-**475 projects** (324 with a licence and source, 357 with commits in the last 90 days), checked 2026-11-25:
+**475 projects** (323 with a licence and source, 353 with commits in the last 90 days), checked 2026-11-25:
 
 [Make music](https://70b185.github.io/BrickAggregat/?c=music-make) 57 · [Listen](https://70b185.github.io/BrickAggregat/?c=music-play) 29 · [Firmware](https://70b185.github.io/BrickAggregat/?c=os) 47 · [Apps & tools](https://70b185.github.io/BrickAggregat/?c=app) 130 · [Emulators](https://70b185.github.io/BrickAggregat/?c=emulator) 60 · [Games & ports](https://70b185.github.io/BrickAggregat/?c=port) 33 · [Video & reading](https://70b185.github.io/BrickAggregat/?c=media) 22 · [Look](https://70b185.github.io/BrickAggregat/?c=theme) 20 · [Developer](https://70b185.github.io/BrickAggregat/?c=dev) 52 · [Guides & companions](https://70b185.github.io/BrickAggregat/?c=guide) 25
 <!-- /counts -->

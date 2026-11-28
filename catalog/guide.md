@@ -2,20 +2,20 @@
 
 Guides, docs, installers and companion apps on a computer or phone.
 
-25 entries, generated 2026-11-26 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+25 entries, generated 2026-11-28 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
 | [brickdrop](https://github.com/jitdor/brickdrop) | jitdor | Native macOS ROM importer and metadata cleaner for the TRIMUI Brick Pro | - | v1.2.1 | 2026-09-29 | MIT |
 | [BRIXEQ manual (Spanish)](https://github.com/alejandroid80/brixeq-manual) | alejandroid80 |  | - | - | 2026-11-17 | no licence (no source) |
 | [cartwright](https://github.com/chiotas/cartwright) | chiotas | Build the SD card of a modern retro handheld with Claude Code. TrimUI Brick Pro / NextUI verified, portable to any libretro handheld. | - | - | 2026-09-10 | MIT |
-| [ChaOS Installer](https://github.com/SkyWalker541/ChaOS-Installer) | SkyWalker541 |  | - | v1.1.0 | 2026-11-25 | GPL-3.0 |
+| [ChaOS Installer](https://github.com/SkyWalker541/ChaOS-Installer) | SkyWalker541 |  | - | v1.1.0 | 2026-11-26 | GPL-3.0 |
 | [Dronage Terminal manual (Spanish)](https://github.com/alejandroid80/dronage-terminal-manual) | alejandroid80 |  | - | - | 2026-11-15 | no licence (no source) |
 | [Mee-a-rai RomStore](https://github.com/namememem02-ui/Mee-a-rai-RomStore) | namememem02-ui | Wireless LAN ROM Bridge & Sync Utility between PC and Retro Handhelds (TrimUI / NextUI) | - | v1.2.6 | 2026-11-03 | MIT |
 | [Megalist of PortMaster music apps](https://github.com/paiheulevrai/Megalist-of-awesome-Portmaster-music-production-apps) | paiheulevrai | Curated list of trackers, synths, grooveboxes and samplers for Linux handhelds via PortMaster (kept by the ChooChooTracker author). | - | - | 2026-11-18 | no licence (no source) |
 | [NextUI docs](https://github.com/LoveRetro/nextui-docs) | LoveRetro | NextUI's documentation, including how to make paks and build NextUI. | - | - | 2026-10-24 | no licence |
 | [nextui web dashboard](https://github.com/aaronhoogstraten/nextui-web-dashboard) | aaronhoogstraten | NextUI Web Dashboard | - | v1.8.0 | 2026-11-09 | MIT |
-| [NX Redux docs](https://github.com/nx-redux/nx-redux-docs) | nx-redux | User documentation for NX Redux — custom firmware for TrimUI retro handhelds | - | - | 2026-11-25 | no licence |
+| [NX Redux docs](https://github.com/nx-redux/nx-redux-docs) | nx-redux | User documentation for NX Redux — custom firmware for TrimUI retro handhelds | - | - | 2026-11-28 | no licence |
 | [PortPicker](https://github.com/LoadState/portpicker) | LoadState | Pick your handheld + CFW, get PortMaster ports that run well on it, install them to your SD card. Windows app. | - | v1.1.0-beta.1 | 2026-11-18 | MIT |
 | [ReminisLink](https://github.com/tfournier/ReminisLink) | tfournier | iPhone companion for retro handhelds: manage games, saves, save states, cheats, patches and apps on a TrimUI Brick running NextUI, over local Wi-Fi. Go pak + SwiftUI app, QR pairing, end-to-end on your network. | - | v1.1.0 | 2026-11-23 | MIT |
 | [Spruce Collections](https://github.com/juanchuj/Spruce-Collections) | juanchuj |  | - | - | 2026-11-17 | no licence |

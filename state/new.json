@@ -1,1 +1,403 @@
-[]
+[
+ {
+  "url": "https://github.com/byMr712/NXPatch-TrimuiBrickPro",
+  "title": "byMr712/NXPatch-TrimuiBrickPro",
+  "desc": "Патч NX Redux на портативную консоль Trimui Brick Pro, расширяющий прошивку.",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/nhuthangl24/NT-Theme",
+  "title": "nhuthangl24/NT-Theme",
+  "desc": "NT Theme Store & Custom Themes for TrimUI Brick Pro (Stock OS)",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Shizzle904/JellyfinBrick",
+  "title": "Shizzle904/JellyfinBrick",
+  "desc": "Native C99 + SDL2 + GLES2 Jellyfin video & offline client for Trimui Brick (Stock OS)",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "tg3040",
+   "trimui brick (README)",
+   "topic:trimui-brick"
+  ]
+ },
+ {
+  "url": "https://github.com/korsakov/Enclosure-BrickHammer-M8",
+  "title": "korsakov/Enclosure-BrickHammer-M8",
+  "desc": "A parametric enclosure for attaching Teensy 4.1 with heatsink onto the back of TrimUI Brick Hammer so you can have Headless M8 on the go.",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/9mirmarzia9-gif/LED-trimui",
+  "title": "9mirmarzia9-gif/LED-trimui",
+  "desc": "",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui"
+  ]
+ },
+ {
+  "url": "https://github.com/Multisoft1978/Fujitsu-FM-7-FM77AV-TG5040-TG5050",
+  "title": "Multisoft1978/Fujitsu-FM-7-FM77AV-TG5040-TG5050",
+  "desc": "Эмулятор Fujitsu FM-7/FM77AV для TG5040 / TG5050",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "tg5040"
+  ]
+ },
+ {
+  "url": "https://github.com/jonphilpott/fez",
+  "title": "jonphilpott/fez",
+  "desc": "FEZ: Personal Sound Computer: a forth programmable virtual analog synth engine",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Smallcapi/Capas_API",
+  "title": "Smallcapi/Capas_API",
+  "desc": "",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/ronaxdevil/chronicle",
+  "title": "ronaxdevil/chronicle",
+  "desc": "Gaming Journal, Save Historian & Cloud Backup for muOS",
+  "date": "2026-11-28",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/9mirmarzia9-gif/TrimUI-LED",
+  "title": "9mirmarzia9-gif/TrimUI-LED",
+  "desc": "",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui"
+  ]
+ },
+ {
+  "url": "https://github.com/cau2abcnb-rgb/ONE-ALL-TRIMUI",
+  "title": "cau2abcnb-rgb/ONE-ALL-TRIMUI",
+  "desc": "TẤT CẢ TRONG 1 APP ",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui"
+  ]
+ },
+ {
+  "url": "https://github.com/Multisoft1978/Fujitsu-FM-Towns-Marty",
+  "title": "Multisoft1978/Fujitsu-FM-Towns-Marty",
+  "desc": "Emulator Fujitsu FM Towns Marty for Trimui Smart Pro TG5040 / TG5050",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui",
+   "tg5040"
+  ]
+ },
+ {
+  "url": "https://github.com/tradaonline/jini-games",
+  "title": "tradaonline/jini-games",
+  "desc": "Free mini games for Retro handheld consoles - Anbernic, Trimui, Miyoo.. with small screen optimize, touch screen support",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui"
+  ]
+ },
+ {
+  "url": "https://github.com/TheGammaSqueeze/GammaOSNext",
+  "title": "TheGammaSqueeze/GammaOSNext",
+  "desc": "GammaOS Next. Android 14 GSI distribution tailored for handheld gaming consoles. ",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/everlastingfarewell/StellarFishery",
+  "title": "everlastingfarewell/StellarFishery",
+  "desc": "The project for academic assessment of Computer graphics",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Shadowix84/Dotcleaner-Multi-Software",
+  "title": "Shadowix84/Dotcleaner-Multi-Software",
+  "desc": "Clean macOS junk (._*, .DS_Store…) from SD cards & USB drives — no more ghost games. App for macOS, Windows & Linux in 5 languages, plus a launcher for ArkOS, Knulli, ROCKNIX, Onion…",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/byMr712/byMr712",
+  "title": "byMr712/byMr712",
+  "desc": "Страница репозитория для генерации информации о профиле владельца",
+  "date": "2026-11-27",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/Shizzle904/KikoeruBrick",
+  "title": "Shizzle904/KikoeruBrick",
+  "desc": "Native C99 + SDL2 Kikoeru (ASMR) LAN & offline audio player for Trimui Brick (Stock OS)",
+  "date": "2026-11-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "tg3040",
+   "trimui brick (README)",
+   "topic:trimui-brick"
+  ]
+ },
+ {
+  "url": "https://github.com/Shizzle904/TailscaleBrick",
+  "title": "Shizzle904/TailscaleBrick",
+  "desc": "Native C99 + SDL2 Tailscale VPN & Headscale manager with offline QR login for Trimui Brick (Stock OS)",
+  "date": "2026-11-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "tg3040",
+   "trimui brick (README)",
+   "topic:trimui-brick"
+  ]
+ },
+ {
+  "url": "https://github.com/Shizzle904/UsbAudioBrick",
+  "title": "Shizzle904/UsbAudioBrick",
+  "desc": "Event-driven USB-C DAC volume sync daemon & system-wide 10-band ALSA GEQ/PEQ plugin for Trimui Brick (Stock OS)",
+  "date": "2026-11-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "tg3040",
+   "trimui brick (README)",
+   "topic:trimui-brick"
+  ]
+ },
+ {
+  "url": "https://github.com/Gvrzizo/axiomfold",
+  "title": "Gvrzizo/axiomfold",
+  "desc": "",
+  "date": "2026-11-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/boorch/dronage-zero-pak",
+  "title": "boorch/dronage-zero-pak",
+  "desc": "",
+  "date": "2026-11-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=-AxVZSnua7U",
+  "title": "All our TrimUI Brick music apps – now on the Anbernic RG40XX H",
+  "desc": "channel grosserd",
+  "date": "2026-11-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick tracker",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=ZUKqTPCt_J4",
+  "title": "Our TrimUI Brick music apps – now on the Anbernic RG40XX H #Shorts",
+  "desc": "channel grosserd",
+  "date": "2026-11-26",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick music app",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick knulli app"
+  ]
+ },
+ {
+  "url": "https://github.com/Zero-Labs-CFW/zero-kernel-source",
+  "title": "Zero-Labs-CFW/zero-kernel-source",
+  "desc": "GPL source for the Linux kernel MinUI Zero ships on TrimUI",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui",
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://github.com/EECREME97/SAS3-Recompiled",
+  "title": "EECREME97/SAS3-Recompiled",
+  "desc": "Native ARM64 recompilation of Swords and Sandals III for retro handhelds",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=MNLJoeoUR4M",
+  "title": "Why I’m using a TrimUI for music 🎹 #musicproducer #gear #synthjam",
+  "desc": "channel Rack and Wave",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=IVi8i68XjG4",
+  "title": "Can a Retro Console Run Your Synth? (ChordBrick Test)",
+  "desc": "channel Rack and Wave",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sequencer",
+   "YouTube: trimui brick synth",
+   "YouTube: trimui brick pro music",
+   "YouTube: trimui brick midi"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=7DSjo832vIA",
+  "title": "Lifeblood: dynamic FX for the M-Vave. FM-1 on the TrimUI Brick",
+  "desc": "channel Nuno Zimas",
+  "date": "2026-11-25",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick synth"
+  ]
+ },
+ {
+  "url": "https://github.com/KhasMek/AudreyBrick",
+  "title": "KhasMek/AudreyBrick",
+  "desc": "A port of Synthux Academy's Audrey II to the TrimUI Brick (and other supported devices)",
+  "date": "2026-11-24",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "trimui brick",
+   "trimui",
+   "trimui brick (README)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=XfXoTgajnHk",
+  "title": "The Beta has FINALLY ARRIVED!!! #bricktape #sampler #trimui #trimuibrick",
+  "desc": "channel BrickTapeSampler",
+  "date": "2026-11-22",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick sampler"
+  ]
+ },
+ {
+  "url": "https://github.com/pvaibhav/plorpOS",
+  "title": "pvaibhav/plorpOS",
+  "desc": "A fast, musicly inclined CFW for the RG Rotate, GKD 350H Ultra, TrimUI Brick/Hammer/Pro, RG Nano, and H700 devices",
+  "date": "2026-11-16",
+  "fork": true,
+  "links": [],
+  "found_by": [
+   "trimui brick (forks)"
+  ]
+ },
+ {
+  "url": "https://www.youtube.com/watch?v=F5a7T3Nrmzw",
+  "title": "VocKit Vocoder Plugin for Akai MPC Live 3",
+  "desc": "channel BeatsOfThings",
+  "date": "2026-11-16",
+  "fork": false,
+  "links": [],
+  "found_by": [
+   "YouTube: trimui brick pro music"
+  ]
+ }
+]

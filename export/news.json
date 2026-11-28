@@ -1,5 +1,395 @@
 [
  {
+  "date": "2026-11-28",
+  "id": "zyperos",
+  "what": "release",
+  "detail": "v1.1.1-rc.1"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "uipod",
+  "what": "release",
+  "detail": "v0.10.2"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "uipod",
+  "what": "release",
+  "detail": "v0.10.3"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "uipod",
+  "what": "release",
+  "detail": "v0.11.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "twill-studio",
+  "what": "release",
+  "detail": "v0.7.2"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "twill-studio",
+  "what": "release",
+  "detail": "v0.8.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "tuner",
+  "what": "release",
+  "detail": "v1.6.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "tuner",
+  "what": "release",
+  "detail": "v1.6.1"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "tuner",
+  "what": "release",
+  "detail": "v1.6.2"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "tubehero",
+  "what": "release",
+  "detail": "v0.8.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "trimui-brick-ports",
+  "what": "release",
+  "detail": "ddd-v0.1.5-test"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "trimui-brick-ports",
+  "what": "release",
+  "detail": "ddd-v0.1.6-test"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "trimpod-classic",
+  "what": "release",
+  "detail": "v1.0.16"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "thortracker",
+  "what": "release",
+  "detail": "v1.1.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "ppsspp-spruce",
+  "what": "release",
+  "detail": "beta-darkmoss3326-vulkan"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "ppsspp",
+  "what": "release",
+  "detail": "7.0.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-07_0548"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-09_1411"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "portmaster-new",
+  "what": "release",
+  "detail": "2026-06-09_2128"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "portmaster",
+  "what": "release",
+  "detail": "2.15.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pocketpads",
+  "what": "release",
+  "detail": "v0.5"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pocketlab",
+  "what": "licence",
+  "detail": "AGPL-3.0 -> MIT"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "brick-parts-0.8.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "v0.8.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pocket-ui",
+  "what": "release",
+  "detail": "v0.8.0-android.1"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pocket-controller",
+  "what": "release",
+  "detail": "v0.2.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pocket-controller",
+  "what": "release",
+  "detail": "v0.3.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "plorpos",
+  "what": "release",
+  "detail": "plorpos-v2.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pakman",
+  "what": "release",
+  "detail": "0.20.2"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pakman",
+  "what": "release",
+  "detail": "0.20.3"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "pakman",
+  "what": "release",
+  "detail": "0.20.4"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "ozma",
+  "what": "release",
+  "detail": "v0.9.5"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "openrct2-pocket",
+  "what": "release",
+  "detail": "v0.4.2-beta.2"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "nxt-retro-tube",
+  "what": "release",
+  "detail": "v2.8"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "nxt-retro-booknest",
+  "what": "release",
+  "detail": "v1.4"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "nintendo-ds-drastic",
+  "what": "release",
+  "detail": "0.15.2"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "newpaltrimuibrick",
+  "what": "release",
+  "detail": "v1.0.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "newpaltrimuibrick",
+  "what": "release",
+  "detail": "v1.0.1"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "newpaltrimuibrick",
+  "what": "release",
+  "detail": "v1.0.2"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "newpaltrimuibrick",
+  "what": "licence",
+  "detail": "GPL-3.0 -> None"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "mutable-dreams-handheld",
+  "what": "release",
+  "detail": "v1.7.0-rc1-gkd350hultra"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "mosaik-cfw",
+  "what": "release",
+  "detail": "v0.9.15"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "mosaik-cfw",
+  "what": "release",
+  "detail": "v0.9.16"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "mosaik-cfw",
+  "what": "release",
+  "detail": "v0.9.17"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "minui-zero",
+  "what": "release",
+  "detail": "cubexx-test-1"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "minui-power-control",
+  "what": "release",
+  "detail": "4.0.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "kino-video-player-for-sd-card-and-jellyfin",
+  "what": "release",
+  "detail": "v1.2.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "jukahubv2",
+  "what": "release",
+  "detail": "JukaHub-20261128052702"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "jukahubv2",
+  "what": "release",
+  "detail": "JukaHub-20261128054653"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "jukahubv2",
+  "what": "release",
+  "detail": "JukaHub-20261128061721"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "dronage-terminal",
+  "what": "release",
+  "detail": "v3.5.1"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "choochootracker",
+  "what": "release",
+  "detail": "v1.0.26-alpha"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "chaos",
+  "what": "release",
+  "detail": "v2.8.0-test4"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "chaos",
+  "what": "release",
+  "detail": "v2.8.0-test5"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "chaos",
+  "what": "release",
+  "detail": "v2.8.0-test6"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "brickchord",
+  "what": "release",
+  "detail": "v0.5.1-portmaster"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "brickchord",
+  "what": "release",
+  "detail": "v0.6.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "brickchord",
+  "what": "release",
+  "detail": "v0.7.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "brick-controller",
+  "what": "release",
+  "detail": "v1.2.0"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "boombrick-b-side",
+  "what": "release",
+  "detail": "v0.7.7"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "boombrick-b-side",
+  "what": "release",
+  "detail": "v0.7.8"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "boombrick-b-side",
+  "what": "release",
+  "detail": "v0.7.9"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "argon",
+  "what": "release",
+  "detail": "ds-pre-v4"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "amalthea",
+  "what": "release",
+  "detail": "build-56"
+ },
+ {
+  "date": "2026-11-28",
+  "id": "am2arm",
+  "what": "release",
+  "detail": "v1.6.3-launcher-beta.1"
+ },
+ {
   "date": "2026-11-25",
   "id": "woof-nextui",
   "what": "added",

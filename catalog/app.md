@@ -2,7 +2,7 @@
 
 Stores, system tools, network, sync, ROM management and everything else on the device.
 
-130 entries, generated 2026-11-26 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+130 entries, generated 2026-11-28 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -12,7 +12,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Auto Power Down](https://github.com/lmerriam/nextui-auto-power-off) | lmerriam | NextUI pak: turns your handheld off after it has been asleep for a time you choose. Games resume where you left off. | NextUI | v1.1.0 | 2026-11-16 | MIT (scripts) |
 | [Battery Care](https://github.com/tyrannotorus/c-trimui-battery-care-pak) | tyrannotorus | Battery Care Pak For TrimUI Brick | NextUI | v0.2.1 | 2026-11-03 | GPL-3.0 |
 | [BitPal](https://github.com/ben16w/nextui-bitpal) | ben16w | A NextUI port of the BitPal gaming companion from PakUI that offers missions and tracks progress for your game library. | NextUI, MinUI | 0.0.0 | 2026-11-10 | MIT (scripts) |
-| [Brick Controller](https://github.com/aaaldo/brick-controller) | aaaldo | Brick Controller : manette Bluetooth HID pour TrimUI Brick sous NextUI | NextUI | v1.1.0 | 2026-11-13 | GPL-3.0 |
+| [Brick Controller](https://github.com/aaaldo/brick-controller) | aaaldo | Brick Controller : manette Bluetooth HID pour TrimUI Brick sous NextUI | NextUI | v1.2.0 | 2026-11-26 | GPL-3.0 |
 | [brick mic](https://github.com/Drafffffff/brick-mic) | Drafffffff | TrimUI Brick + NextUI 蓝牙语音输入：Mac 接收端与 PocketJS 掌机端，百炼实时识别。 | NextUI | v0.4.17 | 2026-10-08 | GPL-3.0 |
 | [brick-chrome (Japanese)](https://github.com/bey-jp/trimui-brick-chrome) | bey-jp | Japanese fork of trimui-brick-chrome with Japanese input and SMB mounts. | Stock OS | - | 2026-11-20 | MIT |
 | [brickpro crash guard](https://github.com/TR2NLG/brickpro-crash-guard) | TR2NLG | Damage control for NextUI on the TrimUI Brick Pro | NextUI, MinUI, spruce, Stock OS | v1.1.0 | 2026-11-11 | MIT (scripts) |
@@ -39,13 +39,13 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Grout](https://github.com/rommapp/grout) | rommapp | A RomM Client for your Linux retro handheld | NextUI, MinUI, KNULLI, muOS, spruce, Stock OS | v5.4.1.0 | 2026-11-10 | MIT |
 | [handheld-link-cores](https://github.com/bronzedragon/handheld-link-cores) | bronzedragon | Link-cable and local-wireless multiplayer for two retro handhelds over network: patched RetroArch cores for GB/GBC, GBA, DS, WonderSwan, Neo Geo Pocket and Game Gear, plus netplay fixes for MAME 2003-Plus, FBNeo, MSX and DOS. Prebuilt for aarch64 Linux (KNULLI). | - | - | 2026-10-29 | GPL-3.0 |
 | [Itch.io Store](https://github.com/carroarmato0/NextUI-Itchio-Pak) | carroarmato0 | Browse and download GB/GBC games from Itch.io's GB Studio collection | NextUI, muOS | v1.1.1 | 2026-11-09 | MIT |
-| [JukaHubV2](https://github.com/jukaLang/JukaHubV2) | jukaLang | Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer | Stock OS | JukaHub-20261125114654 | 2026-11-25 | AGPL-3.0 |
+| [JukaHubV2](https://github.com/jukaLang/JukaHubV2) | jukaLang | Juka Shell - For Trimui Smart Pro, Trimui Brick, Trimui Smart Pro S, and Trimui Hammer | Stock OS | JukaHub-20261128061721 | 2026-11-28 | AGPL-3.0 |
 | [leviathan scraper](https://github.com/du-aite/leviathan-scraper) | du-aite | Box art scraper for Trimui Brick Pro | Stock OS | v1.0.0 | 2026-09-10 | MIT |
 | [LoLo](https://github.com/alejandroid80/LoLo) | alejandroid80 | Pequeño proyecto de asistente de IA en Español para la Trimui Brick | NextUI | - | 2026-11-20 | no licence |
 | [M3U Manager](https://github.com/josegonzalez/minui-m3u-manager-pak) | josegonzalez | A MinUI pak that manages M3U files for your emulators | NextUI, MinUI | 0.3.0 | 2026-09-28 | MIT (scripts) |
 | [Map.txt Generator](https://github.com/josegonzalez/minui-map-txt-generator-pak) | josegonzalez | A MinUI app that generates map.txt files for Final Burn Neo romsets | NextUI, MinUI | 0.3.0 | 2026-09-27 | MIT (scripts) |
 | [MeshClient](https://github.com/mcereal/mesh-client) | mcereal | Meshtastic Client for TrimUI Brick | NextUI, MinUI | v2.78.1 | 2026-11-18 | MIT |
-| [minui power control](https://github.com/ben16w/minui-power-control) | ben16w | A MinUI and NextUI app which provides deep sleep and shutdown functionality via the power button for emulators lacking native support. | NextUI, MinUI | 3.0.0 | 2026-11-10 | MIT |
+| [minui power control](https://github.com/ben16w/minui-power-control) | ben16w | A MinUI and NextUI app which provides deep sleep and shutdown functionality via the power button for emulators lacking native support. | NextUI, MinUI | 4.0.0 | 2026-11-25 | MIT |
 | [Moonlight](https://github.com/richieszemeredi/nextui-moonlight-pak) | richieszemeredi | Stream games from your PC with native resolution support. Pair, manage multiple servers, and launch streams — all from a native NextUI interface. | NextUI | v0.1.0 | 2026-11-10 | MIT |
 | [moonlight nextui](https://github.com/4fuu/moonlight-nextui) | 4fuu | Moonlight game streaming adapted for NextUI on TrimUI Brick Pro / tg5040. Rebuilt Apostrophe wrapper + nextui-app-sdk cooperation (in-process overlay, sleep/wake handshake, HUD, battery) + bundled spruce engine. Fork of richieszemeredi/nextui-moonlight-pak. | NextUI, spruce | v0.4.1 | 2026-11-22 | MIT |
 | [Netplay](https://github.com/bmpriest/retro-netplay) | bmpriest | Rewritten Netplay.pak to avoid drop-in patches, working with shims and stubs | NextUI, spruce | v1.1.0 | 2026-11-16 | MIT |
@@ -56,11 +56,11 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [padpod](https://github.com/duyquang6/padpod) | duyquang6 | The TrimUI Brick Pro as a controller for PC, iPad | spruce, Stock OS | 2026.10.03 | 2026-10-02 | GPL-3.0 |
 | [Pak Plaza](https://github.com/retrotiv/Pak-Plaza) | retrotiv | Pak store with some paks for NextUI OS based, including some adapted paks for another devices, starting with the Anbernic RG353V (adapted) and Trimui Brick (original from pak store) | NextUI | exclusives-v1 | 2026-11-04 | no licence (no source) |
 | [Pak Store](https://github.com/LoveRetro/nextui-pak-store) | LoveRetro | On-device store for NextUI paks; its storefront list is one of this index's sources. | NextUI | v4.3.0 | 2026-11-24 | MIT |
-| [pakman](https://github.com/josegonzalez/pakman) | josegonzalez | Automatically generated collection of MinUI/NextUI paks. | NextUI, MinUI, PortMaster | 0.24.34 | 2026-11-12 | MIT (no source) |
+| [pakman](https://github.com/josegonzalez/pakman) | josegonzalez | Automatically generated collection of MinUI/NextUI paks. | NextUI, MinUI, PortMaster | 0.24.34 | 2026-11-26 | MIT (no source) |
 | [Play Retro Games Club](https://github.com/jakesearle/nextui-play-retro-games-club) | jakesearle | A NextUI Pak that shows what the Play Retro Games Club is playing right now. | NextUI | v1.0.0 | 2026-10-26 | MIT |
-| [Pocket Controller](https://github.com/fnune/pocket-controller) | fnune | Turn your handheld into a plug-and-play USB controller | NextUI | v0.1.0 | 2026-11-25 | AGPL-3.0 |
+| [Pocket Controller](https://github.com/fnune/pocket-controller) | fnune | Turn your handheld into a plug-and-play USB controller | NextUI | v0.3.0 | 2026-11-27 | AGPL-3.0 |
 | [pocket hermes](https://github.com/ptaranat/pocket-hermes) | ptaranat | A handheld voice client for Hermes Agent on the TrimUI Brick | Stock OS | - | 2026-11-06 | MIT |
-| [Pocket Tunnel](https://github.com/fnune/pocket-tunnel) | fnune | A VPN tunnel pak for NextUI handhelds, using the wireguard-go library | NextUI | v0.1.0 | 2026-11-24 | MIT |
+| [Pocket Tunnel](https://github.com/fnune/pocket-tunnel) | fnune | A VPN tunnel pak for NextUI handhelds, using the wireguard-go library | NextUI | v0.1.0 | 2026-11-27 | MIT |
 | [Pokémon Manager](https://github.com/ProClifo/NextUI-Pokemon-Manager) | ProClifo | PKHeX-powered save manager: move Pokémon between games, perform trade evolutions, and inject Mystery Gifts, Mystery Events and e-Reader cards. | NextUI | v0.2.58 | 2026-11-12 | other |
 | [pr0 retroconsole](https://github.com/slickor/pr0-retroconsole) | slickor | Nativer pr0gramm Client für Linux Retro-Gaming-Handhelds (R36S, TrimUI Smart Pro, ArkOS, CrossMix-OS, Knulli, PortMaster). 60 FPS Videos mit Sound, QR-Code Smartphone-Login & originaler pr0.app Look. | KNULLI, CrossMix, PortMaster | v0.4.12 | 2026-10-25 | MIT |
 | [Profiles](https://github.com/bmpriest/nextui-profiles-pak) | bmpriest | Create and switch between profiles, each with their own saves, save states and settings. | NextUI, MinUI | 0.3.0 | 2026-10-18 | no licence (scripts) |
@@ -70,7 +70,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Remote Terminal](https://github.com/josegonzalez/minui-remote-terminal-pak) | josegonzalez | A MinUI app that starts a browser-based remote terminal. | NextUI, MinUI | 0.9.0 | 2026-09-27 | MIT |
 | [RetroArch Core Saves](https://github.com/bmpriest/nextui-retroarch-core-saves-pak) | bmpriest | Adapt NextUI's save game file handling to be more compatible with SyncThing: converts all of your .sav files to .srm and puts them in /Saves/Cores in RetroArch core name folders. | NextUI | 0.7.1 | 2026-10-18 | MIT (scripts) |
 | [retroshelf tracker](https://github.com/retroshelf-org/linux) | retroshelf-org | Sync NextUI play sessions to retroshelf | NextUI | v0.7.1 | 2026-11-25 | no licence (no source) |
-| [retsurf](https://github.com/mxmgorin/retsurf) | mxmgorin | Portable, gamepad-first web browser on Servo. Runs on retro handhelds, Android, Kindle, Linux, Windows and macOS | - | v0.11.0 | 2026-11-25 | GPL-3.0 |
+| [retsurf](https://github.com/mxmgorin/retsurf) | mxmgorin | Console-like web browser on Servo. Runs on 128 MB retro handhelds, Kindle, Android, Linux, Windows and macOS | - | v0.11.0 | 2026-11-27 | GPL-3.0 |
 | [Romoogle](https://github.com/mattcarvercom/romoogle) | mattcarvercom | Indexed ROM search for NextUI/MinUI handhelds. | NextUI, MinUI | v1.0.0 | 2026-10-20 | MIT |
 | [Samba Sync](https://github.com/dalexanco/nextui-samba-sync) | dalexanco | Pull-sync folders from Samba/SMB shares onto the SD card, declared in one config file. | NextUI | v0.2.0 | 2026-11-17 | no licence |
 | [Save Sync](https://github.com/1DeX6/save-sync) | 1DeX6 | Save Sync — automatic cloud sync of saves between devices, ROM copy and download for Batocera / KNULLI / Recalbox. Play on one device, continue on another from the same spot. | KNULLI | v1.6.0 | 2026-11-08 | MIT (scripts) |
@@ -90,7 +90,6 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [trimui brick chrome](https://github.com/vhu231/trimui-brick-chrome) | vhu231 | Google Chrome on the TRIMUI Brick Pro (TG4040) stock firmware: Ubuntu chroot + Xorg fbdev, gamepad pointer, D-pad on-screen keyboard, push-to-talk voice input | Stock OS | - | 2026-09-22 | MIT |
 | [Trimui Brick Clock Plus](https://github.com/nozzlenaut/Trimui-Brick-Clock-Plus) | nozzlenaut | A low-brightness TrimUI Brick bedside clock with optional Syncthing force-sync and live sync status. | - | - | 2026-09-24 | no licence (scripts) |
 | [trimui brick ha switch](https://github.com/bey-jp/trimui-brick-ha-switch) | bey-jp | Turn the TRIMUI BRICK Pro handheld into a Home Assistant remote｜携帯ゲーム機 TRIMUI BRICK Pro を Home Assistant のリモコンに | - | - | 2026-11-24 | MIT |
-| [trimui brick pro fnkey mod](https://github.com/nezyuske/trimui-brick-pro-fnkey-mod) | nezyuske | Use the front Fn keys (F1/F2) as RetroArch hotkeys on the TrimUI Brick Pro | Stock OS | v1.1.0 | 2026-08-29 | MIT (scripts) |
 | [trimui drop](https://github.com/nhhuan90-ux/trimui-drop) | nhhuan90-ux | AirDrop / LocalSend-style wireless file transfer app for TrimUI Smart Pro & TrimUI Brick. Transfer game ROMs, music, videos, photos, and apps directly from phone or PC via Wi-Fi with QR code. | - | v1.1.0 | 2026-09-25 | MIT |
 | [Trimui GameSync](https://github.com/nlkcodenew/Trimui-GameSync) | nlkcodenew |  | Stock OS | v0.3.1 | 2026-10-17 | no licence |
 | [trimui pm3](https://github.com/zbpan-sh/trimui-pm3) | zbpan-sh | Proxmark3 HF/LF RFID scanning on TrimUI handhelds — Iceman client + scanner app, direct USB, no PC | Stock OS | v0.0.1 | 2026-11-14 | GPL-3.0 |
@@ -133,6 +132,7 @@ Stores, system tools, network, sync, ROM management and everything else on the d
 | [Search Pak](https://github.com/laesetuc/minui-search-pak) | laesetuc | An app for searching your ROM collection. | NextUI, MinUI | 0.5.0 | 2025-05-23 | MIT (scripts) |
 | [SFTPGO Server](https://github.com/josegonzalez/minui-sftpgo-server-pak) | josegonzalez | A Minui app wrapping sftpgo, an sftp server. | NextUI, MinUI | 0.7.0 | 2026-06-19 | MIT (scripts) |
 | [Swap](https://github.com/carroarmato0/NextUI-Swap-Pak) | carroarmato0 | NextUI Pak which adds swap space management | NextUI | v0.1.0 | 2026-08-05 | MIT |
+| [trimui brick pro fnkey mod](https://github.com/nezyuske/trimui-brick-pro-fnkey-mod) | nezyuske | Use the front Fn keys (F1/F2) as RetroArch hotkeys on the TrimUI Brick Pro | Stock OS | v1.1.0 | 2026-08-29 | MIT (scripts) |
 | [trimui screen recording tool](https://github.com/filippofracascia/trimui-screen-recording-tool) | filippofracascia | Just a screen recording tool for TrimUI devices. | - | 1.0.0 | 2026-06-08 | no licence (scripts) |
 | [USB Mass Storage](https://github.com/josegonzalez/trimui-brick-usb-mass-storage-pak) | josegonzalez | A TrimUI Brick app wrapping the built-in USB Mass Storage app | NextUI, MinUI | 0.4.1 | 2026-06-18 | MIT (scripts) |
 | [Wifi](https://github.com/josegonzalez/minui-wifi-pak) | josegonzalez | A Minui app that manages wifi connections | NextUI, MinUI | 0.17.0 | 2026-06-18 | MIT (scripts) |

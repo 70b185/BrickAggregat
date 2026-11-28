@@ -2,7 +2,7 @@
 
 Toolchains, SDKs, UI libraries, kernels, research notes.
 
-52 entries, generated 2026-11-26 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
+52 entries, generated 2026-11-28 from `data/projects.yml`. Licence as found in the repo; *no source* = the repo holds releases or docs only.
 
 | Project | Author | What | Runs on | Version | Last commit | Licence |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ Toolchains, SDKs, UI libraries, kernels, research notes.
 | [DevBridge](https://github.com/bmpriest/nextui-dev-bridge) | bmpriest | Development access for NextUI devices: SSH/SFTP, remote commands, virtual controller input, launch automation. | - | 0.7.0 | 2026-11-12 | MIT |
 | [Developer](https://github.com/josegonzalez/minui-developer-pak) | josegonzalez | A MinUi app that keeps the screen awake for development purposes. | - | 0.11.0 | 2026-09-27 | MIT (scripts) |
 | [diatom](https://github.com/ericreinsmidt/diatom) | ericreinsmidt | Minimal libretro frontend for ~1 GB ARM handhelds, driven over a Unix socket; the emulator behind TortOS. | - | tortos-v2.0.0 | 2026-11-08 | MPL-2.0 |
-| [Dot UI](https://github.com/evolver79/nextui-dotui) | evolver79 | Dot, the shared C/SDL2 UI of the Kino, Musicdisk, Tuner and Speed paks. | - | - | 2026-11-24 | MIT |
+| [Dot UI](https://github.com/evolver79/nextui-dotui) | evolver79 | Dot, the shared C/SDL2 UI of the Kino, Musicdisk, Tuner and Speed paks. | - | - | 2026-11-26 | MIT |
 | [gptokeyb2](https://github.com/PortsMaster/gptokeyb2) | PortsMaster | GamePad TO Key Board v2 | - | 2026.10.05-1355 | 2026-10-05 | GPL-2.0 |
 | [Handkit](https://github.com/code-beans/handkit) | code-beans | Developer kit for native SDL3 apps: pinned Zig/Clang toolchain (glibc 2.33), PowerVR/Mali backends, helper library, .pak packaging. Tested on the Brick Pro with NextUI. | - | v0.4.0 | 2026-11-15 | MIT |
 | [inkcell](https://github.com/mcereal/inkcell) | mcereal | C17 UI toolkit for d-pad-first small screens, drawing to a framebuffer or a desktop window. | - | - | 2026-11-14 | MIT |
@@ -35,7 +35,7 @@ Toolchains, SDKs, UI libraries, kernels, research notes.
 | [NextUI minput forked](https://github.com/GERALTdTATUI/NextUI-minput-forked) | GERALTdTATUI | Custom version of NextUI's native input monitor (aka NextUI hardware tester) that enables Joystick monitoring on Trimui Smart PRO | - | V1.0 | 2026-11-08 | other |
 | [nextui-app-sdk](https://github.com/4fuu/nextui-app-sdk) | 4fuu | Framework-agnostic app integration SDK for NextUI: app<->system cooperation contract (HOME overlay hosting, volume/brightness HUD, sleep/wake handshake, battery/status) over the devserv protocol. Independent of Apostrophe/borealis. | - | - | 2026-11-19 | MIT |
 | [plastron](https://github.com/ericreinsmidt/plastron) | ericreinsmidt | a minimal Linux for handhelds, the system under TortOS on the TrimUI Brick and GKD Pixel 2 | - | brick-linux-4.9.191-base | 2026-11-06 | GPL-3.0 |
-| [PocketLAB](https://github.com/saivishnu2299/pocketlab) | saivishnu2299 | Create mini apps for your Brick Pro with your coding agent. | - | v1.1.0 | 2026-11-24 | AGPL-3.0 |
+| [PocketLAB](https://github.com/saivishnu2299/pocketlab) | saivishnu2299 | Create mini apps for your Brick Pro with your coding agent. | - | v1.1.0 | 2026-11-25 | MIT |
 | [Report](https://github.com/josegonzalez/minui-report-pak) | josegonzalez | A MinUI app that generates a report on the device for development purposes | - | 0.11.0 | 2026-09-27 | MIT (scripts) |
 | [Restart ADB](https://github.com/Pobega/adbd-restart-pak) | Pobega | NextUI tool pak that brings adb back on Anbernic H700 devices running BaseOS, without a reboot | - | v0.1.1 | 2026-10-16 | MIT (scripts) |
 | [trimui brick cartridge assets](https://github.com/jkingston/trimui-brick-cartridge-assets) | jkingston | Production cartridge and optical-disc assets for TrimUI Brick firmware | - | v0.2.2 | 2026-11-05 | MIT |
